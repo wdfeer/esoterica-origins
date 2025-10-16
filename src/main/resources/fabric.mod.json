@@ -13,23 +13,10 @@
 	"license": "GPL-3.0",
 	"icon": "assets/esoterica-origins/icon.png",
 	"environment": "*",
-	"entrypoints": {
-		"main": [
-			{
-				"value": "wdfeer.esoterica_origins.EsotericaOrigins",
-				"adapter": "kotlin"
-			}
-		]
-	},
-	"mixins": [
-		"esoterica-origins.mixins.json"
-	],
+	"entrypoints": {},
+	"mixins": [],
 	"depends": {
-		"fabricloader": ">=0.17.3",
-		"minecraft": "~1.20.1",
-		"java": ">=17",
-		"fabric-api": "*",
-		"fabric-language-kotlin": "*",
+		"origins": "*",
 		"flawless": "*"
 	}
 }
