@@ -1,13 +1,14 @@
 {
   "powers": [
-    "origins:light_armor",
     "origins:fire_immunity",
+    "esoterica-origins:flawless",
     "origins:flame_particles",
-    "esoterica-origins:flawless"
+    "esoterica-origins:no_armor",
+    "esoterica-origins:exhaust_on_hit"
   ],
   "icon": "minecraft:blaze_powder",
   "order": 4,
   "impact": 3,
   "name": "Phoenix",
-  "description": "TODO"
+  "description": "Undying entity of flame."
 }
