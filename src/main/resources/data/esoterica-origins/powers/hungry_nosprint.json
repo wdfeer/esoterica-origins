@@ -4,7 +4,7 @@
   "type": "origins:prevent_sprinting",
   "condition": {
     "type": "origins:food_level",
-    "compare_to": 14,
+    "compare_to": 12,
     "comparison": "<="
   }
 }
