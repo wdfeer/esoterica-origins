@@ -1,13 +1,14 @@
 {
   "powers": [
     "esoterica-origins:flawless",
+    "esoterica-origins:alchemy_expert",
     "origins:elytra",
-    "esoterica-origins:fragile_lunarian",
+    "esoterica-origins:fragiler_lunarian",
     "esoterica-origins:no_armor"
   ],
-  "icon": "minecraft:elytra",
+  "icon": "minecraft:brewing_stand",
   "order": 4,
   "impact": 3,
   "name": "Lunarian Sage",
-  "description": "TODO"
+  "description": "An enlightened being from the Moon, master of alchemy and purity."
 }

@@ -1,0 +1,27 @@
+{
+  "type": "origins:multiple",
+  "name": "Alchemy Expert",
+  "description": "Immune to most negative effects. Absorption gives more hearts.",
+  "immunities": {
+    "type": "origins:effect_immunity",
+    "effects": [
+      "minecraft:weakness",
+      "minecraft:instant_damage",
+      "minecraft:poison",
+      "minecraft:wither",
+      "minecraft:darkness",
+      "minecraft:blindness",
+      "minecraft:mining_fatigue",
+      "minecraft:slowness",
+      "minecraft:levitation"
+    ]
+  },
+  "absorption_boost": {
+    "type": "origins:modify_status_effect_amplifier",
+    "status_effect": "minecraft:absorption",
+    "modifier": {
+      "operation": "add_base_early",
+      "value": 1
+    }
+  }
+}
