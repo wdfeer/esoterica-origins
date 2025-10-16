@@ -5,7 +5,7 @@
   ],
   "icon": "minecraft:golden_apple",
   "order": 4,
-  "impact": 3,
+  "impact": 2,
   "name": "Lunarian",
-  "description": "TODO"
+  "description": "Regular resident from the Lunar Capital."
 }
