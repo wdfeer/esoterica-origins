@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "esoterica-origins:moriya_blessing",
+    "esoterica-origins:fast_air",
+    "esoterica-origins:fragile_sanae",
+    "origins:light_armor"
+  ],
+  "icon": "minecraft:feather",
+  "impact": 3,
+  "name": "Wind Priestess",
+  "description": "A shrine maiden blessed by the gods, swift in the air and capable of miraculous healing, but fragile in body and armor."
+}
