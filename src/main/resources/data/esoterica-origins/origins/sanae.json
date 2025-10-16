@@ -1,8 +1,8 @@
 {
   "powers": [
     "esoterica-origins:moriya_blessing",
-    "esoterica-origins:fast_air",
-    "esoterica-origins:fragile_sanae",
+    "origins:fall_immunity",
+    "origins:fragile",
     "origins:light_armor"
   ],
   "icon": "minecraft:feather",
