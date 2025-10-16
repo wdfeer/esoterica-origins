@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "esoterica-origins",
+	"version": "${version}",
+	"name": "Esoterica Origins",
+	"description": "Adds Touhou inspired origins.",
+	"authors": [
+		"wdfeer"
+	],
+	"contact": {
+		"sources": "https://github.com/wdfeer/esoterica-origins"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/esoterica-origins/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			{
+				"value": "wdfeer.esoterica_origins.EsotericaOrigins",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"mixins": [
+		"esoterica-origins.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"fabric-language-kotlin": "*",
+		"flawless": "*"
+	}
+}
