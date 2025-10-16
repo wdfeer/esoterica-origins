@@ -1,0 +1,6 @@
+{
+  "type": "origins:prevent_sleep",
+  "name": "Insomnia",
+  "description": "Cannot sleep.",
+  "message": "Your origin cannot sleep."
+}

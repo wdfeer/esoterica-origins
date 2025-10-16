@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "esoterica-origins:flawless",
+    "esoterica-origins:fragiler_lunarian",
+    "origins:creative_flight",
+    "esoterica-origins:no_melee_damage",
+    "esoterica-origins:cannot_sleep"
+  ],
+  "icon": "minecraft:ender_eye",
+  "impact": 3,
+  "name": "Lunarian Princess",
+  "description": "A mystical lunar princess. Fragile but mobile, unable to engage in melee combat, and cannot sleep under the moon."
+}

@@ -7,7 +7,6 @@
     "origins:vegetarian"
   ],
   "icon": "minecraft:rabbit_foot",
-  "order": 4,
   "impact": 3,
   "name": "Lunarian Rabbit",
   "description": "Fast and nimble rabbit from the Lunar Capital."
