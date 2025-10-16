@@ -1,0 +1,10 @@
+{
+  "name": "Hungry and Easygoing",
+  "description": "Sprinting is disabled at a higher food level.",
+  "type": "origins:prevent_sprinting",
+  "condition": {
+    "type": "origins:food_level",
+    "compare_to": 14,
+    "comparison": "<="
+  }
+}
