@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "esoterica-origins:flawless",
+    "origins:sprint_jump",
+    "esoterica-origins:fragile_physique",
+    "origins:light_armor",
+    "origins:vegetarian"
+  ],
+  "icon": "minecraft:rabbit_foot",
+  "order": 4,
+  "impact": 3,
+  "name": "Lunarian Rabbit",
+  "description": "TODO"
+}
