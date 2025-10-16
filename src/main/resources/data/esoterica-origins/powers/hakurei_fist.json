@@ -1,0 +1,25 @@
+{
+  "name": "Fist of the Hakurei",
+  "description": "Deal much more damage with your fists at a lower attack speed.",
+  "type": "origins:conditioned_attribute",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "operation": "addition",
+      "value": 9
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "operation": "addition",
+      "value": -2.8
+    }
+  ],
+  "tick_rate": 2,
+  "condition": {
+    "type": "origins:equipped_item",
+    "equipment_slot": "mainhand",
+    "item_condition": {
+      "type": "origins:empty"
+    }
+  }
+}

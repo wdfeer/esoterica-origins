@@ -1,0 +1,24 @@
+{
+  "type": "origins:multiple",
+  "name": "Ace Exterminator",
+  "description": "Gain a Smite sword and deal more damage to undead.",
+  "sword": {
+    "type": "origins:starting_equipment",
+    "stack": {
+      "item": "minecraft:iron_sword",
+      "tag": "[enchantments={smite:5}]"
+    }
+  },
+  "smite": {
+    "type": "origins:modify_damage_dealt",
+    "condition": {
+      "type": "origins:entity_group",
+      "group": "undead"
+    },
+    "modifier": {
+      "name": "Extra damage to undead",
+      "operation": "multiply_total",
+      "value": 0.5
+    }
+  }
+}
