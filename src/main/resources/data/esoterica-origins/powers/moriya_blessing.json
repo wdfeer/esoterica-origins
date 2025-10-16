@@ -1,7 +1,7 @@
 {
   "type": "origins:multiple",
   "name": "Moriya Blessing",
-  "description": "Receives double healing from all sources. Has extra passive healing.",
+  "description": "Receives double healing from all sources. Has extra passive regeneration.",
   "double_heal": {
     "type": "origins:modify_healing",
     "modifier": {
@@ -13,7 +13,7 @@
     "type": "origins:action_over_time",
     "entity_action": {
       "type": "origins:heal",
-      "amount": 1
+      "amount": 0.5
     },
     "interval": 100
   }
