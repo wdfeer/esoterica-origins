@@ -13,7 +13,8 @@
       "minecraft:blindness",
       "minecraft:mining_fatigue",
       "minecraft:slowness",
-      "minecraft:levitation"
+      "minecraft:levitation",
+      "minecraft:hunger"
     ]
   },
   "absorption_boost": {
