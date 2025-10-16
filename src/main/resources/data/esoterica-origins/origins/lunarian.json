@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "esoterica-origins:flawless",
+    "esoterica-origins:fragile_physique"
+  ],
+  "icon": "minecraft:golden_apple",
+  "order": 4,
+  "impact": 3,
+  "name": "Lunarian",
+  "description": "TODO"
+}
