@@ -1,14 +1,13 @@
 {
   "powers": [
     "esoterica-origins:flawless",
-    "origins:sprint_jump",
+    "origins:elytra",
     "esoterica-origins:fragile_lunarian",
-    "origins:light_armor",
-    "origins:vegetarian"
+    "esoterica-origins:no_armor"
   ],
-  "icon": "minecraft:rabbit_foot",
+  "icon": "minecraft:elytra",
   "order": 4,
   "impact": 3,
-  "name": "Lunarian Rabbit",
+  "name": "Lunarian Sage",
   "description": "TODO"
 }
