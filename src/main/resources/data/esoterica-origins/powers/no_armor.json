@@ -1,0 +1,17 @@
+{
+  "name": "No Armor",
+  "description": "You cannot wear any armor.",
+  "type": "origins:restrict_armor",
+  "head": {
+    "type": "origins:empty"
+  },
+  "chest": {
+    "type": "origins:empty"
+  },
+  "legs": {
+    "type": "origins:empty"
+  },
+  "feet": {
+    "type": "origins:empty"
+  }
+}

@@ -2,7 +2,8 @@
   "replace": false,
   "origins": [
     "esoterica-origins:mokou",
+    "esoterica-origins:lunarian",
     "esoterica-origins:lunarian_rabbit",
-    "esoterica-origins:lunarian"
+    "esoterica-origins:lunarian_sage"
   ]
 }
