@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "origins:light_armor",
+    "origins:fire_immunity",
+    "esoterica-origins:flawless"
+  ],
+  "icon": "minecraft:blaze_powder",
+  "order": 4,
+  "impact": 3,
+  "name": "Phoenix",
+  "description": "TODO"
+}

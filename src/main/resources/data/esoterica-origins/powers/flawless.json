@@ -1,0 +1,15 @@
+{
+  "type": "origins:stacking_status_effect",
+  "min_stacks": 1,
+  "max_stacks": 1,
+  "duration_per_stack": 1,
+  "effects": [
+    {
+      "effect": "flawless:flawless",
+      "is_ambient": true,
+      "show_particles": false,
+      "show_icon": true
+    }
+  ],
+  "condition": {}
+}
