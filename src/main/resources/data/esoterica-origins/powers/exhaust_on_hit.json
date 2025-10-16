@@ -4,6 +4,6 @@
   "description": "Taking damage makes you consume food much faster.",
   "entity_action": {
     "type": "origins:exhaust",
-    "amount": 0.4
+    "amount": 1
   }
 }
