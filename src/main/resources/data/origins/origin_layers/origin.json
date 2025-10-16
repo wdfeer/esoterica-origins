@@ -1,6 +1,7 @@
 {
   "replace": false,
   "origins": [
+    "esoterica-origins:reimu",
     "esoterica-origins:sanae",
     "esoterica-origins:mokou",
     "esoterica-origins:lunarian",
