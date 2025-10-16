@@ -6,7 +6,7 @@
     "type": "origins:starting_equipment",
     "stack": {
       "item": "minecraft:iron_sword",
-      "tag": "[enchantments={smite:5}]"
+      "tag": "{Enchantments:[{id:\"smite\",lvl:5}]}"
     }
   },
   "smite": {

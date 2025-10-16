@@ -1,12 +1,12 @@
 {
   "name": "Fist of the Hakurei",
-  "description": "Deal much more damage with your fists at a lower attack speed.",
+  "description": "Deal great damage with your fists at a lower attack speed.",
   "type": "origins:conditioned_attribute",
   "modifiers": [
     {
       "attribute": "minecraft:generic.attack_damage",
       "operation": "addition",
-      "value": 9
+      "value": 10
     },
     {
       "attribute": "minecraft:generic.attack_speed",

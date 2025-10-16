@@ -1,52 +1,49 @@
 {
   "name": "Economy Incompetence",
   "description": "Cannot place villager workstations.",
-  "type": "origins:prevent_block_place",
+  "type": "origins:prevent_item_use",
   "item_condition": {
     "type": "origins:ingredient",
-    "inverted": true,
     "ingredient": [
-      [
-        {
-          "item": "blast_furnace"
-        },
-        {
-          "item": "smoker"
-        },
-        {
-          "item": "cartography_table"
-        },
-        {
-          "item": "brewing_stand"
-        },
-        {
-          "item": "composter"
-        },
-        {
-          "item": "barrel"
-        },
-        {
-          "item": "fletching_table"
-        },
-        {
-          "item": "cauldron"
-        },
-        {
-          "item": "lectern"
-        },
-        {
-          "item": "stonecutter"
-        },
-        {
-          "item": "loom"
-        },
-        {
-          "item": "smithing_table"
-        },
-        {
-          "item": "grindstone"
-        }
-      ]
+      {
+        "item": "blast_furnace"
+      },
+      {
+        "item": "smoker"
+      },
+      {
+        "item": "cartography_table"
+      },
+      {
+        "item": "brewing_stand"
+      },
+      {
+        "item": "composter"
+      },
+      {
+        "item": "barrel"
+      },
+      {
+        "item": "fletching_table"
+      },
+      {
+        "item": "cauldron"
+      },
+      {
+        "item": "lectern"
+      },
+      {
+        "item": "stonecutter"
+      },
+      {
+        "item": "loom"
+      },
+      {
+        "item": "smithing_table"
+      },
+      {
+        "item": "grindstone"
+      }
     ]
   }
 }
