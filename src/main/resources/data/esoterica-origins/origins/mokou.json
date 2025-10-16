@@ -2,6 +2,7 @@
   "powers": [
     "origins:light_armor",
     "origins:fire_immunity",
+    "origins:flame_particles",
     "esoterica-origins:flawless"
   ],
   "icon": "minecraft:blaze_powder",
