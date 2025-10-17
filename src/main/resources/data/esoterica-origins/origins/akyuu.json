@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "esoterica-origins:akyuu_keepinventory",
+    "esoterica-origins:akyuu_morexp",
+    "esoterica-origins:akyuu_books",
+    "origins:fragile",
+    "esoterica-origins:half_melee_damage"
+  ],
+  "icon": "minecraft:book",
+  "impact": 3,
+  "name": "Child of Miare",
+  "description": "Preserver of knowledge, fragile in body yet blessed with memory and utility."
+}
