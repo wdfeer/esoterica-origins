@@ -2,9 +2,11 @@
   "powers": [
     "origins:fire_immunity",
     "esoterica-origins:flawless",
-    "origins:flame_particles",
+    "esoterica-origins:mokou_aflame",
     "esoterica-origins:no_armor",
-    "esoterica-origins:hunger_on_damagetaken"
+    "esoterica-origins:pain_threshold",
+    "esoterica-origins:extra_fireball_damage",
+    "origins:flame_particles"
   ],
   "icon": "minecraft:blaze_powder",
   "impact": 3,

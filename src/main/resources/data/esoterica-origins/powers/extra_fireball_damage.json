@@ -1,0 +1,12 @@
+{
+  "hidden": true,
+  "type": "origins:modify_projectile_damage",
+  "damage_condition": {
+    "type": "origins:projectile",
+    "projectile": "minecraft:small_fireball"
+  },
+  "modifier": {
+    "operation": "addition",
+    "value": 8.0
+  }
+}

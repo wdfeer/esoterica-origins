@@ -1,0 +1,36 @@
+{
+  "name": "Pain Threshold",
+  "description": "Taking damage gives you hunger. Gain weakness if at less than 10 hearts.",
+  "type": "origins:multiple",
+  "hunger": {
+    "type": "origins:action_when_damage_taken",
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:hunger",
+        "duration": 300,
+        "amplifier": 0
+      }
+    },
+    "cooldown": 300
+  },
+  "weakness": {
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 20,
+    "effects": [
+      {
+        "effect": "minecraft:weakness",
+        "is_ambient": false,
+        "show_particles": true,
+        "show_icon": true
+      }
+    ],
+    "condition": {
+      "type": "origins:health",
+      "comparison": "<",
+      "compare_to": 10
+    }
+  }
+}

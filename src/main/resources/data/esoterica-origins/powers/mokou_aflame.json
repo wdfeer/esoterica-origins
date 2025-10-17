@@ -1,0 +1,22 @@
+{
+  "name": "Immortal Flame",
+  "description": "Shoot fireballs in all directions and gain Strength II.",
+  "type": "origins:fire_projectile",
+  "entity_type": "minecraft:small_fireball",
+  "cooldown": 2400,
+  "hud_render": {
+    "should_render": true
+  },
+  "count": 60,
+  "interval": 0,
+  "divergence": 500,
+  "speed": 0.5,
+  "shooter_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:strength",
+      "duration": 400,
+      "amplifier": 1
+    }
+  }
+}
