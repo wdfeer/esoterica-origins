@@ -1,0 +1,31 @@
+{
+  "name": "Exquisite Diet",
+  "description": "Can only eat cooked and extravagant foods.",
+  "type": "origins:prevent_item_use",
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": [
+      {
+        "item": "minecraft:golden_apple"
+      },
+      {
+        "item": "minecraft:enchanted_golden_apple"
+      },
+      {
+        "item": "minecraft:golden_carrot"
+      },
+      {
+        "item": "minecraft:cooked_rabbit"
+      },
+      {
+        "item": "minecraft:cooked_beef"
+      },
+      {
+        "item": "minecraft:cooked_porkchop"
+      },
+      {
+        "item": "minecraft:cookie"
+      }
+    ]
+  }
+}

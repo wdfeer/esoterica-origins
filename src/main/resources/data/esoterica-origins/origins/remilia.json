@@ -1,0 +1,15 @@
+{
+  "powers": [
+    "esoterica-origins:vampire_heal",
+    "origins:elytra",
+    "esoterica-origins:remilia_flawless",
+    "esoterica-origins:scarlet_damage",
+    "esoterica-origins:remilia_diet",
+    "origins:water_vulnerability",
+    "origins:burn_in_daylight"
+  ],
+  "icon": "minecraft:ghast_tear",
+  "impact": 3,
+  "name": "Scarlet Vampire",
+  "description": "An evolved, long-living vampire with exquisite dietary preferences."
+}
