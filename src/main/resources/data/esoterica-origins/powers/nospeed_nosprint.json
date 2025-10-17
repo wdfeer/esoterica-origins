@@ -1,0 +1,10 @@
+{
+  "name": "Easygoing",
+  "description": "Sprinting is disabled unless you have Speed.",
+  "type": "origins:prevent_sprinting",
+  "condition": {
+    "type": "origins:status_effect",
+    "effect": "minecraft:speed",
+    "min_amplifier": 0
+  }
+}
