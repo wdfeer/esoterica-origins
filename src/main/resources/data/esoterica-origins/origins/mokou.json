@@ -4,7 +4,7 @@
     "esoterica-origins:flawless",
     "origins:flame_particles",
     "esoterica-origins:no_armor",
-    "esoterica-origins:exhaust_on_hit"
+    "esoterica-origins:hunger_on_damagetaken"
   ],
   "icon": "minecraft:blaze_powder",
   "impact": 3,
