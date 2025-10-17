@@ -1,0 +1,57 @@
+{
+  "type": "origins:multiple",
+  "name": "What's this?",
+  "description": "You start with an ender eye in inventory and have alternative ender eye recipes.",
+  "start": {
+    "type": "origins:starting_equipment",
+    "stack": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "craft1": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "esoterica-origins:maribel_ender_eye1",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:ender_pearl"
+        },
+        {
+          "item": "minecraft:blaze_powder"
+        },
+        [
+          {
+            "item": "minecraft:emerald"
+          },
+          {
+            "item": "minecraft:diamond"
+          }
+        ]
+      ],
+      "result": {
+        "item": "minecraft:ender_eye",
+        "count": 2
+      }
+    }
+  },
+  "craft2": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "esoterica-origins:maribel_ender_eye2",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:heart_of_the_sea"
+        },
+        {
+          "item": "minecraft:blaze_rod"
+        }
+      ],
+      "result": {
+        "item": "minecraft:ender_eye",
+        "count": 4
+      }
+    }
+  }
+}
