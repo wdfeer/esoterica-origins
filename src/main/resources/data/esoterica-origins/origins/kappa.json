@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "esoterica-origins:optical_camouflage",
+    "esoterica-origins:kappa_backpack",
+    "origins:aqua_affinity",
+    "origins:swim_speed",
+    "origins:fragile",
+    "origins:aquatic"
+  ],
+  "icon": "minecraft:kelp",
+  "impact": 2,
+  "name": "Kappa",
+  "description": "Technologically advanced amphibian youkai."
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Optical Camouflage",
+  "description": "Gain Invisibility and Resistance II for a short while.",
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effects": [
+      {
+        "effect": "minecraft:invisibility",
+        "duration": 600,
+        "amplifier": 0
+      },
+      {
+        "effect": "minecraft:resistance",
+        "duration": 600,
+        "amplifier": 1
+      }
+    ]
+  },
+  "cooldown": 1800,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/resource_bar.png",
+    "bar_index": 5
+  }
+}

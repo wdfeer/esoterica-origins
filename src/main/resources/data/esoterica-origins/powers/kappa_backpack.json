@@ -1,0 +1,9 @@
+{
+  "name": "Kappa's Backpack",
+  "description": "You have a backpack, letting you carry another 9 items with you.",
+  "type": "origins:inventory",
+  "drop_on_death": true,
+  "key": {
+    "key": "key.origins.secondary_active"
+  }
+}
