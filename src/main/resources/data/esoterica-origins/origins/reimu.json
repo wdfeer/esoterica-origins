@@ -2,8 +2,8 @@
   "powers": [
     "esoterica-origins:reimu_exterminator",
     "esoterica-origins:hakurei_fist",
-    "esoterica-origins:speed_on_hit",
-    "esoterica-origins:nospeed_nosprint"
+    "esoterica-origins:active_strength",
+    "esoterica-origins:nostrength_nosprint"
   ],
   "icon": "minecraft:iron_sword",
   "impact": 2,
