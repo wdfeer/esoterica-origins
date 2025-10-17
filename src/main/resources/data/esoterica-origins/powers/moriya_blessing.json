@@ -27,7 +27,7 @@
     "condition": {
       "type": "origins:relative_health",
       "comparison": "<=",
-      "compare_to": 0.5
+      "compare_to": 0.7
     }
   },
   "no_natural_regen": {
