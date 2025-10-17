@@ -1,4 +1,6 @@
 {
+  "name": "Pain Threshold",
+  "description": "Taking damage gives you hunger.",
   "type": "origins:action_when_damage_taken",
   "entity_action": {
     "type": "origins:apply_effect",
