@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "esoterica-origins:vampire_heal",
+    "origins:elytra",
+    "origins:carnivore",
+    "origins:water_vulnerability",
+    "origins:burn_in_daylight"
+  ],
+  "icon": "minecraft:ghast_tear",
+  "impact": 3,
+  "name": "Vampire",
+  "description": "Powerful youkai that are weak to water and sun."
+}
