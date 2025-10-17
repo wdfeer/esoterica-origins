@@ -1,0 +1,10 @@
+{
+  "type": "origins:attribute",
+  "name": "Sharp Fangs",
+  "description": "You deal slightly more melee damage.",
+  "modifier": {
+    "attribute": "minecraft:generic.attack_damage",
+    "value": 1.0,
+    "operation": "addition"
+  }
+}
