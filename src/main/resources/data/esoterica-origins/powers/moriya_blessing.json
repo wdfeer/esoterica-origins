@@ -1,12 +1,12 @@
 {
   "type": "origins:multiple",
   "name": "Moriya Blessing",
-  "description": "Receives double healing from all sources. Has constant passive regeneration.",
+  "description": "Receives more healing from all sources. Has constant passive regeneration.",
   "double_heal": {
     "type": "origins:modify_healing",
     "modifier": {
       "operation": "multiply_total",
-      "value": 1
+      "value": 0.5
     }
   },
   "passive_heal": {
@@ -27,7 +27,7 @@
     "condition": {
       "type": "origins:relative_health",
       "comparison": "<=",
-      "compare_to": 0.7
+      "compare_to": 0.6
     }
   },
   "no_natural_regen": {
