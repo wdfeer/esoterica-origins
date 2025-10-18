@@ -23,12 +23,16 @@
     }
   },
   "resistance": {
-    "type": "origins:apply_effect",
-    "effect": {
-      "effect": "minecraft:resistance",
-      "duration": 400,
-      "amplifier": 0
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:resistance",
+        "duration": 400,
+        "amplifier": 0
+      }
     },
+    "interval": 12,
     "condition": {
       "type": "origins:block_in_radius",
       "block_condition": {
