@@ -1,0 +1,36 @@
+{
+  "name": "Snowland",
+  "description": "You can leave behind a trail of snow.",
+  "type": "origins:multiple",
+  "toggle": {
+    "type": "origins:toggle",
+    "active_by_default": true
+  },
+  "trail": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:block_action_at",
+      "block_action": {
+        "type": "origins:set_block",
+        "block": "minecraft:snow"
+      }
+    },
+    "interval": 2,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:power_active",
+          "power": "esoterica-origins:snow_trail_toggle"
+        },
+        {
+          "type": "origins:in_block",
+          "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:air"
+          }
+        }
+      ]
+    }
+  }
+}
