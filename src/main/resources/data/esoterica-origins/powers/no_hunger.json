@@ -1,9 +1,0 @@
-{
-  "type": "origins:modify_exhaustion",
-  "modifier": {
-    "operation": "multiply_total",
-    "value": -1.0
-  },
-  "name": "Eternal",
-  "description": "You never get hungry."
-}
