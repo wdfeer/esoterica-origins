@@ -1,5 +1,5 @@
 {
-  "name": "End Crystal Translocation",
+  "name": "End Translocation",
   "description": "You can summon an end crystal to your location.",
   "type": "origins:active_self",
   "entity_action": {
