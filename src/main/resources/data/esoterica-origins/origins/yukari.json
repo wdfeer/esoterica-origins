@@ -1,0 +1,17 @@
+{
+  "powers": [
+    "esoterica-origins:yukari_keepinventory",
+    "esoterica-origins:creative_flight",
+    "esoterica-origins:summon_end_crystal",
+    "origins:cat_vision",
+    "origins:fragile",
+    "esoterica-origins:no_armor",
+    "esoterica-origins:no_melee_damage",
+    "esoterica-origins:cannot_sleep",
+    "esoterica-origins:end_vulnerability"
+  ],
+  "icon": "minecraft:book",
+  "impact": 3,
+  "name": "Gap Youkai",
+  "description": "Powerful being capable of manipulating boundaries."
+}

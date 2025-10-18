@@ -1,0 +1,5 @@
+{
+  "type": "origins:keep_inventory",
+  "name": "Boundary of Materialisation",
+  "description": "You keep items and experience on death."
+}
