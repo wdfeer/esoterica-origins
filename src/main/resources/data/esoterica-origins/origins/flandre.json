@@ -7,7 +7,7 @@
     "origins:fire_immunity",
     "origins:fragile",
     "origins:water_vulnerability",
-    "origins:burn_in_daylight",
+    "esoterica-origins:hunger_in_daylight",
     "esoterica-origins:undead"
   ],
   "icon": "minecraft:fire_charge",
