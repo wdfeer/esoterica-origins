@@ -29,7 +29,7 @@
       "effect": {
         "effect": "minecraft:resistance",
         "duration": 400,
-        "amplifier": 0
+        "is_ambient": true
       }
     },
     "interval": 12,
