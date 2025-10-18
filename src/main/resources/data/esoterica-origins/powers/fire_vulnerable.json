@@ -1,0 +1,17 @@
+{
+  "name": "Fire Vulnerability",
+  "description": "You take more damage from fire.",
+  "type": "origins:modify_damage_taken",
+  "damage_condition": {
+    "type": "origins:attacker",
+    "damage_condition": {
+      "type": "origins:in_tag",
+      "tag": "minecraft:is_fire"
+    }
+  },
+  "modifier": {
+    "name": "Weak to fire damage",
+    "operation": "multiply_total",
+    "value": 0.5
+  }
+}

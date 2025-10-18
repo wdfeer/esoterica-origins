@@ -5,7 +5,8 @@
     "esoterica-origins:flower_power",
     "origins:elytra",
     "origins:fragile",
-    "esoterica-origins:no_armor"
+    "origins:light_armor",
+    "esoterica-origins:fire_vulnerable"
   ],
   "icon": "minecraft:packed_ice",
   "impact": 3,
