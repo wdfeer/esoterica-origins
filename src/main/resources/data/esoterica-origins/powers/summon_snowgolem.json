@@ -1,0 +1,14 @@
+{
+  "name": "Summon Snow Golem",
+  "description": "You can summon a snow golem on command.",
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:spawn_entity",
+    "entity_type": "minecraft:snow_golem"
+  },
+  "cooldown": 600,
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+    "bar_index": 12
+  }
+}

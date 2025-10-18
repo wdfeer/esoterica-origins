@@ -1,5 +1,6 @@
 {
   "powers": [
+    "esoterica-origins:summon_snowgolem",
     "esoterica-origins:snowballs_hurt",
     "esoterica-origins:fire_vulnerable"
   ],
