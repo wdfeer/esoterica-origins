@@ -1,0 +1,47 @@
+{
+  "name": "Flower Energy",
+  "description": "Regenerate health and gain strength near flowers.",
+  "type": "origins:multiple",
+  "healing": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:heal",
+      "amount": 1.5
+    },
+    "interval": 50,
+    "condition": {
+      "type": "origins:block_in_radius",
+      "block_condition": {
+        "type": "origins:in_tag",
+        "tag": "minecraft:flowers"
+      },
+      "radius": 10,
+      "shape": "cube",
+      "comparison": ">",
+      "compare_to": 0
+    }
+  },
+  "strength": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:strength",
+        "duration": 200,
+        "amplifier": 0
+      }
+    },
+    "interval": 20,
+    "condition": {
+      "type": "origins:block_in_radius",
+      "block_condition": {
+        "type": "origins:in_tag",
+        "tag": "minecraft:flowers"
+      },
+      "radius": 4,
+      "shape": "cube",
+      "comparison": ">",
+      "compare_to": 0
+    }
+  }
+}
