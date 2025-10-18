@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "esoterica-origins:flandre_damage",
+    "origins:elytra",
+    "origins:cat_vision",
+    "origins:water_vulnerability",
+    "origins:burn_in_daylight",
+    "esoterica-origins:undead"
+  ],
+  "icon": "minecraft:ghast_tear",
+  "impact": 3,
+  "name": "Destruction Vampire",
+  "description": "An evolved vampire with devastating powers."
+}
