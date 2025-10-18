@@ -1,0 +1,44 @@
+{
+  "name": "Frost Armor",
+  "description": "Gain Armor and Resistance near snow or ice blocks.",
+  "type": "origins:multiple",
+  "armor": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.armor",
+      "operation": "addition",
+      "value": 10
+    },
+    "tick_rate": 40,
+    "condition": {
+      "type": "origins:block_in_radius",
+      "block_condition": {
+        "type": "origins:in_tag",
+        "tag": "esoterica-origins:frosty"
+      },
+      "radius": 16,
+      "shape": "cube",
+      "comparison": ">",
+      "compare_to": 0
+    }
+  },
+  "resistance": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:resistance",
+      "duration": 400,
+      "amplifier": 0
+    },
+    "condition": {
+      "type": "origins:block_in_radius",
+      "block_condition": {
+        "type": "origins:in_tag",
+        "tag": "esoterica-origins:frosty"
+      },
+      "radius": 4,
+      "shape": "cube",
+      "comparison": ">",
+      "compare_to": 0
+    }
+  }
+}
