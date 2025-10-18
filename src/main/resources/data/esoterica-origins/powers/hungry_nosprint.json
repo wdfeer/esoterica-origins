@@ -1,0 +1,20 @@
+{
+  "name": "Hungry and Lazy",
+  "description": "Sprinting is disabled earlier when hungry or when under the Hunger effect.",
+  "type": "origins:prevent_sprinting",
+  "condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:status_effect",
+        "effect": "minecraft:hunger",
+        "min_amplifier": 0
+      },
+      {
+        "type": "origins:food_level",
+        "comparison": "<=",
+        "compare_to": 16
+      }
+    ]
+  }
+}
