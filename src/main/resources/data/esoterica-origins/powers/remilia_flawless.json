@@ -5,7 +5,7 @@
   "entity_action": {
     "type": "origins:apply_effect",
     "effect": {
-      "effect": "flawless:flawless",
+      "effect": "esoterica-origins:flawless",
       "duration": 400,
       "amplifier": 0
     }
