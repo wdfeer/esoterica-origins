@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "esoterica-origins:parsee_damage",
+    "esoterica-origins:parsee_wither",
+    "origins:fragile"
+  ],
+  "icon": "minecraft:wither_rose",
+  "impact": 3,
+  "name": "Jealousy Youkai",
+  "description": "A Youkai that feeds of off jealousy."
+}
