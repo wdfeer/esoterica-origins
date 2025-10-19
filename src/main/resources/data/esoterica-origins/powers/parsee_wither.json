@@ -12,12 +12,25 @@
         "effect": {
           "effect": "minecraft:wither",
           "duration": 100,
-          "amplifier": 0
+          "amplifier": 1
         }
       }
     },
     "bientity_condition": {
-      "type": "origins:can_see"
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:can_see"
+        },
+        {
+          "type": "origins:target_condition",
+          "condition": {
+            "type": "origins:health",
+            "comparison": ">=",
+            "compare_to": 10
+          }
+        }
+      ]
     }
   },
   "interval": 20
