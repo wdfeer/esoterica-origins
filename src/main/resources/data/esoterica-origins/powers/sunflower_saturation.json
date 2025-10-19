@@ -1,0 +1,36 @@
+{
+  "name": "Sunflower Powered",
+  "description": "You regain saturation by being near sunflowers and cannot eat any food.",
+  "type": "origins:multiple",
+  "saturation": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:saturation",
+        "duration": 1000,
+        "is_ambient": false,
+        "show_particles": false,
+        "show_icon": true
+      }
+    },
+    "interval": 20,
+    "condition": {
+      "type": "origins:block_in_radius",
+      "block_condition": {
+        "type": "origins:block",
+        "tag": "minecraft:sunflower"
+      },
+      "radius": 8,
+      "shape": "cube",
+      "comparison": ">",
+      "compare_to": 0
+    }
+  },
+  "no_eat": {
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+      "type": "origins:food"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Sunflower Armor",
+  "description": "Gain Resistance II for a short while when near at least 3 sunflowers.",
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:resistance",
+      "duration": 300,
+      "amplifier": 1
+    }
+  },
+  "interval": 50,
+  "condition": {
+    "type": "origins:block_in_radius",
+    "block_condition": {
+      "type": "origins:block",
+      "tag": "minecraft:sunflower"
+    },
+    "radius": 8,
+    "shape": "cube",
+    "comparison": ">=",
+    "compare_to": 3
+  }
+}

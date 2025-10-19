@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "esoterica-origins:active_strength2",
+    "esoterica-origins:sunflower_armor",
+    "esoterica-origins:sunflower_saturation",
+    "esoterica-origins:no_armor"
+  ],
+  "icon": "minecraft:sunflower",
+  "impact": 3,
+  "name": "Sunflower Youkai",
+  "description": "A mighty youkai that is very protective of sunflowers."
+}
