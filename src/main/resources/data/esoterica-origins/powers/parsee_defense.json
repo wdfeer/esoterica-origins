@@ -1,13 +1,13 @@
 {
   "name": "Jealousy Defense",
-  "description": "You take half as much damage from entities with 5 hearts or more.",
+  "description": "You take half as much damage from entities with 6 hearts or more.",
   "type": "origins:modify_damage_taken",
   "bientity_condition": {
     "type": "origins:actor_condition",
     "condition": {
       "type": "origins:health",
       "comparison": ">=",
-      "compare_to": 5
+      "compare_to": 6
     }
   },
   "modifier": {
