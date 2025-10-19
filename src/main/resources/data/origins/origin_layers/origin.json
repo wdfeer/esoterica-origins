@@ -6,10 +6,14 @@
     "esoterica-origins:reimu_a",
     "esoterica-origins:kappa",
     "esoterica-origins:letty",
-    "esoterica-origins:flower_fairy",
     "esoterica-origins:ice_fairy",
+    "esoterica-origins:flower_fairy",
+    "esoterica-origins:kedama",
     "esoterica-origins:sanae",
     "esoterica-origins:akyuu",
+    "esoterica-origins:orin",
+    "esoterica-origins:parsee",
+    "esoterica-origins:yuuka",
     "esoterica-origins:mokou",
     "esoterica-origins:vampire",
     "esoterica-origins:remilia",
@@ -18,11 +22,6 @@
     "esoterica-origins:lunarian_rabbit",
     "esoterica-origins:lunarian_sage",
     "esoterica-origins:lunarian_princess",
-    "esoterica-origins:yukari",
-
-    "esoterica-origins:orin",
-    "esoterica-origins:parsee",
-    "esoterica-origins:yuuka",
-    "esoterica-origins:kedama"
+    "esoterica-origins:yukari"
   ]
 }
