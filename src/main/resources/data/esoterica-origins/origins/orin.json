@@ -1,0 +1,15 @@
+{
+  "powers": [
+    "esoterica-origins:orin_resist_undead",
+    "origins:scare_creepers",
+    "origins:fall_immunity",
+    "origins:cat_vision",
+    "origins:velvet_paws",
+    "origins:nine_lives",
+    "origins:light_armor"
+  ],
+  "icon": "minecraft:rotten_flesh",
+  "impact": 3,
+  "name": "Spirit Cat",
+  "description": "Feline youkai, good at dealing with spirits."
+}
