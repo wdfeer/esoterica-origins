@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "esoterica-origins:kedama_fluffy",
+    "esoterica-origins:kedama_fluffen",
+    "esoterica-origins:fragile_kedama",
+    "esoterica-origins:burnable"
+  ],
+  "icon": "minecraft:white_wool",
+  "impact": 3,
+  "name": "Kedama",
+  "description": "Hairball-looking spirits of nature."
+}

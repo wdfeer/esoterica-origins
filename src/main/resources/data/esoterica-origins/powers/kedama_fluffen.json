@@ -1,0 +1,58 @@
+{
+  "name": "Fluffen",
+  "description": "Briefly gain Strength on hit, stacking up to Strength III.",
+  "type": "origins:multiple",
+  "one": {
+    "type": "origins:self_action_on_hit",
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:strength",
+        "duration": 60,
+        "amplifier": 0
+      },
+      "condition": {
+        "inverted": true,
+        "type": "origins:status_effect",
+        "effect": "minecraft:strength"
+      }
+    },
+    "cooldown": 20
+  },
+  "two": {
+    "type": "origins:self_action_on_hit",
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:strength",
+        "duration": 60,
+        "amplifier": 1
+      }
+    },
+    "condition": {
+      "type": "origins:status_effect",
+      "effect": "minecraft:strength",
+      "min_amplifier": 0,
+      "max_amplifier": 0
+    },
+    "cooldown": 20
+  },
+  "three": {
+    "type": "origins:self_action_on_hit",
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:strength",
+        "duration": 60,
+        "amplifier": 2
+      }
+    },
+    "condition": {
+      "type": "origins:status_effect",
+      "effect": "minecraft:strength",
+      "min_amplifier": 1,
+      "max_amplifier": 1
+    },
+    "cooldown": 20
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Fluffy",
+  "description": "You gain Absorption after taking damage every few seconds.",
+  "type": "origins:action_when_damage_taken",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:absorption",
+      "duration": 200,
+      "amplifier": 0
+    }
+  },
+  "cooldown": 100
+}
