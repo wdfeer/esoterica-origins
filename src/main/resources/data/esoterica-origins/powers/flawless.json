@@ -7,7 +7,7 @@
   "duration_per_stack": 20,
   "effects": [
     {
-      "effect": "flawless:flawless",
+      "effect": "esoterica-origins:flawless",
       "is_ambient": true,
       "show_particles": false,
       "show_icon": true

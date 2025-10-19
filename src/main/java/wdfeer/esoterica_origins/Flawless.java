@@ -1,4 +1,4 @@
-package wdfeer.flawless;
+package wdfeer.esoterica_origins;
 
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectCategory;

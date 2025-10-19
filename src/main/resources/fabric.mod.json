@@ -15,11 +15,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "wdfeer.flawless.FlawlessMod"
+      "wdfeer.esoterica_origins.Initializer"
     ]
   },
   "mixins": [
-    "flawless.mixins.json"
+    "mixins.json"
   ],
   "depends": {
     "origins": "*"
