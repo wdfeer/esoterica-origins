@@ -1,9 +1,9 @@
 {
   "powers": [
-    "esoterica-origins:active_strength2",
-    "esoterica-origins:megumu_shining",
     "origins:elytra",
     "origins:launch_into_air",
+    "esoterica-origins:megumu_hit",
+    "esoterica-origins:megumu_ability",
     "esoterica-origins:fast_tengu",
     "origins:fall_immunity",
     "esoterica-origins:trouble_attractor",
