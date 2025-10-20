@@ -1,15 +1,16 @@
 {
   "powers": [
+    "esoterica-origins:wind_god_girl",
     "origins:elytra",
     "origins:launch_into_air",
     "esoterica-origins:fast_tengu",
     "origins:fall_immunity",
-    "origins:fresh_air",
     "origins:no_shield",
-    "origins:light_armor"
+    "origins:light_armor",
+    "origins:fragile"
   ],
   "icon": "minecraft:elytra",
   "impact": 3,
-  "name": "Crow Tengu",
-  "description": "Highly mobile flying youkai."
+  "name": "Wind God Girl",
+  "description": "Crow Tengu with evolved evasive techniques."
 }
