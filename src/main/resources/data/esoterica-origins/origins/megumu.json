@@ -1,0 +1,17 @@
+{
+  "powers": [
+    "esoterica-origins:active_strength2",
+    "esoterica-origins:megumu_shining",
+    "origins:elytra",
+    "origins:launch_into_air",
+    "esoterica-origins:fast_tengu",
+    "origins:fall_immunity",
+    "esoterica-origins:trouble_attractor",
+    "origins:no_shield",
+    "esoterica-origins:no_armor"
+  ],
+  "icon": "minecraft:nether_star",
+  "impact": 3,
+  "name": "Star Tengu",
+  "description": "A cunning Great Tengu that can manipulate the starry sky."
+}

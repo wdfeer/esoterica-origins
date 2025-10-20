@@ -56,7 +56,6 @@
       "type": "origins:status_effect",
       "effect": "minecraft:resistance",
       "min_amplifier": 4
-    },
-    "cooldown": 1
+    }
   }
 }
