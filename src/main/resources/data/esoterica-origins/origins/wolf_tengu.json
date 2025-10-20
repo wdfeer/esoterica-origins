@@ -1,0 +1,9 @@
+{
+  "powers": [
+    "esoterica-origins:fast_tengu"
+  ],
+  "icon": "minecraft:shield",
+  "impact": 3,
+  "name": "Wolf Tengu",
+  "description": "Youkai that are highly proficient in combat and shogi."
+}
