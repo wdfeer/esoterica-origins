@@ -3,8 +3,10 @@
     "origins:elytra",
     "origins:launch_into_air",
     "esoterica-origins:fast_tengu",
+    "origins:fall_immunity",
+    "origins:no_shield",
     "origins:light_armor",
-    "origins:claustrophobia"
+    "origins:fragile"
   ],
   "icon": "minecraft:elytra",
   "impact": 3,
