@@ -1,9 +1,11 @@
 {
   "powers": [
-    "esoterica-origins:fast_tengu"
+    "esoterica-origins:shield_damage_armor",
+    "esoterica-origins:fast_tengu",
+    "esoterica-origins:insomnia_wolf"
   ],
   "icon": "minecraft:shield",
-  "impact": 3,
+  "impact": 2,
   "name": "Wolf Tengu",
-  "description": "Youkai that are highly proficient in combat and shogi."
+  "description": "Wolf Youkai that are highly proficient in combat and shogi."
 }

@@ -1,0 +1,11 @@
+{
+  "type": "origins:prevent_sleep",
+  "name": "Guard Duty",
+  "description": "You cannot sleep unless you have weakness.",
+  "message": "You can still fight!",
+  "condition": {
+    "inverted": true,
+    "type": "origins:status_effect",
+    "effect": "minecraft:weakness"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Battle Stance",
+  "description": "Your melee attacks deal slightly more damage and you have slightly more armor with a shield equipped.",
+  "type": "origins:multiple",
+  "armor": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.armor",
+      "operation": "addition",
+      "value": 2
+    },
+    "tick_rate": 10,
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "offhand",
+      "item_condition": {
+        "type": "origins:item",
+        "item": "minecraft:shield"
+      }
+    }
+  },
+  "damage": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.attack_damage",
+      "operation": "addition",
+      "value": 1
+    },
+    "tick_rate": 10,
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "offhand",
+      "item_condition": {
+        "type": "origins:item",
+        "item": "minecraft:shield"
+      }
+    }
+  }
+}

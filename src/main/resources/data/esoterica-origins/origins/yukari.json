@@ -8,7 +8,7 @@
     "origins:fragile",
     "esoterica-origins:no_armor",
     "esoterica-origins:no_melee_damage",
-    "esoterica-origins:cannot_sleep",
+    "esoterica-origins:insomnia",
     "esoterica-origins:end_vulnerability"
   ],
   "icon": "minecraft:end_crystal",
