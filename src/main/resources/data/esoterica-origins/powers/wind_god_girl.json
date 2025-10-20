@@ -31,18 +31,21 @@
     "interval": 10
   },
   "remove_resistance": {
-    "type": "origins:and",
-    "actions": [
-      {
-        "type": "origins:change_resource",
-        "resource": "esoterica-origins:wind_god_girl_timer",
-        "change": -999
-      },
-      {
-        "type": "origins:clear_effect",
-        "effect": "minecraft:resistance"
-      }
-    ],
+    "type": "origins:action_when_damage_taken",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:change_resource",
+          "resource": "esoterica-origins:wind_god_girl_timer",
+          "change": -999
+        },
+        {
+          "type": "origins:clear_effect",
+          "effect": "minecraft:resistance"
+        }
+      ]
+    },
     "condition": {
       "type": "origins:status_effect",
       "effect": "minecraft:resistance",
