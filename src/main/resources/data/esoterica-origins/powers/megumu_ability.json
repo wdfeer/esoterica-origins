@@ -5,14 +5,14 @@
   "timer": {
     "type": "origins:resource",
     "min": 0,
-    "max": 120,
+    "max": 300,
     "hud_render": {
       "should_render": true,
       "condition": {
         "type": "origins:resource",
-        "resource": "esoterica-origins:megumu_shining_timer",
+        "resource": "esoterica-origins:megumu_ability_timer",
         "comparison": "<",
-        "compare_to": 8400
+        "compare_to": 300
       },
       "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
       "bar_index": 6
@@ -22,7 +22,7 @@
     "type": "origins:action_over_time",
     "entity_action": {
       "type": "origins:change_resource",
-      "resource": "esoterica-origins:megumu_shining_timer",
+      "resource": "esoterica-origins:megumu_ability_timer",
       "change": 1
     },
     "condition": {
@@ -52,7 +52,7 @@
       "actions": [
         {
           "type": "origins:change_resource",
-          "resource": "esoterica-origins:megumu_shining_timer",
+          "resource": "esoterica-origins:megumu_ability_timer",
           "change": -99999
         },
         {
@@ -91,9 +91,9 @@
     },
     "condition": {
       "type": "origins:resource",
-      "resource": "esoterica-origins:megumu_shining_timer",
+      "resource": "esoterica-origins:megumu_ability_timer",
       "comparison": ">=",
-      "compare_to": 8400
+      "compare_to": 300
     },
     "key": {
       "key": "key.origins.secondary_active"
