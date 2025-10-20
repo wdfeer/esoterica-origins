@@ -8,6 +8,12 @@
     "max": 120,
     "hud_render": {
       "should_render": true,
+      "condition": {
+        "type": "origins:resource",
+        "resource": "esoterica-origins:wind_god_girl_timer",
+        "comparison": "<",
+        "compare_to": 120
+      },
       "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
       "bar_index": 23
     },
@@ -15,7 +21,7 @@
       "type": "origins:apply_effect",
       "effect": {
         "effect": "minecraft:resistance",
-        "duration": 9999,
+        "duration": 9999999,
         "amplifier": 4,
         "show_particles": false
       }
