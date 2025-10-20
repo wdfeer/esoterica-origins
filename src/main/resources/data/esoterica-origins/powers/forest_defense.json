@@ -1,0 +1,56 @@
+{
+  "name": "Forest Defense",
+  "description": "Gain absorption when near logs and resistance, upon activation.",
+  "type": "origins:active_action",
+  "entity_action": {
+    "type": "origins:if_else"
+    "if_action": {
+      "type": "origins:apply_effect",
+      "effects": [
+        {
+          "effect": "minecraft:absorption",
+          "duration": 400
+        },
+        {
+          "effect": "minecraft:resistance",
+          "duration": 600
+        }
+      ]
+    },
+    "else_action": {
+      "type": "origins:apply_effect",
+      "effects": [
+        {
+          "effect": "minecraft:resistance",
+          "duration": 600
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:block_in_radius",
+      "block_condition": {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:in_tag",
+            "tag": "minecraft:logs"
+          },
+          {
+            "type": "origins:in_tag",
+            "tag": "minecraft:leaves"
+          }
+        ]
+      },
+      "radius": 16,
+      "shape": "cube",
+      "comparison": ">",
+      "compare_to": 0
+    }
+  },
+  "cooldown": 20,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+    "bar_index": 0
+  },
+}

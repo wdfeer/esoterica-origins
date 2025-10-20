@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "esoterica-origins:forest_defense",
+    "esoterica-origins:forest_power",
+    "esoterica-origins:kappa_backpack",
+    "origins:fragile",
+  ],
+  "icon": "minecraft:oak_leaves",
+  "impact": 2,
+  "name": "Yamawaro",
+  "description": "Kappa that live in the woods and can manipulate forest qi."
+}
