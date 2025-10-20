@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "origins:elytra",
+    "origins:launch_into_air",
+    "esoterica-origins:fast_tengu",
+    "origins:light_armor",
+    "origins:claustrophobia"
+  ],
+  "icon": "minecraft:elytra",
+  "impact": 3,
+  "name": "Crow Tengu",
+  "description": "Highly mobile youkai."
+}
