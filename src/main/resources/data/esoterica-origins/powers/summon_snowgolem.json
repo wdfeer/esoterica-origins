@@ -1,12 +1,12 @@
 {
   "name": "Summon Snow Golem",
-  "description": "You can summon a snow golem every 30 seconds.",
+  "description": "You can summon a snow golem every 2 minutes.",
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:spawn_entity",
     "entity_type": "minecraft:snow_golem"
   },
-  "cooldown": 600,
+  "cooldown": 2400,
   "hud_render": {
     "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
     "bar_index": 12

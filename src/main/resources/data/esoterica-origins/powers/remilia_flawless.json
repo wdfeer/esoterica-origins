@@ -1,16 +1,16 @@
 {
   "name": "Scarlet Purity",
-  "description": "Gain Flawless for 20 seconds, making you take 1 damage at most.",
+  "description": "Gain Flawless for 30 seconds, making you take 1 damage at most, at a two minute cooldown",
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:apply_effect",
     "effect": {
       "effect": "esoterica-origins:flawless",
-      "duration": 400,
+      "duration": 600,
       "amplifier": 0
     }
   },
-  "cooldown": 1200,
+  "cooldown": 2400,
   "hud_render": {
     "should_render": true,
     "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
