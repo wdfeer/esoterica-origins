@@ -1,12 +1,15 @@
 {
   "powers": [
     "esoterica-origins:flower_power",
+    "esoterica-origins:fast_normal_temp",
     "origins:elytra",
+    "origins:launch_into_air",
     "origins:fragile",
-    "origins:light_armor"
+    "esoterica-origins:no_armor",
+    "esoterica-origins:cold_weak"
   ],
   "icon": "minecraft:lily_of_the_valley",
   "impact": 3,
-  "name": "Flower Fairy",
-  "description": ""
+  "name": "Spring Fairy",
+  "description": "Fairy of nature capable of announcing the coming of spring."
 }

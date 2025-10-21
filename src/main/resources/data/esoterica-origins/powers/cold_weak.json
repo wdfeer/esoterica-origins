@@ -1,0 +1,26 @@
+{
+  "type": "origins:stacking_status_effect",
+  "name": "Cold Weakness",
+  "description": "You gain Weakness in cold biomes.",
+  "min_stacks": -1,
+  "max_stacks": 1,
+  "duration_per_stack": 20,
+  "effects": [
+    {
+      "effect": "minecraft:weakness",
+      "is_ambient": true,
+      "show_particles": false,
+      "show_icon": true
+    }
+  ],
+  "condition": {
+    "condition": {
+      "type": "origins:biome",
+      "condition": {
+        "type": "origins:temperature",
+        "comparison": "<=",
+        "compare_to": 0.15
+      }
+    }
+  }
+}
