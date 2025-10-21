@@ -2,6 +2,7 @@
   "powers": [
     "esoterica-origins:summon_snowgolem",
     "esoterica-origins:snowballs_hurt",
+    "esoterica-origins:snow_spawn",
     "esoterica-origins:fire_vulnerable"
   ],
   "icon": "minecraft:snow_block",
