@@ -1,0 +1,56 @@
+{
+  "name": "Swarm",
+  "description": "Deal 10 extra damage and apply Poison II on your next hit every 60 seconds.",
+  "type": "origins:multiple",
+  "timer": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 120,
+    "hud_render": {
+      "should_render": true,
+      "condition": {
+        "type": "origins:resource",
+        "resource": "esoterica-origins:nightbug_swarm_timer",
+        "comparison": "<",
+        "compare_to": 120
+      },
+      "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+      "bar_index": 1
+    }
+  },
+  "timer_increment": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "esoterica-origins:nightbug_swarm_timer",
+      "change": 1
+    },
+    "interval": 10
+  },
+  "punch": {
+    "type": "origins:modify_damage_dealt",
+    "self_action": {
+      "type": "origins:change_resource",
+      "resource": "esoterica-origins:nightbug_swarm_timer",
+      "change": -999
+    },
+    "target_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:poison",
+        "duration": 200,
+        "amplifier": 1
+      }
+    },
+    "modifier": {
+      "operation": "addition",
+      "value": 10
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:nightbug_swarm_timer",
+      "comparison": ">=",
+      "compare_to": 120
+    }
+  }
+}
