@@ -1,7 +1,7 @@
 {
   "name": "Spring Declaration",
-  "description": "You move faster in average temperature biomes.",
-  "type": "origins:attribute",
+  "description": "You move faster in temperate climate biomes.",
+  "type": "origins:conditioned_attribute",
   "modifier": {
     "attribute": "minecraft:generic.movement_speed",
     "value": 0.1,
@@ -20,7 +20,7 @@
         {
           "type": "origins:temperature",
           "comparison": ">",
-          "compare_to": 0.15
+          "compare_to": 0.25
         }
       ]
     }
