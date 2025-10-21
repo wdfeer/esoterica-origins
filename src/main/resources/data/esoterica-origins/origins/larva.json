@@ -1,11 +1,14 @@
 {
   "powers": [
-    "esoterica-origins:flower_power",
+    "esoterica-origins:larva_potion_craft",
+    "esoterica-origins:poison_damage",
     "origins:elytra",
+    "esoterica-origins:poison_immunity",
     "origins:fragile",
-    "origins:light_armor"
+    "origins:light_armor",
+    "esoterica-origins:wither_insecticide"
   ],
-  "icon": "minecraft:slimeball",
+  "icon": "minecraft:spider_eye",
   "impact": 3,
   "name": "Butterfly Fairy",
   "description": "A Fairy of nature capable of spreading scales."

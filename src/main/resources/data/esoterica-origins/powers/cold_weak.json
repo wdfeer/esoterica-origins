@@ -14,13 +14,11 @@
     }
   ],
   "condition": {
+    "type": "origins:biome",
     "condition": {
-      "type": "origins:biome",
-      "condition": {
-        "type": "origins:temperature",
-        "comparison": "<=",
-        "compare_to": 0.15
-      }
+      "type": "origins:temperature",
+      "comparison": "<=",
+      "compare_to": 0.15
     }
   }
 }

@@ -1,0 +1,27 @@
+{
+  "type": "origins:stacking_status_effect",
+  "name": "Insecticide",
+  "description": "You gain Weakness and Slowness while under the effects of Wither.",
+  "min_stacks": 0,
+  "max_stacks": 1,
+  "duration_per_stack": 40,
+  "effects": [
+    {
+      "effect": "minecraft:weakness",
+      "is_ambient": true,
+      "show_particles": true,
+      "show_icon": true
+    },
+    {
+      "effect": "minecraft:slowness",
+      "is_ambient": true,
+      "show_particles": true,
+      "show_icon": true
+    }
+  ],
+  "condition": {
+    "type": "origins:status_effect",
+    "effect": "minecraft:wither",
+    "min_amplifier": 0
+  }
+}
