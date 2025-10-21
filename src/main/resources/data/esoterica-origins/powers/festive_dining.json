@@ -1,0 +1,17 @@
+{
+  "name": "Festive Dining",
+  "description": "You gain slowness for 30 seconds after eating.",
+  "type": "origins:action_on_item_use",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:slowness",
+      "duration": 600,
+      "amplifier": 0,
+      "show_particles": false
+    }
+  },
+  "item_condition": {
+    "type": "origins:food"
+  }
+}

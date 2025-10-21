@@ -1,15 +1,13 @@
 {
   "powers": [
+    "esoterica-origins:oni_physique",
     "origins:fire_immunity",
-    "esoterica-origins:flawless",
-    "esoterica-origins:mokou_aflame",
-    "esoterica-origins:no_armor",
-    "esoterica-origins:pain_threshold",
-    "esoterica-origins:extra_fireball_damage",
-    "origins:flame_particles"
+    "esoterica-origins:ranged_inability",
+    "esoterica-origins:festive_dining",
+    "origins:carnivore"
   ],
   "icon": "minecraft:magma_cream",
   "impact": 3,
   "name": "Oni",
-  "description": "Beings with powerful physique."
+  "description": "Jolly Youkai with great physical strength."
 }
