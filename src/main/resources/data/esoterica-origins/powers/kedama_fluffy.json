@@ -1,6 +1,6 @@
 {
   "name": "Fluffy",
-  "description": "You gain Absorption after taking damage every few seconds.",
+  "description": "You gain Absorption for 10 seconds after taking damage every 5 seconds.",
   "type": "origins:action_when_damage_taken",
   "entity_action": {
     "type": "origins:apply_effect",

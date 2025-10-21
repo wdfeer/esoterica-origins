@@ -1,4 +1,6 @@
 {
+  "name": "Cuisine Borrowed",
+  "description": "You can obtain a golden apple by mysterious means every 3 minutes.",
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:give",
@@ -14,7 +16,5 @@
   },
   "key": {
     "key": "key.origins.secondary_active"
-  },
-  "name": "Cuisine Borrowed",
-  "description": "You can obtain a golden apple by mysterious means."
+  }
 }

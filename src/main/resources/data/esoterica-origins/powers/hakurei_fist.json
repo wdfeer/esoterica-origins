@@ -1,6 +1,6 @@
 {
   "name": "Fist of the Hakurei",
-  "description": "Deal great damage with your fists at a lower attack speed.",
+  "description": "Deal 8 extra damage with your fists at 1.2 attack speed.",
   "type": "origins:conditioned_attribute",
   "modifiers": [
     {

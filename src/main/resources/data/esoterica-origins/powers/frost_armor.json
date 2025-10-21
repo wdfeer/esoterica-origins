@@ -1,6 +1,6 @@
 {
   "name": "Frost Armor",
-  "description": "Gain Armor and Resistance near snow or ice blocks.",
+  "description": "When near snow or ice blocks, gain 10 Armor and Resistance for 20 seconds.",
   "type": "origins:multiple",
   "armor": {
     "type": "origins:conditioned_attribute",

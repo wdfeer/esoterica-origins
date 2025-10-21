@@ -1,6 +1,6 @@
 {
   "name": "Fluffen",
-  "description": "Briefly gain Strength on hit, stacking up to Strength II.",
+  "description": "Briefly gain Strength on hit, stacking up to Strength II. Does not refresh the duration.",
   "type": "origins:multiple",
   "one": {
     "type": "origins:self_action_on_hit",

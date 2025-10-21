@@ -1,6 +1,6 @@
 {
   "name": "Summon Snow Golem",
-  "description": "You can summon a snow golem on command.",
+  "description": "You can summon a snow golem every 30 seconds.",
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:spawn_entity",

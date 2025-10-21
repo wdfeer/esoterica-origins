@@ -1,6 +1,6 @@
 {
   "name": "Exquisite Diet",
-  "description": "Can only eat extravagant foods.",
+  "description": "Can only eat extravagant and exotic foods such as golden carrots, cakes, tropical fish or others.",
   "type": "origins:prevent_item_use",
   "item_condition": {
     "type": "origins:and",

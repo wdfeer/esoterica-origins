@@ -1,7 +1,7 @@
 {
   "type": "origins:multiple",
   "name": "Moriya Blessing",
-  "description": "Receives more healing from all sources. Has constant passive regeneration.",
+  "description": "You receive 50% more healing from all sources and have passive regeneration that doesn't use up saturation.",
   "double_heal": {
     "type": "origins:modify_healing",
     "modifier": {

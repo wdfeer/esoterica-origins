@@ -1,6 +1,6 @@
 {
   "name": "Scroll Crafting",
-  "description": "You have a simplified book recipe.",
+  "description": "You can craft books without using leather.",
   "type": "origins:recipe",
   "recipe": {
     "id": "esoterica-origins:akyuu_books",

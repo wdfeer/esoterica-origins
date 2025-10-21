@@ -1,6 +1,6 @@
 {
   "name": "Flower Energy",
-  "description": "Regenerate health and gain strength near flowers.",
+  "description": "Whilst near flowers, regenerate health passively and gain strength for 15 seconds.",
   "type": "origins:multiple",
   "healing": {
     "type": "origins:action_over_time",

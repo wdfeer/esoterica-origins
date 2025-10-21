@@ -1,7 +1,7 @@
 {
   "type": "origins:multiple",
   "name": "Ace Exterminator",
-  "description": "Gain a Smite sword and deal more damage to undead.",
+  "description": "You get a Smite IV iron sword and deal 25% more damage to undead.",
   "sword": {
     "type": "origins:starting_equipment",
     "stack": {

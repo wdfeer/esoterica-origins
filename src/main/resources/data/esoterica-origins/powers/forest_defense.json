@@ -1,6 +1,6 @@
 {
   "name": "Forest Defense",
-  "description": "Activate to gain absorption when near logs and resistance.",
+  "description": "Activate to gain absorption when near logs and resistance for 30 seconds.",
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:if_else",
@@ -9,7 +9,7 @@
       "effects": [
         {
           "effect": "minecraft:absorption",
-          "duration": 400
+          "duration": 600
         },
         {
           "effect": "minecraft:resistance",

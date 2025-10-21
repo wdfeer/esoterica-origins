@@ -1,6 +1,6 @@
 {
   "name": "Poison Immunity",
-  "description": "You cannot gain Poison.",
+  "description": "You cannot be affected by poison.",
   "type": "origins:effect_immunity",
   "effects": [
     "minecraft:poison"

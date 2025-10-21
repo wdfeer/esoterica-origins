@@ -1,6 +1,6 @@
 {
   "name": "Fire Vulnerability",
-  "description": "You take more damage from fire.",
+  "description": "You take 50% more damage from fire.",
   "type": "origins:modify_damage_taken",
   "damage_condition": {
     "type": "origins:attacker",

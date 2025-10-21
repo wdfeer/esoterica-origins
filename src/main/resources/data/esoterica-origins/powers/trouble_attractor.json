@@ -1,6 +1,6 @@
 {
   "name": "Trouble Attractor",
-  "description": "Periodically gain Bad Omen randomly.",
+  "description": "You have a 3% chance to gain Bad Omen for 20 minutes every minute.",
   "type": "origins:action_over_time",
   "entity_action": {
     "type": "origins:chance",

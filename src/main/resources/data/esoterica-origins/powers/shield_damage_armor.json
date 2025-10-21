@@ -1,6 +1,6 @@
 {
   "name": "Battle Stance",
-  "description": "Your melee attacks deal slightly more damage and you have slightly more armor with a shield equipped.",
+  "description": "Your melee attacks deal 1 extra damage and you gain 2 armor with a shield equipped.",
   "type": "origins:multiple",
   "armor": {
     "type": "origins:conditioned_attribute",

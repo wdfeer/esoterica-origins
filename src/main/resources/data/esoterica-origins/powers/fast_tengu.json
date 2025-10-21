@@ -1,6 +1,6 @@
 {
   "name": "Quick on Feet",
-  "description": "As a Tengu you move slightly faster.",
+  "description": "As a Tengu you move 10% faster.",
   "type": "origins:attribute",
   "modifier": {
     "attribute": "minecraft:generic.movement_speed",
