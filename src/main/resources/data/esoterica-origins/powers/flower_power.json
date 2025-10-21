@@ -27,7 +27,7 @@
       "type": "origins:apply_effect",
       "effect": {
         "effect": "minecraft:strength",
-        "duration": 200,
+        "duration": 300,
         "is_ambient": true
       }
     },

@@ -3,7 +3,8 @@
     "esoterica-origins:flower_power",
     "origins:elytra",
     "origins:fragile",
-    "origins:light_armor"
+    "origins:light_armor",
+    "esoterica-origins:cold_weak"
   ],
   "icon": "minecraft:dandelion",
   "impact": 3,
