@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "esoterica-origins:flower_power",
+    "origins:elytra",
+    "origins:fragile",
+    "origins:light_armor"
+  ],
+  "icon": "minecraft:scute",
+  "impact": 3,
+  "name": "Firefly Youkai",
+  "description": "A Youkai capable of manipulating insects."
+}

@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "esoterica-origins:flower_power",
+    "origins:elytra",
+    "origins:fragile",
+    "origins:light_armor"
+  ],
+  "icon": "minecraft:lily_of_the_valley",
+  "impact": 3,
+  "name": "Flower Fairy",
+  "description": ""
+}
