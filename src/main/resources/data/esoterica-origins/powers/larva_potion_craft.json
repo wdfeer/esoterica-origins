@@ -1,13 +1,13 @@
 {
   "name": "Scale Containment",
-  "description": "You can craft lingering poison potions from just a bottle using your scale powder.",
+  "description": "You can craft lingering poison potions from a glass bottle using your scale powder.",
   "type": "origins:recipe",
   "recipe": {
     "id": "esoterica-origins:larva_potion_craft",
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
       {
-        "item": "minecraft:bottle"
+        "item": "minecraft:glass_bottle"
       }
     ],
     "result": {
