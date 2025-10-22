@@ -5,9 +5,10 @@
     "origins:launch_into_air",
     "esoterica-origins:fast_tengu",
     "origins:fall_immunity",
+    "esoterica-origins:workaholic_diet",
+    "origins:fresh_air",
     "origins:no_shield",
-    "origins:light_armor",
-    "origins:fragile"
+    "origins:light_armor"
   ],
   "icon": "minecraft:elytra",
   "impact": 3,

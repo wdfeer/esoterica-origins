@@ -1,0 +1,24 @@
+{
+  "name": "Workaholic",
+  "description": "You can only eat if you have Slowness or your food level is 10 or lower.",
+  "type": "origins:prevent_item_use",
+  "item_condition": {
+    "type": "origins:food"
+  },
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:food_level",
+        "comparison": "==",
+        "compare_to": 0
+      },
+      {
+        "inverted": true,
+        "type": "origins:status_effect",
+        "effect": "minecraft:slowness",
+        "min_amplifier": 0
+      }
+    ]
+  }
+}
