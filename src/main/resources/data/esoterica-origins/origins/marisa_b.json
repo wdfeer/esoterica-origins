@@ -1,12 +1,11 @@
 {
   "powers": [
-    "esoterica-origins:reimu_exterminator",
-    "esoterica-origins:hakurei_fist",
-    "esoterica-origins:active_strength",
-    "esoterica-origins:nostrength_nosprint"
+    "esoterica-origins:magic_damage",
+    "origins:elytra",
+    "origins:light_armor"
   ],
-  "icon": "minecraft:iron_sword",
-  "impact": 2,
-  "name": "Hakurei Exterminator",
-  "description": "A lazy shrine maiden skilled in exterminating spirits and youkai when needed."
+  "icon": "minecraft:fire_charge",
+  "impact": 3,
+  "name": "Ordinary Magician",
+  "description": "Human magic user proficient in casting spells and gathering mushrooms."
 }
