@@ -3,8 +3,21 @@
   "description": "You deal 50% more magic damage.",
   "type": "origins:modify_damage_dealt",
   "damage_condition": {
-    "type": "origins:in_tag",
-    "tag": "minecraft:magic"
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:in_tag",
+        "tag": "minecraft:magic"
+      },
+      {
+        "type": "origins:in_tag",
+        "tag": "minecraft:indirect_magic"
+      },
+      {
+        "type": "origins:projectile",
+        "projectile": "minecraft:splash_potion"
+      }
+    ]
   },
   "modifier": {
     "operation": "multiply_total",
