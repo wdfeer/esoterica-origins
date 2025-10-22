@@ -3,6 +3,8 @@
   "description": "You gain more food points from all foods whilst in a dark oak forest.",
   "type": "origins:modify_food",
   "condition": {
+    "type": "origins:biome",
+    "biome": "minecraft:dark_forest"
   },
   "food_modifier": {
     "name": "Increased food points",

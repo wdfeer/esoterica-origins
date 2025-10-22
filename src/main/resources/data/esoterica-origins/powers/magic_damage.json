@@ -3,8 +3,8 @@
   "description": "You deal 50% more magic damage.",
   "type": "origins:modify_damage_dealt",
   "damage_condition": {
-    "type": "origins:type",
-    "damage_type": "minecraft:magic"
+    "type": "origins:in_tag",
+    "tag": "minecraft:magic"
   },
   "modifier": {
     "operation": "multiply_total",
