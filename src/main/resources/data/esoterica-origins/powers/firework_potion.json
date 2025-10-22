@@ -1,0 +1,48 @@
+{
+  "name": "Firework Potion",
+  "description": "Every 10 seconds you create a small explosion after dealing magic damage.",
+  "type": "origins:multiple",
+  "timer": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 100,
+    "hud_render": {
+      "should_render": true,
+      "condition": {
+        "type": "origins:resource",
+        "resource": "esoterica-origins:firework_potion_timer",
+        "comparison": "<",
+        "compare_to": 100
+      },
+      "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+      "bar_index": 2
+    }
+  },
+  "timer_increment": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "esoterica-origins:firework_potion_timer",
+      "change": 1
+    },
+    "interval": 2
+  },
+  "explode": {
+    "type": "origins:modify_damage_dealt",
+    "damage_condition": {
+      "type": "origins:type",
+      "damage_type": "minecraft:magic"
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:firework_potion_timer",
+      "comparison": ">=",
+      "compare_to": 100
+    },
+    "target_action": {
+      "type": "origins:explode",
+      "power": 2,
+      "destruction_type": "none"
+    }
+  }
+}

@@ -1,8 +1,10 @@
 {
   "powers": [
+    "esoterica-origins:firework_potion",
     "esoterica-origins:magic_damage",
     "origins:elytra",
-    "origins:light_armor"
+    "origins:light_armor",
+    "esoterica-origins:half_melee_damage"
   ],
   "icon": "minecraft:splash_potion",
   "impact": 3,

@@ -2,7 +2,9 @@
   "powers": [
     "esoterica-origins:magic_damage",
     "origins:elytra",
-    "origins:light_armor"
+    "origins:light_armor",
+    "esoterica-origins:no_melee_damage",
+    "esoterica-origins:half_melee_damage"
   ],
   "icon": "minecraft:fire_charge",
   "impact": 3,
