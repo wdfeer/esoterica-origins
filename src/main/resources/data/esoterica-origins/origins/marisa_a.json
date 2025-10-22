@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "esoterica-origins:reimu_exterminator",
+    "esoterica-origins:hakurei_fist",
+    "esoterica-origins:active_strength",
+    "esoterica-origins:nostrength_nosprint"
+  ],
+  "icon": "minecraft:iron_sword",
+  "impact": 2,
+  "name": "Hakurei Exterminator",
+  "description": "A lazy shrine maiden skilled in exterminating spirits and youkai when needed."
+}
