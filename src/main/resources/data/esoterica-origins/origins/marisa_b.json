@@ -2,8 +2,8 @@
   "powers": [
     "esoterica-origins:magic_damage",
     "origins:elytra",
+    "esoterica-origins:extra_food_in_dark_forest",
     "origins:light_armor",
-    "esoterica-origins:no_melee_damage",
     "esoterica-origins:half_melee_damage"
   ],
   "icon": "minecraft:fire_charge",
