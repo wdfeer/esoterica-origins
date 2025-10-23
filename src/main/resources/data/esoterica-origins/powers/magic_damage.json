@@ -1,23 +1,10 @@
 {
-  "name": "Magic Affinity",
-  "description": "You deal 50% more magic damage.",
+  "name": "Explosion Affinity",
+  "description": "You deal 50% more explosion damage.",
   "type": "origins:modify_damage_dealt",
   "damage_condition": {
-    "type": "origins:or",
-    "conditions": [
-      {
-        "type": "origins:in_tag",
-        "tag": "minecraft:magic"
-      },
-      {
-        "type": "origins:in_tag",
-        "tag": "minecraft:indirect_magic"
-      },
-      {
-        "type": "origins:projectile",
-        "projectile": "minecraft:splash_potion"
-      }
-    ]
+    "type": "origins:in_tag",
+    "tag": "minecraft:is_explosion"
   },
   "modifier": {
     "operation": "multiply_total",
