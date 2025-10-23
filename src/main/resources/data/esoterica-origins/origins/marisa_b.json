@@ -2,7 +2,7 @@
   "powers": [
     "esoterica-origins:marisa_charge",
     "esoterica-origins:explosion_damage",
-    "origins:elytra",
+    "esoterica-origins:fly",
     "esoterica-origins:extra_food_in_dark_forest",
     "origins:light_armor",
     "esoterica-origins:half_melee_damage"
