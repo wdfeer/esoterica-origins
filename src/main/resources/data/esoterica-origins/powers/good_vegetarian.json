@@ -1,0 +1,20 @@
+{
+  "name": "Natural Diet",
+  "description": "Gain extra food points from eating but you cannot eat meat.",
+  "type": "origins:multiple",
+  "vegetarian": {
+    "name": "Vegetarian",
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+      "type": "origins:meat"
+    }
+  },
+  "extra_food": {
+    "type": "origins:modify_food",
+    "food_modifier": {
+      "name": "Increased food points",
+      "operation": "addition",
+      "value": 1.0
+    }
+  }
+}
