@@ -1,6 +1,6 @@
 {
   "name": "Strong",
-  "description": "You deal 25% melee damage.",
+  "description": "You deal 25% more melee damage.",
   "type": "origins:attribute",
   "modifier": {
     "name": "Increased melee damage",

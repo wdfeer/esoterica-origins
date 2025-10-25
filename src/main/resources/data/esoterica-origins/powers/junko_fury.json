@@ -5,7 +5,12 @@
   "charge": {
     "type": "origins:resource",
     "min": 0,
-    "max": 9
+    "max": 9,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+      "bar_index": 1
+    }
   },
   "hit_charge": {
     "type": "origins:modify_damage_dealt",
