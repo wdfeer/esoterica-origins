@@ -21,6 +21,21 @@
     },
     "interval": 1
   },
+  "timer_reset": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "esoterica-origins:sakuya_timed_timer",
+      "change": -600
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:sakuya_timed_timer",
+      "comparison": ">=",
+      "compare_to": 600
+    },
+    "interval": 1
+  },
   "block_break": {
     "type": "origins:action_on_block_break",
     "entity_action": {
@@ -51,9 +66,9 @@
           }
         },
         {
-          "type": "origins:set_resource",
+          "type": "origins:change_resource",
           "resource": "esoterica-origins:sakuya_timed_timer",
-          "value": 0
+          "value": -600
         }
       ]
     },
@@ -94,9 +109,9 @@
           }
         },
         {
-          "type": "origins:set_resource",
+          "type": "origins:change_resource",
           "resource": "esoterica-origins:sakuya_timed_timer",
-          "value": 0
+          "value": -600
         }
       ]
     },
