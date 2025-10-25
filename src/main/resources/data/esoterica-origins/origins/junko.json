@@ -1,8 +1,13 @@
 {
   "powers": [
+    "esoterica-origins:junko_fury",
+    "esoterica-origins:purification",
+    "origins:fire_immunity",
+    "esoterica-origins:junko_antiflawless",
+    "esoterica-origins:no_armor"
   ],
   "icon": "minecraft:dead_fire_coral_block",
   "impact": 3,
-  "name": "",
-  "description": ""
+  "name": "Pure Fox",
+  "description": "Divine Spirit that can purify anything."
 }

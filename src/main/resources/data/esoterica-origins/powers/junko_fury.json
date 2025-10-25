@@ -1,0 +1,50 @@
+{
+  "name": "Pure Furies",
+  "description": "After dealing damage 9 times, deal triple damage on your next hit and gain Resistance IV for 5 seconds.",
+  "type": "origins:multiple",
+  "charge": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 9
+  },
+  "hit_charge": {
+    "type": "origins:modify_damage_dealt",
+    "self_action": {
+      "type": "origins:change_resource",
+      "resource": "esoterica-origins:junko_fury_charge",
+      "change": 1
+    }
+  },
+  "megahit": {
+    "type": "origins:modify_damage_dealt",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:junko_fury_charge",
+      "comparison": "==",
+      "compare_to": 9
+    },
+    "modifier": {
+      "name": "Fury damage",
+      "operation": "multiply_total",
+      "value": 2.0
+    },
+    "self_action": {
+      "type": "origins:multiple",
+      "actions": [
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:resistance",
+            "duration": 100,
+            "amplifier": 3
+          }
+        },
+        {
+          "type": "origins:change_resource",
+          "resource": "esoterica-origins:junko_fury_charge",
+          "change": -9
+        }
+      ]
+    }
+  }
+}

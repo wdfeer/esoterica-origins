@@ -1,0 +1,11 @@
+{
+  "name": "Purification",
+  "type": "Activate to cleanse all status effects with minimal cooldown.",
+  "entity_action": {
+    "type": "origins:clear_effect"
+  },
+  "cooldown": 10,
+  "hud_render": {
+    "should_render": false
+  }
+}
