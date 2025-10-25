@@ -11,7 +11,9 @@
     "esoterica-origins:no_armor",
     "origins:flame_particles"
   ],
-  "icon": "minecraft:magma_block",
+  "icon": {
+    "id": "minecraft:magma_block"
+  },
   "impact": 3,
   "name": "Lord of Hell",
   "description": "Goddess of Hell, physically and offensively strong."

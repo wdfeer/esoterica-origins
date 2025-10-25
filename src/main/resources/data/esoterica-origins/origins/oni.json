@@ -6,7 +6,9 @@
     "esoterica-origins:festive_dining",
     "origins:carnivore"
   ],
-  "icon": "minecraft:magma_cream",
+  "icon": {
+    "id": "minecraft:magma_cream"
+  },
   "impact": 3,
   "name": "Oni",
   "description": "Jolly Youkai with great physical strength."

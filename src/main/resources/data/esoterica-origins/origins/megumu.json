@@ -10,7 +10,9 @@
     "origins:no_shield",
     "esoterica-origins:no_armor"
   ],
-  "icon": "minecraft:nether_star",
+  "icon": {
+    "id": "minecraft:nether_star"
+  },
   "impact": 3,
   "name": "Star Tengu",
   "description": "A cunning Great Tengu that can manipulate the starry sky."

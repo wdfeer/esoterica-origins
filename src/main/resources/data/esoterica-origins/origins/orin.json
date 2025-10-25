@@ -8,7 +8,9 @@
     "origins:nine_lives",
     "origins:light_armor"
   ],
-  "icon": "minecraft:rotten_flesh",
+  "icon": {
+    "id": "minecraft:rotten_flesh"
+  },
   "impact": 3,
   "name": "Spirit Cat",
   "description": "Feline youkai, good at dealing with spirits."

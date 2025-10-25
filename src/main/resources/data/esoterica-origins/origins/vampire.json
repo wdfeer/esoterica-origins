@@ -9,7 +9,9 @@
     "origins:burn_in_daylight",
     "esoterica-origins:undead"
   ],
-  "icon": "minecraft:ghast_tear",
+  "icon": {
+    "id": "minecraft:ghast_tear"
+  },
   "impact": 3,
   "name": "Vampire",
   "description": "Powerful youkai that are weak to water and sun."

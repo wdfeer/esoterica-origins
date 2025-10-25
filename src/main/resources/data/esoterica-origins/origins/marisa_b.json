@@ -7,7 +7,9 @@
     "origins:light_armor",
     "esoterica-origins:half_melee_damage"
   ],
-  "icon": "minecraft:fire_charge",
+  "icon": {
+    "id": "minecraft:fire_charge"
+  },
   "impact": 3,
   "name": "Burst Magician",
   "description": "Human magic user proficient in offensive magic and gathering mushrooms."

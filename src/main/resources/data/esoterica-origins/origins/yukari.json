@@ -11,7 +11,9 @@
     "esoterica-origins:insomnia",
     "esoterica-origins:end_vulnerability"
   ],
-  "icon": "minecraft:end_crystal",
+  "icon": {
+    "id": "minecraft:end_crystal"
+  },
   "impact": 3,
   "name": "Gap Youkai",
   "description": "Powerful being capable of manipulating boundaries."

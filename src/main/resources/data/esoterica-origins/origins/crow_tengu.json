@@ -8,7 +8,9 @@
     "origins:no_shield",
     "origins:light_armor"
   ],
-  "icon": "minecraft:elytra",
+  "icon": {
+    "id": "minecraft:elytra"
+  },
   "impact": 3,
   "name": "Crow Tengu",
   "description": "Highly mobile flying youkai."

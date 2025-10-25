@@ -10,7 +10,9 @@
     "esoterica-origins:hunger_in_daylight",
     "esoterica-origins:undead"
   ],
-  "icon": "minecraft:fire_charge",
+  "icon": {
+    "id": "minecraft:fire_charge"
+  },
   "impact": 3,
   "name": "Destruction Vampire",
   "description": "An evolved vampire with devastating powers."

@@ -8,7 +8,9 @@
     "origins:light_armor",
     "esoterica-origins:wither_insecticide"
   ],
-  "icon": "minecraft:spider_eye",
+  "icon": {
+    "id": "minecraft:spider_eye"
+  },
   "impact": 3,
   "name": "Butterfly Fairy",
   "description": "A Fairy of nature capable of spreading scales."

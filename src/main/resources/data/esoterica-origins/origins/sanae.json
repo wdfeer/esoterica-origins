@@ -4,7 +4,9 @@
     "origins:fall_immunity",
     "origins:light_armor"
   ],
-  "icon": "minecraft:feather",
+  "icon": {
+    "id": "minecraft:feather"
+  },
   "impact": 2,
   "name": "Wind Priestess",
   "description": "A shrine maiden blessed by the gods, capable of miraculous healing but fragile in armor."

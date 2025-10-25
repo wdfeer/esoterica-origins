@@ -3,7 +3,9 @@
     "esoterica-origins:reimu_exterminator",
     "esoterica-origins:hungry_nosprint"
   ],
-  "icon": "minecraft:iron_sword",
+  "icon": {
+    "id": "minecraft:iron_sword"
+  },
   "impact": 1,
   "name": "Hakurei Priestess",
   "description": "A shrine maiden skilled in exterminating spirits and youkai, but gets lazy when hungry."

@@ -3,7 +3,9 @@
     "esoterica-origins:flawless",
     "esoterica-origins:fragile_lunarian"
   ],
-  "icon": "minecraft:golden_apple",
+  "icon": {
+    "id": "minecraft:golden_apple"
+  },
   "impact": 2,
   "name": "Lunarian",
   "description": "Delicate resident of the Lunar Capital."

@@ -4,7 +4,9 @@
     "origins:cat_vision",
     "origins:nine_lives"
   ],
-  "icon": "minecraft:ender_eye",
+  "icon": {
+    "id": "minecraft:ender_eye"
+  },
   "impact": 1,
   "name": "Fantasy Sensitive",
   "description": "A human sensitive to boundaries."

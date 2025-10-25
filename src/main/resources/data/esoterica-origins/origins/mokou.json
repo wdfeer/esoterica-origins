@@ -8,7 +8,9 @@
     "esoterica-origins:extra_fireball_damage",
     "origins:flame_particles"
   ],
-  "icon": "minecraft:blaze_powder",
+  "icon": {
+    "id": "minecraft:blaze_powder"
+  },
   "impact": 3,
   "name": "Phoenix",
   "description": "Undying entity of flame."
