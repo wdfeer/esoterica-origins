@@ -7,6 +7,7 @@
     "minecraft:blocks/deepslate_emerald_ore": "esoterica-origins:double_drops",
     "minecraft:blocks/gold_ore": "esoterica-origins:double_drops",
     "minecraft:blocks/deepslate_gold_ore": "esoterica-origins:double_drops",
+    "minecraft:blocks/nether_gold_ore": "esoterica-origins:double_drops",
     "minecraft:blocks/diamond_ore": "esoterica-origins:double_drops",
     "minecraft:blocks/deepslate_diamond_ore": "esoterica-origins:double_drops"
   }
