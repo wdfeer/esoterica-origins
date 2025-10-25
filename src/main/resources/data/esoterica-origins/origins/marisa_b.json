@@ -9,6 +9,6 @@
   ],
   "icon": "minecraft:fire_charge",
   "impact": 3,
-  "name": "Ordinary Magician",
-  "description": "Human magic user proficient in casting spells and gathering mushrooms."
+  "name": "Burst Magician",
+  "description": "Human magic user proficient in offensive magic and gathering mushrooms."
 }
