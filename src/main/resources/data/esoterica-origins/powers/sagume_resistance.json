@@ -10,11 +10,14 @@
       "compare_to": 1
     },
     "bientity_action": {
-      "type": "origins:apply_effect",
-      "effect": {
-        "effect": "minecraft:resistance",
-        "duration": 60,
-        "amplifier": 3
+      "type": "origins:target_action",
+      "action": {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:resistance",
+          "duration": 60,
+          "amplifier": 3
+        }
       }
     }
   },
@@ -26,11 +29,14 @@
       "compare_to": 1
     },
     "bientity_action": {
-      "type": "origins:apply_effect",
-      "effect": {
-        "effect": "minecraft:resistance",
-        "duration": 60,
-        "amplifier": 3
+      "type": "origins:target_action",
+      "action": {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:resistance",
+          "duration": 60,
+          "amplifier": 3
+        }
       }
     }
   }
