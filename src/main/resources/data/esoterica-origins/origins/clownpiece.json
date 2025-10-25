@@ -1,8 +1,12 @@
 {
   "powers": [
+    "esoterica-origins:clownpiece_torch",
+    "origins:elytra",
+    "origins:light_armor",
+    "origins:fragile"
   ],
   "icon": "minecraft:redstone_torch",
   "impact": 3,
-  "name": "",
-  "description": ""
+  "name": "Lunatic Fairy",
+  "description": "Hell Fairy capable of making others lose sanity."
 }

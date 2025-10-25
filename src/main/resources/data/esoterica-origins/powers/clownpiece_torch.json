@@ -1,0 +1,91 @@
+{
+  "name": "Lunatic Torch",
+  "description": "With a torch in hand, all entities within 16 blocks in line of sight gain Weakness II or Levitation or are set on fire for 3 seconds every second randomly.",
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:area_of_effect",
+    "radius": 16,
+    "bientity_action": {
+      "type": "origins:target_action",
+      "action": {
+        "type": "origins:choice",
+        "actions": [
+          {
+            "element": {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:levitation",
+                "amplifier": 0,
+                "duration": 60
+              }
+            },
+            "weight": 7
+          },
+          {
+            "element": {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:weakness",
+                "amplifier": 1,
+                "duration": 60
+              }
+            },
+            "weight": 10
+          },
+          {
+            "element": {
+              "type": "origins:set_on_fire",
+              "duration": 60
+            },
+            "weight": 10
+          }
+        ]
+      }
+    },
+    "bientity_condition": {
+      "type": "origins:can_see"
+    }
+  },
+  "condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": [
+            {
+              "tag": "minecraft:torch"
+            },
+            {
+              "item": "minecraft:soul_torch"
+            },
+            {
+              "item": "minecraft:redstone_torch"
+            }
+          ]
+        }
+      },
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": [
+            {
+              "tag": "minecraft:torch"
+            },
+            {
+              "item": "minecraft:soul_torch"
+            },
+            {
+              "item": "minecraft:redstone_torch"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "interval": 20
+}
