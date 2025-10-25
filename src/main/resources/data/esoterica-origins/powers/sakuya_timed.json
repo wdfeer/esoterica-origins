@@ -5,19 +5,40 @@
   "timer": {
     "type": "origins:resource",
     "min": 0,
-    "max": 600,
+    "max": 710,
     "hud_render": {
       "should_render": true,
       "sprite_location": "esoterica-origins:textures/gui/resource_bar.png",
       "bar_index": 0
     }
   },
-  "timer_increment": {
+  "timer_increment1": {
     "type": "origins:action_over_time",
     "entity_action": {
       "type": "origins:change_resource",
       "resource": "esoterica-origins:sakuya_timed_timer",
       "change": 1
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:sakuya_timed_timer",
+      "comparison": "<=",
+      "compare_to": 600
+    },
+    "interval": 1
+  },
+  "timer_increment2": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "esoterica-origins:sakuya_timed_timer",
+      "change": 11
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:sakuya_timed_timer",
+      "comparison": ">",
+      "compare_to": 600
     },
     "interval": 1
   },
@@ -26,13 +47,13 @@
     "entity_action": {
       "type": "origins:change_resource",
       "resource": "esoterica-origins:sakuya_timed_timer",
-      "change": -600
+      "change": -999
     },
     "condition": {
       "type": "origins:resource",
       "resource": "esoterica-origins:sakuya_timed_timer",
       "comparison": ">=",
-      "compare_to": 600
+      "compare_to": 710
     },
     "interval": 1
   },
@@ -68,15 +89,15 @@
         {
           "type": "origins:change_resource",
           "resource": "esoterica-origins:sakuya_timed_timer",
-          "value": -600
+          "value": -999
         }
       ]
     },
     "condition": {
       "type": "origins:resource",
       "resource": "esoterica-origins:sakuya_timed_timer",
-      "comparison": ">=",
-      "compare_to": 590
+      "comparison": ">",
+      "compare_to": 600
     }
   },
   "entity_hit": {
@@ -111,15 +132,15 @@
         {
           "type": "origins:change_resource",
           "resource": "esoterica-origins:sakuya_timed_timer",
-          "value": -600
+          "value": -999
         }
       ]
     },
     "condition": {
       "type": "origins:resource",
       "resource": "esoterica-origins:sakuya_timed_timer",
-      "comparison": ">=",
-      "compare_to": 590
+      "comparison": ">",
+      "compare_to": 600
     }
   }
 }
