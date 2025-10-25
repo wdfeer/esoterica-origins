@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "esoterica-origins:sakuya_timed",
+    "origins:throw_ender_pearl",
+    "origins:light_armor"
+  ],
+  "icon": "minecraft:clock",
+  "impact": 3,
+  "name": "Time Manipulator",
+  "description": "A human capable of controlling time, rewarding precision."
+}

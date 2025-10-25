@@ -1,0 +1,147 @@
+{
+  "name": "Time Flow",
+  "description": "Every 30 seconds, if you break a block or deal damage in the last 500 ms, gain Haste, Speed and Strength for 30 seconds.",
+  "type": "origins:multiple",
+  "timer": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 710,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "esoterica-origins:textures/gui/resource_bar.png",
+      "bar_index": 0
+    }
+  },
+  "timer_increment1": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "esoterica-origins:sakuya_timed_timer",
+      "change": 1
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:sakuya_timed_timer",
+      "comparison": "<=",
+      "compare_to": 600
+    },
+    "interval": 1
+  },
+  "timer_increment2": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "esoterica-origins:sakuya_timed_timer",
+      "change": 11
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:sakuya_timed_timer",
+      "comparison": ">",
+      "compare_to": 600
+    },
+    "interval": 1
+  },
+  "timer_reset": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "esoterica-origins:sakuya_timed_timer",
+      "change": -999
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:sakuya_timed_timer",
+      "comparison": ">=",
+      "compare_to": 710
+    },
+    "interval": 1
+  },
+  "block_break": {
+    "type": "origins:action_on_block_break",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:haste",
+            "duration": 600,
+            "amplifier": 0
+          }
+        },
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:speed",
+            "duration": 600,
+            "amplifier": 0
+          }
+        },
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:strength",
+            "duration": 600,
+            "amplifier": 0
+          }
+        },
+        {
+          "type": "origins:change_resource",
+          "resource": "esoterica-origins:sakuya_timed_timer",
+          "change": -999
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:sakuya_timed_timer",
+      "comparison": ">",
+      "compare_to": 600
+    },
+    "only_when_harvested": false
+  },
+  "entity_hit": {
+    "type": "origins:modify_damage_dealt",
+    "self_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:haste",
+            "duration": 600,
+            "amplifier": 0
+          }
+        },
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:speed",
+            "duration": 600,
+            "amplifier": 0
+          }
+        },
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:strength",
+            "duration": 600,
+            "amplifier": 0
+          }
+        },
+        {
+          "type": "origins:change_resource",
+          "resource": "esoterica-origins:sakuya_timed_timer",
+          "change": -999
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:sakuya_timed_timer",
+      "comparison": ">",
+      "compare_to": 600
+    }
+  }
+}

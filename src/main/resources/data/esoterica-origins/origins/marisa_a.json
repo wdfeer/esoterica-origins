@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "esoterica-origins:marisa_crafting",
+    "esoterica-origins:marisa_hoarder",
+    "esoterica-origins:fly",
+    "esoterica-origins:extra_food_in_dark_forest",
+    "origins:light_armor",
+    "esoterica-origins:half_melee_damage"
+  ],
+  "icon": "minecraft:splash_potion",
+  "impact": 3,
+  "name": "Potioncrafter",
+  "description": "Human magician proficient in crafting potions and gathering mushrooms."
+}

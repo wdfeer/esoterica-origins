@@ -1,0 +1,72 @@
+{
+  "name": "Orrery's Sun",
+  "description": "Slowly gain charge after dealing damage. When at full charge, gain Absorption, Resistance and deal triple damage for 10 seconds.",
+  "type": "origins:multiple",
+  "charge": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 100,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+      "bar_index": 15
+    },
+    "max_action": {
+      "type": "origins:change_resource",
+      "resource": "esoterica-origins:marisa_charge_burst_timer",
+      "change": 100
+    }
+  },
+  "charge_gain": {
+    "type": "origins:modify_damage_dealt",
+    "self_action": {
+      "type": "origins:change_resource",
+      "resource": "esoterica-origins:marisa_charge_charge",
+      "change": 1
+    }
+  },
+  "burst_damage": {
+    "type": "origins:modify_damage_dealt",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:marisa_charge_burst_timer",
+      "comparison": ">",
+      "compare_to": 0
+    },
+    "modifier": {
+      "name": "Triple damage when in burst",
+      "operation": "multiply_total",
+      "value": 2.0
+    }
+  },
+  "burst_timer": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 100
+  },
+  "burst_timer_decrement": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:change_resource",
+          "resource": "esoterica-origins:marisa_charge_charge",
+          "change": -1
+        },
+        {
+          "type": "origins:change_resource",
+          "resource": "esoterica-origins:marisa_charge_burst_timer",
+          "change": -1
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:marisa_charge_burst_timer",
+      "comparison": ">",
+      "compare_to": 0
+    },
+    "interval": 2
+  }
+}
