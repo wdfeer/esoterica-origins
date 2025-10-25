@@ -2,11 +2,15 @@
   "powers": [
     "esoterica-origins:mike/double_ores",
     "esoterica-origins:mike/keepinv",
-    "esoterica-origins:mike/no_silk_touch",
-    "origins:light_armor"
+    "origins:fall_immunity",
+    "origins:cat_vision",
+    "origins:velvet_paws",
+    "origins:nine_lives",
+    "origins:light_armor",
+    "esoterica-origins:mike/no_silk_touch"
   ],
   "icon": "minecraft:gold_ingot",
-  "impact": 2,
+  "impact": 3,
   "name": "Lucky Cat",
   "description": "Cat Youkai that brings good luck."
 }
