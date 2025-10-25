@@ -18,7 +18,7 @@
         },
         {
           "type": "origins:entity_type",
-          "entity_type": "minecraft:wondering_trader"
+          "entity_type": "minecraft:wandering_trader"
         }
       ]
     }
