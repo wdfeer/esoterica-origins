@@ -1,6 +1,7 @@
 {
   "powers": [
     "esoterica-origins:mike/luck",
+    "esoterica-origins:mike/double_ores",
     "origins:light_armor"
   ],
   "icon": "minecraft:gold_ingot",
