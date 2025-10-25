@@ -1,6 +1,6 @@
 {
   "name": "Time Flow",
-  "description": "Every 30 seconds, if you break a block or deal damage within 29.5-30 seconds, gain Haste, Speed and Strength for 30 seconds.",
+  "description": "Every 30 seconds, if you break a block or deal damage in the last 500 ms, gain Haste, Speed and Strength for 30 seconds.",
   "type": "origins:multiple",
   "timer": {
     "type": "origins:resource",
@@ -89,7 +89,7 @@
         {
           "type": "origins:change_resource",
           "resource": "esoterica-origins:sakuya_timed_timer",
-          "value": -999
+          "change": -999
         }
       ]
     },
@@ -98,7 +98,8 @@
       "resource": "esoterica-origins:sakuya_timed_timer",
       "comparison": ">",
       "compare_to": 600
-    }
+    },
+    "only_when_harvested": false
   },
   "entity_hit": {
     "type": "origins:modify_damage_dealt",
@@ -132,7 +133,7 @@
         {
           "type": "origins:change_resource",
           "resource": "esoterica-origins:sakuya_timed_timer",
-          "value": -999
+          "change": -999
         }
       ]
     },
