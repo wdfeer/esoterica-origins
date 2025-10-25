@@ -1,11 +1,14 @@
 {
   "powers": [
     "esoterica-origins:flawless",
+    "esoterica-origins:fly",
+    "origins:launch_into_air",
     "esoterica-origins:sagume_resistance",
-    "esoterica-origins:fragile_lunarian"
+    "esoterica-origins:fragile_lunarian",
+    "esoterica-origins:sagume_notrade"
   ],
   "icon": "minecraft:warped_vines",
   "impact": 3,
   "name": "Reverse Goddess",
-  "description": "Lunarian Divine Spirit capable of reversing anything whether you like it or not."
+  "description": "Lunarian Divine Spirit capable of reversing anything."
 }
