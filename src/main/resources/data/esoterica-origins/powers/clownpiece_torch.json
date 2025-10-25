@@ -1,6 +1,6 @@
 {
   "name": "Lunatic Torch",
-  "description": "With a torch in hand, all entities within 16 blocks in line of sight gain Weakness II or Levitation or are set on fire for 3 seconds every second randomly.",
+  "description": "With a torch in hand, other entities within 16 blocks in line of sight gain Weakness II or Levitation or are set on fire for 3 seconds every second randomly.",
   "type": "origins:action_over_time",
   "entity_action": {
     "type": "origins:area_of_effect",
