@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "esoterica-origins:creative_flight",
+    "esoterica-origins:keiki_aura",
+    "esoterica-origins:pacifist"
+  ],
+  "icon": "minecraft:bedrock",
+  "impact": 3,
+  "name": "Creation Goddess",
+  "description": "Pacifist"
+}

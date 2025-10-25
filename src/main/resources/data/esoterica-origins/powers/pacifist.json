@@ -1,0 +1,9 @@
+{
+  "name": "Pacifist",
+  "description": "You cannot deal damage.",
+  "type": "origins:modify_damage_dealt",
+  "modifier": {
+    "operation": "multiply_total",
+    "value": -1.0
+  }
+}
