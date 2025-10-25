@@ -1,7 +1,7 @@
 {
-  "type": "origins:attribute",
   "name": "Strong",
   "description": "You deal 25% melee damage.",
+  "type": "origins:attribute",
   "modifier": {
     "name": "Increased melee damage",
     "attribute": "minecraft:generic.attack_damage",
