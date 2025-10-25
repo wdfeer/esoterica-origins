@@ -1,11 +1,22 @@
 {
   "name": "Tools of Profit",
-  "description": "Items with Fortune III are kept after death.",
+  "description": "Items with Fortune III or Looting III are kept after death.",
   "type": "origins:keep_inventory",
   "item_condition": {
-    "type": "origins:enchantment",
-    "enchantment": "minecraft:fortune",
-    "comparison": "==",
-    "compare_to": 3
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:enchantment",
+        "enchantment": "minecraft:fortune",
+        "comparison": "==",
+        "compare_to": 3
+      },
+      {
+        "type": "origins:enchantment",
+        "enchantment": "minecraft:looting",
+        "comparison": "==",
+        "compare_to": 3
+      }
+    ]
   }
 }
