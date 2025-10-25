@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "esoterica-origins:mike/luck",
+    "origins:light_armor"
+  ],
+  "icon": "minecraft:gold_ingot",
+  "impact": 2,
+  "name": "Lucky Cat",
+  "description": "Cat Youkai that brings good luck."
+}
