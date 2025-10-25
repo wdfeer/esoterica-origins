@@ -1,0 +1,28 @@
+{
+  "name": "Spare Body",
+  "description": "Activate to heal fully and gain Resistance IV for 10 seconds every 4 minutes.",
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:heal",
+        "amount": 20
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:resistance",
+          "duration": 200,
+          "amplifier": 3
+        }
+      }
+    ]
+  },
+  "cooldown": 4800,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+    "bar_index": 4
+  }
+}

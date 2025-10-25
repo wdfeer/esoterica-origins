@@ -1,11 +1,13 @@
 {
   "powers": [
     "esoterica-origins:hecatia_fist",
+    "esoterica-origins:hecatia_heal",
     "esoterica-origins:plus_melee_damage",
     "esoterica-origins:nether_damage",
     "esoterica-origins:effect_immunity",
     "origins:fire_immunity",
     "origins:cat_vision",
+    "esoterica-origins:insomnia",
     "esoterica-origins:no_armor",
     "origins:flame_particles"
   ],
