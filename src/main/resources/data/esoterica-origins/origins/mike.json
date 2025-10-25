@@ -1,7 +1,7 @@
 {
   "powers": [
-    "esoterica-origins:mike/luck",
     "esoterica-origins:mike/double_ores",
+    "esoterica-origins:mike/keepinv",
     "esoterica-origins:mike/no_silk_touch",
     "origins:light_armor"
   ],
