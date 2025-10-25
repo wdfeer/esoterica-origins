@@ -2,6 +2,7 @@
   "powers": [
     "esoterica-origins:hecatia_fist",
     "esoterica-origins:plus_melee_damage",
+    "esoterica-origins:nether_damage",
     "esoterica-origins:effect_immunity",
     "origins:fire_immunity",
     "origins:cat_vision",
