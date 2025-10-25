@@ -1,28 +1,32 @@
 {
   "name": "Spare Body",
-  "description": "Activate to heal fully and gain Resistance IV for 10 seconds every 4 minutes.",
-  "type": "origins:active_self",
-  "entity_action": {
-    "type": "origins:and",
-    "actions": [
-      {
-        "type": "origins:heal",
-        "amount": 20
-      },
-      {
-        "type": "origins:apply_effect",
-        "effect": {
-          "effect": "minecraft:resistance",
-          "duration": 200,
-          "amplifier": 3
-        }
-      }
-    ]
+  "description": "Activate to heal fully every 4 minutes. Gain 2 extra hearts while fully charged.",
+  "type": "origins:multiple",
+  "active": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:heal",
+      "amount": 20
+    },
+    "cooldown": 4800,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+      "bar_index": 4
+    }
   },
-  "cooldown": 4800,
-  "hud_render": {
-    "should_render": true,
-    "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
-    "bar_index": 4
+  "extra_hp": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.max_health",
+      "value": 4,
+      "operation": "addition"
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:hecatia_heal_active",
+      "comparison": "==",
+      "compare_to": 0
+    }
   }
 }
