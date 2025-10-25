@@ -1,0 +1,19 @@
+{
+  "name": "Unsilked",
+  "description": "Cannot dig blocks with silk touch tools.",
+  "type": "origins:modify_break_speed",
+  "condition": {
+    "type": "origins:equipped_item",
+    "equipment_slot": "mainhand",
+    "item_condition": {
+      "type": "origins:enchantment",
+      "enchantment": "minecraft:silk_touch",
+      "comparison": ">=",
+      "compare_to": 1
+    }
+  },
+  "modifier": {
+    "operation": "multiply_total",
+    "value": -1
+  }
+}
