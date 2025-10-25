@@ -1,0 +1,32 @@
+{
+  "name": "Time Flow",
+  "description": "Every 30 seconds, if you break a block or hit a mob within 29.5-30 seconds, gain Haste, Speed and Strength for 30 seconds.",
+  "type": "origins:multiple",
+  "timer": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 600,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+      "bar_index": 1
+    },
+    "min_action": {
+      "type": "origins:heal",
+      "amount": 6
+    }
+  },
+  "timer_increment": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "esoterica-origins:sakuya_timed",
+      "change": 1
+    },
+    "interval": 1
+  },
+  "block_break": {
+  },
+  "entity_hit": {
+  }
+}

@@ -1,5 +1,6 @@
 {
   "powers": [
+    "esoterica-origins:timed_haste"
   ],
   "icon": "minecraft:clock",
   "impact": 3,
