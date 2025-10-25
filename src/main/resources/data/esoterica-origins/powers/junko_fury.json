@@ -29,7 +29,7 @@
       "value": 2.0
     },
     "self_action": {
-      "type": "origins:multiple",
+      "type": "origins:and",
       "actions": [
         {
           "type": "origins:apply_effect",
