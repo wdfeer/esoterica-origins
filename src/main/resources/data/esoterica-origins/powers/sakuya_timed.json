@@ -16,7 +16,7 @@
     "type": "origins:action_over_time",
     "entity_action": {
       "type": "origins:change_resource",
-      "resource": "esoterica-origins:sakuya_timed",
+      "resource": "esoterica-origins:sakuya_timed_timer",
       "change": 1
     },
     "interval": 1
@@ -52,14 +52,14 @@
         },
         {
           "type": "origins:set_resource",
-          "resource": "esoterica-origins:sakuya_timed",
+          "resource": "esoterica-origins:sakuya_timed_timer",
           "value": 0
         }
       ]
     },
     "condition": {
       "type": "origins:resource",
-      "resource": "esoterica-origins:sakuya_timed",
+      "resource": "esoterica-origins:sakuya_timed_timer",
       "comparison": ">=",
       "compare_to": 590
     }
@@ -95,14 +95,14 @@
         },
         {
           "type": "origins:set_resource",
-          "resource": "esoterica-origins:sakuya_timed",
+          "resource": "esoterica-origins:sakuya_timed_timer",
           "value": 0
         }
       ]
     },
     "condition": {
       "type": "origins:resource",
-      "resource": "esoterica-origins:sakuya_timed",
+      "resource": "esoterica-origins:sakuya_timed_timer",
       "comparison": ">=",
       "compare_to": 590
     }
