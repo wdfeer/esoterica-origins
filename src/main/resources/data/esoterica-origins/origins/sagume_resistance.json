@@ -1,0 +1,37 @@
+{
+  "name": "Counter Harm",
+  "description": "Whenever you take or deal 1 or more damage, the victim gains Resistance IV for 3 seconds.",
+  "type": "origins:multiple",
+  "self": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:amount",
+      "comparison": ">=",
+      "compare_to": 1
+    },
+    "bientity_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:resistance",
+        "duration": 60,
+        "amplifier": 3
+      }
+    }
+  },
+  "other": {
+    "type": "origins:modify_damage_dealt",
+    "damage_condition": {
+      "type": "origins:amount",
+      "comparison": ">=",
+      "compare_to": 1
+    },
+    "bientity_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:resistance",
+        "duration": 60,
+        "amplifier": 3
+      }
+    }
+  }
+}
