@@ -3,12 +3,14 @@
   "origins": [
     "esoterica-origins:maribel",
     "esoterica-origins:reimu_b",
+
     "esoterica-origins:reimu_a",
     "esoterica-origins:sanae",
     "esoterica-origins:kappa",
     "esoterica-origins:yamawaro",
     "esoterica-origins:wolf_tengu",
     "esoterica-origins:letty",
+
     "esoterica-origins:ice_fairy",
     "esoterica-origins:flower_fairy",
     "esoterica-origins:nightbug",
@@ -18,6 +20,9 @@
     "esoterica-origins:orin",
     "esoterica-origins:parsee",
     "esoterica-origins:akyuu",
+    "esoterica-origins:marisa_a",
+    "esoterica-origins:marisa_b",
+    "esoterica-origins:sakuya_a",
     "esoterica-origins:crow_tengu",
     "esoterica-origins:aya",
     "esoterica-origins:megumu",
@@ -31,10 +36,6 @@
     "esoterica-origins:lunarian_rabbit",
     "esoterica-origins:lunarian_sage",
     "esoterica-origins:lunarian_princess",
-    "esoterica-origins:yukari",
-
-    "esoterica-origins:marisa_a",
-    "esoterica-origins:marisa_b",
-    "esoterica-origins:sakuya_a"
+    "esoterica-origins:yukari"
   ]
 }
