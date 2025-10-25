@@ -1,0 +1,14 @@
+{
+  "name": "Dream Reinforcements",
+  "description": "You can summon an iron golem every 15 minutes.",
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:spawn_entity",
+    "entity_type": "minecraft:iron_golem"
+  },
+  "cooldown": 18000,
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+    "bar_index": 0
+  }
+}

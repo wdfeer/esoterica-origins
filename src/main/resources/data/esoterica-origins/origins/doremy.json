@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "esoterica-origins:creative_flight",
+    "esoterica-origins:doremy_keepinventory",
+    "esoterica-origins:doremy_iron_golem",
+    "origins:cat_vision",
+    "esoterica-origins:no_melee_damage",
+    "esoterica-origins:end_vulnerability"
+  ],
+  "icon": "minecraft:end_crystal",
+  "impact": 3,
+  "name": "Dream Lord",
+  "description": "Master of Dreams but vulnerable in material space."
+}
