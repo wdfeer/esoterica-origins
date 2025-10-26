@@ -1,7 +1,12 @@
 {
   "powers": [
-    "esoterica-origins:firepunch",
-    "origins:fire_immunity"
+    "esoterica-origins:okuu/heat",
+    "esoterica-origins:okuu/heat_nearby_fire",
+    "esoterica-origins:okuu/heat_on_fire",
+    "esoterica-origins:okuu/heat_damage",
+    "esoterica-origins:okuu/firepunch",
+    "origins:fire_immunity",
+    "esoterica-origins:okuu/meltdown"
   ],
   "icon": "minecraft:blaze_rod",
   "impact": 3,
