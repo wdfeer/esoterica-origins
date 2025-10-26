@@ -28,7 +28,7 @@
     "self_action": {
       "type": "origins:change_resource",
       "resource": "esoterica-origins:koishi/passion_resource",
-      "change": 20
+      "change": 23
     }
   },
   "drain": {
