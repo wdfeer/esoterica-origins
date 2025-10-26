@@ -1,6 +1,7 @@
 {
   "powers": [
-
+    "esoterica-origins:firepunch",
+    "origins:fire_immunity"
   ],
   "icon": "minecraft:blaze_rod",
   "impact": 3,
