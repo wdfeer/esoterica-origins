@@ -1,0 +1,5 @@
+{
+  "name": "Mentally Unstable",
+  "description": "Performing certain actions charges one of the mental states. Once charged, deactivate other mental states gain a buff for 60 seconds while active.",
+  "type": "origins:empty"
+}

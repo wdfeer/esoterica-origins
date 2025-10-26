@@ -1,6 +1,10 @@
 {
   "powers": [
-
+    "esoterica-origins:koishi/mental_states",
+    "esoterica-origins:koishi/serenity",
+    "esoterica-origins:koishi/passion",
+    "esoterica-origins:koishi/fugue",
+    "origins:fragile"
   ],
   "icon": "minecraft:ender_pearl",
   "impact": 3,
