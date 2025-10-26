@@ -72,9 +72,24 @@
       "compare_to": 1200
     },
     "entity_action": {
-      "type": "origins:change_resource",
-      "resource": "esoterica-origins:koishi/serenity_is_active",
-      "change": 1
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:change_resource",
+          "resource": "esoterica-origins:koishi/serenity_is_active",
+          "change": 1
+        },
+        {
+          "type": "origins:change_resource",
+          "resource": "esoterica-origins:koishi/passion_is_active",
+          "change": -1
+        },
+        {
+          "type": "origins:change_resource",
+          "resource": "esoterica-origins:koishi/fugue_is_active",
+          "change": -1
+        }
+      ]
     },
     "interval": 10
   },
