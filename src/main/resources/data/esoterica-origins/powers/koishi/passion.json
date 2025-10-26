@@ -1,0 +1,115 @@
+{
+  "name": "Passion",
+  "description": "Charges upon dealing 2 or more damage. Deal and take 100% more damage when active.",
+  "type": "origins:multiple",
+  "resource": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 1200,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+      "bar_index": 1
+    }
+  },
+  "charge_on_hit": {
+    "type": "origins:modify_damage_taken",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:koishi/passion_is_active",
+      "comparison": "==",
+      "compare_to": 0
+    },
+    "damage_condition": {
+      "type": "origins:amount",
+      "comparison": ">",
+      "compare_to": 2
+    },
+    "bientity_action": {
+      "type": "origins:target_action",
+      "action": {
+        "type": "origins:change_resource",
+        "resource": "esoterica-origins:koishi/passion_resource",
+        "change": 20
+      }
+    }
+  },
+  "drain": {
+    "type": "origins:action_over_time",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:koishi/passion_is_active",
+      "comparison": "==",
+      "compare_to": 1
+    },
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "esoterica-origins:koishi/passion_resource",
+      "change": -10
+    },
+    "interval": 10
+  },
+  "is_active": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 1
+  },
+  "activate": {
+    "type": "origins:action_over_time",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:koishi/passion_resource",
+      "comparison": "==",
+      "compare_to": 1200
+    },
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "esoterica-origins:koishi/passion_is_active",
+      "change": 1
+    },
+    "interval": 10
+  },
+  "deactivate": {
+    "type": "origins:action_over_time",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:koishi/passion_resource",
+      "comparison": "==",
+      "compare_to": 0
+    },
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "esoterica-origins:koishi/passion_is_active",
+      "change": -1
+    },
+    "interval": 10
+  },
+  "ability1": {
+    "type": "origins:modify_damage_taken",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:koishi/passion_is_active",
+      "comparison": "==",
+      "compare_to": 1
+    },
+    "modifier": {
+      "name": "Passion damage multiplier",
+      "operation": "multiply_base",
+      "value": 1
+    }
+  },
+  "ability2": {
+    "type": "origins:modify_damage_dealt",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:koishi/passion_is_active",
+      "comparison": "==",
+      "compare_to": 1
+    },
+    "modifier": {
+      "name": "Passion damage multiplier",
+      "operation": "multiply_base",
+      "value": 1
+    }
+  }
+}
