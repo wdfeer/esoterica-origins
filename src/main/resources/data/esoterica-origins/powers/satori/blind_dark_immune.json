@@ -1,4 +1,9 @@
 {
   "name": "Third Eye",
-  "description": "Immune to Blindness and Darkness."
+  "description": "Immune to Blindness and Darkness.",
+  "type": "origins:effect_immunity",
+  "effects": [
+    "minecraft:blindness",
+    "minecraft:darkness"
+  ]
 }
