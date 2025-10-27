@@ -1,8 +1,9 @@
 {
   "powers": [
+    "esoterica-origins:satori/invis_or_strength",
     "esoterica-origins:satori/slowness_ray",
-    "esoterica-origins:satori/regen_cloud",
-    "esoterica-origins:satori/invisibility",
+    "esoterica-origins:satori/passive_heal",
+    "esoterica-origins:satori/blind_dark_immune",
     "origins:fragile"
   ],
   "icon": "minecraft:ender_eye",
