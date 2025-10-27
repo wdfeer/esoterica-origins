@@ -1,7 +1,7 @@
 {
   "powers": [
-    "esoterica-origins:rumia/toggle_blindness",
-    "esoterica-origins:rumia/active_darkness",
+    "esoterica-origins:rumia/blindness",
+    "esoterica-origins:rumia/darkness",
     "esoterica-origins:rumia/resistance",
     "esoterica-origins:rumia/darkness_flight",
     "origins:carnivore",
