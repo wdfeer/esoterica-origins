@@ -1,6 +1,6 @@
 {
   "name": "Heat",
-  "description": "You have a heat bar with a maximum of 100 points.",
+  "description": "You have a heat bar with a maximum of 100 points. Gain 4 heat per second in lava, lose 2 heat per second in water.",
   "type": "origins:resource",
   "min": 0,
   "max": 100,

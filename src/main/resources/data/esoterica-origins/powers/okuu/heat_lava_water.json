@@ -1,0 +1,32 @@
+{
+  "hidden": true,
+  "type": "origins:multiple",
+  "lava": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "esoterica-origins:okuu/heat",
+      "change": 4
+    },
+    "condition": {
+      "type": "origins:fluid_height",
+      "fluid": "minecraft:lava",
+      "comparison": "!=",
+      "compare_to": 0
+    }
+  },
+  "water": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "esoterica-origins:okuu/heat",
+      "change": -4
+    },
+    "condition": {
+      "type": "origins:fluid_height",
+      "fluid": "minecraft:water",
+      "comparison": "!=",
+      "compare_to": 0
+    }
+  }
+}

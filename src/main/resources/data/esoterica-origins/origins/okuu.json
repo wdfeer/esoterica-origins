@@ -1,6 +1,7 @@
 {
   "powers": [
     "esoterica-origins:okuu/heat",
+    "esoterica-origins:okuu/heat_lava_water",
     "esoterica-origins:okuu/heat_nearby_fire",
     "esoterica-origins:okuu/heat_damage",
     "esoterica-origins:okuu/firepunch",

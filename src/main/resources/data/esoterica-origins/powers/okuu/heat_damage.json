@@ -1,6 +1,6 @@
 {
   "name": "Blazing Heat",
-  "description": "Every second, deal fire damage you have and lose 1 Heat to/for each creature within 16 blocks. 1 Damage at Heat 10-39, 3 Damage at Heat 40-69, 6 Damage at Heat 70-100.",
+  "description": "Every second, deal fire damage you have and lose heat to/for each creature within 16 blocks. 1 Damage at Heat 10-39, 3 Damage at Heat 40-69, 6 Damage at Heat 70-100.",
   "type": "origins:action_over_time",
   "entity_action": {
     "type": "origins:and",
@@ -11,7 +11,7 @@
       },
       {
         "type": "origins:area_of_effect",
-        "radius": 32,
+        "radius": 16,
         "bientity_action": {
           "type": "origins:and",
           "actions": [
