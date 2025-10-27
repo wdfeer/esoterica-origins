@@ -1,0 +1,28 @@
+{
+  "name": "Overheating",
+  "description": "At 80 or more Heat, gain Slowness for 4 seconds whenever you take damage.",
+  "type": "origins:modify_damage_taken",
+  "condition": {
+    "type": "origins:resource",
+    "resource": "esoterica-origins:okuu/heat",
+    "comparison": ">=",
+    "compare_to": 80
+  },
+  "self_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:set_on_fire",
+        "duration": 8
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:slowness",
+          "duration": 80,
+          "amplifier": 0
+        }
+      }
+    ]
+  }
+}

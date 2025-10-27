@@ -1,0 +1,12 @@
+{
+  "name": "Heat",
+  "description": "You have a heat bar with a maximum of 100 points.",
+  "type": "origins:resource",
+  "min": 0,
+  "max": 100,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+    "bar_index": 15
+  }
+}

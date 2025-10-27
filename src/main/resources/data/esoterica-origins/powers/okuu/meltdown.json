@@ -1,0 +1,28 @@
+{
+  "name": "Meltdown",
+  "description": "When at 100 Heat and you have Slowness, explode violently instantly.",
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:explode",
+    "power": 15,
+    "destruction_type": "break",
+    "damage_self": true,
+    "create_fire": true
+  },
+  "interval": 3,
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:status_effect",
+        "effect": "minecraft:slowness"
+      },
+      {
+        "type": "origins:resource",
+        "resource": "esoterica-origins:okuu/heat",
+        "comparison": "==",
+        "compare_to": 100
+      }
+    ]
+  }
+}

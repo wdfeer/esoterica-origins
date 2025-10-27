@@ -1,0 +1,4 @@
+{
+  "name": "Heating Up",
+  "description": "Every second, gain 1 Heat for each creature within 16 blocks on fire."
+}
