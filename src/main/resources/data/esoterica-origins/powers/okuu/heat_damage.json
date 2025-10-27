@@ -3,118 +3,109 @@
   "description": "Every second, if at over 10% heat, deal damage and lose heat to/for each creature within 16 blocks. Deal more damage and lose more heat the higher your heat is.",
   "type": "origins:action_over_time",
   "entity_action": {
-    "type": "origins:and",
-    "actions": [
-      {
-        "type": "origins:set_on_fire",
-        "duration": 4
-      },
-      {
-        "type": "origins:area_of_effect",
-        "radius": 16,
-        "bientity_action": {
-          "type": "origins:and",
+    "type": "origins:area_of_effect",
+    "radius": 16,
+    "bientity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:if_else_list",
           "actions": [
             {
-              "type": "origins:if_else_list",
-              "actions": [
-                {
-                  "condition": {
-                    "type": "origins:actor_condition",
-                    "condition": {
-                      "type": "origins:resource",
-                      "resource": "esoterica-origins:okuu/heat",
-                      "comparison": "<",
-                      "compare_to": 400
-                    }
-                  },
-                  "action": {
-                    "type": "origins:and",
-                    "actions": [
-                      {
-                        "type": "origins:actor_action",
-                        "action": {
-                          "type": "origins:change_resource",
-                          "resource": "esoterica-origins:okuu/heat",
-                          "change": -2
-                        }
-                      },
-                      {
-                        "type": "origins:target_action",
-                        "action": {
-                          "type": "origins:damage",
-                          "amount": 1,
-                          "damage_type": "minecraft:on_fire"
-                        }
-                      }
-                    ]
-                  }
-                },
-                {
-                  "condition": {
-                    "type": "origins:actor_condition",
-                    "condition": {
-                      "type": "origins:resource",
-                      "resource": "esoterica-origins:okuu/heat",
-                      "comparison": "<",
-                      "compare_to": 700
-                    }
-                  },
-                  "action": {
-                    "type": "origins:and",
-                    "actions": [
-                      {
-                        "type": "origins:actor_action",
-                        "action": {
-                          "type": "origins:change_resource",
-                          "resource": "esoterica-origins:okuu/heat",
-                          "change": -9
-                        }
-                      },
-                      {
-                        "type": "origins:target_action",
-                        "action": {
-                          "type": "origins:damage",
-                          "amount": 3,
-                          "damage_type": "minecraft:on_fire"
-                        }
-                      }
-                    ]
-                  }
-                },
-                {
-                  "condition": {
-                    "type": "origins:constant",
-                    "value": true
-                  },
-                  "action": {
-                    "type": "origins:and",
-                    "actions": [
-                      {
-                        "type": "origins:actor_action",
-                        "action": {
-                          "type": "origins:change_resource",
-                          "resource": "esoterica-origins:okuu/heat",
-                          "change": -13
-                        }
-                      },
-                      {
-                        "type": "origins:target_action",
-                        "action": {
-                          "type": "origins:damage",
-                          "amount": 6,
-                          "damage_type": "minecraft:on_fire"
-                        }
-                      }
-                    ]
-                  }
+              "condition": {
+                "type": "origins:actor_condition",
+                "condition": {
+                  "type": "origins:resource",
+                  "resource": "esoterica-origins:okuu/heat",
+                  "comparison": "<",
+                  "compare_to": 400
                 }
-              ]
+              },
+              "action": {
+                "type": "origins:and",
+                "actions": [
+                  {
+                    "type": "origins:actor_action",
+                    "action": {
+                      "type": "origins:change_resource",
+                      "resource": "esoterica-origins:okuu/heat",
+                      "change": -2
+                    }
+                  },
+                  {
+                    "type": "origins:target_action",
+                    "action": {
+                      "type": "origins:damage",
+                      "amount": 1,
+                      "damage_type": "minecraft:on_fire"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "condition": {
+                "type": "origins:actor_condition",
+                "condition": {
+                  "type": "origins:resource",
+                  "resource": "esoterica-origins:okuu/heat",
+                  "comparison": "<",
+                  "compare_to": 700
+                }
+              },
+              "action": {
+                "type": "origins:and",
+                "actions": [
+                  {
+                    "type": "origins:actor_action",
+                    "action": {
+                      "type": "origins:change_resource",
+                      "resource": "esoterica-origins:okuu/heat",
+                      "change": -9
+                    }
+                  },
+                  {
+                    "type": "origins:target_action",
+                    "action": {
+                      "type": "origins:damage",
+                      "amount": 3,
+                      "damage_type": "minecraft:on_fire"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "condition": {
+                "type": "origins:constant",
+                "value": true
+              },
+              "action": {
+                "type": "origins:and",
+                "actions": [
+                  {
+                    "type": "origins:actor_action",
+                    "action": {
+                      "type": "origins:change_resource",
+                      "resource": "esoterica-origins:okuu/heat",
+                      "change": -13
+                    }
+                  },
+                  {
+                    "type": "origins:target_action",
+                    "action": {
+                      "type": "origins:damage",
+                      "amount": 6,
+                      "damage_type": "minecraft:on_fire"
+                    }
+                  }
+                ]
+              }
             }
           ]
         }
-      }
-    ]
+      ]
+    }
   },
   "interval": 20,
   "condition": {
