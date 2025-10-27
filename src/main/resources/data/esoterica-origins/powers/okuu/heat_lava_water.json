@@ -6,7 +6,7 @@
     "entity_action": {
       "type": "origins:change_resource",
       "resource": "esoterica-origins:okuu/heat",
-      "change": 4
+      "change": 40
     },
     "condition": {
       "type": "origins:fluid_height",
@@ -20,7 +20,7 @@
     "entity_action": {
       "type": "origins:change_resource",
       "resource": "esoterica-origins:okuu/heat",
-      "change": -4
+      "change": -40
     },
     "condition": {
       "type": "origins:fluid_height",

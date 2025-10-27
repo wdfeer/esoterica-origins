@@ -1,6 +1,6 @@
 {
   "name": "Meltdown",
-  "description": "When at 100 Heat and you have Slowness, explode violently instantly.",
+  "description": "When at 100% heat and you have Slowness, explode violently instantly.",
   "type": "origins:action_over_time",
   "entity_action": {
     "type": "origins:explode",
@@ -21,7 +21,7 @@
         "type": "origins:resource",
         "resource": "esoterica-origins:okuu/heat",
         "comparison": "==",
-        "compare_to": 100
+        "compare_to": 1000
       }
     ]
   }

@@ -1,9 +1,9 @@
 {
   "name": "Heat",
-  "description": "You have a heat bar with a maximum of 100 points. Gain 4 heat per second in lava, lose 2 heat per second in water.",
+  "description": "You have a heat bar. Lose 1% heat per second passively. Gain 4% heat per second in lava, lose 4% heat per second in water.",
   "type": "origins:resource",
   "min": 0,
-  "max": 100,
+  "max": 1000,
   "hud_render": {
     "should_render": true,
     "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",

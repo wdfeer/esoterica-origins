@@ -1,12 +1,12 @@
 {
   "name": "Overheating",
-  "description": "At 80 or more Heat, gain Slowness for 4 seconds whenever you take damage.",
+  "description": "At 80% or more heat, gain Slowness for 4 seconds whenever you take damage.",
   "type": "origins:modify_damage_taken",
   "condition": {
     "type": "origins:resource",
     "resource": "esoterica-origins:okuu/heat",
     "comparison": ">=",
-    "compare_to": 80
+    "compare_to": 800
   },
   "self_action": {
     "type": "origins:and",
