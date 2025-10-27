@@ -5,23 +5,29 @@
   "entity_action": {
     "type": "origins:raycast",
     "distance": 32,
-    "block": false,
+    "block": true,
     "entity": true,
-    "hit_action": {
-      "type": "origins:apply_effect",
-      "effect": {
-        "effect": "minecraft:slowness",
-        "duration": 160,
-        "amplifier": 4
+    "fluid_handling": "none",
+    "bientity_action": {
+      "type": "origins:target_action",
+      "action": {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:slowness",
+          "duration": 160,
+          "amplifier": 4
+        }
       }
     },
     "command_along_ray": "particle minecraft:enchant",
     "command_step": 1
   },
+  "key": {
+    "key": "key.origins.secondary_active"
+  },
   "cooldown": 1200,
   "hud_render": {
-    "should_render": true,
-    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
-    "bar_index": 1
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+    "bar_index": 17
   }
 }
