@@ -14,7 +14,7 @@
       "include_target": true,
       "bientity_action": {
         "type": "origins:target_action",
-        "entity_action": {
+        "action": {
           "type": "origins:apply_effect",
           "effect": {
             "effect": "minecraft:blindness",
@@ -31,6 +31,6 @@
       "type": "origins:power_active",
       "power": "esoterica-origins:rumia/blindness_toggle"
     },
-    "interval": 10
+    "interval": 2
   }
 }
