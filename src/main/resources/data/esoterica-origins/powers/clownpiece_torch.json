@@ -56,7 +56,7 @@
           "type": "origins:ingredient",
           "ingredient": [
             {
-              "tag": "minecraft:torch"
+              "item": "minecraft:torch"
             },
             {
               "item": "minecraft:soul_torch"
@@ -74,7 +74,7 @@
           "type": "origins:ingredient",
           "ingredient": [
             {
-              "tag": "minecraft:torch"
+              "item": "minecraft:torch"
             },
             {
               "item": "minecraft:soul_torch"
