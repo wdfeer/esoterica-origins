@@ -1,4 +1,95 @@
 {
   "name": "Blazing Heat",
-  "description": "Every second, deal 1 fire damage for every 10 Heat you have to each creature within 16 blocks."
+  "description": "Every second, deal fire damage you have and lose 1 Heat to/for each creature within 16 blocks. 1 Damage at Heat 10-39, 3 Damage at Heat 40-69, 6 Damage at Heat 70-100.",
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:set_on_fire",
+        "duration": 4
+      },
+      {
+        "type": "origins:area_of_effect",
+        "radius": 32,
+        "bientity_action": {
+          "type": "origins:and",
+          "actions": [
+            {
+              "type": "origins:actor_action",
+              "action": {
+                "type": "origins:change_resource",
+                "resource": "esoterica-origins:okuu/heat",
+                "change": -1
+              }
+            },
+            {
+              "type": "origins:if_else_list",
+              "actions": [
+                {
+                  "condition": {
+                    "type": "origins:actor_condition",
+                    "condition": {
+                      "type": "origins:resource",
+                      "resource": "esoterica-origins:okuu/heat",
+                      "comparison": "<",
+                      "compare_to": 40
+                    }
+                  },
+                  "action": {
+                    "type": "origins:target_action",
+                    "action": {
+                      "type": "origins:damage",
+                      "amount": 3,
+                      "damage_type": "minecraft:on_fire"
+                    }
+                  }
+                },
+                {
+                  "condition": {
+                    "type": "origins:actor_condition",
+                    "condition": {
+                      "type": "origins:resource",
+                      "resource": "esoterica-origins:okuu/heat",
+                      "comparison": "<",
+                      "compare_to": 70
+                    }
+                  },
+                  "action": {
+                    "type": "origins:target_action",
+                    "action": {
+                      "type": "origins:damage",
+                      "amount": 3,
+                      "damage_type": "minecraft:on_fire"
+                    }
+                  }
+                },
+                {
+                  "condition": {
+                    "type": "origins:constant",
+                    "value": true
+                  },
+                  "action": {
+                    "type": "origins:target_action",
+                    "action": {
+                      "type": "origins:damage",
+                      "amount": 6,
+                      "damage_type": "minecraft:on_fire"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "interval": 20,
+  "condition": {
+    "type": "origins:resource",
+    "resource": "esoterica-origins:okuu/heat",
+    "comparison": ">",
+    "compare_to": 9
+  }
 }

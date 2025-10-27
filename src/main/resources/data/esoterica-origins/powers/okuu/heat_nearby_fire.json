@@ -1,4 +1,24 @@
 {
   "name": "Heating Up",
-  "description": "Every second, gain 1 Heat for each creature within 16 blocks on fire."
+  "description": "Every second, gain 1 Heat for each creature within 16 blocks on fire.",
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:area_of_effect",
+    "radius": 32,
+    "bientity_action": {
+      "type": "origins:actor_action",
+      "action": {
+        "type": "origins:change_resource",
+        "resource": "esoterica-origins:okuu/heat",
+        "change": 1
+      }
+    },
+    "bientity_condition": {
+      "type": "origins:target_condition",
+      "condition": {
+        "type": "origins:on_fire"
+      }
+    }
+  },
+  "interval": 20
 }
