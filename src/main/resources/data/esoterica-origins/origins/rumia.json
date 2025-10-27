@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "esoterica-origins:rumia/toggle_blindness",
+    "esoterica-origins:rumia/active_darkness",
+    "esoterica-origins:rumia/resistance",
+    "esoterica-origins:rumia/darkness_flight",
+    "origins:carnivore",
+    "origins:fragile"
+  ],
+  "icon": "minecraft:black_concrete",
+  "impact": 3,
+  "name": "Darkness Youkai",
+  "description": "Youkai capable of manipulating darkness."
+}
