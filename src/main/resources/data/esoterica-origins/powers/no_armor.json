@@ -3,19 +3,23 @@
   "description": "You cannot wear any armor.",
   "type": "origins:restrict_armor",
   "head": {
-    "type": "origins:constant",
-    "value": true
+    "type": "origins:armor_value",
+    "comparison": ">",
+    "compare_to": 0
   },
   "chest": {
-    "type": "origins:constant",
-    "value": true
+    "type": "origins:armor_value",
+    "comparison": ">",
+    "compare_to": 0
   },
   "legs": {
-    "type": "origins:constant",
-    "value": true
+    "type": "origins:armor_value",
+    "comparison": ">",
+    "compare_to": 0
   },
   "feet": {
-    "type": "origins:constant",
-    "value": true
+    "type": "origins:armor_value",
+    "comparison": ">",
+    "compare_to": 0
   }
 }
