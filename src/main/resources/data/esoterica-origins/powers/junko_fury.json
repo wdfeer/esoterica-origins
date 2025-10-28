@@ -23,6 +23,20 @@
       "type": "origins:change_resource",
       "resource": "esoterica-origins:junko_fury_charge",
       "change": 1
+    },
+    "target_action": {
+      "type": "origins:spawn_particles",
+      "particle": {
+        "type": "minecraft:crit"
+      },
+      "count": 24,
+      "speed": 0.7,
+      "force": false,
+      "spread": {
+        "x": 1.1,
+        "y": 1.1,
+        "z": 1.1
+      }
     }
   },
   "megahit": {
