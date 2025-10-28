@@ -86,6 +86,20 @@
             "duration": 400,
             "amplifier": 0
           }
+        },
+        {
+          "type": "origins:spawn_particles",
+          "particle": {
+            "type": "minecraft:end_rod"
+          },
+          "count": 16,
+          "speed": 0.6,
+          "force": true,
+          "spread": {
+            "x": 1.0,
+            "y": 1.7,
+            "z": 1.0
+          }
         }
       ]
     },
