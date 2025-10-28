@@ -14,7 +14,7 @@
         "particle": {
           "type": "minecraft:portal"
         },
-        "count": 24,
+        "count": 40,
         "speed": 0.3,
         "force": false,
         "spread": {
