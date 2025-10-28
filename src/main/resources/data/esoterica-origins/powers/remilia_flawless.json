@@ -17,9 +17,9 @@
         "type": "origins:spawn_particles",
         "particle": {
           "type": "minecraft:dust",
-          "params": "0.9 0.1 0.1 4"
+          "params": "0.9 0.1 0.1 2"
         },
-        "count": 8,
+        "count": 13,
         "speed": 0.2,
         "force": false,
         "spread": {
