@@ -90,6 +90,20 @@
           "type": "origins:change_resource",
           "resource": "esoterica-origins:sakuya_timed_timer",
           "change": -999
+        },
+        {
+          "type": "origins:spawn_particles",
+          "particle": {
+            "type": "minecraft:happy_villager"
+          },
+          "count": 8,
+          "speed": 0.2,
+          "force": false,
+          "spread": {
+            "x": 1.0,
+            "y": 1.5,
+            "z": 1.0
+          }
         }
       ]
     },
@@ -134,6 +148,20 @@
           "type": "origins:change_resource",
           "resource": "esoterica-origins:sakuya_timed_timer",
           "change": -999
+        },
+        {
+          "type": "origins:spawn_particles",
+          "particle": {
+            "type": "minecraft:happy_villager"
+          },
+          "count": 8,
+          "speed": 0.2,
+          "force": false,
+          "spread": {
+            "x": 1.0,
+            "y": 1.5,
+            "z": 1.0
+          }
         }
       ]
     },
