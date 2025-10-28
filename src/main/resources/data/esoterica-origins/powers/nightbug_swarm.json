@@ -35,12 +35,32 @@
       "change": -999
     },
     "target_action": {
-      "type": "origins:apply_effect",
-      "effect": {
-        "effect": "minecraft:poison",
-        "duration": 200,
-        "amplifier": 1
-      }
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:poison",
+            "duration": 200,
+            "amplifier": 1
+          }
+        },
+        {
+          "type": "origins:spawn_particles",
+          "particle": {
+            "type": "minecraft:cloud",
+            "params": "0.314 0.314 0.922 2"
+          },
+          "count": 8,
+          "speed": 0.1,
+          "force": false,
+          "spread": {
+            "x": 1.0,
+            "y": 1.5,
+            "z": 1.0
+          }
+        }
+      ]
     },
     "modifier": {
       "operation": "addition",
