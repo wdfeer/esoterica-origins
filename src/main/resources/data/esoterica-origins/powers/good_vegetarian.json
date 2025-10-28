@@ -14,7 +14,7 @@
         {
           "type": "origins:ingredient",
           "ingredient": {
-            "tag": "c:origins_meat"
+            "tag": "origins:meat"
           }
         },
         {
