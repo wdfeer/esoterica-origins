@@ -7,7 +7,7 @@
     "condition": {
       "type": "origins:sneaking"
     },
-    "entity_action": {
+    "if_action": {
       "type": "origins:and",
       "actions": [
         {
