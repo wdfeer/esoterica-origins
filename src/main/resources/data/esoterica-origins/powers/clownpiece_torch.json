@@ -38,6 +38,20 @@
               "duration": 60
             },
             "weight": 10
+          },
+          {
+            "type": "origins:spawn_particles",
+            "particle": {
+              "type": "minecraft:crit"
+            },
+            "count": 3,
+            "speed": 0.8,
+            "force": false,
+            "spread": {
+              "x": 1.0,
+              "y": 1.2,
+              "z": 1.0
+            }
           }
         ]
       }
