@@ -1,0 +1,12 @@
+{
+  "hidden": true,
+  "type": "origins:particle",
+  "particle": "minecraft:flame",
+  "frequency": 4,
+  "condition": {
+    "type": "origins:resource",
+    "resource": "esoterica-origins:okuu/heat",
+    "comparison": ">=",
+    "compare_to": 100
+  }
+}

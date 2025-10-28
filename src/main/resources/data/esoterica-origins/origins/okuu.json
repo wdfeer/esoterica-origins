@@ -9,7 +9,8 @@
     "origins:fire_immunity",
     "esoterica-origins:no_armor",
     "esoterica-origins:okuu/overheat",
-    "esoterica-origins:okuu/meltdown"
+    "esoterica-origins:okuu/meltdown",
+    "esoterica-origins:okuu/heat_particles"
   ],
   "icon": "minecraft:blaze_rod",
   "impact": 3,
