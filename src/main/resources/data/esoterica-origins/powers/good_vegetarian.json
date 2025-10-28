@@ -6,7 +6,42 @@
     "name": "Vegetarian",
     "type": "origins:prevent_item_use",
     "item_condition": {
-      "type": "origins:meat"
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:meat"
+        },
+        {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "c:origins_meat"
+          }
+        },
+        {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "c:foods/raw_meat"
+          }
+        },
+        {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "c:foods/cooked_meat"
+          }
+        },
+        {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "c:foods/raw_fish"
+          }
+        },
+        {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "c:foods/cooked_fish"
+          }
+        }
+      ]
     }
   },
   "extra_food": {
