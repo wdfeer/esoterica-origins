@@ -3,49 +3,49 @@
   "description": "Every 7 seconds, other players and tamed creatures within 16 blocks regain 1 health.",
   "type": "origins:action_over_time",
   "entity_action": {
-    "type": "origins:and",
-    "actions": [
-      {
-        "type": "origins:area_of_effect",
-        "radius": 16,
-        "bientity_action": {
-          "type": "origins:target_action",
-          "action": {
+    "type": "origins:area_of_effect",
+    "radius": 16,
+    "bientity_action": {
+      "type": "origins:target_action",
+      "action": {
+        "type": "origins:and",
+        "actions": [
+          {
             "type": "origins:heal",
             "amount": 1
+          },
+          {
+            "type": "origins:spawn_particles",
+            "particle": {
+              "type": "minecraft:happy_villager"
+            },
+            "count": 3,
+            "speed": 0.1,
+            "force": false,
+            "spread": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
           }
-        },
-        "bientity_condition": {
-          "type": "origins:target_condition",
-          "condition": {
-            "type": "origins:or",
-            "conditions": [
-              {
-                "type": "origins:entity_type",
-                "entity_type": "minecraft:player"
-              },
-              {
-                "type": "origins:tamed"
-              }
-            ]
-          }
-        }
-      },
-      {
-        "type": "origins:spawn_particles",
-        "particle": {
-          "type": "minecraft:happy_villager"
-        },
-        "count": 3,
-        "speed": 0.1,
-        "force": false,
-        "spread": {
-          "x": 1.0,
-          "y": 1.5,
-          "z": 1.0
-        }
+        ]
       }
-    ]
+    },
+    "bientity_condition": {
+      "type": "origins:target_condition",
+      "condition": {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:player"
+          },
+          {
+            "type": "origins:tamed"
+          }
+        ]
+      }
+    }
   },
   "interval": 140
 }
