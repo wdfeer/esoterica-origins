@@ -3,12 +3,32 @@
   "description": "Use your active ability to gain Strength I for 30 seconds.",
   "type": "origins:active_self",
   "entity_action": {
-    "type": "origins:apply_effect",
-    "effect": {
-      "effect": "minecraft:strength",
-      "duration": 600,
-      "amplifier": 0
-    }
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:strength",
+          "duration": 600,
+          "amplifier": 0
+        }
+      },
+      {
+        "type": "origins:spawn_particles",
+        "particle": {
+          "type": "minecraft:dust",
+          "params": "0.922 0.314 0.314 2"
+        },
+        "count": 5,
+        "speed": 0.2,
+        "force": false,
+        "spread": {
+          "x": 1.0,
+          "y": 1.5,
+          "z": 1.0
+        }
+      }
+    ]
   },
   "cooldown": 1200,
   "hud_render": {
