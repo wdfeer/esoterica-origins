@@ -1,11 +1,16 @@
 {
   "powers": [
+    "esoterica-origins:moving_damage",
+    "esoterica-origins:anti_air",
+    "esoterica-origins:anti_glowing",
     "origins:elytra",
+    "origins:launch_into_air",
     "origins:fragile",
-    "origins:light_armor"
+    "esoterica-origins:no_armor",
+    "esoterica-origins:sun_weak"
   ],
   "icon": "minecraft:nether_star",
   "impact": 3,
-  "name": "Moon Fairy",
+  "name": "Star Fairy",
   "description": "Playful fairy of light that draws power from the stars, capable of detecting moving things."
 }
