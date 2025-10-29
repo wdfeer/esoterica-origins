@@ -1,14 +1,29 @@
 {
   "name": "Anti-Air Defense",
-  "description": "You deal 50% more damage against phantoms, blazes, ghasts and vexes.",
-  "type": "origins:modify_damage_dealt",
-  "target_condition": {
-    "type": "origins:in_tag",
-    "tag": "esoterica-origins:flying"
+  "description": "You deal 50% more melee and projectile damage against phantoms, blazes, ghasts and vexes.",
+  "type": "origins:multiply",
+  "melee": {
+    "type": "origins:modify_damage_dealt",
+    "target_condition": {
+      "type": "origins:in_tag",
+      "tag": "esoterica-origins:flying"
+    },
+    "modifier": {
+      "name": "Extra damage against flying",
+      "operation": "multiply_total",
+      "value": 0.5
+    }
   },
-  "modifier": {
-    "name": "Extra damage against flying",
-    "operation": "multiply_total",
-    "value": 0.5
+  "ranged": {
+    "type": "origins:modify_projectile_damage",
+    "target_condition": {
+      "type": "origins:in_tag",
+      "tag": "esoterica-origins:flying"
+    },
+    "modifier": {
+      "name": "Extra damage against flying",
+      "operation": "multiply_total",
+      "value": 0.5
+    }
   }
 }

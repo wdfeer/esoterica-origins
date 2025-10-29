@@ -1,14 +1,29 @@
 {
   "name": "Lock On",
-  "description": "You deal 50% extra damage enemies affected by Glowing.",
-  "type": "origins:modify_damage_dealt",
-  "target_condition": {
-    "type": "origins:status_effect",
-    "effect": "minecraft:glowing"
+  "description": "You deal 50% extra melee and projectile damage to enemies affected by Glowing.",
+  "type": "origins:multiple",
+  "melee": {
+    "type": "origins:modify_damage_dealt",
+    "target_condition": {
+      "type": "origins:status_effect",
+      "effect": "minecraft:glowing"
+    },
+    "modifier": {
+      "name": "Extra damage against glowing",
+      "operation": "multiply_total",
+      "value": 0.50
+    }
   },
-  "modifier": {
-    "name": "Extra damage against glowing",
-    "operation": "multiply_total",
-    "value": 0.50
+  "ranged": {
+    "type": "origins:modify_projectile_damage",
+    "target_condition": {
+      "type": "origins:status_effect",
+      "effect": "minecraft:glowing"
+    },
+    "modifier": {
+      "name": "Extra damage against glowing",
+      "operation": "multiply_total",
+      "value": 0.50
+    }
   }
 }

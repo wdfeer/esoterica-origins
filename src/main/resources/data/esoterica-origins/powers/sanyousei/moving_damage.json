@@ -1,17 +1,35 @@
 {
   "name": "Full Tracking",
-  "description": "While not moving, you deal 25% more damage to entities moving horizontally.",
-  "type": "origins:modify_damage_dealt",
-  "target_condition": {
-    "type": "origins:moving"
+  "description": "While not moving, you deal 25% more melee and projectile damage to entities moving horizontally.",
+  "type": "origins:multiple",
+  "melee": {
+    "type": "origins:modify_damage_dealt",
+    "target_condition": {
+      "type": "origins:moving"
+    },
+    "condition": {
+      "inverted": true,
+      "type": "origins:moving"
+    },
+    "modifier": {
+      "name": "Extra damage against moving",
+      "operation": "multiply_total",
+      "value": 0.25
+    }
   },
-  "condition": {
-    "inverted": true,
-    "type": "origins:moving"
-  },
-  "modifier": {
-    "name": "Extra damage against moving",
-    "operation": "multiply_total",
-    "value": 0.25
+  "ranged": {
+    "type": "origins:modify_projectile_damage",
+    "target_condition": {
+      "type": "origins:moving"
+    },
+    "condition": {
+      "inverted": true,
+      "type": "origins:moving"
+    },
+    "modifier": {
+      "name": "Extra damage against moving",
+      "operation": "multiply_total",
+      "value": 0.25
+    }
   }
 }
