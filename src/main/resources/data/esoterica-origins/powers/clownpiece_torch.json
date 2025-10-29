@@ -8,36 +8,41 @@
     "bientity_action": {
       "type": "origins:target_action",
       "action": {
-        "type": "origins:choice",
+        "type": "origins:and",
         "actions": [
           {
-            "element": {
-              "type": "origins:apply_effect",
-              "effect": {
-                "effect": "minecraft:levitation",
-                "amplifier": 0,
-                "duration": 60
+            "type": "origins:choice",
+            "actions": [
+              {
+                "element": {
+                  "type": "origins:apply_effect",
+                  "effect": {
+                    "effect": "minecraft:levitation",
+                    "amplifier": 0,
+                    "duration": 60
+                  }
+                },
+                "weight": 7
+              },
+              {
+                "element": {
+                  "type": "origins:apply_effect",
+                  "effect": {
+                    "effect": "minecraft:weakness",
+                    "amplifier": 1,
+                    "duration": 60
+                  }
+                },
+                "weight": 10
+              },
+              {
+                "element": {
+                  "type": "origins:set_on_fire",
+                  "duration": 60
+                },
+                "weight": 10
               }
-            },
-            "weight": 7
-          },
-          {
-            "element": {
-              "type": "origins:apply_effect",
-              "effect": {
-                "effect": "minecraft:weakness",
-                "amplifier": 1,
-                "duration": 60
-              }
-            },
-            "weight": 10
-          },
-          {
-            "element": {
-              "type": "origins:set_on_fire",
-              "duration": 60
-            },
-            "weight": 10
+            ]
           },
           {
             "type": "origins:spawn_particles",
