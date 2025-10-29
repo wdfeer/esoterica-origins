@@ -1,9 +1,19 @@
 {
   "name": "Pacifist",
   "description": "You cannot deal damage.",
-  "type": "origins:modify_damage_dealt",
-  "modifier": {
-    "operation": "multiply_total",
-    "value": -1.0
+  "type": "origins:multiple",
+  "melee": {
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+      "operation": "multiply_total",
+      "value": -1.0
+    }
+  },
+  "ranged": {
+    "type": "origins:modify_projectile_damage",
+    "modifier": {
+      "operation": "multiply_total",
+      "value": -1.0
+    }
   }
 }

@@ -111,7 +111,7 @@
     },
     "interval": 10
   },
-  "ability1": {
+  "ability_taken": {
     "type": "origins:modify_damage_taken",
     "condition": {
       "type": "origins:resource",
@@ -125,8 +125,22 @@
       "value": 1
     }
   },
-  "ability2": {
+  "ability_melee": {
     "type": "origins:modify_damage_dealt",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:koishi/passion_is_active",
+      "comparison": "==",
+      "compare_to": 1
+    },
+    "modifier": {
+      "name": "Passion damage multiplier",
+      "operation": "multiply_base",
+      "value": 1
+    }
+  },
+  "ability_projectile": {
+    "type": "origins:modify_projectile_damage",
     "condition": {
       "type": "origins:resource",
       "resource": "esoterica-origins:koishi/passion_is_active",

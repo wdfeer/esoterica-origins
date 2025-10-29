@@ -1,13 +1,27 @@
 {
   "name": "Nether Affinity",
   "description": "You deal 25% more damage whilst in the nether.",
-  "type": "origins:modify_damage_dealt",
-  "condition": {
-    "type": "origins:dimension",
-    "dimension": "minecraft:the_nether"
+  "type": "origins:multiple",
+  "melee": {
+    "type": "origins:modify_damage_dealt",
+    "condition": {
+      "type": "origins:dimension",
+      "dimension": "minecraft:the_nether"
+    },
+    "modifier": {
+      "operation": "multiply_total",
+      "value": 0.25
+    }
   },
-  "modifier": {
-    "operation": "multiply_total",
-    "value": 0.5
+  "ranged": {
+    "type": "origins:modify_projectile_damage",
+    "condition": {
+      "type": "origins:dimension",
+      "dimension": "minecraft:the_nether"
+    },
+    "modifier": {
+      "operation": "multiply_total",
+      "value": 0.25
+    }
   }
 }

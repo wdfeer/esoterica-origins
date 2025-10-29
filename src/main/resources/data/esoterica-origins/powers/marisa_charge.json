@@ -25,8 +25,22 @@
       "change": 1
     }
   },
-  "burst_damage": {
+  "burst_damage_melee": {
     "type": "origins:modify_damage_dealt",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:marisa_charge_burst_timer",
+      "comparison": ">",
+      "compare_to": 0
+    },
+    "modifier": {
+      "name": "Triple damage when in burst",
+      "operation": "multiply_total",
+      "value": 2.0
+    }
+  },
+  "burst_damage_ranged": {
+    "type": "origins:modify_projectile_damage",
     "condition": {
       "type": "origins:resource",
       "resource": "esoterica-origins:marisa_charge_burst_timer",

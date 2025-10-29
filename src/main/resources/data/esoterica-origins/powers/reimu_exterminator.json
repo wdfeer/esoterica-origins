@@ -9,8 +9,20 @@
       "tag": "{Enchantments:[{id:\"smite\",lvl:3},{id:\"vanishing_curse\",lvl:1}]}"
     }
   },
-  "smite": {
+  "smite_melee": {
     "type": "origins:modify_damage_dealt",
+    "condition": {
+      "type": "origins:entity_group",
+      "group": "undead"
+    },
+    "modifier": {
+      "name": "Extra damage to undead",
+      "operation": "multiply_total",
+      "value": 0.25
+    }
+  },
+  "smite_projectile": {
+    "type": "origins:modify_projectile_damage",
     "condition": {
       "type": "origins:entity_group",
       "group": "undead"

@@ -1,6 +1,6 @@
 {
   "name": "Swarm",
-  "description": "Deal 10 extra damage and apply Poison II for 10 seconds on your next hit every 60 seconds.",
+  "description": "Deal 10 extra damage and apply Poison II for 10 seconds on your next melee hit every 60 seconds.",
   "type": "origins:multiple",
   "timer": {
     "type": "origins:resource",

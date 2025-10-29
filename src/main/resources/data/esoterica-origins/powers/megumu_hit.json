@@ -1,6 +1,6 @@
 {
   "name": "Shining Tripod",
-  "description": "Hit enemies gain Weakness and Slowness for 20 seconds.",
+  "description": "Enemies hit in melee gain Weakness and Slowness for 20 seconds.",
   "type": "origins:modify_damage_dealt",
   "target_action": {
     "type": "origins:apply_effect",
