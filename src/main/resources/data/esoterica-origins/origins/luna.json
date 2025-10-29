@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "esoterica-origins:flower_power",
+    "origins:elytra",
+    "esoterica-origins:good_vegetarian",
+    "origins:fragile",
+    "origins:light_armor",
+    "esoterica-origins:cold_weak"
+  ],
+  "icon": "minecraft:dandelion",
+  "impact": 3,
+  "name": "Flower Fairy",
+  "description": "Playful spirit of nature that draws power from flowers."
+}

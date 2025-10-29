@@ -1,6 +1,9 @@
 {
   "replace": false,
   "origins": [
+    "esoterica-origins:sunny",
+    "esoterica-origins:luna",
+    "esoterica-origins:star",
 
     "esoterica-origins:maribel",
     "esoterica-origins:reimu_b",
