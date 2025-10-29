@@ -1,11 +1,13 @@
 {
   "powers": [
-    "esoterica-origins:sanae/TODO",
+    "esoterica-origins:sanae/faith",
+    "esoterica-origins:sanae/gather_faith",
+    "esoterica-origins:sanae/faith_armor",
+    "esoterica-origins:sanae/active_miracle",
     "esoterica-origins:sanae/moriya_blessing",
-    "origins:fall_immunity",
-    "origins:light_armor"
+    "esoterica-origins:no_armor"
   ],
-  "icon": "minecraft:totem_of_undying",
+  "icon": "minecraft:nether_star",
   "impact": 3,
   "name": "Miracle Priestess",
   "description": "A shrine maiden capable of using deities' power to perform miracles."

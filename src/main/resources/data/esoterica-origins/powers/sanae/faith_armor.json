@@ -1,0 +1,50 @@
+{
+  "name": "Spiritual Defense",
+  "description": "Gain 4, 10 and 20 total armor points when you have 2, 5 and 8 or more Faith respectively.",
+  "type": "origins:multiple",
+  "armor1": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.armor",
+      "operation": "addition",
+      "value": 4
+    },
+    "tick_rate": 10,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:sanae/faith",
+      "comparison": ">=",
+      "compare_to": 2
+    }
+  },
+  "armor2": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.armor",
+      "operation": "addition",
+      "value": 6
+    },
+    "tick_rate": 10,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:sanae/faith",
+      "comparison": ">=",
+      "compare_to": 5
+    }
+  },
+  "armor3": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.armor",
+      "operation": "addition",
+      "value": 10
+    },
+    "tick_rate": 10,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:sanae/faith",
+      "comparison": ">=",
+      "compare_to": 8
+    }
+  }
+}

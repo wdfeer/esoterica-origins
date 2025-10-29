@@ -1,0 +1,98 @@
+{
+  "name": "Miracle Execution",
+  "description": "Activate to gain Resistance & Absorption, Strength & Haste, Speed & Dolphin's Grace or Regeneration & Saturation for 60 seconds randomly and use 4 Faith.",
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:change_resource",
+        "resource": "esoterica-origins:sanae/faith",
+        "change": 1
+      },
+      {
+        "type": "origins:choice",
+        "actions": [
+          {
+            "element": {
+              "type": "origins:apply_effect",
+              "effects": [
+                {
+                  "effect": "minecraft:resistance",
+                  "duration": 1200,
+                  "is_ambient": true
+                },
+                {
+                  "effect": "minecraft:absorption",
+                  "duration": 1200,
+                  "is_ambient": true
+                }
+              ]
+            },
+            "weight": 1
+          },
+          {
+            "element": {
+              "type": "origins:apply_effect",
+              "effects": [
+                {
+                  "effect": "minecraft:strength",
+                  "duration": 1200,
+                  "is_ambient": true
+                },
+                {
+                  "effect": "minecraft:haste",
+                  "duration": 1200,
+                  "is_ambient": true
+                }
+              ]
+            },
+            "weight": 1
+          },
+          {
+            "element": {
+              "type": "origins:apply_effect",
+              "effects": [
+                {
+                  "effect": "minecraft:speed",
+                  "duration": 1200,
+                  "is_ambient": true
+                },
+                {
+                  "effect": "minecraft:dolphins_grace",
+                  "duration": 1200,
+                  "is_ambient": true
+                }
+              ]
+            },
+            "weight": 1
+          },
+          {
+            "element": {
+              "type": "origins:apply_effect",
+              "effects": [
+                {
+                  "effect": "minecraft:regeneration",
+                  "duration": 1200,
+                  "is_ambient": true
+                },
+                {
+                  "effect": "minecraft:saturation",
+                  "duration": 1200,
+                  "is_ambient": true
+                }
+              ]
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  },
+  "condition": {
+    "type": "origins:resource",
+    "resource": "esoterica-origins:sanae/faith",
+    "comparison": ">=",
+    "compare_to": 4
+  }
+}

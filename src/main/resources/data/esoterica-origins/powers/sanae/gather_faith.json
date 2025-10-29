@@ -1,0 +1,30 @@
+{
+  "name": "Gather Faith",
+  "description": "Every 30 seconds, every living entity within 32 blocks within line of sight has a 20% chance to give you 1 Faith.",
+  "type": "origins:action_over_time",
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+    "bar_index": 16
+  },
+  "interval": 600,
+  "entity_action": {
+    "type": "origins:area_of_effect",
+    "radius": 32,
+    "bientity_action": {
+      "type": "origins:actor_action",
+      "action": {
+        "type": "origins:chance",
+        "action": {
+          "type": "origins:change_resource",
+          "resource": "esoterica-origins:sanae/faith",
+          "change": 1
+        },
+        "chance": 0.2
+      }
+    },
+    "bientity_condition": {
+      "type": "origins:can_see"
+    }
+  }
+}
