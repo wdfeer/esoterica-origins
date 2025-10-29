@@ -47,7 +47,7 @@
         }
       ]
     },
-    "interval": 20
+    "interval": 16
   },
   "activate": {
     "type": "origins:active_self",
