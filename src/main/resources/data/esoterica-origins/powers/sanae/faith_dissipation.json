@@ -1,0 +1,16 @@
+{
+  "name": "Faith Dissipation",
+  "description": "Every 2 seconds, lose 1 Faith if you are not at full health.",
+  "type": "origins:action_over_time",
+  "interval": 40,
+  "entity_action": {
+    "type": "origins:change_resource",
+    "resource": "esoterica-origins:sanae/faith",
+    "change": -1
+  },
+  "condition": {
+    "type": "origins:relative_health",
+    "comparison": "<",
+    "compare_to": 1
+  }
+}
