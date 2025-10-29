@@ -1,14 +1,11 @@
 {
   "powers": [
-    "esoterica-origins:flower_power",
     "origins:elytra",
-    "esoterica-origins:good_vegetarian",
     "origins:fragile",
-    "origins:light_armor",
-    "esoterica-origins:cold_weak"
+    "origins:light_armor"
   ],
-  "icon": "minecraft:dandelion",
+  "icon": "minecraft:nether_star",
   "impact": 3,
-  "name": "Flower Fairy",
-  "description": "Playful spirit of nature that draws power from flowers."
+  "name": "Moon Fairy",
+  "description": "Playful fairy of light that draws power from the stars."
 }
