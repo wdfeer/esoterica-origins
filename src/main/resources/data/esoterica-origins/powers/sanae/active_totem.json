@@ -1,0 +1,76 @@
+{
+  "name": "Divine Rebirth",
+  "description": "Right Click on a Totem of Undying or a Nether Star to gain Flawless for 5 minutes and consume 10 Faith.",
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:change_resource",
+        "resource": "esoterica-origins:sanae/faith",
+        "change": -10
+      },
+      {
+        "type": "origins:equipped_item_action",
+        "equipment_slot": "mainhand",
+        "action": {
+          "type": "origins:consume",
+          "amount": 1
+        }
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "esoterica-origins:flawless",
+          "duration": 6000,
+          "is_ambient": true,
+          "show_particles": true,
+          "show_icon": true
+        }
+      }
+    ]
+  },
+  "cooldown": 20,
+  "hud_render": {
+    "should_render": false
+  },
+  "key": {
+    "key": "key.use"
+  },
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+              "type": "origins:ingredient",
+              "ingredient": {
+                "item": "minecraft:totem_of_undying"
+              }
+            }
+          },
+          {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+              "type": "origins:ingredient",
+              "ingredient": {
+                "item": "minecraft:nether_star"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "origins:resource",
+        "resource": "esoterica-origins:sanae/faith",
+        "comparison": "==",
+        "compare_to": 10
+      }
+    ]
+  }
+}

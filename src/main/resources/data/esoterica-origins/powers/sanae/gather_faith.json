@@ -1,6 +1,6 @@
 {
   "name": "Gather Faith",
-  "description": "Every second, every living entity within 32 blocks within line of sight has a 2% chance to give you 1 Faith.",
+  "description": "Every second, if you don't have Flawless, every living entity within 32 blocks within line of sight has a 2% chance to give you 1 Faith.",
   "type": "origins:action_over_time",
   "interval": 20,
   "entity_action": {
@@ -32,5 +32,10 @@
         }
       ]
     }
+  },
+  "condition": {
+    "inverted": true,
+    "type": "origins:status_effect",
+    "effect": "esoterica-origins:flawless"
   }
 }
