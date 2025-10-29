@@ -1,11 +1,15 @@
 {
   "powers": [
+    "esoterica-origins:sanyousei/active_resistance",
+    "esoterica-origins:sanyousei/luna_silent",
     "origins:elytra",
+    "origins:launch_into_air",
     "origins:fragile",
+    "esoterica-origins:sanyousei/luna_nomoon_fragile",
     "origins:light_armor"
   ],
   "icon": "minecraft:sea_lantern",
   "impact": 3,
   "name": "Moon Fairy",
-  "description": "Playful fairy of light that draws power from the moon."
+  "description": "Playful fairy of light that draws power from the moon and can manipulate sound."
 }

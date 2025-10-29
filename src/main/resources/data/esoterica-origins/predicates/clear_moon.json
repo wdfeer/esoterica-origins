@@ -1,0 +1,26 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:weather_check",
+      "raining": false,
+      "thundering": false
+    },
+    {
+      "condition": "minecraft:time_check",
+      "value": {
+        "min": 13000,
+        "max": 23000
+      },
+      "period": 24000
+    },
+    {
+      "condition": "minecraft:time_check",
+      "value": {
+        "min": -23000,
+        "max": 46000
+      },
+      "period": 168000
+    }
+  ]
+}

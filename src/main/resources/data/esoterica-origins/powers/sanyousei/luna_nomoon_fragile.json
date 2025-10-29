@@ -1,0 +1,16 @@
+{
+  "name": "Moonlight Powered",
+  "description": "You lose a heart whilst not exposed to the clear night sky.",
+  "type": "origins:conditioned_attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.max_health",
+    "operation": "addition",
+    "value": -2
+  },
+  "tick_rate": 10,
+  "condition": {
+    "inverted": true,
+    "type": "origins:predicate",
+    "predicate": "esoterica-origins:clear_moon"
+  }
+}

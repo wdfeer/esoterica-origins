@@ -1,0 +1,13 @@
+{
+  "name": "Silent Investigator",
+  "description": "You do not produce vibrations. Gain Speed for a seconds whenever you would've produced a vibration.",
+  "type": "origins:prevent_game_event",
+  "tag": "minecraft:vibrations",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:speed",
+      "duration": 20
+    }
+  }
+}
