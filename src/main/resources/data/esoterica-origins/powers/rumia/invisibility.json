@@ -1,0 +1,27 @@
+{
+  "name": "Concealing Darkness",
+  "description": "You gain invisibility whilst under the effects of Blindness or Darkness.",
+  "type": "origins:stacking_status_effect",
+  "min_stacks": 0,
+  "max_stacks": 1,
+  "duration_per_stack": 20,
+  "effect": {
+    "effect": "minecraft:invisibility",
+    "is_ambient": true,
+    "show_particles": false,
+    "show_icon": true
+  },
+  "condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:status_effect",
+        "effect": "minecraft:darkness"
+      },
+      {
+        "type": "origins:status_effect",
+        "effect": "minecraft:blindness"
+      }
+    ]
+  }
+}
