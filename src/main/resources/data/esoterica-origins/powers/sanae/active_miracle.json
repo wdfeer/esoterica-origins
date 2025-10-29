@@ -8,7 +8,7 @@
       {
         "type": "origins:change_resource",
         "resource": "esoterica-origins:sanae/faith",
-        "change": 1
+        "change": -3
       },
       {
         "type": "origins:choice",
