@@ -1,6 +1,6 @@
 {
   "name": "Glamorous Starlight",
-  "description": "Build up charge slowly whilst exposed to the night sky. Activate to gain Regeneration, Resistance and Absorption III for multiple minutes.",
+  "description": "Build up charge slowly whilst exposed to the clear night sky. Activate to gain Regeneration, Resistance and Absorption III for multiple minutes.",
   "type": "origins:multiple",
   "timer": {
     "type": "origins:resource",
@@ -40,6 +40,10 @@
         },
         {
           "type": "origins:exposed_to_sky"
+        },
+        {
+          "type": "origins:predicate",
+          "predicate": "esoterica-origins:clear_night"
         }
       ]
     },
