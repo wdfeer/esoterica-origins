@@ -1,0 +1,25 @@
+{
+  "name": "Gleaming Starlight",
+  "description": "Whilst exposed to the clear night sky, projectiles inflict Glowing for 30 seconds.",
+  "type": "origins:modify_projectile_damage",
+  "target_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:glowing",
+      "duration": 600,
+      "amplifier": 0
+    }
+  },
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:exposed_to_sky"
+      },
+      {
+        "type": "origins:predicate",
+        "predicate": "esoterica-origins:clear_night"
+      }
+    ]
+  }
+}
