@@ -2,10 +2,11 @@
   "powers": [
     "esoterica-origins:sanyousei/optical_camouflage",
     "esoterica-origins:sanyousei/sun_food",
+    "esoterica-origins:sanyousei/sun_armor",
     "origins:elytra",
     "origins:launch_into_air",
     "origins:fragile",
-    "origins:light_armor",
+    "esoterica-origins:no_armor",
     "esoterica-origins:cold_weak"
   ],
   "icon": "minecraft:sunflower",

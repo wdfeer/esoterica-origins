@@ -1,0 +1,14 @@
+{
+  "name": "Moonlight Powered",
+  "description": "You gain 8 armor whilst in daylight.",
+  "type": "origins:conditioned_attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.armor",
+    "operation": "addition",
+    "value": 8
+  },
+  "tick_rate": 10,
+  "condition": {
+    "type": "origins:exposed_to_sun"
+  }
+}
