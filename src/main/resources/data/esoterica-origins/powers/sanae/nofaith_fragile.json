@@ -1,0 +1,17 @@
+{
+  "name": "Demigod",
+  "description": "You have 3 less hearts if you don't have any Faith.",
+  "type": "origins:conditioned_attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.max_health",
+    "operation": "multiply_base",
+    "value": -0.3
+  },
+  "tick_rate": 10,
+  "condition": {
+    "type": "origins:resource",
+    "resource": "esoterica-origins:sanae/faith",
+    "comparison": "==",
+    "compare_to": 0
+  }
+}
