@@ -1,11 +1,11 @@
 {
   "name": "Moonlight Powered",
-  "description": "You lose a heart whilst not exposed to the clear night sky.",
+  "description": "You have 4 less hearts unless it's a night with a full or gibbous moon.",
   "type": "origins:conditioned_attribute",
   "modifier": {
     "attribute": "minecraft:generic.max_health",
     "operation": "addition",
-    "value": -2
+    "value": -8
   },
   "tick_rate": 10,
   "condition": {
