@@ -1,0 +1,14 @@
+{
+  "name": "Fire Impact",
+  "description": "Activate to shoot an explosive fireball every 30 seconds.",
+  "type": "origins:fire_projectile",
+  "entity_type": "minecraft:fireball",
+  "tag": "{ExplosionPower:3b}",
+  "cooldown": 600,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+    "bar_index": 7
+  },
+  "count": 1
+}

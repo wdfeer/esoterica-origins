@@ -1,0 +1,32 @@
+{
+  "name": "Unstable Concoction",
+  "description": "Activate to throw an Instant Damage II or a 10-second Wither II potion randomly.",
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:choice",
+    "actions": [
+      {
+        "element": {
+          "type": "origins:fire_projectile",
+          "entity_type": "minecraft:potion",
+          "tag": "{Item:{id:\"minecraft:splash_potion\",Count:1b,tag:{Potion:\"minecraft:strong_harming\"}}}"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "type": "origins:fire_projectile",
+          "entity_type": "minecraft:potion",
+          "tag": "{Item:{id:\"minecraft:splash_potion\",Count:1b,tag:{CustomPotionColor:5898390,CustomPotionEffects:[{Id:20,Amplifier:2b,Duration:200,ShowParticles:1b}]}}}"
+        },
+        "weight": 1
+      }
+    ]
+  },
+  "cooldown": 600,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+    "bar_index": 23
+  }
+}

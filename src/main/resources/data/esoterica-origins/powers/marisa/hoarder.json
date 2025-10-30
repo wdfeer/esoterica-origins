@@ -2,5 +2,8 @@
   "name": "Hoarder",
   "description": "You have access to an additional 9 slots of inventory.",
   "type": "origins:inventory",
-  "drop_on_death": true
+  "drop_on_death": true,
+  "key": {
+    "key": "key.origins.secondary_active"
+  }
 }
