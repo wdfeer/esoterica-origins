@@ -1,9 +1,9 @@
 {
   "powers": [
-    "esoterica-origins:marisa_crafting",
-    "esoterica-origins:marisa_hoarder",
+    "esoterica-origins:marisa/crafting",
+    "esoterica-origins:marisa/hoarder",
     "esoterica-origins:fly",
-    "esoterica-origins:extra_food_in_dark_forest",
+    "esoterica-origins:marisa/food",
     "origins:light_armor",
     "esoterica-origins:half_melee_damage"
   ],

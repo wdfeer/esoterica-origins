@@ -1,8 +1,8 @@
 {
   "powers": [
-    "esoterica-origins:marisa_charge",
+    "esoterica-origins:marisa/charge",
     "esoterica-origins:fly",
-    "esoterica-origins:extra_food_in_dark_forest",
+    "esoterica-origins:marisa/food",
     "origins:light_armor",
     "esoterica-origins:half_melee_damage"
   ],
