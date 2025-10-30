@@ -1,6 +1,6 @@
 {
   "name": "Orrery's Sun",
-  "description": "Slowly gain charge after dealing damage. When at full charge, gain Absorption, Resistance and deal triple damage for 10 seconds.",
+  "description": "Slowly gain charge after dealing damage. When at full charge, gain Absorption and deal triple damage for 10 seconds.",
   "type": "origins:multiple",
   "charge": {
     "type": "origins:resource",
@@ -12,9 +12,22 @@
       "bar_index": 15
     },
     "max_action": {
-      "type": "origins:change_resource",
-      "resource": "esoterica-origins:marisa_charge_burst_timer",
-      "change": 100
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:change_resource",
+          "resource": "esoterica-origins:marisa_charge_burst_timer",
+          "change": 100
+        },
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:absorption",
+            "duration": 200,
+            "amplifier": 0
+          }
+        }
+      ]
     }
   },
   "charge_gain": {
