@@ -31,6 +31,25 @@
       "change": 23
     }
   },
+  "charge_on_big_hit": {
+    "type": "origins:modify_damage_dealt",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:koishi/passion_is_active",
+      "comparison": "==",
+      "compare_to": 0
+    },
+    "damage_condition": {
+      "type": "origins:amount",
+      "comparison": ">",
+      "compare_to": 8
+    },
+    "self_action": {
+      "type": "origins:change_resource",
+      "resource": "esoterica-origins:koishi/passion_resource",
+      "change": 60
+    }
+  },
   "drain": {
     "type": "origins:action_over_time",
     "condition": {
