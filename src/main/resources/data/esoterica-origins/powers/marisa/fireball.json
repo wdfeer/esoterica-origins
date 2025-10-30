@@ -3,7 +3,7 @@
   "description": "Activate to shoot an explosive fireball every 30 seconds.",
   "type": "origins:fire_projectile",
   "entity_type": "minecraft:fireball",
-  "tag": "{ExplosionPower:3b}",
+  "tag": "{ExplosionPower:2b}",
   "cooldown": 600,
   "hud_render": {
     "should_render": true,
