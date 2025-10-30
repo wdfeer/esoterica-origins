@@ -1,7 +1,7 @@
 {
   "name": "Anti-Air Defense",
   "description": "You deal 50% more melee and projectile damage against phantoms, blazes, ghasts and vexes.",
-  "type": "origins:multiply",
+  "type": "origins:multiple",
   "melee": {
     "type": "origins:modify_damage_dealt",
     "target_condition": {
