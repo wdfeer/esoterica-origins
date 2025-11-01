@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "esoterica-origins:no_armor",
+    "origins:fragile"
+  ],
+  "icon": "minecraft:redstone_torch",
+  "impact": 3,
+  "name": "Elemental Mage",
+  "description": "Master of the Elements, capable of casting devastating spells but fragile in physique."
+}
