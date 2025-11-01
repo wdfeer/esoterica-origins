@@ -1,0 +1,17 @@
+{
+  "values": [
+    "#minecraft:is_fire",
+    "minecraft:in_wall",
+    "minecraft:cramming",
+    "minecraft:drown",
+    "minecraft:wither",
+    "minecraft:dragon_breath",
+    "minecraft:freeze",
+    "minecraft:magic",
+    "minecraft:indirect_magic",
+    "minecraft:out_of_world",
+    "minecraft:sonic_boom",
+    "minecraft:outside_border",
+    "minecraft:lightning_bolt"
+  ]
+}

@@ -1,9 +1,12 @@
 {
   "powers": [
+    "esoterica-origins:patchy/mana",
+    "esoterica-origins:patchy/resistance",
     "esoterica-origins:no_armor",
+    "esoterica-origins:no_melee_damage",
     "origins:fragile"
   ],
-  "icon": "minecraft:redstone_torch",
+  "icon": "minecraft:lapis_block",
   "impact": 3,
   "name": "Elemental Mage",
   "description": "Master of the Elements, capable of casting devastating spells but fragile in physique."
