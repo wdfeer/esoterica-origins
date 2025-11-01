@@ -1,6 +1,6 @@
 {
   "name": "Moonlight Powered",
-  "description": "You have 4 less hearts unless it's a night with a full or gibbous moon.",
+  "description": "You have 4 less hearts unless exposed to the night sky.",
   "type": "origins:conditioned_attribute",
   "modifier": {
     "attribute": "minecraft:generic.max_health",
@@ -9,8 +9,15 @@
   },
   "tick_rate": 10,
   "condition": {
-    "inverted": true,
-    "type": "origins:predicate",
-    "predicate": "esoterica-origins:clear_moon"
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:exposed_to_sky"
+      },
+      {
+        "type": "origins:predicate",
+        "predicate": "esoterica-origins:clear_night"
+      }
+    ]
   }
 }
