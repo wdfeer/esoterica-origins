@@ -1,6 +1,6 @@
 {
   "name": "Magical Catalyst",
-  "description": "Right click every 10 seconds to consume the item in hand and cast a spell: Fire Charge = Fireball, Ice = Freeze Ray, Book = Absorption.",
+  "description": "Right click every 10 seconds to consume the item in hand and cast a spell: Fire Charge = Fireball, Ice = Freeze Ray, Book = Absorption, Iron Ingot = Resistance, Gold Ingot = Regeneration.",
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:and",
@@ -92,7 +92,47 @@
               "type": "origins:apply_effect",
               "effect": {
                 "effect": "minecraft:absorption",
-                "duration": 400,
+                "duration": 600,
+                "amplifier": 0
+              }
+            }
+          },
+          {
+            "condition": {
+              "type": "origins:equipped_item",
+              "equipment_slot": "mainhand",
+              "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                  "item": "minecraft:iron_ingot"
+                }
+              }
+            },
+            "action": {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:resistance",
+                "duration": 600,
+                "amplifier": 0
+              }
+            }
+          },
+          {
+            "condition": {
+              "type": "origins:equipped_item",
+              "equipment_slot": "mainhand",
+              "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                  "item": "minecraft:gold_ingot"
+                }
+              }
+            },
+            "action": {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:resistance",
+                "duration": 600,
                 "amplifier": 0
               }
             }
@@ -115,6 +155,12 @@
         },
         {
           "item": "minecraft:book"
+        },
+        {
+          "item": "minecraft:iron_ingot"
+        },
+        {
+          "item": "minecraft:gold_ingot"
         }
       ]
     }
