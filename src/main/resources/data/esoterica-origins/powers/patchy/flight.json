@@ -1,0 +1,11 @@
+{
+  "name": "Focus Flight",
+  "description": "You gain creative flight whilst Magical Catalyst is recharging",
+  "type": "origins:creative_flight",
+  "condition": {
+    "type": "origins:resource",
+    "resource": "esoterica-origins:patchy/primary",
+    "comparison": ">",
+    "compare_to": 0
+  }
+}

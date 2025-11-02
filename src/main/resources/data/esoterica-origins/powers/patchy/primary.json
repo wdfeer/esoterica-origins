@@ -1,6 +1,6 @@
 {
   "name": "Magical Catalyst",
-  "description": "Activate every 30 seconds to consume the item in hand and cast a spell: Fire Charge = Fireball, Ice = Freeze Ray, Book = Absorption II.",
+  "description": "Right click every 10 seconds to consume the item in hand and cast a spell: Fire Charge = Fireball, Ice = Freeze Ray, Book = Absorption.",
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:and",
@@ -29,8 +29,7 @@
             },
             "action": {
               "type": "origins:fire_projectile",
-              "entity_type": "minecraft:fireball",
-              "tag": "{ExplosionPower:2b}"
+              "entity_type": "minecraft:small_fireball"
             }
           },
           {
@@ -46,7 +45,7 @@
             },
             "action": {
               "type": "origins:raycast",
-              "distance": 64,
+              "distance": 50,
               "block": true,
               "entity": true,
               "shape_type": "visual",
@@ -58,22 +57,22 @@
                   "actions": [
                     {
                       "type": "origins:damage",
-                      "amount": 16,
+                      "amount": 10,
                       "damage_type": "minecraft:freeze"
                     },
                     {
                       "type": "origins:apply_effect",
                       "effect": {
                         "effect": "minecraft:slowness",
-                        "duration": 600,
-                        "amplifier": 0
+                        "duration": 200,
+                        "amplifier": 1
                       }
                     }
                   ]
                 }
               },
-              "command_at_hit": "particle block blue_ice ~ ~ ~ 1 1 1 1 16 normal",
-              "command_along_ray": "particle block ice ~ ~ ~ 0 0 0 1 1 normal",
+              "command_at_hit": "particle block blue_ice ~ ~ ~ 1 1 1 1 32 normal",
+              "command_along_ray": "particle block ice ~ ~ ~ 0.05 0.05 0.05 1 2 normal",
               "command_step": 1,
               "command_along_ray_only_on_hit": true
             }
@@ -93,8 +92,8 @@
               "type": "origins:apply_effect",
               "effect": {
                 "effect": "minecraft:absorption",
-                "duration": 600,
-                "amplifier": 1
+                "duration": 400,
+                "amplifier": 0
               }
             }
           }
@@ -120,7 +119,11 @@
       ]
     }
   },
-  "cooldown": 600,
+  "key": {
+    "key": "key.use",
+    "continuous": true
+  },
+  "cooldown": 200,
   "hud_render": {
     "should_render": true,
     "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",

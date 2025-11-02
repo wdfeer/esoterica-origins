@@ -1,6 +1,7 @@
 {
   "powers": [
     "esoterica-origins:patchy/primary",
+    "esoterica-origins:patchy/flight",
     "esoterica-origins:patchy/resistance",
     "esoterica-origins:no_armor",
     "esoterica-origins:no_melee_damage",
