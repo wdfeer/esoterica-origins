@@ -29,7 +29,8 @@
             },
             "action": {
               "type": "origins:fire_projectile",
-              "entity_type": "minecraft:small_fireball"
+              "entity_type": "minecraft:fireball",
+              "tag": "{ExplosionPower:1b}"
             }
           },
           {
