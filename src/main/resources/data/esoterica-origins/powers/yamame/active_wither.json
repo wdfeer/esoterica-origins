@@ -1,0 +1,35 @@
+{
+  "name": "Lethal Illness",
+  "description": "Activate every 2 minutes to inflict Wither II for 30 seconds on all poisoned entities within 16 blocks.",
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:area_of_effect",
+    "radius": 32,
+    "bientity_action": {
+      "type": "origins:target_action",
+      "action": {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:wither",
+          "duration": 600,
+          "amplifier": 1
+        }
+      }
+    },
+    "bientity_condition": {
+      "type": "origins:target_condition",
+      "condition": {
+        "type": "origins:status_effect",
+        "effect": "minecraft:poison"
+      }
+    }
+  },
+  "cooldown": 2400,
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+    "bar_index": 14
+  },
+  "key": {
+    "key": "key.origins.secondary_active"
+  }
+}

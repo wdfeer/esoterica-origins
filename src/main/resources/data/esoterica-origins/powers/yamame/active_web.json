@@ -1,6 +1,7 @@
 {
   "name": "Silk Attack",
-  "description": "Activate every 60 seconds to web an enemy, giving them Slowness 5 for 15 seconds.",
+  "description": "Activate every 60 seconds to web an enemy, giving them Slowness V for 15 seconds.",
+  "type": "origins:active_self",
   "entity_action": {
     "type": "origins:raycast",
     "distance": 25,
@@ -23,5 +24,10 @@
     "command_along_ray": "particle block cobweb ~ ~ ~ 0.05 0.05 0.05 1 2 normal",
     "command_step": 1,
     "command_along_ray_only_on_hit": true
+  },
+  "cooldown": 1200,
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+    "bar_index": 0
   }
 }
