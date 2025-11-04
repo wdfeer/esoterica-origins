@@ -1,0 +1,39 @@
+{
+  "name": "Covered in Poison",
+  "description": "Every 30 seconds, you take 50% less damage from the next hit and the attacker gains Poison II for 30 seconds.",
+  "type": "origins:multiple",
+  "resource": {
+    "type": "origins:cooldown",
+    "cooldown": 600,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+      "bar_index": 0
+    }
+  },
+  "effect": {
+    "type": "origins:modify_damage_taken",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:medicine/poison_defense_resource",
+      "comparison": "==",
+      "compare_to": 600
+    },
+    "self_action": {
+      "type": "origins:trigger_cooldown",
+      "power": "esoterica-origins:medicine/poison_defense_resource"
+    },
+    "attacker_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:poison",
+        "duration": 600,
+        "amplifier": 1
+      }
+    },
+    "modifier": {
+      "operation": "multiply_total",
+      "value": -0.5
+    }
+  }
+}

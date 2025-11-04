@@ -1,7 +1,7 @@
 {
   "powers": [
     "esoterica-origins:medicine/poison_defense",
-    "esoterica-origins:medicine/poison_hit",
+    "esoterica-origins:medicine/poison_aura",
     "esoterica-origins:poison_immunity",
     "origins:fragile"
   ],
