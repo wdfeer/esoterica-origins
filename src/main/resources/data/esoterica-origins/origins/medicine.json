@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "esoterica-origins:medicine/poison_defense",
+    "esoterica-origins:medicine/poison_hit",
+    "esoterica-origins:poison_immunity",
+    "origins:fragile"
+  ],
+  "icon": "minecraft:lily_of_the_valley",
+  "impact": 3,
+  "name": "Poison Youkai",
+  "description": "Doll Youkai that unleashes deadly poison."
+}
