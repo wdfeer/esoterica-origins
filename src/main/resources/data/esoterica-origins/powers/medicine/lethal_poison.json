@@ -1,0 +1,29 @@
+{
+  "name": "Lethal Poison",
+  "description": "All entities within 5 blocks that have less than 3 hearts are afflicted with Wither II.",
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:area_of_effect",
+    "radius": 5,
+    "bientity_condition": {
+      "type": "origins:target_condition",
+      "condition": {
+        "type": "origins:health",
+        "comparison": "<",
+        "compare_to": 6
+      }
+    },
+    "bientity_action": {
+      "type": "origins:target_action",
+      "action": {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:wither",
+          "duration": 100,
+          "amplifier": 1
+        }
+      }
+    }
+  },
+  "interval": 10
+}
