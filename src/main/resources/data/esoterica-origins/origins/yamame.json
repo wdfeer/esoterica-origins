@@ -3,7 +3,7 @@
     "esoterica-origins:yamame/active_web",
     "esoterica-origins:yamame/poison_hit",
     "esoterica-origins:yamame/active_wither",
-    "esoterica-origins:yamame/poison_wither_immunity",
+    "esoterica-origins:poison_wither_immunity",
     "origins:light_armor",
     "origins:no_cobweb_slowdown"
   ],

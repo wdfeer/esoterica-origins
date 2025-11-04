@@ -2,7 +2,8 @@
   "powers": [
     "esoterica-origins:medicine/poison_defense",
     "esoterica-origins:medicine/poison_aura",
-    "esoterica-origins:poison_immunity",
+    "esoterica-origins:medicine/wither_rose",
+    "esoterica-origins:poison_wither_immunity",
     "origins:fragile"
   ],
   "icon": "minecraft:lily_of_the_valley",
