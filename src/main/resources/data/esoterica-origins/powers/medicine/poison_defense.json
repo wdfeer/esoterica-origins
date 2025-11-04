@@ -17,7 +17,7 @@
       "type": "origins:resource",
       "resource": "esoterica-origins:medicine/poison_defense_resource",
       "comparison": "==",
-      "compare_to": 600
+      "compare_to": 0
     },
     "self_action": {
       "type": "origins:trigger_cooldown",
