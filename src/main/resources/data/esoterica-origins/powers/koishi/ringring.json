@@ -1,0 +1,19 @@
+{
+  "name": "Ring-Ring",
+  "description": "Spawn a homing projectile dealing 4 damage to a random nearby creature whenever you deal damage.",
+  "type": "origins:multiple",
+  "melee": {
+    "type": "origins:modify_damage_dealt",
+    "self_action": {
+      "type": "origins:fire_projectile",
+      "entity_type": "esoterica-origins:ringring"
+    }
+  },
+  "ranged": {
+    "type": "origins:modify_projectile_damage",
+    "self_action": {
+      "type": "origins:fire_projectile",
+      "entity_type": "esoterica-origins:ringring"
+    }
+  }
+}
