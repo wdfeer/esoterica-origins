@@ -1,7 +1,8 @@
 {
   "powers": [
-    "esoterica-origins:larva_poison_cloud",
-    "esoterica-origins:poison_damage",
+    "esoterica-origins:larva/poison_cloud",
+    "esoterica-origins:larva/poison_damage",
+    "esoterica-origins:larva/enlightenment",
     "origins:elytra",
     "esoterica-origins:poison_immunity",
     "origins:fragile",
