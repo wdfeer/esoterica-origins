@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "esoterica-origins:koishi/ringring",
+    "origins:fragile"
+  ],
+  "icon": "minecraft:ender_pearl",
+  "impact": 3,
+  "name": "Miss Mary",
+  "description": "Playful satori with a sealed third eye capable of recreating an urban legend."
+}
