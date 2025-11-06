@@ -1,0 +1,36 @@
+{
+  "name": "Projectile Master",
+  "description": "All projectiles deal 2 extra damage. Spectral arrows heal 2 hearts and apply Flawless for 5 seconds instead of dealing damage.",
+  "type": "origins:multiple",
+  "extra_damage": {
+    "type": "origins:modify_projectile_damage",
+    "modifier": {
+      "operation": "addition",
+      "value": 2.0
+    }
+  },
+  "spectral_arrows": {
+    "type": "origins:modify_projectile_damage",
+    "modifier": {
+      "operation": "multiply_total",
+      "value": 0.0
+    },
+    "target_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:heal",
+          "amount": 4.0
+        },
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "esoterica-origins:flawless",
+            "duration": 100,
+            "amplifier": 0
+          }
+        }
+      ]
+    }
+  }
+}
