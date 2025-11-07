@@ -79,7 +79,8 @@ public class RingRingProjectile extends ProjectileEntity {
                 return;
             }
 
-            var direction = target.getPos().subtract(target.getEyePos()).normalize();
+            var centerOfMass = target.getEyePos().add(target.getPos()).multiply(0.5);
+            var direction = centerOfMass.subtract(getPos()).normalize();
             setPosition(getPos().add(direction.multiply(0.2)));
         }
 
