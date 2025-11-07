@@ -37,6 +37,11 @@ public class RingRingProjectile extends ProjectileEntity {
     }
 
     @Override
+    public boolean isCollidable() {
+        return true;
+    }
+
+    @Override
     protected void onEntityHit(EntityHitResult entityHitResult) {
         var damageTypeEntry = getWorld().getRegistryManager().get(RegistryKeys.DAMAGE_TYPE).entryOf(DamageTypes.MAGIC);
         entityHitResult.getEntity().damage(new DamageSource(damageTypeEntry, this, getOwner()), 4);
@@ -83,7 +88,8 @@ public class RingRingProjectile extends ProjectileEntity {
                 return;
             }
 
-            var direction = target.getPos().subtract(getPos()).normalize();
+            var centerOfMass = target.getPos().multiply(0.5).add(target.getEyePos().multiply(0.5));
+            var direction = target.getPos().subtract(centerOfMass).normalize();
             setPosition(getPos().add(direction.multiply(0.2)));
         }
 
