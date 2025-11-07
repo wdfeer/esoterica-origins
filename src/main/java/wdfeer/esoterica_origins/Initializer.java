@@ -13,11 +13,9 @@ public class Initializer implements ModInitializer {
 
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
-    public static final Flawless FLAWLESS = new Flawless();
-
     @Override
     public void onInitialize() {
-        Registry.register(Registries.STATUS_EFFECT, Identifier.of(MOD_ID, "flawless"), FLAWLESS);
+        Registry.register(Registries.STATUS_EFFECT, Identifier.of(MOD_ID, "flawless"), Flawless.INSTANCE);
         LOGGER.info("Esoterica Origins loaded!");
     }
 }
