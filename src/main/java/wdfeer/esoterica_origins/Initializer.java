@@ -16,6 +16,7 @@ public class Initializer implements ModInitializer {
     @Override
     public void onInitialize() {
         Registry.register(Registries.STATUS_EFFECT, Identifier.of(MOD_ID, "flawless"), Flawless.INSTANCE);
+        Registry.register(Registries.ENTITY_TYPE, Identifier.of(MOD_ID, "ring_ring"), RingRingProjectile.ENTITY_TYPE);
         LOGGER.info("Esoterica Origins loaded!");
     }
 }
