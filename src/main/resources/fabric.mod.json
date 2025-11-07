@@ -16,6 +16,9 @@
   "entrypoints": {
     "main": [
       "wdfeer.esoterica_origins.Initializer"
+    ],
+    "client": [
+      "wdfeer.esoterica_origins.client.ClientInitializer"
     ]
   },
   "mixins": [
