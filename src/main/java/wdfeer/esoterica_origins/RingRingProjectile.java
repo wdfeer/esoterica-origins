@@ -30,7 +30,6 @@ public class RingRingProjectile extends ProjectileEntity {
 
     public static final EntityType<RingRingProjectile> ENTITY_TYPE =
             FabricEntityTypeBuilder.create(SpawnGroup.MISC, RingRingProjectile::new)
-                    .dimensions(EntityDimensions.fixed(0.4f, 0.4f))
                     .fireImmune()
                     .build();
 
@@ -56,7 +55,7 @@ public class RingRingProjectile extends ProjectileEntity {
             var color = new Vector3f(0.6f + random.nextFloat() * 0.2f, 0f, 0f);
             world.addParticle(new DustParticleEffect(color, 2f), this.getX(), this.getY(), this.getZ(), 0, 0, 0);
         } else if (world instanceof ServerWorld serverWorld) {
-            HitResult hitResult = ProjectileUtil.getCollision(this, this::canHit);
+            HitResult hitResult = ProjectileUtil.getCollision(this, (target) -> target != getOwner() && target.canBeHitByProjectile(), 0.4);
             this.onCollision(hitResult);
             if (this.getWorld().getStatesInBox(this.getBoundingBox()).noneMatch(AbstractBlock.AbstractBlockState::isAir)) {
                 this.discard();
