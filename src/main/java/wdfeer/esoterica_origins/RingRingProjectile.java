@@ -28,6 +28,7 @@ public class RingRingProjectile extends ProjectileEntity {
     public static final EntityType<RingRingProjectile> ENTITY_TYPE =
             FabricEntityTypeBuilder.create(SpawnGroup.MISC, RingRingProjectile::new)
                     .dimensions(EntityDimensions.fixed(0.4f, 0.4f))
+                    .fireImmune()
                     .build();
 
     public RingRingProjectile(EntityType<? extends ProjectileEntity> entityType, World world) {
@@ -53,6 +54,10 @@ public class RingRingProjectile extends ProjectileEntity {
         }
     }
 
+    private boolean isValidTarget(LivingEntity entity) {
+        return !entity.isRemoved() && entity.isAlive() && entity instanceof Monster && entity.getHealth() < entity.getMaxHealth() && entity.distanceTo(this) < 50;
+    }
+
     @Override
     public void tick() {
         var world = getWorld();
@@ -62,21 +67,21 @@ public class RingRingProjectile extends ProjectileEntity {
         } else if (world instanceof ServerWorld serverWorld) {
             if (targetUUID == null) {
                 for (Entity e : serverWorld.iterateEntities()) {
-                   if (e instanceof Monster) {
-                      targetUUID = e.getUuid();
+                   if (e instanceof LivingEntity livingEntity && isValidTarget(livingEntity)) {
+                       targetUUID = e.getUuid();
                    }
                 }
                 return;
             }
 
-            Entity target = serverWorld.getEntity(targetUUID);
-            if (target == null || target.isRemoved() || !target.isAlive()) {
+            LivingEntity target = (LivingEntity) serverWorld.getEntity(targetUUID);
+            if (target == null || !isValidTarget(target)) {
                 kill();
                 return;
             }
 
             var direction = target.getPos().subtract(getPos()).normalize();
-            addVelocity(direction.multiply(0.01));
+            setPosition(getPos().add(direction.multiply(0.2)));
         }
 
         super.tick();
