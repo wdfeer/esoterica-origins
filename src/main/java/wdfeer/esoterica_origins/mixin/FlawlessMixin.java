@@ -8,7 +8,7 @@ import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
-import wdfeer.esoterica_origins.Initializer;
+import wdfeer.esoterica_origins.Flawless;
 
 @Mixin(LivingEntity.class)
 public abstract class FlawlessMixin {
@@ -17,7 +17,7 @@ public abstract class FlawlessMixin {
 
     @Inject(method = "modifyAppliedDamage", at = @At("RETURN"), cancellable = true)
     private void modifyAppliedDamage(DamageSource source, float amount, CallbackInfoReturnable<Float> cir) {
-        if (hasStatusEffect(Initializer.FLAWLESS) && cir.getReturnValue() > 1) {
+        if (hasStatusEffect(Flawless.INSTANCE) && cir.getReturnValue() > 1) {
             cir.setReturnValue(1f);
         }
     }
