@@ -24,7 +24,8 @@ public class RingRingProjectile extends ProjectileEntity {
 
     @Override
     protected void onEntityHit(EntityHitResult entityHitResult) {
-        // TODO: deal damage
+        var damageTypeEntry = getWorld().getRegistryManager().get(RegistryKeys.DAMAGE_TYPE).entryOf(DamageTypes.MAGIC);
+        entityHitResult.getEntity().damage(new DamageSource(damageTypeEntry, this, getOwner()), 4);
     }
 
     @Override
