@@ -12,8 +12,11 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.hit.EntityHitResult;
 import net.minecraft.world.World;
 import org.joml.Vector3f;
+import java.util.Random;
 
 public class RingRingProjectile extends ProjectileEntity {
+    static Random random = new Random();
+
     @Override
     protected void initDataTracker() {
     }
@@ -36,7 +39,8 @@ public class RingRingProjectile extends ProjectileEntity {
     @Override
     public void tick() {
         if (getWorld().isClient) {
-            getWorld().addParticle(new DustParticleEffect(new Vector3f(1f, 0f, 0f), 2f), this.getX(), this.getY(), this.getZ(), 0, 0, 0);
+            var color = new Vector3f(0.6f + random.nextFloat() * 0.2f, 0f, 0f);
+            getWorld().addParticle(new DustParticleEffect(color, 2f), this.getX(), this.getY(), this.getZ(), 0, 0, 0);
         }
         super.tick();
     }
