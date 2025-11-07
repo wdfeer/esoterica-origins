@@ -1,6 +1,7 @@
 package wdfeer.esoterica_origins;
 
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
+import net.minecraft.block.BlockState;
 import net.minecraft.entity.*;
 import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.damage.DamageTypes;
@@ -37,6 +38,19 @@ public class RingRingProjectile extends ProjectileEntity {
     protected void onEntityHit(EntityHitResult entityHitResult) {
         var damageTypeEntry = getWorld().getRegistryManager().get(RegistryKeys.DAMAGE_TYPE).entryOf(DamageTypes.MAGIC);
         entityHitResult.getEntity().damage(new DamageSource(damageTypeEntry, this, getOwner()), 4);
+        kill();
+    }
+
+    @Override
+    protected void onBlockCollision(BlockState state) {
+        super.onBlockCollision(state);
+        for (int i = 0; i < 6; i++) {
+            var color = new Vector3f(0.6f + random.nextFloat() * 0.2f, 0f, 0f);
+            getWorld().addParticle(new DustParticleEffect(color, 1.2f), this.getX(), this.getY(), this.getZ(), 0, 0, 0);
+        }
+        if (!getWorld().isClient) {
+            kill();
+        }
     }
 
     @Override
