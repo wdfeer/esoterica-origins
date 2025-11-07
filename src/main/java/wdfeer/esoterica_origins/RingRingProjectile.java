@@ -87,7 +87,7 @@ public class RingRingProjectile extends ProjectileEntity {
 
     @Override
     protected void readCustomDataFromNbt(NbtCompound nbt) {
-        targetUUID = nbt.getUuid("target");
+        if (nbt.contains("target")) targetUUID = nbt.getUuid("target");
     }
 
     @Override
