@@ -45,7 +45,7 @@ public class RingRingProjectile extends ProjectileEntity {
         var world = getWorld();
         if (world.isClient) {
             var color = new Vector3f(0.6f + random.nextFloat() * 0.2f, 0f, 0f);
-            world.addParticle(new DustParticleEffect(color, 2f), this.getX(), this.getY(), this.getZ(), 0, 0, 0);
+            world.addParticle(new DustParticleEffect(color, 0.7f + random.nextFloat(0.3f)), this.getX(), this.getY(), this.getZ(), 0, 0, 0);
         } else if (world instanceof ServerWorld serverWorld) {
             if (this.getWorld().getStatesInBox(this.getBoundingBox()).noneMatch(AbstractBlock.AbstractBlockState::isAir)) {
                 this.discard();
