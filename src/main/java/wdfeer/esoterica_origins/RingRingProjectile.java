@@ -4,9 +4,14 @@ import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
 import net.minecraft.entity.EntityDimensions;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SpawnGroup;
+import net.minecraft.entity.damage.DamageSource;
+import net.minecraft.entity.damage.DamageTypes;
 import net.minecraft.entity.projectile.ProjectileEntity;
+import net.minecraft.particle.DustParticleEffect;
+import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.hit.EntityHitResult;
 import net.minecraft.world.World;
+import org.joml.Vector3f;
 
 public class RingRingProjectile extends ProjectileEntity {
     @Override
@@ -30,7 +35,9 @@ public class RingRingProjectile extends ProjectileEntity {
 
     @Override
     public void tick() {
-        // TODO: spawn particles on client
+        if (getWorld().isClient) {
+            getWorld().addParticle(new DustParticleEffect(new Vector3f(1f, 0f, 0f), 2f), this.getX(), this.getY(), this.getZ(), 0, 0, 0);
+        }
         super.tick();
     }
 }
