@@ -11,6 +11,7 @@ import net.minecraft.nbt.NbtCompound;
 import net.minecraft.particle.DustParticleEffect;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.server.world.ServerWorld;
+import net.minecraft.util.TypeFilter;
 import net.minecraft.util.hit.EntityHitResult;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
@@ -66,10 +67,12 @@ public class RingRingProjectile extends ProjectileEntity {
             world.addParticle(new DustParticleEffect(color, 2f), this.getX(), this.getY(), this.getZ(), 0, 0, 0);
         } else if (world instanceof ServerWorld serverWorld) {
             if (targetUUID == null) {
-                for (Entity e : serverWorld.iterateEntities()) {
-                   if (e instanceof LivingEntity livingEntity && isValidTarget(livingEntity)) {
-                       targetUUID = e.getUuid();
-                   }
+                var validTargets = serverWorld.getEntitiesByType(TypeFilter.instanceOf(LivingEntity.class), this::isValidTarget);
+                var closest = validTargets.stream().min((e1, e2) -> (int) (e1.distanceTo(this) - e2.distanceTo(this)));
+                if (closest.isEmpty()) {
+                    kill();
+                } else {
+                    targetUUID = closest.get().getUuid();
                 }
                 return;
             }
