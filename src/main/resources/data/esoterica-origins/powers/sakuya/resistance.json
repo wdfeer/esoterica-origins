@@ -1,0 +1,14 @@
+{
+  "name": "Spatial Defense",
+  "description": "You take 80% less damage from kinetic damage sources, suffocation and fire.",
+  "type": "origins:modify_damage_taken",
+  "damage_condition": {
+    "type": "origins:in_tag",
+    "tag": "esoterica-origins:sakuya_b_resist"
+  },
+  "modifier": {
+    "name": "Sakuya resistance",
+    "operation": "multiply_total",
+    "value": -0.8
+  }
+}

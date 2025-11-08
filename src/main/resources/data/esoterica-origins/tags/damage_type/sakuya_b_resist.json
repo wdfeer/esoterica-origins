@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#minecraft:is_fire",
+    "minecraft:in_wall",
+    "minecraft:drown",
+    "minecraft:fall",
+    "minecraft:fly_into_wall"
+  ]
+}
