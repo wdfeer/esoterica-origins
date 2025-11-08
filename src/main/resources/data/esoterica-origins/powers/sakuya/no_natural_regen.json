@@ -1,0 +1,5 @@
+{
+  "name": "Unnatural",
+  "description": "You don't have natural health regeneration.",
+  "type": "origins:disable_regen"
+}

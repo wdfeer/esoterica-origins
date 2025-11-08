@@ -1,5 +1,11 @@
 {
-  "powers": [],
+  "powers": [
+    "origins:throw_ender_pearl",
+    "esoterica-origins:sakuya/life_damage",
+    "esoterica-origins:sakuya/big_game",
+    "esoterica-origins:sakuya/no_natural_regen",
+    "origins:light_armor"
+  ],
   "icon": "minecraft:nether_wart_block",
   "impact": 3,
   "name": "Devil's Maid",

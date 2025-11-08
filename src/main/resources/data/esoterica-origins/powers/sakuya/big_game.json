@@ -1,0 +1,11 @@
+{
+  "name": "Big Game Hunter",
+  "description": "Gain Regeneration and Speed for 60 minutes after killing a Wither or an Ender Dragon.",
+  "type": "origins:self_action_on_kill",
+  "entity_action": {
+
+  },
+  "target_condition": {
+
+  }
+}
