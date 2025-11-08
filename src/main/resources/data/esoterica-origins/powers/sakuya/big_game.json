@@ -3,9 +3,31 @@
   "description": "Gain Regeneration and Speed for 60 minutes after killing a Wither or an Ender Dragon.",
   "type": "origins:self_action_on_kill",
   "entity_action": {
-
+    "type": "origins:apply_effect",
+    "effects": [
+      {
+        "effect": "minecraft:regeneration",
+        "duration": 72000,
+        "amplifier": 0
+      },
+      {
+        "effect": "minecraft:speed",
+        "duration": 72000,
+        "amplifier": 0
+      }
+    ]
   },
   "target_condition": {
-
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:entity_type",
+        "entity_type": "minecraft:wither"
+      },
+      {
+        "type": "origins:entity_type",
+        "entity_type": "minecraft:ender_dragon"
+      }
+    ]
   }
 }
