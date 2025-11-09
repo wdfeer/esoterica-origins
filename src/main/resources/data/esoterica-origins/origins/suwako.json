@@ -1,5 +1,9 @@
 {
   "powers": [
+    "esoterica-origins:effect_immunity",
+    "origins:fire_immunity",
+    "origins:cat_vision",
+    "esoterica-origins:no_armor"
   ],
   "icon": "minecraft:frogspawn",
   "impact": 3,
