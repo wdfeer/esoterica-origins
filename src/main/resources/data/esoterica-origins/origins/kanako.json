@@ -1,5 +1,10 @@
 {
   "powers": [
+    "esoterica-origins:god_fist",
+    "esoterica-origins:plus_melee_damage",
+    "esoterica-origins:effect_immunity",
+    "origins:fire_immunity",
+    "origins:cat_vision"
   ],
   "icon": "minecraft:feather",
   "impact": 3,
