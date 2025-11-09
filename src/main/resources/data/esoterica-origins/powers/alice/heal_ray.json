@@ -45,7 +45,8 @@
         }
       }
     },
-    "command_along_ray": "particle minecraft:end_rod",
+    "command_at_hit": "particle end_rod ~ ~ ~ 0.3 0.3 0.3 0.1 8 normal",
+    "command_along_ray": "particle end_rod",
     "command_step": 1
   },
   "key": {

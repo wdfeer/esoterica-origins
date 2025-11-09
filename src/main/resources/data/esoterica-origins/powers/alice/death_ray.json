@@ -29,7 +29,8 @@
         ]
       }
     },
-    "command_along_ray": "particle minecraft:enchant",
+    "command_at_hit": "particle block wither_skeleton_skull ~ ~ ~ 0.3 0.3 0.3 1 32 normal",
+    "command_along_ray": "particle block wither_skeleton_skull ~ ~ ~ 0.05 0.05 0.05 1 2 normal",
     "command_step": 1
   },
   "cooldown": 600,
