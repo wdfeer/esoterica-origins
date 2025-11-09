@@ -17,29 +17,32 @@
       }
     },
     "bientity_action": {
-      "type": "origins:if_else",
-      "condition": {
-        "type": "origins:in_tag",
-        "tag": "minecraft:undead"
-      },
-      "if_action": {
-        "type": "origins:and",
-        "actions": [
-          {
-            "type": "origins:set_on_fire",
-            "duration": 8
-          },
-          {
+      "type": "origins:target_action",
+      "action": {
+        "type": "origins:if_else",
+        "condition": {
+          "type": "origins:in_tag",
+          "tag": "minecraft:undead"
+        },
+        "if_action": {
+          "type": "origins:and",
+          "actions": [
+            {
+              "type": "origins:set_on_fire",
+              "duration": 8
+            },
+            {
 
-            "type": "origins:damage",
-            "amount": 20,
-            "damage_type": "minecraft:magic"
-          }
-        ]
-      },
-      "else_action": {
-        "type": "origins:heal",
-        "amount": 6
+              "type": "origins:damage",
+              "amount": 20,
+              "damage_type": "minecraft:magic"
+            }
+          ]
+        },
+        "else_action": {
+          "type": "origins:heal",
+          "amount": 6
+        }
       }
     },
     "command_along_ray": "particle minecraft:end_rod",
