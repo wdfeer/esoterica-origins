@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "esoterica-origins:alice/death_ray",
+    "esoterica-origins:alice/heal_ray",
+    "esoterica-origins:fly",
+    "esoterica-origins:alice/doll_aura",
+    "origins:light_armor",
+    "esoterica-origins:half_melee_damage"
+  ],
+  "icon": "minecraft:pearlescent_froglight",
+  "impact": 3,
+  "name": "Demonlight Youkai",
+  "description": "Youkai magician capable of demonic light manipulation."
+}
