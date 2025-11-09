@@ -21,8 +21,8 @@
       "action": {
         "type": "origins:if_else",
         "condition": {
-          "type": "origins:in_tag",
-          "tag": "minecraft:undead"
+          "type": "origins:entity_group",
+          "group": "undead"
         },
         "if_action": {
           "type": "origins:and",
@@ -32,7 +32,6 @@
               "duration": 8
             },
             {
-
               "type": "origins:damage",
               "amount": 20,
               "damage_type": "minecraft:magic"
