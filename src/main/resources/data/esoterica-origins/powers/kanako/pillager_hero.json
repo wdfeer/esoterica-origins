@@ -1,0 +1,20 @@
+{
+  "name": "God of the People",
+  "description": "Gain Hero of the Village for 10 minutes after killing a pillager.",
+  "type": "origins:self_action_on_kill",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:hero_of_the_village",
+      "duration": 12000,
+      "amplifier": 0,
+      "is_ambient": true,
+      "show_particles": false,
+      "show_icon": true
+    }
+  },
+  "target_condition": {
+    "type": "origins:in_tag",
+    "tag": "esoterica-origins:pillagers"
+  }
+}

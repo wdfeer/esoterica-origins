@@ -1,13 +1,15 @@
 {
   "powers": [
+    "esoterica-origins:sanae/faith",
+    "esoterica-origins:kanako/active_totem",
+    "esoterica-origins:kanako/absorption",
+    "esoterica-origins:kanako/pillager_hero",
     "esoterica-origins:god_fist",
-    "esoterica-origins:plus_melee_damage",
     "esoterica-origins:effect_immunity",
-    "origins:fire_immunity",
-    "origins:cat_vision"
+    "esoterica-origins:kanako/only_chestplate"
   ],
   "icon": "minecraft:feather",
   "impact": 3,
-  "name": "Heavenly God",
-  "description": "Divine Spirit of wind and rain, capable of creating heavenliness, aiming to get more faith."
+  "name": "Wind God",
+  "description": "Divine Spirit proficient at marketing schemes to gather more faith."
 }

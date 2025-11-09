@@ -1,8 +1,8 @@
 {
   "powers": [
+    "esoterica-origins:sanae/faith",
     "esoterica-origins:sanae/moriya_blessing",
     "esoterica-origins:effect_immunity",
-    "origins:fire_immunity",
     "origins:cat_vision",
     "esoterica-origins:no_armor"
   ],
