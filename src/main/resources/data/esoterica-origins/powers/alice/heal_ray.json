@@ -1,0 +1,56 @@
+{
+  "name": "Demon Killing Ray",
+  "description": "Every 90 seconds, activate to gain Flawless for 1 second and shoot a beam that heals 3 hearts. Undead are dealt 20 damage instead.",
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:raycast",
+    "distance": 32,
+    "block": true,
+    "entity": true,
+    "fluid_handling": "none",
+    "before_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "esoterica-origins:flawless",
+        "duration": 22,
+        "amplifier": 0
+      }
+    },
+    "bientity_action": {
+      "type": "origins:if_else",
+      "condition": {
+        "type": "origins:in_tag",
+        "tag": "minecraft:undead"
+      },
+      "if_action": {
+        "type": "origins:and",
+        "actions": [
+          {
+            "type": "origins:set_on_fire",
+            "duration": 8
+          },
+          {
+
+            "type": "origins:damage",
+            "amount": 20,
+            "damage_type": "minecraft:magic"
+          }
+        ]
+      },
+      "else_action": {
+        "type": "origins:heal",
+        "amount": 6
+      }
+    },
+    "command_along_ray": "particle minecraft:end_rod",
+    "command_step": 1
+  },
+  "key": {
+    "key": "key.origins.secondary_active"
+  },
+  "cooldown": 1200,
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+    "bar_index": 4
+  }
+}

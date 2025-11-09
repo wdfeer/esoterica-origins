@@ -1,0 +1,37 @@
+{
+  "name": "Puppeteer Aura",
+  "description": "Iron and snow golems within 16 blocks gain Regeneration for 30 seconds.",
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:area_of_effect",
+    "radius": 16,
+    "bientity_action": {
+      "type": "origins:target_action",
+      "action": {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:regeneration",
+          "duration": 600,
+          "amplifier": 0
+        }
+      }
+    },
+    "bientity_condition": {
+      "type": "origins:target_condition",
+      "condition": {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:iron_golem"
+          },
+          {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:snow_golem"
+          }
+        ]
+      }
+    }
+  },
+  "interval": 25
+}
