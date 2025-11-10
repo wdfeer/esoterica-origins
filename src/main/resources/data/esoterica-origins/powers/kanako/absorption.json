@@ -13,14 +13,14 @@
       {
         "type": "origins:apply_effect",
         "effect": {
-          "effect": "esoterica-origins:absorption",
+          "effect": "absorption",
           "duration": 300
         }
       },
       {
         "type": "origins:spawn_particles",
         "particle": {
-          "type": "minecraft:end_rod"
+          "type": "end_rod"
         },
         "count": 8,
         "speed": 0.2,
