@@ -1,0 +1,40 @@
+{
+  "name": "Gather Faith",
+  "description": "Every 2 minutes, if you don't have Flawless, activate to gain 1 Faith for every villager within 32 blocks within line of sight.",
+  "type": "origins:active_self",
+  "cooldown": 2400,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+    "bar_index": 24
+  },
+  "entity_action": {
+    "type": "origins:area_of_effect",
+    "radius": 32,
+    "bientity_action": {
+      "type": "origins:actor_action",
+      "action": {
+        "type": "origins:change_resource",
+        "resource": "esoterica-origins:sanae/faith",
+        "change": 1
+      }
+    },
+    "bientity_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:can_see"
+        },
+        {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:villager"
+        }
+      ]
+    }
+  },
+  "condition": {
+    "inverted": true,
+    "type": "origins:status_effect",
+    "effect": "esoterica-origins:flawless"
+  }
+}

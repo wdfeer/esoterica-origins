@@ -1,6 +1,6 @@
 {
   "name": "Divine Protection",
-  "description": "Whenever you take damage, consume 1 faith to gain Absorption for 15 seconds.",
+  "description": "Whenever you take damage, consume 2 faith to gain Absorption for 15 seconds.",
   "type": "origins:action_when_damage_taken",
   "entity_action": {
     "type": "origins:and",
@@ -8,7 +8,7 @@
       {
         "type": "origins:change_resource",
         "resource": "esoterica-origins:sanae/faith",
-        "change": -1
+        "change": -2
       },
       {
         "type": "origins:apply_effect",
@@ -36,8 +36,8 @@
   "condition": {
     "type": "origins:resource",
     "resource": "esoterica-origins:sanae/faith",
-    "comparison": ">",
-    "compare_to": 0
+    "comparison": ">=",
+    "compare_to": 2
   },
   "cooldown": 1
 }
