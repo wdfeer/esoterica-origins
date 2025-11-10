@@ -1,0 +1,35 @@
+{
+  "name": "Faith Dependent",
+  "description": "You have 3 more hearts at max Faith and 3 less hearts without any Faith.",
+  "type": "origins:multiple",
+  "increase": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.max_health",
+      "operation": "multiply_base",
+      "value": 0.3
+    },
+    "tick_rate": 10,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:sanae/faith",
+      "comparison": "==",
+      "compare_to": 10
+    }
+  },
+  "reduce": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.max_health",
+      "operation": "multiply_base",
+      "value": -0.3
+    },
+    "tick_rate": 10,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:sanae/faith",
+      "comparison": "==",
+      "compare_to": 0
+    }
+  }
+}
