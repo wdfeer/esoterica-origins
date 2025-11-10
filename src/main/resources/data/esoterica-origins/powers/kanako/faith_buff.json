@@ -1,15 +1,20 @@
 {
   "name": "Faith Dependent",
-  "description": "You have 3 more hearts at max Faith and 3 less hearts without any Faith.",
+  "description": "You gain Haste at max Faith and 3 less hearts without any Faith.",
   "type": "origins:multiple",
-  "increase": {
-    "type": "origins:conditioned_attribute",
-    "modifier": {
-      "attribute": "minecraft:generic.max_health",
-      "operation": "multiply_base",
-      "value": 0.3
-    },
-    "tick_rate": 10,
+  "max": {
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 20,
+    "effects": [
+      {
+        "effect": "minecraft:haste",
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": true
+      }
+    ],
     "condition": {
       "type": "origins:resource",
       "resource": "esoterica-origins:sanae/faith",
@@ -17,7 +22,7 @@
       "compare_to": 10
     }
   },
-  "reduce": {
+  "min": {
     "type": "origins:conditioned_attribute",
     "modifier": {
       "attribute": "minecraft:generic.max_health",
