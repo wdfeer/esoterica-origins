@@ -1,7 +1,7 @@
 {
   "type": "origins:multiple",
   "name": "Frog Blessing",
-  "description": "You receive double healing from all sources and have passive regeneration that consumes 1 Faith every 3 seconds.",
+  "description": "You receive double healing from all sources and have passive regeneration that consumes 1 Faith every second.",
   "double_heal": {
     "type": "origins:modify_healing",
     "modifier": {
@@ -12,29 +12,40 @@
   "passive_heal": {
     "type": "origins:action_over_time",
     "entity_action": {
-      "type": "origins:heal",
-      "amount": 0.5
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:heal",
+          "amount": 0.5
+        },
+        {
+          "type": "origins:change_resource",
+          "resource": "esoterica-origins:sanae/faith",
+          "change": -1
+        }
+      ]
     },
     "condition": {
-      "type": "origins:resource",
-      "resource": "esoterica-origins:sanae/faith",
-      "comparison": ">",
-      "compare_to": 0
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "esoterica-origins:sanae/faith",
+          "comparison": ">",
+          "compare_to": 0
+        },
+        {
+          "type": "origins:relative_health",
+          "comparison": "<",
+          "compare_to": 1
+        }
+      ]
     },
     "interval": 20
   },
   "faith_consume": {
     "type": "origins:action_over_time",
-    "entity_action": {
-      "type": "origins:change_resource",
-      "resource": "esoterica-origins:sanae/faith",
-      "change": -1
-    },
-    "condition": {
-      "type": "origins:relative_health",
-      "comparison": "<",
-      "compare_to": 1
-    },
+    "entity_action": {},
     "interval": 60
   },
   "no_natural_regen": {
