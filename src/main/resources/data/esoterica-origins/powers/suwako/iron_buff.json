@@ -15,10 +15,7 @@
       "type": "origins:ingredient",
       "ingredient": [
         {
-          "item": "minecraft:iron_sword"
-        },
-        {
-          "item": "minecraft:iron_axe"
+          "tag": "esoterica-origins:iron_weapons"
         }
       ]
     }
