@@ -1,0 +1,16 @@
+{
+  "name": "Gather Faith",
+  "description": "Gain 1 Faith every 10 seconds.",
+  "type": "origins:action_over_time",
+  "interval": 200,
+  "entity_action": {
+    "type": "origins:change_resource",
+    "resource": "esoterica-origins:sanae/faith",
+    "change": 1
+  },
+  "condition": {
+    "inverted": true,
+    "type": "origins:status_effect",
+    "effect": "esoterica-origins:flawless"
+  }
+}
