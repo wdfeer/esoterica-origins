@@ -1,0 +1,43 @@
+{
+  "name": "Miracle Execution",
+  "description": "Activate to gain Haste for 3 minutes and consume 4 faith.",
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:change_resource",
+        "resource": "esoterica-origins:sanae/faith",
+        "change": -4
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:haste",
+          "duration": 3600,
+          "is_ambient": true
+        }
+      },
+      {
+        "type": "origins:spawn_particles",
+        "particle": {
+          "type": "minecraft:end_rod"
+        },
+        "count": 7,
+        "speed": 0.1,
+        "force": true,
+        "spread": {
+          "x": 1.0,
+          "y": 1.3,
+          "z": 1.0
+        }
+      }
+    ]
+  },
+  "condition": {
+    "type": "origins:resource",
+    "resource": "esoterica-origins:sanae/faith",
+    "comparison": ">=",
+    "compare_to": 4
+  }
+}
