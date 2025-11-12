@@ -1,12 +1,26 @@
 {
   "name": "Gather Faith",
-  "description": "Gain 1 Faith every 10 seconds.",
+  "description": "Every 8 seconds, gain 2 Faith if in water or 1 Faith.",
   "type": "origins:action_over_time",
-  "interval": 200,
+  "interval": 160,
   "entity_action": {
-    "type": "origins:change_resource",
-    "resource": "esoterica-origins:sanae/faith",
-    "change": 1
+    "type": "origins:if_else",
+    "condition": {
+      "type": "origins:fluid_height",
+      "fluid": "minecraft:water",
+      "comparison": "!=",
+      "compare_to": 0
+    },
+    "if_action": {
+      "type": "origins:change_resource",
+      "resource": "esoterica-origins:sanae/faith",
+      "change": 2
+    },
+    "else_action": {
+      "type": "origins:change_resource",
+      "resource": "esoterica-origins:sanae/faith",
+      "change": 1
+    }
   },
   "condition": {
     "inverted": true,
