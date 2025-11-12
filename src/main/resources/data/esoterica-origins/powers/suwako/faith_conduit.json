@@ -1,0 +1,22 @@
+{
+  "name": "Suwa Clear Water",
+  "description": "While at 5 or more faith, gain Conduit Power.",
+  "type": "origins:stacking_status_effect",
+  "min_stacks": 0,
+  "max_stacks": 1,
+  "duration_per_stack": 20,
+  "effects": [
+    {
+      "effect": "minecraft:conduit_power",
+      "is_ambient": true,
+      "show_particles": false,
+      "show_icon": true
+    }
+  ],
+  "condition": {
+    "type": "origins:resource",
+    "resource": "esoterica-origins:sanae/faith",
+    "comparison": ">=",
+    "compare_to": 5
+  }
+}
