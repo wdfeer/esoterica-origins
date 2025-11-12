@@ -1,6 +1,6 @@
 {
   "name": "Faith Dependent",
-  "description": "You gain Haste at max Faith and 3 less hearts without any Faith.",
+  "description": "You gain Haste at max Faith and have 3 less hearts without any Faith.",
   "type": "origins:multiple",
   "max": {
     "type": "origins:stacking_status_effect",
