@@ -1,10 +1,9 @@
 {
   "powers": [
-    "esoterica-origins:sanae/faith",
+    "esoterica-origins:kanako/faith",
     "esoterica-origins:kanako/gather_faith",
     "esoterica-origins:kanako/absorption",
     "esoterica-origins:kanako/pillager_hero",
-    "esoterica-origins:god_fist",
     "esoterica-origins:kanako/faith_buff",
     "esoterica-origins:kanako/only_chestplate"
   ],

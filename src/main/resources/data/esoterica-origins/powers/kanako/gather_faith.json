@@ -1,38 +1,28 @@
 {
   "name": "Gather Faith",
-  "description": "Every 2 minutes, activate to gain 1 Faith for every villager within 32 blocks within line of sight.",
-  "type": "origins:active_self",
-  "cooldown": 2400,
-  "hud_render": {
-    "should_render": true,
-    "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
-    "bar_index": 24
-  },
+  "description": "Every second, every living entity within 16 blocks has a 4% chance to give you 1 Faith.",
+  "type": "origins:action_over_time",
+  "interval": 20,
   "entity_action": {
     "type": "origins:area_of_effect",
     "radius": 32,
     "bientity_action": {
       "type": "origins:actor_action",
       "action": {
-        "type": "origins:change_resource",
-        "resource": "esoterica-origins:sanae/faith",
-        "change": 1
+        "type": "origins:chance",
+        "action": {
+          "type": "origins:change_resource",
+          "resource": "esoterica-origins:kanako/faith",
+          "change": 1
+        },
+        "chance": 0.04
       }
     },
     "bientity_condition": {
-      "type": "origins:and",
-      "conditions": [
-        {
-          "type": "origins:can_see"
-        },
-        {
-          "type": "origins:target_condition",
-          "condition": {
-            "type": "origins:entity_type",
-            "entity_type": "minecraft:villager"
-          }
-        }
-      ]
+      "type": "origins:target_condition",
+      "condition": {
+        "type": "origins:living"
+      }
     }
   }
 }

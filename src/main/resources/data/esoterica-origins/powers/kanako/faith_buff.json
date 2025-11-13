@@ -1,15 +1,15 @@
 {
   "name": "Faith Dependent",
-  "description": "You gain Haste at max Faith and have 3 less hearts without any Faith.",
+  "description": "You gain Resistance for up to 60 seconds at 10 or more Faith and have 4 less hearts without any Faith.",
   "type": "origins:multiple",
-  "max": {
+  "buff": {
     "type": "origins:stacking_status_effect",
     "min_stacks": 0,
-    "max_stacks": 1,
+    "max_stacks": 60,
     "duration_per_stack": 20,
     "effects": [
       {
-        "effect": "minecraft:haste",
+        "effect": "minecraft:resistance",
         "is_ambient": true,
         "show_particles": false,
         "show_icon": true
@@ -17,22 +17,22 @@
     ],
     "condition": {
       "type": "origins:resource",
-      "resource": "esoterica-origins:sanae/faith",
-      "comparison": "==",
+      "resource": "esoterica-origins:kanako/faith",
+      "comparison": ">=",
       "compare_to": 10
     }
   },
-  "min": {
+  "nerf": {
     "type": "origins:conditioned_attribute",
     "modifier": {
       "attribute": "minecraft:generic.max_health",
       "operation": "multiply_base",
-      "value": -0.3
+      "value": -0.4
     },
     "tick_rate": 10,
     "condition": {
       "type": "origins:resource",
-      "resource": "esoterica-origins:sanae/faith",
+      "resource": "esoterica-origins:kanako/faith",
       "comparison": "==",
       "compare_to": 0
     }
