@@ -43,11 +43,6 @@
     },
     "interval": 20
   },
-  "faith_consume": {
-    "type": "origins:action_over_time",
-    "entity_action": {},
-    "interval": 60
-  },
   "no_natural_regen": {
     "type": "origins:disable_regen"
   }
