@@ -3,8 +3,9 @@
     "esoterica-origins:kanako/faith",
     "esoterica-origins:kanako/gather_faith",
     "esoterica-origins:kanako/absorption",
-    "esoterica-origins:kanako/pillager_hero",
     "esoterica-origins:kanako/faith_buff",
+    "esoterica-origins:kanako/faith_damage",
+    "esoterica-origins:kanako/pillager_hero",
     "esoterica-origins:kanako/only_chestplate"
   ],
   "icon": "minecraft:feather",

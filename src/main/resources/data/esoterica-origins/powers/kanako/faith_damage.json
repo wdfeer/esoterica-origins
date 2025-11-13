@@ -1,0 +1,40 @@
+{
+  "name": "Divine Intervention",
+  "description": "You deal double damage at 20 Faith, consuming 2 Faith.",
+  "melee": {
+    "type": "origins:modify_damage_dealt",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:kanako/faith",
+      "comparison": "==",
+      "compare_to": 20
+    },
+    "self_action": {
+      "type": "origins:change_resource",
+      "resource": "esoterica-origins:kanako/faith",
+      "change": -2
+    },
+    "modifier": {
+      "operation": "multiply_total",
+      "value": 1.0
+    }
+  },
+  "ranged": {
+    "type": "origins:modify_projectile_damage",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:kanako/faith",
+      "comparison": "==",
+      "compare_to": 20
+    },
+    "self_action": {
+      "type": "origins:change_resource",
+      "resource": "esoterica-origins:kanako/faith",
+      "change": -2
+    },
+    "modifier": {
+      "operation": "multiply_total",
+      "value": 1.0
+    }
+  }
+}
