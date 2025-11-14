@@ -6,7 +6,7 @@
     "origins:cat_vision",
     "origins:carnivore",
     "origins:water_vulnerability",
-    "origins:burn_in_daylight",
+    "esoterica-origins:hunger_in_daylight",
     "esoterica-origins:undead"
   ],
   "icon": "minecraft:ghast_tear",
