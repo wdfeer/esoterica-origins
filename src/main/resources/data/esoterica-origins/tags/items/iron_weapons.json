@@ -1,24 +1,6 @@
 {
   "values": [
     "minecraft:iron_sword",
-    "minecraft:iron_axe",
-    "botania:manasteel_sword",
-    "botania:terra_blade",
-    "botania:terra_truncator",
-    "simplyswords:iron_longsword",
-    "simplyswords:iron_twinblade",
-    "simplyswords:iron_rapier",
-    "simplyswords:iron_katana",
-    "simplyswords:iron_sai",
-    "simplyswords:iron_spear",
-    "simplyswords:iron_glaive",
-    "simplyswords:iron_warglaive",
-    "simplyswords:iron_cutlass",
-    "simplyswords:iron_claymore",
-    "simplyswords:iron_greathammer",
-    "simplyswords:iron_greataxe",
-    "simplyswords:iron_chakram",
-    "simplyswords:iron_scythe",
-    "simplyswords:iron_halberd"
+    "minecraft:iron_axe"
   ]
 }
