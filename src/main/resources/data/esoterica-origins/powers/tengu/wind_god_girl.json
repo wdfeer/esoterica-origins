@@ -1,7 +1,13 @@
 {
   "name": "Wind God's Power",
-  "description": "Gain Graze I for 60 seconds whenever you take damage.",
+  "description": "Every 10 seconds, upon taking damage, gain Graze I for 60 seconds.",
   "type": "origins:action_when_damage_taken",
+  "cooldown": 200,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+    "bar_index": 23
+  },
   "entity_action": {
     "type": "origins:apply_effect",
     "effect": {
@@ -9,10 +15,5 @@
       "duration": 1200,
       "amplifier": 0
     }
-  },
-  "condition": {
-    "inversed": true,
-    "type": "origins:status_effect",
-    "effect": "esoterica-origins:graze"
   }
 }
