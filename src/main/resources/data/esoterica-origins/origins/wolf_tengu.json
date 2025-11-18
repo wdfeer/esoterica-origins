@@ -1,8 +1,8 @@
 {
   "powers": [
-    "esoterica-origins:shield_damage_armor",
-    "esoterica-origins:fast_tengu",
-    "esoterica-origins:insomnia_wolf"
+    "esoterica-origins:tengu/shield_damage_armor",
+    "esoterica-origins:tengu/movespeed",
+    "esoterica-origins:tengu/insomnia_wolf"
   ],
   "icon": "minecraft:shield",
   "impact": 2,

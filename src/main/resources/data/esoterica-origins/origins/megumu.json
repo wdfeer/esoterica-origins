@@ -2,11 +2,11 @@
   "powers": [
     "origins:elytra",
     "origins:launch_into_air",
-    "esoterica-origins:megumu_hit",
-    "esoterica-origins:megumu_ability",
-    "esoterica-origins:fast_tengu",
+    "esoterica-origins:tengu/megumu_hit",
+    "esoterica-origins:tengu/megumu_ability",
+    "esoterica-origins:tengu/movespeed",
     "origins:fall_immunity",
-    "esoterica-origins:trouble_attractor",
+    "esoterica-origins:tengu/trouble_attractor",
     "origins:no_shield",
     "esoterica-origins:no_armor"
   ],

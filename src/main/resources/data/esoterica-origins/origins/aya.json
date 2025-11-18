@@ -1,11 +1,11 @@
 {
   "powers": [
-    "esoterica-origins:wind_god_girl",
+    "esoterica-origins:tengu/wind_god_girl",
     "origins:elytra",
     "origins:launch_into_air",
-    "esoterica-origins:fast_tengu",
+    "esoterica-origins:tengu/movespeed",
     "origins:fall_immunity",
-    "esoterica-origins:workaholic_diet",
+    "esoterica-origins:tengu/workaholic_diet",
     "origins:fresh_air",
     "origins:no_shield",
     "origins:light_armor"
