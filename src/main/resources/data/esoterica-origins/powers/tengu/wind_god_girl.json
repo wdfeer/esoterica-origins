@@ -1,61 +1,13 @@
 {
-  "name": "Graze",
-  "description": "You can negate incoming damage every minute.",
-  "type": "origins:multiple",
-  "timer": {
-    "type": "origins:resource",
-    "min": 0,
-    "max": 120,
-    "hud_render": {
-      "should_render": true,
-      "condition": {
-        "type": "origins:resource",
-        "resource": "esoterica-origins:wind_god_girl_timer",
-        "comparison": "<",
-        "compare_to": 120
-      },
-      "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
-      "bar_index": 23
-    },
-    "max_action": {
-      "type": "origins:apply_effect",
-      "effect": {
-        "effect": "minecraft:resistance",
-        "duration": 9999999,
-        "amplifier": 4,
-        "show_particles": false
-      }
-    }
-  },
-  "timer_increment": {
-    "type": "origins:action_over_time",
-    "entity_action": {
-      "type": "origins:change_resource",
-      "resource": "esoterica-origins:wind_god_girl_timer",
-      "change": 1
-    },
-    "interval": 10
-  },
-  "remove_resistance": {
-    "type": "origins:action_when_damage_taken",
-    "entity_action": {
-      "type": "origins:and",
-      "actions": [
-        {
-          "type": "origins:change_resource",
-          "resource": "esoterica-origins:wind_god_girl_timer",
-          "change": -999
-        },
-        {
-          "type": "origins:clear_effect",
-          "effect": "minecraft:resistance"
-        }
-      ]
-    },
-    "condition": {
-      "type": "origins:status_effect",
-      "effect": "minecraft:resistance",
-      "min_amplifier": 4
+  "name": "Wind God's Power",
+  "description": "Gain Graze I for 60 seconds whenever you take damage.",
+  "type": "origins:action_when_damage_taken",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "esoterica-origins:graze",
+      "duration": 1200,
+      "amplifier": 0
     }
   }
 }
