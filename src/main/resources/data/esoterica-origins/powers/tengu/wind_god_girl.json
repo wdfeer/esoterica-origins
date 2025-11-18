@@ -9,5 +9,10 @@
       "duration": 1200,
       "amplifier": 0
     }
+  },
+  "condition": {
+    "inversed": true,
+    "type": "origins:status_effect",
+    "effect": "esoterica-origins:graze"
   }
 }
