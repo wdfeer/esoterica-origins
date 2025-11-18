@@ -2,8 +2,10 @@ package wdfeer.esoterica_origins.mixin;
 
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.damage.DamageSource;
+import net.minecraft.entity.damage.DamageTypes;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectInstance;
+import net.minecraft.registry.tag.DamageTypeTags;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
@@ -26,7 +28,7 @@ public abstract class AppliedDamageMixin {
 
     @Inject(method = "modifyAppliedDamage", at = @At("RETURN"), cancellable = true)
     private void modifyAppliedDamage(DamageSource source, float amount, CallbackInfoReturnable<Float> cir) {
-        if (hasStatusEffect(Graze.INSTANCE) && cir.getReturnValue() > 0) {
+        if (hasStatusEffect(Graze.INSTANCE) && cir.getReturnValue() > 0 && !source.isIn(DamageTypeTags.BYPASSES_EFFECTS)) {
             var instance = activeStatusEffects.get(Graze.INSTANCE);
             if (instance.getAmplifier() > 1) {
                 activeStatusEffects.replace(Graze.INSTANCE, new StatusEffectInstance(Graze.INSTANCE,
