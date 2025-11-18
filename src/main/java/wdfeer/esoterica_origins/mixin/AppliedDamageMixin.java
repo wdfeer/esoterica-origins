@@ -31,7 +31,7 @@ public abstract class AppliedDamageMixin {
 
     @Inject(method = "modifyAppliedDamage", at = @At("RETURN"), cancellable = true)
     private void modifyAppliedDamage(DamageSource source, float amount, CallbackInfoReturnable<Float> cir) {
-        if (hasStatusEffect(Graze.INSTANCE) && cir.getReturnValue() > 0 && !source.isIn(DamageTypeTags.BYPASSES_EFFECTS)) {
+        if (hasStatusEffect(Graze.INSTANCE) && cir.getReturnValue() > 0 && !source.isIn(DamageTypeTags.BYPASSES_ARMOR)) {
             var instance = getStatusEffect(Graze.INSTANCE);
             assert instance != null;
             if (instance.getAmplifier() > 1) {
