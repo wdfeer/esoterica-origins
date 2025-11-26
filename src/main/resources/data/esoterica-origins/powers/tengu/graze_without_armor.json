@@ -1,0 +1,101 @@
+{
+  "name": "Tengu Maneuvering",
+  "description": "Every 30 seconds, gain Graze I for 60 seconds if not wearing armor.",
+  "type": "origins:action_over_time",
+  "interval": 600,
+  "hud_render": {
+    "should_render": true,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "head",
+          "item_condition": {
+            "type": "origins:armor_value",
+            "comparison": "==",
+            "compare_to": 0
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "chest",
+          "item_condition": {
+            "type": "origins:armor_value",
+            "comparison": "==",
+            "compare_to": 0
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "legs",
+          "item_condition": {
+            "type": "origins:armor_value",
+            "comparison": "==",
+            "compare_to": 0
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "feet",
+          "item_condition": {
+            "type": "origins:armor_value",
+            "comparison": "==",
+            "compare_to": 0
+          }
+        }
+      ]
+    },
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+    "bar_index": 23
+  },
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "head",
+        "item_condition": {
+          "type": "origins:armor_value",
+          "comparison": "==",
+          "compare_to": 0
+        }
+      },
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "chest",
+        "item_condition": {
+          "type": "origins:armor_value",
+          "comparison": "==",
+          "compare_to": 0
+        }
+      },
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "legs",
+        "item_condition": {
+          "type": "origins:armor_value",
+          "comparison": "==",
+          "compare_to": 0
+        }
+      },
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "feet",
+        "item_condition": {
+          "type": "origins:armor_value",
+          "comparison": "==",
+          "compare_to": 0
+        }
+      }
+    ]
+  },
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "esoterica-origins:graze",
+      "duration": 1200,
+      "amplifier": 0
+    }
+  }
+}
