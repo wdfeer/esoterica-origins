@@ -1,10 +1,19 @@
 {
   "type": "origins:keep_inventory",
   "name": "Boundary of My Stuff",
-  "description": "You keep items and experience on death unless you are in the End.",
+  "description": "After having visited the End, keep items and experience on death unless you are in the End.",
   "condition": {
-    "type": "origins:dimension",
-    "dimension": "minecraft:the_end",
-    "inverted": true
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:advancement",
+        "advancement": "minecraft:story/enter_the_end"
+      },
+      {
+        "type": "origins:dimension",
+        "dimension": "minecraft:the_end",
+        "inverted": true
+      }
+    ]
   }
 }
