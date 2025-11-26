@@ -8,23 +8,6 @@
       "type": "origins:sneaking"
     },
     "if_action": {
-      "type": "origins:raycast",
-      "distance": 64,
-      "block": true,
-      "entity": true,
-      "fluid_handling": "none",
-      "bientity_action": {
-        "type": "origins:target_action",
-        "action": {
-          "type": "origins:execute_command",
-          "command": "tp @s ~ ~50 ~"
-        }
-      },
-      "command_at_hit": "particle portal ~ ~ ~ 0.3 0.3 0.3 1 32 normal",
-      "command_along_ray": "particle block nether_portal ~ ~ ~ 0.05 0.05 0.05 1 2 normal",
-      "command_step": 1
-    },
-    "else_action": {
       "type": "origins:and",
       "actions": [
         {
@@ -46,6 +29,23 @@
           "command": "tp @s ~ ~50 ~"
         }
       ]
+    },
+    "else_action": {
+      "type": "origins:raycast",
+      "distance": 64,
+      "block": true,
+      "entity": true,
+      "fluid_handling": "none",
+      "bientity_action": {
+        "type": "origins:target_action",
+        "action": {
+          "type": "origins:execute_command",
+          "command": "tp @s ~ ~50 ~"
+        }
+      },
+      "command_at_hit": "particle portal ~ ~ ~ 0.3 0.3 0.3 1 32 normal",
+      "command_along_ray": "particle block nether_portal ~ ~ ~ 0.05 0.05 0.05 1 2 normal",
+      "command_step": 1
     }
   },
   "cooldown": 60,
