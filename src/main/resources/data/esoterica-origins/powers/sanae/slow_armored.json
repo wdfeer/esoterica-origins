@@ -8,7 +8,7 @@
     "operation": "multiply_total"
   },
   "condition": {
-    "type": "origins:and",
+    "type": "origins:or",
     "conditions": [
       {
         "type": "origins:equipped_item",
