@@ -1,0 +1,51 @@
+{
+  "name": "Armor Fatigue",
+  "description": "You move 15% slower if wearing armor better than leather.",
+  "type": "origins:conditioned_attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.movement_speed",
+    "value": -0.15,
+    "operation": "multiply_total"
+  },
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "head",
+        "item_condition": {
+          "type": "origins:armor_value",
+          "comparison": ">",
+          "compare_to": 1
+        }
+      },
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "chest",
+        "item_condition": {
+          "type": "origins:armor_value",
+          "comparison": ">",
+          "compare_to": 3
+        }
+      },
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "legs",
+        "item_condition": {
+          "type": "origins:armor_value",
+          "comparison": ">",
+          "compare_to": 2
+        }
+      },
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "feet",
+        "item_condition": {
+          "type": "origins:armor_value",
+          "comparison": ">",
+          "compare_to": 1
+        }
+      }
+    ]
+  }
+}

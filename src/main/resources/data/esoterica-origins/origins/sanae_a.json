@@ -2,7 +2,7 @@
   "powers": [
     "esoterica-origins:sanae/moriya_blessing",
     "origins:fall_immunity",
-    "origins:light_armor"
+    "esoterica-origins:sanae/slow_armored"
   ],
   "icon": "minecraft:feather",
   "impact": 2,
