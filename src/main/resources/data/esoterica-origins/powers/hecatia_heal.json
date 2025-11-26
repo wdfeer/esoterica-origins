@@ -1,6 +1,6 @@
 {
   "name": "Spare Body",
-  "description": "Activate to fully heal and become invulnerable for 5 seconds every 5 minutes. Gain creative flight whilst charging or +2 hearts when charged.",
+  "description": "Activate to fully heal and become invulnerable for 5 seconds every 10 minutes. Gain creative flight whilst charging or +2 hearts when charged. Activates before death.",
   "type": "origins:multiple",
   "active": {
     "type": "origins:active_self",
@@ -35,11 +35,55 @@
         }
       ]
     },
-    "cooldown": 6000,
+    "cooldown": 12000,
     "hud_render": {
       "should_render": true,
       "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
       "bar_index": 4
+    }
+  },
+  "prevent_death": {
+    "type": "origins:prevent_death",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:hecatia_heal_active",
+      "comparison": "==",
+      "compare_to": 0
+    },
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:heal",
+          "amount": 20
+        },
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:resistance",
+            "amplifier": 5,
+            "duration": 100
+          }
+        },
+        {
+          "type": "origins:spawn_particles",
+          "particle": {
+            "type": "minecraft:smoke"
+          },
+          "count": 24,
+          "speed": 0.3,
+          "force": false,
+          "spread": {
+            "x": 1.5,
+            "y": 1.7,
+            "z": 1.5
+          }
+        },
+        {
+          "type": "origins:trigger_cooldown",
+          "power": "esoterica-origins:hecatia_heal"
+        }
+      ]
     }
   },
   "creative_flight": {
