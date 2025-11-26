@@ -1,6 +1,6 @@
 {
   "name": "Spare Body",
-  "description": "Activate to fully heal and become invulnerable for 5 seconds every 5 minutes. Gain +2 melee damage whilst charging or +2 hearts when charged.",
+  "description": "Activate to fully heal and become invulnerable for 5 seconds every 5 minutes. Gain creative flight whilst charging or +2 hearts when charged.",
   "type": "origins:multiple",
   "active": {
     "type": "origins:active_self",
@@ -35,20 +35,15 @@
         }
       ]
     },
-    "cooldown": 4800,
+    "cooldown": 6000,
     "hud_render": {
       "should_render": true,
       "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
       "bar_index": 4
     }
   },
-  "extra_melee_damage": {
-    "type": "origins:conditioned_attribute",
-    "modifier": {
-      "attribute": "minecraft:generic.attack_damage",
-      "operation": "addition",
-      "value": 2
-    },
+  "creative_flight": {
+    "type": "origins:creative_flight",
     "condition": {
       "type": "origins:resource",
       "resource": "esoterica-origins:hecatia_heal_active",
