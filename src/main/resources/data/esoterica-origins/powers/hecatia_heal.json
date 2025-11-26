@@ -81,7 +81,7 @@
         },
         {
           "type": "origins:trigger_cooldown",
-          "power": "esoterica-origins:hecatia_heal"
+          "power": "esoterica-origins:hecatia_heal_active"
         }
       ]
     }
