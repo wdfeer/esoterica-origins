@@ -1,0 +1,33 @@
+{
+  "name": "Shining Leader",
+  "description": "Every 60 seconds, upon taking damage, give all players within 16 blocks Graze II for 60 seconds.",
+  "type": "origins:action_when_damage_taken",
+  "cooldown": 1200,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+    "bar_index": 23
+  },
+  "entity_action": {
+    "type": "origins:area_of_effect",
+    "radius": 16,
+    "bientity_action": {
+      "type": "origins:target_action",
+      "action": {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "esoterica-origins:graze",
+          "duration": 1200,
+          "amplifier": 1
+        }
+      }
+    },
+    "bientity_condition": {
+      "type": "origins:target_condition",
+      "condition": {
+        "type": "origins:entity_type",
+        "entity_type": "minecraft:player"
+      }
+    }
+  }
+}
