@@ -1,8 +1,8 @@
 {
   "powers": [
-    "esoterica-origins:akyuu_keepinventory",
-    "esoterica-origins:akyuu_morexp",
-    "esoterica-origins:akyuu_books",
+    "esoterica-origins:akyuu/keepinventory",
+    "esoterica-origins:akyuu/morexp",
+    "esoterica-origins:akyuu/book_craft",
     "origins:fragile",
     "esoterica-origins:half_melee_damage"
   ],
