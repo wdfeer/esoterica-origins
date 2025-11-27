@@ -1,0 +1,43 @@
+{
+  "type": "origins:multiple",
+  "1": {
+    "type": "origins:attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.max_health",
+      "value": -2,
+      "operation": "addition"
+    }
+  },
+  "2": {
+    "type": "origins:attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.max_health",
+      "value": -2,
+      "operation": "addition"
+    }
+  },
+  "3": {
+    "type": "origins:attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.max_health",
+      "value": -2,
+      "operation": "addition"
+    }
+  },
+  "4": {
+    "type": "origins:attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.max_health",
+      "value": -2,
+      "operation": "addition"
+    }
+  },
+  "5": {
+    "type": "origins:attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.max_health",
+      "value": -2,
+      "operation": "addition"
+    }
+  }
+}

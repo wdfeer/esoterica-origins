@@ -3,8 +3,7 @@
     "esoterica-origins:akyuu/keepinventory",
     "esoterica-origins:akyuu/morexp",
     "esoterica-origins:akyuu/book_craft",
-    "origins:fragile",
-    "esoterica-origins:half_melee_damage"
+    "esoterica-origins:akyuu/fragiling"
   ],
   "icon": "minecraft:book",
   "impact": 3,

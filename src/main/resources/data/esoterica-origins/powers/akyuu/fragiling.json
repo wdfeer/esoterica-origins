@@ -1,0 +1,69 @@
+{
+  "name": "Diminishing Lifespan",
+  "description": "Lose 1 heart permanently on death, up to 5 hearts.",
+  "type": "origins:prevent_death",
+  "condition": {
+    "type": "origins:constant",
+    "value": false
+  },
+  "entity_action": {
+    "type": "origins:if_else_list",
+    "actions": [
+      {
+        "condition": {
+          "type": "origins:constant",
+          "value": true
+        },
+        "action": {
+          "type": "origins:grant_power",
+          "power": "esoterica-origins:akyuu/minus_heart_1",
+          "source": "esoterica-origins:akyuu/fragiling"
+        }
+      },
+      {
+        "condition": {
+          "type": "origins:power",
+          "power": "esoterica-origins:akyuu/minus_heart_1"
+        },
+        "action": {
+          "type": "origins:grant_power",
+          "power": "esoterica-origins:akyuu/minus_heart_2",
+          "source": "esoterica-origins:akyuu/fragiling"
+        }
+      },
+      {
+        "condition": {
+          "type": "origins:power",
+          "power": "esoterica-origins:akyuu/minus_heart_2"
+        },
+        "action": {
+          "type": "origins:grant_power",
+          "power": "esoterica-origins:akyuu/minus_heart_3",
+          "source": "esoterica-origins:akyuu/fragiling"
+        }
+      },
+      {
+        "condition": {
+          "type": "origins:power",
+          "power": "esoterica-origins:akyuu/minus_heart_3"
+        },
+        "action": {
+          "type": "origins:grant_power",
+          "power": "esoterica-origins:akyuu/minus_heart_4",
+          "source": "esoterica-origins:akyuu/fragiling"
+        }
+      },
+      {
+        "condition": {
+          "type": "origins:power",
+          "power": "esoterica-origins:akyuu/minus_heart_4"
+        },
+        "action": {
+          "type": "origins:grant_power",
+          "power": "esoterica-origins:akyuu/minus_heart_5",
+          "source": "esoterica-origins:akyuu/fragiling"
+        }
+      }
+    ]
+  }
+}
