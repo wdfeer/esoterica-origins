@@ -1,0 +1,44 @@
+{
+  "name": "Ancient Barrier",
+  "description": "Gain 2 armor for having each of these status effects: Strength, Resistance, Absorption.",
+  "type": "origins:multiple",
+  "strength": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.armor",
+      "operation": "addition",
+      "value": 2
+    },
+    "tick_rate": 2,
+    "condition": {
+      "type": "origins:status_effect",
+      "effect": "minecraft:strength"
+    }
+  },
+  "resistance": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.armor",
+      "operation": "addition",
+      "value": 2
+    },
+    "tick_rate": 2,
+    "condition": {
+      "type": "origins:status_effect",
+      "effect": "minecraft:resistance"
+    }
+  },
+  "absorption": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.armor",
+      "operation": "addition",
+      "value": 2
+    },
+    "tick_rate": 2,
+    "condition": {
+      "type": "origins:status_effect",
+      "effect": "minecraft:absorption"
+    }
+  }
+}

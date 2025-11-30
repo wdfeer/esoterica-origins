@@ -1,5 +1,8 @@
 {
   "powers": [
+    "esoterica-origins:misumaru/open_crafting_table",
+    "esoterica-origins:misumaru/strength_from_projectile",
+    "esoterica-origins:misumaru/armor_if_effect",
     "esoterica-origins:half_melee_damage",
     "origins:fragile"
   ],

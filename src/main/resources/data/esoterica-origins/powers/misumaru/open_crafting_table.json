@@ -1,0 +1,8 @@
+{
+  "name": "Divine Crafter",
+  "description": "Activate to open a crafting table.",
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:crafting_table"
+  }
+}
