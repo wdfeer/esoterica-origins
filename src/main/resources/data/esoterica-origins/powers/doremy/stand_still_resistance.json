@@ -3,7 +3,7 @@
   "description": "Gain Resistance II after not moving horizontally for 5 seconds.",
   "type": "origins:multiple",
   "timer": {
-    "type": "origins:multiple",
+    "type": "origins:resource",
     "min": 0,
     "max": 50
   },
