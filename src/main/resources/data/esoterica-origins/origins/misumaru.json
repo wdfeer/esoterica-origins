@@ -1,5 +1,8 @@
 {
-  "powers": [],
+  "powers": [
+    "esoterica-origins:half_melee_damage",
+    "origins:fragile"
+  ],
   "icon": "minecraft:crafting_table",
   "impact": 3,
   "name": "Magatama Crafter",
