@@ -1,0 +1,23 @@
+{
+  "name": "Runaway Dream",
+  "description": "Restore hunger and gain Haste for 20 minutes after waking up.",
+  "type": "origins:action_on_wake_up",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effects": [
+      {
+        "effect": "minecraft:saturation",
+        "duration": 100,
+        "amplifier": 0
+      },
+      {
+        "effect": "minecraft:haste",
+        "duration": 24000,
+        "amplifier": 0,
+        "is_ambient": true,
+        "show_particles": true,
+        "show_icon": true
+      }
+    ]
+  }
+}
