@@ -1,0 +1,53 @@
+{
+  "name": "Sweet Daydream",
+  "description": "Gain Resistance II after not moving horizontally for 5 seconds.",
+  "type": "origins:multiple",
+  "timer": {
+    "type": "origins:multiple",
+    "min": 0,
+    "max": 50
+  },
+  "timer_increment": {
+    "type": "origins:action_over_time",
+    "condition": {
+      "inverted": true,
+      "type": "origins:moving"
+    },
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "esoterica-origins:doremy/stand_still_resistance_timer",
+      "change": 2
+    },
+    "interval": 2
+  },
+  "timer_reset": {
+    "type": "origins:action_over_time",
+    "condition": {
+      "type": "origins:moving"
+    },
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "esoterica-origins:doremy/stand_still_resistance_timer",
+      "change": -50
+    },
+    "interval": 2
+  },
+  "resistance": {
+    "type": "origins:action_over_time",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:doremy/stand_still_resistance_timer",
+      "comparison": ">=",
+      "compare_to": 50
+    },
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:resistance",
+        "duration": 100,
+        "amplifier": 1
+      }
+    },
+    "interval": 2
+  }
+}
