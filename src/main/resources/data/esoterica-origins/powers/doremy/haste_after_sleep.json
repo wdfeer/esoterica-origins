@@ -15,8 +15,8 @@
         "duration": 24000,
         "amplifier": 0,
         "is_ambient": true,
-        "show_particles": true,
-        "show_icon": true
+        "show_particles": false,
+        "show_icon": false
       }
     ]
   }
