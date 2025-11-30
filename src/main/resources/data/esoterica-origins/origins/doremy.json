@@ -7,7 +7,7 @@
     "esoterica-origins:no_melee_damage",
     "esoterica-origins:end_vulnerability"
   ],
-  "icon": "minecraft:end_crystal",
+  "icon": "minecraft:purple_bed",
   "impact": 3,
   "name": "Dream Lord",
   "description": "Master of Dreams but vulnerable in material space."
