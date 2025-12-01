@@ -1,0 +1,23 @@
+{
+  "name": "Iron Skin",
+  "description": "Gain 10 armor if you have Resistance or Absorption.",
+  "type": "origins:conditioned_attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.armor",
+    "value": 10,
+    "operation": "addition"
+  },
+  "condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:status_effect",
+        "effect": "minecraft:resistance"
+      },
+      {
+        "type": "origins:status_effect",
+        "effect": "minecraft:absorption"
+      }
+    ]
+  }
+}
