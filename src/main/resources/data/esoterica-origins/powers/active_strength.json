@@ -1,6 +1,6 @@
 {
   "name": "Channeling Strength",
-  "description": "Use your active ability to gain Strength I for 30 seconds.",
+  "description": "Activate to gain Strength for 30 seconds every minute.",
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:and",

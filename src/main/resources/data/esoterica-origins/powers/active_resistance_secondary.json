@@ -1,6 +1,6 @@
 {
   "name": "Defensive Barrier",
-  "description": "Use your active ability to gain Resistance I for 30 seconds.",
+  "description": "Activate to gain Resistance for 30 seconds every minute.",
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:and",
