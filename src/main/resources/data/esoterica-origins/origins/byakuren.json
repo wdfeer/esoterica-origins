@@ -1,5 +1,11 @@
 {
-  "powers": [],
+  "powers": [
+    "esoterica-origins:active_strength",
+    "esoterica-origins:active_resistance_secondary",
+    "esoterica-origins:byakuren/explosive_punch",
+    "esoterica-origins:byakuren/nodiamond_faster",
+    "esoterica-origins:no_armor"
+  ],
   "icon": "minecraft:enchanted_book",
   "impact": 3,
   "name": "Dharmic Magician",
