@@ -1,0 +1,22 @@
+{
+  "name": "Vajrapani Sprint",
+  "description": "You move 20% faster unless you are in possession of diamond or netherite items.",
+  "type": "origins:conditioned_attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.movement_speed",
+    "value": 0.2,
+    "operation": "multiply_total"
+  },
+  "condition": {
+    "type": "origins:inventory",
+    "process_mode": "items",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "tag": "esoterica-origins:diamond_or_netherite"
+      }
+    },
+    "comparison": "==",
+    "compare_to": 0
+  }
+}

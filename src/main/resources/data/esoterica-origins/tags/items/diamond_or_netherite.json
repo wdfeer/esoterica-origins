@@ -1,0 +1,20 @@
+{
+  "values": [
+    "minecraft:diamond",
+    "minecraft:diamond_block",
+    "minecraft:diamond_sword",
+    "minecraft:diamond_pickaxe",
+    "minecraft:diamond_axe",
+    "minecraft:diamond_shovel",
+    "minecraft:diamond_hoe",
+    "minecraft:netherite_ingot",
+    "minecraft:netherite_block",
+    "minecraft:ancient_debris",
+    "minecraft:netherite_scrap",
+    "minecraft:netherite_sword",
+    "minecraft:netherite_pickaxe",
+    "minecraft:netherite_axe",
+    "minecraft:netherite_shovel",
+    "minecraft:netherite_hoe"
+  ]
+}
