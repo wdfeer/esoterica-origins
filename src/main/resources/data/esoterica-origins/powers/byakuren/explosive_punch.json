@@ -3,7 +3,7 @@
   "description": "Enemies punched with bare fists explode non-destructively.",
   "type": "origins:modify_damage_dealt",
   "modifier": {
-    "operation": "additive",
+    "operation": "addition",
     "value": 4.0
   },
   "condition": {
