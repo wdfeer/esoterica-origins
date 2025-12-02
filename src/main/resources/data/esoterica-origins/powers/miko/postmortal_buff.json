@@ -1,0 +1,14 @@
+{
+  "name": "Apotheosis",
+  "description": "After having used a totem of undying, you permanently take 1 less damage from all sources.",
+  "type": "origins:modify_damage_taken",
+  "modifier": {
+    "name": "Resistant after Postmortal",
+    "operation": "addition",
+    "value": -1
+  },
+  "condition": {
+    "type": "origins:advancement",
+    "advancement": "minecraft:adventure/totem_of_undying"
+  }
+}
