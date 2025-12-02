@@ -68,8 +68,9 @@
             "type": "origins:target_condition",
             "condition": {
               "inverted": true,
-              "type": "origins:entity_type",
-              "entity_type": "minecraft:player"
+              "type": "origins:origin",
+              "origin": "esoterica-origins:byakuren",
+              "layer": "origins:origin"
             }
           },
           "bientity_action": {
