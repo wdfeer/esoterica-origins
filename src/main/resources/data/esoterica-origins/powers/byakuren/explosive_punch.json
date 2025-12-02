@@ -59,7 +59,7 @@
         {
           "type": "origins:play_sound",
           "sound": "minecraft:entity.generic.explode",
-          "volume": 0.6
+          "volume": 0.4
         },
         {
           "type": "origins:area_of_effect",
