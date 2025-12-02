@@ -1,5 +1,7 @@
 {
   "powers": [
+    "esoterica-origins:miko/golden_speed",
+    "esoterica-origins:miko/postmortal_buff",
     "esoterica-origins:no_armor"
   ],
   "icon": "minecraft:golden_sword",
