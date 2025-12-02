@@ -7,6 +7,7 @@
     "value": 10,
     "operation": "addition"
   },
+  "tick_rate": 2,
   "condition": {
     "type": "origins:or",
     "conditions": [
