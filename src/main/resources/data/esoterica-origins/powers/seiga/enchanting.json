@@ -1,0 +1,24 @@
+{
+  "name": "Trick of Wicked Hermit",
+  "description": "Apply Mending and Curse of Vanishing to the held tool upon killing a mob.",
+  "type": "origins:self_action_on_kill",
+  "entity_action": {
+    "type": "origins:equipped_item_action",
+    "equipment_slot": "mainhand",
+    "action": {
+      "type": "origins:merge_nbt",
+      "nbt": "{Enchantments:[{id:\"minecraft:mending\",lvl:1s},{id:\"minecraft:vanishing_curse\",lvl:1s}]}"
+    }
+  },
+  "cooldown": 1,
+  "condition": {
+    "type": "origins:equipped_item",
+    "equipment_slot": "mainhand",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "tag": "minecraft:tools"
+      }
+    }
+  }
+}
