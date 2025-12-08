@@ -1,5 +1,7 @@
 {
-  "powers": [],
+  "powers": [
+    "esoterica-origins:seiga/phasing"
+  ],
   "icon": "minecraft:blue_orchid",
   "impact": 3,
   "name": "Wicked Hermit",
