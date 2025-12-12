@@ -1,5 +1,6 @@
 {
   "powers": [
+    "esoterica-origins:minoriko/crop_growth",
     "origins:light_armor"
   ],
   "icon": "minecraft:farmland",

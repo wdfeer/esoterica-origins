@@ -1,0 +1,13 @@
+{
+  "name": "Goddess' Blessing",
+  "description": "Crops you stand on grow instantly.",
+  "type": "origins:action_over_time",
+  "interval": 2,
+  "entity_action": {
+    "type": "origins:block_action_at",
+    "block_action": {
+      "type": "origins:bonemeal",
+      "effects": true
+    }
+  }
+}
