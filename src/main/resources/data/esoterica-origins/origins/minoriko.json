@@ -1,5 +1,6 @@
 {
   "powers": [
+    "esoterica-origins:minoriko/sun_food",
     "esoterica-origins:minoriko/crop_growth",
     "origins:light_armor"
   ],

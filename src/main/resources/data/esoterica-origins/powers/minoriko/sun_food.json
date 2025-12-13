@@ -1,0 +1,18 @@
+{
+  "name": "Daily Harvest",
+  "description": "Food gives extra food points when eaten in sunlight.",
+  "type": "origins:modify_food",
+  "condition": {
+    "type": "origins:exposed_to_sun"
+  },
+  "food_modifier": {
+    "name": "Increased food points",
+    "operation": "multiply_base",
+    "value": 0.25
+  },
+  "saturation_modifier": {
+    "name": "Increased saturation points",
+    "operation": "addition",
+    "value": 1
+  }
+}
