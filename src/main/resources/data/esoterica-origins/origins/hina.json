@@ -1,0 +1,9 @@
+{
+  "powers": [
+    "origins:fragile"
+  ],
+  "icon": "minecraft:poppy",
+  "impact": 3,
+  "name": "Misfortune God",
+  "description": "God capable of gathering and recycling misfortune."
+}
