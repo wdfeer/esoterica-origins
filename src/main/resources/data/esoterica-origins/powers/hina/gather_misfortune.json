@@ -1,0 +1,41 @@
+{
+  "name": "Gather Faith",
+  "description": "Every second, if you don't have Flawless, every living entity within 32 blocks within line of sight has a 2% chance to give you 1 Faith.",
+  "type": "origins:action_over_time",
+  "interval": 20,
+  "entity_action": {
+    "type": "origins:area_of_effect",
+    "radius": 32,
+    "bientity_action": {
+      "type": "origins:actor_action",
+      "action": {
+        "type": "origins:chance",
+        "action": {
+          "type": "origins:change_resource",
+          "resource": "esoterica-origins:sanae/faith",
+          "change": 1
+        },
+        "chance": 0.02
+      }
+    },
+    "bientity_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:can_see"
+        },
+        {
+          "type": "origins:target_condition",
+          "condition": {
+            "type": "origins:living"
+          }
+        }
+      ]
+    }
+  },
+  "condition": {
+    "inverted": true,
+    "type": "origins:status_effect",
+    "effect": "esoterica-origins:flawless"
+  }
+}
