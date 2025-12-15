@@ -1,6 +1,5 @@
 {
   "powers": [
-    "esoterica-origins:hina/misfortune",
     "esoterica-origins:hina/gather_misfortune",
     "esoterica-origins:hina/inject_misfortune",
     "esoterica-origins:hina/wither_damage",
