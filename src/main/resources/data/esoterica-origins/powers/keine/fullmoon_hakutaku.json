@@ -6,7 +6,7 @@
   "entity_action": {
     "type": "origins:change_resource",
     "resource": "esoterica-origins:keine/hakutaku",
-    "change": 999
+    "change": 1
   },
   "condition": {
     "type": "origins:predicate",

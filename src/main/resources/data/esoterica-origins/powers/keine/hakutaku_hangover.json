@@ -1,0 +1,48 @@
+{
+  "name": "Post-Transformation Sickness",
+  "description": "Gain Weakness for 20 minutes and Hunger for 1 minute after exiting Hakutaku form.",
+  "type": "action_over_time",
+  "interval": 5,
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:change_resource",
+        "resource": "esoterica-origins:keine/hakutaku",
+        "change": -1
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:hunger",
+          "duration": 1200,
+          "amplifier": 0
+        }
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:weakness",
+          "duration": 24000,
+          "amplifier": 0
+        }
+      }
+    ]
+  },
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "inverted": true,
+        "type": "origins:predicate",
+        "predicate": "esoterica-origins:full_moon"
+      },
+      {
+        "type": "origins:resource",
+        "resource": "esoterica-origins:keine/hakutaku",
+        "comparison": ">",
+        "compare_to": 0
+      }
+    ]
+  }
+}
