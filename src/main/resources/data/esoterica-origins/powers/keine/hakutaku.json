@@ -1,9 +1,9 @@
 {
   "name": "Hakutaku",
-  "description": "You have a hakutaku form, which expires 1 minute after activation.",
+  "description": "You have a hakutaku form.",
   "type": "origins:resource",
   "min": 0,
-  "max": 60,
+  "max": 1,
   "hud_render": {
     "should_render": true,
     "condition": {
