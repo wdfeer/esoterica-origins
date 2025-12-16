@@ -1,0 +1,31 @@
+{
+  "name": "Teacher's Dedication",
+  "description": "Gain Haste when standing still in human form.",
+  "type": "origins:stacking_status_effect",
+  "min_stacks": 0,
+  "max_stacks": 5,
+  "duration_per_stack": 10,
+  "effects": [
+    {
+      "effect": "minecraft:haste",
+      "is_ambient": true,
+      "show_particles": true,
+      "show_icon": true
+    }
+  ],
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "inverted": true,
+        "type": "origins:moving"
+      },
+      {
+        "type": "origins:resource",
+        "resource": "esoterica-origins:keine/hakutaku",
+        "comparison": "==",
+        "compare_to": 0
+      }
+    ]
+  }
+}
