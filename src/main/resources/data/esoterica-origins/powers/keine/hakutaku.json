@@ -1,9 +1,9 @@
 {
-  "name": "Transformation",
-  "description": "You have a hakutaku form, which expires 10 minutes after activation.",
+  "name": "Hakutaku",
+  "description": "You have a hakutaku form, which expires 1 minute after activation.",
   "type": "origins:resource",
   "min": 0,
-  "max": 600,
+  "max": 60,
   "hud_render": {
     "should_render": true,
     "condition": {
