@@ -1,0 +1,18 @@
+{
+  "name": "Transformation",
+  "description": "You have a hakutaku form, which expires 10 minutes after activation.",
+  "type": "origins:resource",
+  "min": 0,
+  "max": 600,
+  "hud_render": {
+    "should_render": true,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:keine/hakutaku",
+      "comparison": ">",
+      "compare_to": 0
+    },
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+    "bar_index": 1
+  }
+}
