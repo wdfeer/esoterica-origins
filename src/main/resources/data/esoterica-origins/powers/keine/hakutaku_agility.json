@@ -1,0 +1,48 @@
+{
+  "name": "Hakutaku Agility",
+  "description": "Whilst in hakutaku form, you move 20% faster but cannot wear any armor.",
+  "type": "origins:multiple",
+  "buff": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "multiply_total"
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:keine/hakutaku",
+      "comparison": ">",
+      "compare_to": 0
+    }
+  },
+  "no_armor": {
+    "type": "origins:restrict_armor",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:keine/hakutaku",
+      "comparison": ">",
+      "compare_to": 0
+    },
+    "head": {
+      "type": "origins:armor_value",
+      "comparison": ">",
+      "compare_to": 0
+    },
+    "chest": {
+      "type": "origins:armor_value",
+      "comparison": ">",
+      "compare_to": 0
+    },
+    "legs": {
+      "type": "origins:armor_value",
+      "comparison": ">",
+      "compare_to": 0
+    },
+    "feet": {
+      "type": "origins:armor_value",
+      "comparison": ">",
+      "compare_to": 0
+    }
+  }
+}
