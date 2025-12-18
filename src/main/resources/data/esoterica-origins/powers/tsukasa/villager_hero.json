@@ -1,0 +1,16 @@
+{
+  "name": "Charismatic Consultant",
+  "description": "Gain Hero of the Village for 1 minute upon killing any entity.",
+  "type": "origins:self_action_on_kill",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:hero_of_the_village",
+      "duration": 1200,
+      "amplifier": 0,
+      "is_ambient": true,
+      "show_particles": false,
+      "show_icon": true
+    }
+  }
+}
