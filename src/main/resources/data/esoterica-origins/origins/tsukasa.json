@@ -1,7 +1,9 @@
 {
   "powers": [
     "esoterica-origins:tsukasa/fast_fox",
+    "esoterica-origins:tsukasa/sneaking_jump_boost",
     "esoterica-origins:tsukasa/villager_hero",
+    "origins:fall_immunity",
     "esoterica-origins:tsukasa/water_debuff",
     "origins:light_armor"
   ],
