@@ -32,9 +32,9 @@ type Origin struct {
 
 func parseOrigin(path string) Origin {
 	data, _ := os.ReadFile(path)
-	var object map[string]interface{}
+	var object map[string]any
 	json.Unmarshal(data, &object)
-	powerNames := object["powers"].([]interface{})
+	powerNames := object["powers"].([]any)
 	powers := make([]Power, len(powerNames))
 	for i, identifier := range powerNames {
 		path := strings.Split(identifier.(string), ":")[1]
@@ -54,7 +54,7 @@ type Power struct {
 
 func parsePower(path string) Power {
 	data, _ := os.ReadFile(path)
-	var object map[string]interface{}
+	var object map[string]any
 	json.Unmarshal(data, &object)
 	return Power{
 		name:        object["name"].(string),
@@ -63,5 +63,15 @@ func parsePower(path string) Power {
 }
 
 func buildMarkdown(origins []Origin) string {
-	// TODO: create a markdown file string from all the names and descriptions
+	var str strings.Builder
+	str.WriteString("# Origins\n")
+	for _, origin := range origins {
+		str.WriteString("## " + origin.name + "\n")
+		str.WriteString(origin.description + "\n\n")
+		for _, power := range origin.powers {
+			str.WriteString("- " + power.name + ": " + power.description + "\n")
+		}
+		str.WriteString("\n")
+	}
+	return str.String()
 }
