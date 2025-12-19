@@ -69,3 +69,11 @@ publishing {
         // retrieving dependencies.
     }
 }
+
+task runDocgen(type: Exec) {
+    group = 'documentation'
+    description = 'Generates markdown docs using the Go docgen tool'
+
+    workingDir = file('docgen')
+    commandLine 'go', 'run', '.'
+}
