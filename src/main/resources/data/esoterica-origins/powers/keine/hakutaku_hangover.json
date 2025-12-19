@@ -1,7 +1,7 @@
 {
   "name": "Post-Transformation Sickness",
   "description": "Gain Weakness for 20 minutes and Hunger for 1 minute after exiting Hakutaku form.",
-  "type": "action_over_time",
+  "type": "origins:action_over_time",
   "interval": 5,
   "entity_action": {
     "type": "origins:and",

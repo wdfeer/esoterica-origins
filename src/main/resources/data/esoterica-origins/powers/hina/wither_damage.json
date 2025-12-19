@@ -10,12 +10,9 @@
     "bientity_action": {
       "type": "origins:target_action",
       "action": {
-        "type": "origins:apply_effect",
-        "effect": {
-          "type": "origins:damage",
-          "amount": 3,
-          "damage_type": "minecraft:magic"
-        }
+        "type": "origins:damage",
+        "amount": 3,
+        "damage_type": "minecraft:magic"
       }
     },
     "bientity_condition": {
