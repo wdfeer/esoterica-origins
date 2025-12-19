@@ -66,6 +66,7 @@ type Power struct {
 	description string
 }
 
+// FIXME: make it work with vanilla "origin:..." powers, e.g. by importing the en_us.json from Origins
 func parsePower(path string) Power {
 	var object map[string]any
 	{
