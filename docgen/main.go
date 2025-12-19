@@ -53,7 +53,13 @@ type Power struct {
 }
 
 func parsePower(path string) Power {
-	// TODO: parse power json at `path`
+	data, _ := os.ReadFile(path)
+	var object map[string]interface{}
+	json.Unmarshal(data, &object)
+	return Power{
+		name:        object["name"].(string),
+		description: object["description"].(string),
+	}
 }
 
 func buildMarkdown(origins []Origin) string {
