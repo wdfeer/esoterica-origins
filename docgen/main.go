@@ -31,15 +31,29 @@ type Origin struct {
 }
 
 func parseOrigin(path string) Origin {
-	data, _ := os.ReadFile(path)
 	var object map[string]any
-	json.Unmarshal(data, &object)
+	{
+		data, _ := os.ReadFile(path)
+		json.Unmarshal(data, &object)
+	}
+
+	if object["name"] == nil {
+		panic("Failed reading origin at\"" + path + "\", name not found!")
+	}
+	if object["description"] == nil {
+		panic("Failed reading origin at\"" + path + "\", description not found!")
+	}
+	if object["powers"] == nil {
+		panic("Failed reading origin at\"" + path + "\", powers not found!")
+	}
+
 	powerNames := object["powers"].([]any)
 	powers := make([]Power, len(powerNames))
 	for i, identifier := range powerNames {
 		path := strings.Split(identifier.(string), ":")[1]
 		powers[i] = parsePower(powerDir + path)
 	}
+
 	return Origin{
 		name:        object["name"].(string),
 		description: object["description"].(string),
@@ -53,9 +67,19 @@ type Power struct {
 }
 
 func parsePower(path string) Power {
-	data, _ := os.ReadFile(path)
 	var object map[string]any
-	json.Unmarshal(data, &object)
+	{
+		data, _ := os.ReadFile(path)
+		json.Unmarshal(data, &object)
+	}
+
+	if object["name"] == nil {
+		panic("Failed reading power at\"" + path + "\", name not found!")
+	}
+	if object["description"] == nil {
+		panic("Failed reading power at\"" + path + "\", description not found!")
+	}
+
 	return Power{
 		name:        object["name"].(string),
 		description: object["description"].(string),
