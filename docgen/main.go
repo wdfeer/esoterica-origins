@@ -87,11 +87,7 @@ func parsePower(namespace string, name string) Power {
 			description: object["description"].(string),
 		}
 	} else {
-		var object map[string]any
-		{
-			data, _ := os.ReadFile(originsLangFile)
-			json.Unmarshal(data, &object)
-		}
+		object := readJson(originsLangFile)
 
 		nameKey := "power.origins." + name + ".name"
 		descKey := "power.origins." + name + ".description"
