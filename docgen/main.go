@@ -51,7 +51,7 @@ func parseOrigin(path string) Origin {
 	powers := make([]Power, len(powerNames))
 	for i, identifier := range powerNames {
 		path := strings.Split(identifier.(string), ":")[1]
-		powers[i] = parsePower(powerDir + path)
+		powers[i] = parsePower(powerDir + path + ".json")
 	}
 
 	return Origin{
