@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"os"
+	"strings"
 )
 
 const (
@@ -30,7 +31,20 @@ type Origin struct {
 }
 
 func parseOrigin(path string) Origin {
-	// TODO: parse origin json at `path` and powers included
+	data, _ := os.ReadFile(path)
+	var object map[string]interface{}
+	json.Unmarshal(data, &object)
+	powerNames := object["powers"].([]interface{})
+	powers := make([]Power, len(powerNames))
+	for i, identifier := range powerNames {
+		path := strings.Split(identifier.(string), ":")[1]
+		powers[i] = parsePower(powerDir + path)
+	}
+	return Origin{
+		name:        object["name"].(string),
+		description: object["description"].(string),
+		powers:      powers,
+	}
 }
 
 type Power struct {
