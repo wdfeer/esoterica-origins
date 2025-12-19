@@ -32,11 +32,7 @@ type Origin struct {
 }
 
 func parseOrigin(path string) Origin {
-	var object map[string]any
-	{
-		data, _ := os.ReadFile(path)
-		json.Unmarshal(data, &object)
-	}
+	object := readJson(path)
 
 	if object["name"] == nil {
 		panic("Failed reading origin at\"" + path + "\", name not found!")
@@ -71,11 +67,7 @@ type Power struct {
 func parsePower(namespace string, name string) Power {
 	if namespace == "esoterica-origins" {
 		path := powerDir + name + ".json"
-		var object map[string]any
-		{
-			data, _ := os.ReadFile(path)
-			json.Unmarshal(data, &object)
-		}
+		object := readJson(path)
 
 		if object["hidden"] == true {
 			return Power{
@@ -114,6 +106,19 @@ func parsePower(namespace string, name string) Power {
 			description: object[descKey].(string),
 		}
 	}
+}
+
+func readJson(path string) map[string]any {
+	var object map[string]any
+	data, err := os.ReadFile(path)
+	if err != nil {
+		panic("Failed to read file at \"" + path + "\":" + err.Error())
+	}
+	err = json.Unmarshal(data, &object)
+	if err != nil {
+		panic("Failed to unmarshal json at \"" + path + "\":" + err.Error())
+	}
+	return object
 }
 
 func buildMarkdown(origins []Origin) string {
