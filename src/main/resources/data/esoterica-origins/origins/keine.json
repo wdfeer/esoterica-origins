@@ -1,10 +1,10 @@
 {
   "powers": [
-    "esoterica_origins:keine/haste_stand_still",
-    "esoterica_origins:keine/hakutaku",
-    "esoterica_origins:keine/hakutaku_agility",
-    "esoterica_origins:keine/fullmoon_hakutaku",
-    "esoterica_origins:keine/hakutaku_hangover"
+    "esoterica-origins:keine/haste_standstill",
+    "esoterica-origins:keine/hakutaku",
+    "esoterica-origins:keine/hakutaku_agility",
+    "esoterica-origins:keine/fullmoon_hakutaku",
+    "esoterica-origins:keine/hakutaku_hangover"
   ],
   "icon": "minecraft:lectern",
   "impact": 2,

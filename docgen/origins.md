@@ -173,6 +173,11 @@ Pacifist Goddess of creation.
 ## Were-hakutaku
 Being capable of erasing and creating history and transforming into a hakutaku.
 
+- Teacher's Dedication: Gain Haste when standing still in human form.
+- Hakutaku: You have a hakutaku form.
+- Hakutaku Agility: Whilst in hakutaku form, you move 20% faster but cannot wear any armor.
+- Transformation: You are forced into hakutaku form during a full moon.
+- Post-Transformation Sickness: Gain Weakness for 20 minutes and Hunger for 1 minute after exiting Hakutaku form.
 
 ## Unconscious Youkai
 A satori with a sealed third eye, capable of manipulating the unconscious. 
