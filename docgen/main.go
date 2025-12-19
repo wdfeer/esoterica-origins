@@ -7,9 +7,10 @@ import (
 )
 
 const (
-	originDir  = "../src/main/resources/data/esoterica-origins/origins/"
-	powerDir   = "../src/main/resources/data/esoterica-origins/powers/"
-	outputFile = "./origins.md"
+	originDir       = "../src/main/resources/data/esoterica-origins/origins/"
+	powerDir        = "../src/main/resources/data/esoterica-origins/powers/"
+	originsLangFile = "./en_us.json"
+	outputFile      = "./origins.md"
 )
 
 func main() {
@@ -50,8 +51,8 @@ func parseOrigin(path string) Origin {
 	powerNames := object["powers"].([]any)
 	powers := make([]Power, len(powerNames))
 	for i, identifier := range powerNames {
-		path := strings.Split(identifier.(string), ":")[1]
-		powers[i] = parsePower(powerDir + path + ".json")
+		split := strings.Split(identifier.(string), ":")
+		powers[i] = parsePower(split[0], split[1])
 	}
 
 	return Origin{
@@ -66,24 +67,47 @@ type Power struct {
 	description string
 }
 
-// FIXME: make it work with vanilla "origin:..." powers, e.g. by importing the en_us.json from Origins
-func parsePower(path string) Power {
-	var object map[string]any
-	{
-		data, _ := os.ReadFile(path)
-		json.Unmarshal(data, &object)
-	}
+// FIXME: don't parse hidden powers
+func parsePower(namespace string, name string) Power {
+	if namespace == "esoterica-origins" {
+		path := powerDir + name + ".json"
+		var object map[string]any
+		{
+			data, _ := os.ReadFile(path)
+			json.Unmarshal(data, &object)
+		}
 
-	if object["name"] == nil {
-		panic("Failed reading power at\"" + path + "\", name not found!")
-	}
-	if object["description"] == nil {
-		panic("Failed reading power at\"" + path + "\", description not found!")
-	}
+		if object["name"] == nil {
+			panic("Failed reading power at\"" + path + "\", name not found!")
+		}
+		if object["description"] == nil {
+			panic("Failed reading power at\"" + path + "\", description not found!")
+		}
 
-	return Power{
-		name:        object["name"].(string),
-		description: object["description"].(string),
+		return Power{
+			name:        object["name"].(string),
+			description: object["description"].(string),
+		}
+	} else {
+		var object map[string]any
+		{
+			data, _ := os.ReadFile(originsLangFile)
+			json.Unmarshal(data, &object)
+		}
+
+		nameKey := "power.origins." + name + ".name"
+		descKey := "power.origins." + name + ".description"
+		if object[nameKey] == nil {
+			panic("Failed reading vanilla power name of \"" + name + "\"!")
+		}
+		if object[descKey] == nil {
+			panic("Failed reading vanilla power name of \"" + name + "\"!")
+		}
+
+		return Power{
+			name:        object[nameKey].(string),
+			description: object[descKey].(string),
+		}
 	}
 }
 
