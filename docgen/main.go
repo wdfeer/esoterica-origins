@@ -63,11 +63,11 @@ func parseOrigin(path string) Origin {
 }
 
 type Power struct {
+	hidden      bool
 	name        string
 	description string
 }
 
-// FIXME: don't parse hidden powers
 func parsePower(namespace string, name string) Power {
 	if namespace == "esoterica-origins" {
 		path := powerDir + name + ".json"
@@ -75,6 +75,12 @@ func parsePower(namespace string, name string) Power {
 		{
 			data, _ := os.ReadFile(path)
 			json.Unmarshal(data, &object)
+		}
+
+		if object["hidden"] == true {
+			return Power{
+				hidden: true,
+			}
 		}
 
 		if object["name"] == nil {
@@ -97,11 +103,10 @@ func parsePower(namespace string, name string) Power {
 
 		nameKey := "power.origins." + name + ".name"
 		descKey := "power.origins." + name + ".description"
-		if object[nameKey] == nil {
-			panic("Failed reading vanilla power name of \"" + name + "\"!")
-		}
-		if object[descKey] == nil {
-			panic("Failed reading vanilla power name of \"" + name + "\"!")
+		if object[nameKey] == nil || object[descKey] == nil {
+			return Power{
+				hidden: true,
+			}
 		}
 
 		return Power{
@@ -118,7 +123,9 @@ func buildMarkdown(origins []Origin) string {
 		str.WriteString("## " + origin.name + "\n")
 		str.WriteString(origin.description + "\n\n")
 		for _, power := range origin.powers {
-			str.WriteString("- " + power.name + ": " + power.description + "\n")
+			if !power.hidden {
+				str.WriteString("- " + power.name + ": " + power.description + "\n")
+			}
 		}
 		str.WriteString("\n")
 	}
