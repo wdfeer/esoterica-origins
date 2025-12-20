@@ -15,7 +15,7 @@
     },
     "bientity_condition": {
       "type": "origins:target_condition",
-      "entity_condition": {
+      "condition": {
         "type": "origins:or",
         "conditions": [
           {
