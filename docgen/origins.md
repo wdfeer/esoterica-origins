@@ -174,8 +174,7 @@ Pacifist Goddess of creation.
 Being capable of erasing and creating history and transforming into a hakutaku.
 
 - Teacher's Dedication: Gain Haste when standing still in human form.
-- Hakutaku: You have a hakutaku form.
-- Hakutaku Agility: Whilst in hakutaku form, you move 20% faster but cannot wear any armor.
+- Hakutaku Abilities: Whilst in hakutaku form, you move 20% faster and deal 4 more melee damage but cannot wear any armor.
 - Transformation: You are forced into hakutaku form during a full moon.
 - Post-Transformation Sickness: Gain Weakness for 20 minutes and Hunger for 1 minute after exiting Hakutaku form.
 
@@ -341,7 +340,7 @@ Hermit capable of Taoist magic and attracting desires.
 God of Harvest capable of enriching farmland and harvesting efficiently.
 
 - Daily Harvest: Food gives extra food points when eaten in sunlight.
-- Goddess' Blessing: Crops you stand on grow instantly.
+- Goddess' Blessing: Crops and saplings next to you grow instantly.
 - Need for Mobility: You can not wear any heavy armor (armor with protection values higher than chainmail).
 
 ## Magatama Crafter
