@@ -1,6 +1,5 @@
 {
-  "name": "Hakutaku",
-  "description": "You have a hakutaku form.",
+  "hidden": true,
   "type": "origins:resource",
   "min": 0,
   "max": 1,
