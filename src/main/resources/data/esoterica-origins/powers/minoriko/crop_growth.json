@@ -20,7 +20,7 @@
     },
     "block_action": {
       "type": "origins:area_of_effect",
-      "radius": 3,
+      "radius": 2,
       "shape": "cube",
       "block_action": {
         "type": "origins:bonemeal",
