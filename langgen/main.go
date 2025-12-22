@@ -129,10 +129,23 @@ func deleteOld(origins []Origin) {
 	for _, origin := range origins {
 		files = append(files, originDir+origin.path+".json")
 		for _, power := range origin.powers {
-			files = append(files, powerDir+power.path+".json")
+			if !power.hidden {
+				files = append(files, powerDir+power.path+".json")
+			}
 		}
 	}
 	for _, path := range files {
-		// TODO: delete "name" and "description" from each json
+		data, _ := os.ReadFile(path)
+		str := string(data)
+		lines := strings.Split(str, "\n")
+		newLines := make([]string, len(lines)/2)
+		for _, line := range lines {
+			// TODO: remove trailing comma before "name" if it was the last keyvalue
+			if !strings.Contains(line, "\"name\"") && !strings.Contains(line, "\"description\"") {
+				newLines = append(newLines, line)
+			}
+		}
+		newStr := strings.Join(newLines, "\n")
+		os.WriteFile(path, []byte(newStr), 0644)
 	}
 }
