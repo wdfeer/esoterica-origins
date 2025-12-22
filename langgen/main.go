@@ -23,6 +23,8 @@ func main() {
 	lang := buildLang(origins)
 	bytes, _ := json.Marshal(lang)
 	os.WriteFile(outputFile, bytes, 0644)
+
+	deleteOld(origins)
 }
 
 type Origin struct {
@@ -120,4 +122,17 @@ func buildLang(origins []Origin) map[string]string {
 		}
 	}
 	return dict
+}
+
+func deleteOld(origins []Origin) {
+	files := make([]string, len(origins)*3)
+	for _, origin := range origins {
+		files = append(files, originDir+origin.path+".json")
+		for _, power := range origin.powers {
+			files = append(files, powerDir+power.path+".json")
+		}
+	}
+	for _, path := range files {
+		// TODO: delete "name" and "description" from each json
+	}
 }
