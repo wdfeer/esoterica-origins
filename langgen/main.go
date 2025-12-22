@@ -136,16 +136,11 @@ func deleteOld(origins []Origin) {
 	}
 	for _, path := range files {
 		data, _ := os.ReadFile(path)
-		str := string(data)
-		lines := strings.Split(str, "\n")
-		newLines := make([]string, len(lines)/2)
-		for _, line := range lines {
-			// TODO: remove trailing comma before "name" if it was the last keyvalue
-			if !strings.Contains(line, "\"name\"") && !strings.Contains(line, "\"description\"") {
-				newLines = append(newLines, line)
-			}
-		}
-		newStr := strings.Join(newLines, "\n")
-		os.WriteFile(path, []byte(newStr), 0644)
+		var object map[string]any
+		json.Unmarshal(data, &object)
+		delete(object, "name")
+		delete(object, "description")
+		newData, _ := json.Marshal(object)
+		os.WriteFile(path, newData, 0644)
 	}
 }
