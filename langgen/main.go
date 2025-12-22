@@ -17,7 +17,7 @@ func main() {
 
 	origins := make([]Origin, len(files))
 	for i, filename := range files {
-		origins[i] = parseOrigin(originDir + filename.Name())
+		origins[i] = parseOrigin(filename.Name())
 	}
 
 	lang := buildLang(origins)
@@ -26,13 +26,14 @@ func main() {
 }
 
 type Origin struct {
+	path        string
 	name        string
 	description string
 	powers      []Power
 }
 
 func parseOrigin(path string) Origin {
-	object := readJson(path)
+	object := readJson(originDir + path)
 
 	if object["name"] == nil {
 		panic("Failed reading origin at\"" + path + "\", name not found!")
@@ -61,6 +62,7 @@ func parseOrigin(path string) Origin {
 }
 
 type Power struct {
+	path        string
 	hidden      bool
 	name        string
 	description string
@@ -73,6 +75,7 @@ func parsePower(name string) Power {
 	if object["hidden"] == true {
 		return Power{
 			hidden: true,
+			path:   name,
 		}
 	}
 
@@ -84,6 +87,7 @@ func parsePower(name string) Power {
 	}
 
 	return Power{
+		path:        name,
 		name:        object["name"].(string),
 		description: object["description"].(string),
 	}
@@ -102,6 +106,18 @@ func readJson(path string) map[string]any {
 	return object
 }
 
-func buildLang(origins []Origin) map[string]any {
-	// TODO: create a language localization file from `origins`
+func buildLang(origins []Origin) map[string]string {
+	dict := map[string]string{}
+	for _, o := range origins {
+		dict["origin.esoterica-origins."+o.path+".name"] = o.name
+		dict["origin.esoterica-origins."+o.path+".description"] = o.description
+
+		for _, p := range o.powers {
+			if !p.hidden {
+				dict["power.esoterica-origins."+p.path+".name"] = p.name
+				dict["power.esoterica-origins."+p.path+".description"] = p.description
+			}
+		}
+	}
+	return dict
 }
