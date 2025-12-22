@@ -1,5 +1,5 @@
 {
-  "name": "Moonlight Powered",
+  "name": "Daylight Powered",
   "description": "You gain 8 armor whilst in daylight.",
   "type": "origins:conditioned_attribute",
   "modifier": {

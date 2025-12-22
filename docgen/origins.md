@@ -308,9 +308,9 @@ A cunning Great Tengu that can manipulate the starry sky.
 
 - Winged: You have Elytra wings without needing to equip any.
 - Gift of the Winds: Every 30 seconds, you are able to launch about 20 blocks up into the air.
-- Shining Tripod: Enemies hit in melee gain Weakness and Slowness for 20 seconds.
+- Shining Tripod: Melee hits give the victim Weakness and Slowness for 20 seconds.
 - Shining Leader: Every 60 seconds, upon taking damage, give all players within 16 blocks Graze II for 60 seconds.
-- Glamorous Starlight: Build up charge slowly whilst exposed to the clear night sky. Activate to gain Regeneration, Resistance and Absorption III for multiple minutes.
+- Glamorous Starlight: Build up charge slowly whilst exposed to the clear night sky. Activate to gain Regeneration, Resistance and Absorption III for 5 minutes.
 - Quick on Feet: As a Tengu you move 10% faster.
 - Acrobatics: You never take fall damage, no matter from which height you fall.
 - Trouble Attractor: You have a 3% chance to gain Bad Omen for 20 minutes every minute.
@@ -380,7 +380,7 @@ Hell Raven capable of manipulating nuclear fusion.
 - Heat: You have a heat bar. Lose 1% heat per second passively. Gain 4% heat per second in lava, lose 4% heat per second in water.
 - Heating Up: Every second, gain 1% heat for each creature within 16 blocks on fire.
 - Blazing Heat: Every second, if at over 10% heat, deal damage and lose heat to/for each creature within 16 blocks. Deal more damage and lose more heat the higher your heat is.
-- Flaming Hit: Enemies hit in melee are lit on fire for 8 seconds.
+- Flaming Hit: Melee hits light enemies on fire for 8 seconds.
 - Winged: You have Elytra wings without needing to equip any.
 - Fire Immunity: You are immune to all types of fire damage.
 - No Armor: You cannot wear any armor.
@@ -542,7 +542,7 @@ Playful fairy of light that draws power from the sun, capable of refracting ligh
 
 - Optical Camouflage: Gain Invisibility and Resistance for 30 seconds upon activation, every 2 minutes.
 - Solar Energy: Food gives extra food points when eaten in sunlight.
-- Moonlight Powered: You gain 8 armor whilst in daylight.
+- Daylight Powered: You gain 8 armor whilst in daylight.
 - Winged: You have Elytra wings without needing to equip any.
 - Gift of the Winds: Every 30 seconds, you are able to launch about 20 blocks up into the air.
 - Fragile: You have 3 less hearts of health than humans.

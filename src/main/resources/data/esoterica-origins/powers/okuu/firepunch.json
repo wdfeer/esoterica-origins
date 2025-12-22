@@ -1,6 +1,6 @@
 {
   "name": "Flaming Hit",
-  "description": "Enemies hit in melee are lit on fire for 8 seconds.",
+  "description": "Melee hits light enemies on fire for 8 seconds.",
   "type": "origins:modify_damage_dealt",
   "target_action": {
     "type": "origins:set_on_fire",
