@@ -57,6 +57,7 @@ func parseOrigin(path string) Origin {
 	}
 
 	return Origin{
+		path:        path,
 		name:        object["name"].(string),
 		description: object["description"].(string),
 		powers:      powers,
