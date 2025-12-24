@@ -1,0 +1,49 @@
+{
+  "name": "Law of Mortality",
+  "description": "Other entities within 20 blocks take 2 damage every 2 seconds when toggled on.",
+  "type": "origins:multiple",
+  "toggle": {
+    "type": "origins:toggle",
+    "active_by_default": false
+  },
+  "damage": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:area_of_effect",
+      "radius": 20,
+      "bientity_action": {
+        "type": "origins:target_action",
+        "action": {
+          "type": "origins:and",
+          "actions": [
+            {
+              "type": "origins:damage",
+              "amount": 2,
+              "damage_type": "minecraft:generic_kill"
+            },
+            {
+              "type": "origins:spawn_particles",
+              "particle": {
+                "type": "minecraft:dust",
+                "params": "0.6 0.2 0.6 2"
+              },
+              "count": 16,
+              "speed": 0.2,
+              "force": false,
+              "spread": {
+                "x": 1,
+                "y": 1.5,
+                "z": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    "condition": {
+      "type": "origins:power_active",
+      "power": "esoterica-origins:yuyuko/damage_aura_toggle"
+    },
+    "interval": 40
+  }
+}
