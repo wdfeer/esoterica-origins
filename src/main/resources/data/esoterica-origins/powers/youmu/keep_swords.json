@@ -1,0 +1,13 @@
+{
+  "name": "Preta Realm Sword",
+  "description": "Swords are kept after death.",
+  "type": "origins:keep_inventory",
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": [
+      {
+        "tag": "minecraft:swords"
+      }
+    ]
+  }
+}
