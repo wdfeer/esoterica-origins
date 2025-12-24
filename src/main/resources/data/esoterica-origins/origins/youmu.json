@@ -1,5 +1,11 @@
 {
-  "powers": [],
+  "powers": [
+    "esoterica-origins:active_strength",
+    "esoterica-origins:youmu/fast_swords",
+    "esoterica-origins:youmu/multitalent",
+    "esoterica-origins:youmu/vanishing_items",
+    "origins:light_armor"
+  ],
   "icon": "minecraft:diamond_sword",
   "impact": 3,
   "name": "Phantom Swordswoman",
