@@ -1,5 +1,9 @@
 {
-  "powers": [],
+  "powers": [
+    "esoterica-origins:yuyuko/damage_aura",
+    "esoterica-origins:yuyuko/wither_projectiles",
+    "esoterica-origins:yuyuko/glutton"
+  ],
   "icon": "minecraft:cherry_sapling",
   "impact": 3,
   "name": "Ghost Princess",
