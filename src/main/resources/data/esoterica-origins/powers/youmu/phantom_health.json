@@ -1,0 +1,30 @@
+{
+  "name": "Half-human, Half-phantom",
+  "description": "You take 1 less damage from all instances when at more than 5 hearts but receive 80% less healing from all sources when at 5 hearts or lower.",
+  "type": "origins:multiple",
+  "damage_reduction": {
+    "type": "origins:modify_damage_taken",
+    "modifier": {
+      "name": "Phantom resistance",
+      "operation": "addition",
+      "value": -1
+    },
+    "condition": {
+      "type": "origins:relative_health",
+      "comparison": ">",
+      "compare_to": 0.5
+    }
+  },
+  "healing_reduction": {
+    "type": "origins:modify_healing",
+    "modifier": {
+      "operation": "multiply_total",
+      "value": -0.8
+    },
+    "condition": {
+      "type": "origins:relative_health",
+      "comparison": "<=",
+      "compare_to": 0.5
+    }
+  }
+}
