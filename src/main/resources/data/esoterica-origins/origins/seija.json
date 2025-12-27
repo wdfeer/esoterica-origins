@@ -1,5 +1,12 @@
 {
-  "powers": [],
+  "powers": [
+    "esoterica-origins:seija/warped_forest_spawn",
+    "esoterica-origins:seija/active_jump",
+    "esoterica-origins:seija/damage_aura",
+    "esoterica-origins:seija/lowhp_heal",
+    "esoterica-origins:seija/unconventional",
+    "esoterica-origins:no_armor"
+  ],
   "icon": "minecraft:warped_nylium",
   "impact": 3,
   "name": "Amanojaku",
