@@ -6,21 +6,21 @@
     "type": "origins:modify_projectile_damage",
     "modifier": {
       "operation": "addition",
-      "value": 2.0
+      "value": 2
     }
   },
   "spectral_arrows": {
     "type": "origins:modify_projectile_damage",
     "modifier": {
       "operation": "multiply_total",
-      "value": 0.0
+      "value": 0
     },
     "target_action": {
       "type": "origins:and",
       "actions": [
         {
           "type": "origins:heal",
-          "amount": 4.0
+          "amount": 4
         },
         {
           "type": "origins:apply_effect",
@@ -31,6 +31,10 @@
           }
         }
       ]
+    },
+    "damage_condition": {
+      "type": "origins:projectile",
+      "projectile": "minecraft:spectral_arrow"
     }
   }
 }
