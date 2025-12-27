@@ -1,20 +1,12 @@
 {
   "name": "Unconventional",
-  "description": "Swords, axes and normal arrows deal no damage but apply Slowness for 30 seconds.",
+  "description": "Swords, axes and normal arrows deal no damage.",
   "type": "origins:multiple",
   "melee": {
     "type": "origins:modify_damage_dealt",
     "modifier": {
       "operation": "multiply_total",
       "value": -1
-    },
-    "target_action": {
-      "type": "origins:apply_effect",
-      "effect": {
-        "effect": "minecraft:slowness",
-        "duration": 600,
-        "amplifier": 0
-      }
     },
     "condition": {
       "type": "origins:equipped_item",
@@ -37,14 +29,6 @@
     "modifier": {
       "operation": "multiply_total",
       "value": -1
-    },
-    "target_action": {
-      "type": "origins:apply_effect",
-      "effect": {
-        "effect": "minecraft:slowness",
-        "duration": 600,
-        "amplifier": 0
-      }
     },
     "damage_condition": {
       "type": "origins:projectile",
