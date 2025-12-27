@@ -1,7 +1,0 @@
-{
-  "name": "Warped Youkai",
-  "description": "You spawn in a warped forest biome in the nether.",
-  "type": "origins:modify_player_spawn",
-  "biome": "minecraft:warped_forest",
-  "dimension": "minecraft:the_nether"
-}
