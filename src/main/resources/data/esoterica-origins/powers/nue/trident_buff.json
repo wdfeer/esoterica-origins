@@ -15,6 +15,18 @@
         "duration": 600,
         "amplifier": 0
       }
+    },
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": [
+          {
+            "item": "minecraft:trident"
+          }
+        ]
+      }
     }
   },
   "ranged": {
@@ -30,6 +42,10 @@
         "duration": 600,
         "amplifier": 0
       }
+    },
+    "damage_condition": {
+      "type": "origins:projectile",
+      "projectile": "minecraft:trident"
     }
   }
 }
