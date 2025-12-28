@@ -1,0 +1,72 @@
+{
+  "name": "Hidden Texts",
+  "description": "Right Click with an Enchanted Book to consume it and gain Resistance, Saturation, Haste or Slowness for 10 minutes.",
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:equipped_item_action",
+        "equipment_slot": "mainhand",
+        "action": {
+          "type": "origins:consume",
+          "amount": 1
+        }
+      },
+      {
+        "type": "origins:choice",
+        "actions": [
+          {
+            "type": "origins:apply_effect",
+            "effect": {
+              "effect": "minecraft:resistance",
+              "duration": 12000,
+              "amplifier": 0
+            }
+          },
+          {
+            "type": "origins:apply_effect",
+            "effect": {
+              "effect": "minecraft:saturation",
+              "duration": 12000,
+              "amplifier": 0
+            }
+          },
+          {
+            "type": "origins:apply_effect",
+            "effect": {
+              "effect": "minecraft:haste",
+              "duration": 12000,
+              "amplifier": 0
+            }
+          },
+          {
+            "type": "origins:apply_effect",
+            "effect": {
+              "effect": "minecraft:slowness",
+              "duration": 12000,
+              "amplifier": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "condition": {
+    "type": "origins:equipped_item",
+    "equipment_slot": "mainhand",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": [
+        {
+          "item": "minecraft:enchanted_book"
+        }
+      ]
+    }
+  },
+  "key": {
+    "key": "key.use",
+    "continuous": true
+  },
+  "cooldown": 5
+}
