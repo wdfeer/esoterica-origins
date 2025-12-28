@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "esoterica-origins:kosuzu/books",
+    "esoterica-origins:kosuzu/extra_fall_damage"
+  ],
+  "icon": "minecraft:enchanted_book",
+  "impact": 1,
+  "name": "Demon Librarian",
+  "description": "A human capable of reading youkai grimoires."
+}
