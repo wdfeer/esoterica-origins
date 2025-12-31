@@ -1,5 +1,12 @@
 {
-  "powers": [],
+  "powers": [
+    "origins:elytra",
+    "esoterica-origins:mystia/fast_at_night",
+    "esoterica-origins:mystia/weakness_aoe",
+    "esoterica-origins:mystia/better_fish",
+    "origins:light_armor",
+    "origins:fragile"
+  ],
   "icon": "minecraft:elytra",
   "impact": 3,
   "name": "Night Sparrow",
