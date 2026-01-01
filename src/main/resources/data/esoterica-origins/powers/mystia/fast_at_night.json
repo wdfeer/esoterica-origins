@@ -1,0 +1,14 @@
+{
+  "name": "Nightborn Creature",
+  "description": "You move 15% faster at night.",
+  "type": "origins:conditioned_attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.movement_speed",
+    "value": 0.15,
+    "operation": "multiply_total"
+  },
+  "condition": {
+    "inverted": true,
+    "type": "origins:daytime"
+  }
+}
