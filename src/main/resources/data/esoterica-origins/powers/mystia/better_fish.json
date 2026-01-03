@@ -1,0 +1,30 @@
+{
+  "name": "Signature Dish",
+  "description": "You gain extra food points from eating cooked seafood.",
+  "type": "origins:modify_food",
+  "item_condition": {
+    "type": "origins:ingredient",
+    "inverted": true,
+    "ingredient": [
+      {
+        "item": "minecraft:cooked_cod"
+      },
+      {
+        "item": "minecraft:cooked_salmon"
+      },
+      {
+        "item": "minecraft:dried_kelp"
+      }
+    ]
+  },
+  "food_modifier": {
+    "name": "Increased food points",
+    "operation": "multiply_base",
+    "value": 0.25
+  },
+  "saturation_modifier": {
+    "name": "Increased saturation points",
+    "operation": "addition",
+    "value": 0.5
+  }
+}
