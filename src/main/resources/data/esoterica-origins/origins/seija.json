@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "esoterica-origins:seija/active_jump",
+    "esoterica-origins:seija/damage_aura",
+    "esoterica-origins:seija/lowhp_heal",
+    "esoterica-origins:seija/notrade",
+    "esoterica-origins:seija/unconventional",
+    "esoterica-origins:no_armor"
+  ],
+  "icon": "minecraft:warped_nylium",
+  "impact": 3,
+  "name": "Amanojaku",
+  "description": "Twisted youkai capable of turning over anything."
+}

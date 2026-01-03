@@ -1,0 +1,23 @@
+{
+  "name": "Heaven Sword",
+  "description": "Your attack speed is increased by 20% with swords.",
+  "type": "origins:conditioned_attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.attack_speed",
+    "operation": "multiply_base",
+    "value": 0.2
+  },
+  "tick_rate": 2,
+  "condition": {
+    "type": "origins:equipped_item",
+    "equipment_slot": "mainhand",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": [
+        {
+          "tag": "minecraft:swords"
+        }
+      ]
+    }
+  }
+}

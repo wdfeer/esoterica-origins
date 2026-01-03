@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "esoterica-origins:active_strength",
+    "esoterica-origins:youmu/fast_swords",
+    "esoterica-origins:youmu/multitalent",
+    "esoterica-origins:youmu/keep_swords",
+    "esoterica-origins:youmu/phantom_health",
+    "origins:light_armor"
+  ],
+  "icon": "minecraft:diamond_sword",
+  "impact": 3,
+  "name": "Phantom Swordswoman",
+  "description": "Half-phantom from the Netherworld specializing in sword combat."
+}

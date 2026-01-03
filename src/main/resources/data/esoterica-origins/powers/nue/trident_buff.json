@@ -1,0 +1,51 @@
+{
+  "name": "Undefined Darkness",
+  "description": "Enemies hit with a trident take 3 additional damage and gain Blindness for 30 seconds.",
+  "type": "origins:multiple",
+  "melee": {
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+      "operation": "addition",
+      "value": 3
+    },
+    "target_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:blindness",
+        "duration": 600,
+        "amplifier": 0
+      }
+    },
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": [
+          {
+            "item": "minecraft:trident"
+          }
+        ]
+      }
+    }
+  },
+  "ranged": {
+    "type": "origins:modify_projectile_damage",
+    "modifier": {
+      "operation": "addition",
+      "value": 3
+    },
+    "target_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:blindness",
+        "duration": 600,
+        "amplifier": 0
+      }
+    },
+    "damage_condition": {
+      "type": "origins:projectile",
+      "projectile": "minecraft:trident"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "UFO",
+  "description": "You gain creative flight when you are invisible.",
+  "type": "origins:creative_flight",
+  "condition": {
+    "type": "origins:status_effect",
+    "effect": "minecraft:invisibility"
+  }
+}

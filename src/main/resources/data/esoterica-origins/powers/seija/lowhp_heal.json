@@ -1,0 +1,14 @@
+{
+  "name": "Turning over Death",
+  "description": "Whenever you have less than 2 hearts, fully heal yourself.",
+  "type": "origins:action_over_time",
+  "condition": {
+    "type": "origins:health",
+    "comparison": "<",
+    "compare_to": 4
+  },
+  "entity_action": {
+    "type": "origins:heal",
+    "amount": 20
+  }
+}

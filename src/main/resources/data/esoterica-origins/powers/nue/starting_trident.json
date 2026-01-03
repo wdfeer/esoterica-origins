@@ -1,0 +1,9 @@
+{
+  "name": "Danmaku Conduit",
+  "description": "You start with a Trident enchanted with Sharpness III.",
+  "type": "origins:starting_equipment",
+  "stack": {
+    "item": "minecraft:trident",
+    "tag": "{Enchantments:[{id:\"sharpness\",lvl:3}]}"
+  }
+}

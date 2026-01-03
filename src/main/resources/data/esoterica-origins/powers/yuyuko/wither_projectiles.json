@@ -1,0 +1,13 @@
+{
+  "name": "Death Butterfly Dance",
+  "description": "Projectiles inflict Wither for 2 minutes.",
+  "type": "origins:modify_projectile_damage",
+  "target_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:wither",
+      "duration": 2400,
+      "amplifier": 0
+    }
+  }
+}

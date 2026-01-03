@@ -1,0 +1,38 @@
+{
+  "name": "Unconventional",
+  "description": "Swords, axes and normal arrows deal no damage.",
+  "type": "origins:multiple",
+  "melee": {
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+      "operation": "multiply_total",
+      "value": -1
+    },
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": [
+          {
+            "tag": "minecraft:swords"
+          },
+          {
+            "tag": "minecraft:axes"
+          }
+        ]
+      }
+    }
+  },
+  "ranged": {
+    "type": "origins:modify_projectile_damage",
+    "modifier": {
+      "operation": "multiply_total",
+      "value": -1
+    },
+    "damage_condition": {
+      "type": "origins:projectile",
+      "projectile": "minecraft:arrow"
+    }
+  }
+}

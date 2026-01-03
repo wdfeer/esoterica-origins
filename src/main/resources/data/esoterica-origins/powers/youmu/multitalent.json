@@ -1,0 +1,32 @@
+{
+  "name": "Multitalented Gardener",
+  "description": "Shears break blocks faster and all foods provide more saturation.",
+  "type": "origins:multiple",
+  "shearing": {
+    "type": "origins:modify_break_speed",
+    "modifier": {
+      "operation": "multiply_base",
+      "value": 0.25
+    },
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": [
+          {
+            "item": "minecraft:shears"
+          }
+        ]
+      }
+    }
+  },
+  "food": {
+    "type": "origins:modify_food",
+    "saturation_modifier": {
+      "name": "Increased saturation points",
+      "operation": "addition",
+      "value": 2
+    }
+  }
+}
