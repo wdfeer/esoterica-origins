@@ -2,7 +2,9 @@
   "powers": [
     "esoterica-origins:aunn/intruder_alert",
     "esoterica-origins:aunn/fast_miner",
-    "origins:more_exhaustion"
+    "origins:natural_armor",
+    "origins:more_exhaustion",
+    "esoterica-origins:ranged_inability"
   ],
   "icon": "minecraft:chiseled_stone_bricks",
   "impact": 2,
