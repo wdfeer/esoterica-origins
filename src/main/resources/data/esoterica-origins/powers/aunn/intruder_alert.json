@@ -1,0 +1,21 @@
+{
+  "name": "Intruder Detection",
+  "description": "When toggled on, entities within 25 blocks glow.",
+  "type": "origins:multiple",
+  "toggle": {
+    "type": "origins:toggle",
+    "active_by_default": false
+  },
+  "glowing": {
+    "type": "origins:entity_glow",
+    "condition": {
+      "type": "origins:power_active",
+      "power": "esoterica-origins:aunn/intruder_alert_toggle"
+    },
+    "bientity_condition": {
+      "type": "origins:distance",
+      "comparison": "<=",
+      "compare_to": 25
+    }
+  }
+}
