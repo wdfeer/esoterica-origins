@@ -1,6 +1,4 @@
 {
-  "name": "Nether Affinity",
-  "description": "You deal 25% more damage whilst in the nether.",
   "type": "origins:multiple",
   "melee": {
     "type": "origins:modify_damage_dealt",

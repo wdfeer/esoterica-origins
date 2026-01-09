@@ -1,6 +1,4 @@
 {
-  "name": "Pure Furies",
-  "description": "After dealing damage 9 times, deal triple damage on your next hit and gain Resistance IV for 5 seconds.",
   "type": "origins:multiple",
   "charge": {
     "type": "origins:resource",
@@ -34,7 +32,6 @@
       "compare_to": 9
     },
     "modifier": {
-      "name": "Fury damage",
       "operation": "multiply_total",
       "value": 2.0
     },

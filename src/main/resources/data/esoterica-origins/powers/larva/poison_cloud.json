@@ -1,6 +1,4 @@
 {
-  "name": "Holy Scale Powder",
-  "description": "Create a large poison cloud with a radius of 8 blocks for 15 seconds.",
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:spawn_effect_cloud",

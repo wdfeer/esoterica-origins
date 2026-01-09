@@ -1,6 +1,4 @@
 {
-  "name": "Smash the Eye",
-  "description": "You deal double melee damage to entities with full health.",
   "type": "origins:modify_damage_dealt",
   "target_condition": {
     "type": "origins:relative_health",

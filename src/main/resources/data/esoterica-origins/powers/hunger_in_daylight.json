@@ -1,6 +1,4 @@
 {
-  "name": "Starving Sunlight",
-  "description": "You get hungry after being in daylight.",
   "type": "origins:stacking_status_effect",
   "min_stacks": -3,
   "max_stacks": 5,

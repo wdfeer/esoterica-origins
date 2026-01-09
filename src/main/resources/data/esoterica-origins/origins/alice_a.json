@@ -8,7 +8,5 @@
     "esoterica-origins:half_melee_damage"
   ],
   "icon": "minecraft:end_rod",
-  "impact": 3,
-  "name": "Demonlight Youkai",
-  "description": "Youkai magician capable of demonic light manipulation."
+  "impact": 3
 }

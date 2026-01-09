@@ -1,5 +1,3 @@
 {
-  "type": "origins:keep_inventory",
-  "name": "Transmigration of Hieda",
-  "description": "You keep items and experience on death."
+  "type": "origins:keep_inventory"
 }

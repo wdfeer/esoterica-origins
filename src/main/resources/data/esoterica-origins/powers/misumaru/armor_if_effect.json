@@ -1,6 +1,4 @@
 {
-  "name": "Ancient Barrier",
-  "description": "Gain 2 armor for having each of these status effects: Strength, Resistance, Absorption.",
   "type": "origins:multiple",
   "strength": {
     "type": "origins:conditioned_attribute",

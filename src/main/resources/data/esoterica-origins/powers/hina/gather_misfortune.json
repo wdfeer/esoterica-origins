@@ -1,6 +1,4 @@
 {
-  "name": "Gather Misfortune",
-  "description": "Every 5 seconds, heal a heart for other players and villagers within 32 blocks.",
   "type": "origins:action_over_time",
   "interval": 100,
   "entity_action": {

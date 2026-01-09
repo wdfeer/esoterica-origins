@@ -7,7 +7,5 @@
     "origins:light_armor"
   ],
   "icon": "minecraft:ender_eye",
-  "impact": 3,
-  "name": "Lunarian Princess",
-  "description": "A mystical lunar princess."
+  "impact": 3
 }

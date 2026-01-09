@@ -10,7 +10,5 @@
     "esoterica-origins:cold_weak"
   ],
   "icon": "minecraft:lily_of_the_valley",
-  "impact": 3,
-  "name": "Spring Fairy",
-  "description": "Fairy of nature capable of announcing the coming of spring."
+  "impact": 3
 }

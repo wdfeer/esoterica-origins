@@ -1,6 +1,4 @@
 {
-  "name": "Armor Fatigue",
-  "description": "You move 15% slower if wearing armor better than leather.",
   "type": "origins:conditioned_attribute",
   "modifier": {
     "attribute": "minecraft:generic.movement_speed",

@@ -11,7 +11,5 @@
     "esoterica-origins:sanyousei/sun_weak"
   ],
   "icon": "minecraft:nether_star",
-  "impact": 3,
-  "name": "Star Fairy",
-  "description": "Playful fairy of light that draws power from the stars, capable of detecting moving things."
+  "impact": 3
 }

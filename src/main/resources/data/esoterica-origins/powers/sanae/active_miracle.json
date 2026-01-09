@@ -1,6 +1,4 @@
 {
-  "name": "Miracle Execution",
-  "description": "Activate to gain Resistance & Absorption, Strength & Haste, Speed & Dolphin's Grace or Regeneration & Saturation for 60 seconds randomly and use 4 Faith.",
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:and",

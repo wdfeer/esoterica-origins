@@ -6,7 +6,5 @@
     "esoterica-origins:burnable"
   ],
   "icon": "minecraft:white_wool",
-  "impact": 3,
-  "name": "Kedama",
-  "description": "Hairball-looking spirits of nature."
+  "impact": 3
 }

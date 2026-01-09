@@ -1,6 +1,4 @@
 {
-  "name": "Blazing Heat",
-  "description": "Every second, if at over 10% heat, deal damage and lose heat to/for each creature within 16 blocks. Deal more damage and lose more heat the higher your heat is.",
   "type": "origins:action_over_time",
   "entity_action": {
     "type": "origins:area_of_effect",

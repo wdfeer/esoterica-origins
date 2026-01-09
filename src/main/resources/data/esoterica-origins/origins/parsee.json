@@ -5,7 +5,5 @@
     "origins:fragile"
   ],
   "icon": "minecraft:wither_rose",
-  "impact": 3,
-  "name": "Jealousy Youkai",
-  "description": "A Youkai that feeds of off jealousy."
+  "impact": 3
 }

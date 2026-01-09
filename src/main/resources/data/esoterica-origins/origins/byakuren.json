@@ -8,7 +8,5 @@
     "esoterica-origins:no_armor"
   ],
   "icon": "minecraft:enchanted_book",
-  "impact": 3,
-  "name": "Dharmic Magician",
-  "description": "Buddhist monk skilled in youkai arts and body-enhancing magic."
+  "impact": 3
 }

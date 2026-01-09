@@ -1,6 +1,4 @@
 {
-  "name": "Mining Wave",
-  "description": "Upon breaking a block, if you have Mining Fatigue, clear it and gain Haste V for 5 seconds. Otherwise, clear Haste and gain Mining Fatigue for 5 seconds.",
   "type": "origins:multiple",
   "fatigue": {
     "type": "origins:action_on_block_break",

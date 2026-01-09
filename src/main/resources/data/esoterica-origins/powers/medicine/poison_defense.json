@@ -1,6 +1,4 @@
 {
-  "name": "Covered in Poison",
-  "description": "Every 30 seconds, you take 50% less damage from the next hit and the attacker gains Poison II for 30 seconds.",
   "type": "origins:multiple",
   "resource": {
     "type": "origins:cooldown",

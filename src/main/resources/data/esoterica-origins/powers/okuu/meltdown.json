@@ -1,6 +1,4 @@
 {
-  "name": "Meltdown",
-  "description": "When at 100% heat and you have Slowness, explode violently instantly.",
   "type": "origins:action_over_time",
   "entity_action": {
     "type": "origins:explode",

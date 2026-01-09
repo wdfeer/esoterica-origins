@@ -1,7 +1,5 @@
 {
   "type": "origins:multiple",
-  "name": "Ace Exterminator",
-  "description": "You get a Smite III iron sword and deal 25% more damage to undead.",
   "sword": {
     "type": "origins:starting_equipment",
     "stack": {
@@ -16,7 +14,6 @@
       "group": "undead"
     },
     "modifier": {
-      "name": "Extra damage to undead",
       "operation": "multiply_total",
       "value": 0.25
     }
@@ -28,7 +25,6 @@
       "group": "undead"
     },
     "modifier": {
-      "name": "Extra damage to undead",
       "operation": "multiply_total",
       "value": 0.25
     }

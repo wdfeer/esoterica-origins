@@ -1,6 +1,4 @@
 {
-  "name": "Quick on Feet",
-  "description": "You move 15% faster.",
   "type": "origins:attribute",
   "modifier": {
     "attribute": "minecraft:generic.movement_speed",

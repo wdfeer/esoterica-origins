@@ -1,6 +1,4 @@
 {
-  "name": "Full Tracking",
-  "description": "While not moving, you deal 25% more melee and projectile damage to entities moving horizontally.",
   "type": "origins:multiple",
   "melee": {
     "type": "origins:modify_damage_dealt",
@@ -12,7 +10,6 @@
       "type": "origins:moving"
     },
     "modifier": {
-      "name": "Extra damage against moving",
       "operation": "multiply_total",
       "value": 0.25
     }
@@ -27,7 +24,6 @@
       "type": "origins:moving"
     },
     "modifier": {
-      "name": "Extra damage against moving",
       "operation": "multiply_total",
       "value": 0.25
     }

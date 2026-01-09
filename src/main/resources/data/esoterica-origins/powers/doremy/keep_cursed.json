@@ -1,6 +1,4 @@
 {
-  "name": "Dream Storage",
-  "description": "Items with Curse of Vanishing stay in your inventory after death instead.",
   "type": "origins:keep_inventory",
   "item_condition": {
     "type": "origins:enchantment",

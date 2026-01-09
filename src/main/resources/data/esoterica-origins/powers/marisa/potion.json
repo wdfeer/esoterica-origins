@@ -1,6 +1,4 @@
 {
-  "name": "Unstable Concoction",
-  "description": "Activate to throw an Instant Damage II or a 10-second Wither II potion randomly.",
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:choice",

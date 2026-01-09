@@ -1,6 +1,4 @@
 {
-  "name": "Shukuchi Movement",
-  "description": "You move 10% faster whilst holding a golden item or a totem of undying.",
   "type": "origins:conditioned_attribute",
   "modifier": {
     "attribute": "minecraft:generic.movement_speed",

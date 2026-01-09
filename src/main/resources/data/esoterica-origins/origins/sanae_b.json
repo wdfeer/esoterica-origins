@@ -11,7 +11,5 @@
     "esoterica-origins:no_armor"
   ],
   "icon": "minecraft:nether_star",
-  "impact": 3,
-  "name": "Miracle Priestess",
-  "description": "A shrine maiden capable of using deities' power to perform miracles."
+  "impact": 3
 }

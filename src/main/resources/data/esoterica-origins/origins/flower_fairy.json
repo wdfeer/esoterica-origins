@@ -8,7 +8,5 @@
     "esoterica-origins:cold_weak"
   ],
   "icon": "minecraft:dandelion",
-  "impact": 3,
-  "name": "Flower Fairy",
-  "description": "Playful spirit of nature that draws power from flowers."
+  "impact": 3
 }

@@ -1,6 +1,4 @@
 {
-  "name": "End Translocation",
-  "description": "You can summon an end crystal to your location every 2 minutes.",
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:spawn_entity",

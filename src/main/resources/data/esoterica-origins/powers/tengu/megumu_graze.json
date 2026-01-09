@@ -1,6 +1,4 @@
 {
-  "name": "Shining Leader",
-  "description": "Every 60 seconds, upon taking damage, give all players within 16 blocks Graze II for 60 seconds.",
   "type": "origins:action_when_damage_taken",
   "cooldown": 1200,
   "hud_render": {

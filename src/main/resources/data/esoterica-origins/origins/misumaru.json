@@ -7,7 +7,5 @@
     "origins:fragile"
   ],
   "icon": "minecraft:crafting_table",
-  "impact": 3,
-  "name": "Magatama Crafter",
-  "description": "God known for crafting magatama and yin-yang orbs."
+  "impact": 3
 }

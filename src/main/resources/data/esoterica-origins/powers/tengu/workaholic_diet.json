@@ -1,6 +1,4 @@
 {
-  "name": "Workaholic",
-  "description": "You can only eat if you have Slowness or your food level is 10 or lower.",
   "type": "origins:prevent_item_use",
   "item_condition": {
     "type": "origins:food"

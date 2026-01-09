@@ -1,6 +1,4 @@
 {
-  "name": "Demigod",
-  "description": "You have 3 less hearts if you don't have any Faith.",
   "type": "origins:conditioned_attribute",
   "modifier": {
     "attribute": "minecraft:generic.max_health",

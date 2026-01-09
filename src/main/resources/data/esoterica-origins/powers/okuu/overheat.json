@@ -1,6 +1,4 @@
 {
-  "name": "Overheating",
-  "description": "At 80% or more heat, gain Slowness for 4 seconds whenever you take damage.",
   "type": "origins:modify_damage_taken",
   "condition": {
     "type": "origins:resource",

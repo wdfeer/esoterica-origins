@@ -1,6 +1,4 @@
 {
-  "name": "Sweet Daydream",
-  "description": "Gain Resistance II after not walking for 10 seconds.",
   "type": "origins:multiple",
   "timer": {
     "type": "origins:resource",

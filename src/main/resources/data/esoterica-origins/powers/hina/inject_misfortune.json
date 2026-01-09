@@ -1,6 +1,4 @@
 {
-  "name": "Inject Misfortune",
-  "description": "Activate to apply Wither for 8 seconds to the target creature within 32 blocks every 60 seconds.",
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:raycast",

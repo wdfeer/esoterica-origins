@@ -1,6 +1,4 @@
 {
-  "name": "Hungry and Lazy",
-  "description": "Sprinting is disabled earlier when hungry or when under the Hunger effect.",
   "type": "origins:prevent_sprinting",
   "condition": {
     "type": "origins:or",

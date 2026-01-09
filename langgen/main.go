@@ -157,14 +157,16 @@ func deleteOld(origins []Origin) {
 		str := string(data)
 
 		lines := strings.SplitAfter(str, "\n")
-		newLines := make([]string, len(lines)/2)
+		newLines := []string{}
 
 		for _, line := range lines {
-			// TODO: remove trailing comma before "name" if it was the last keyvalue
-			if !strings.Contains(line, "\"name\"") && !strings.Contains(line, "\"description\"") {
+			if !strings.Contains(line, "\"name\"") && !strings.Contains(line, "\"description\"") && line != "" && line != "\n" {
 				newLines = append(newLines, line)
 			}
 		}
+
+		beforeLast := len(newLines) - 2
+		newLines[beforeLast] = strings.Replace(newLines[beforeLast], ",", "", 1) // delete trailing comma
 
 		newStr := strings.Join(newLines, "")
 		os.WriteFile(path, []byte(newStr), 0644)

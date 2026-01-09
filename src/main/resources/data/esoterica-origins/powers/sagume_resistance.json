@@ -1,6 +1,4 @@
 {
-  "name": "Counter Harm",
-  "description": "Whenever you take or deal 1 or more damage, the victim gains Resistance IV for 3 seconds.",
   "type": "origins:multiple",
   "self": {
     "type": "origins:modify_damage_taken",

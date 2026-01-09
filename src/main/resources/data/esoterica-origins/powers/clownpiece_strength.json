@@ -1,6 +1,4 @@
 {
-  "name": "Lunacy",
-  "description": "Activate to give every entity within 25 blocks, including yourself, Strength II and Absorption for 30 seconds every 2 minutes.",
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:area_of_effect",

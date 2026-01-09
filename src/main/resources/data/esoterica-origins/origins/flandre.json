@@ -11,7 +11,5 @@
     "esoterica-origins:undead"
   ],
   "icon": "minecraft:fire_charge",
-  "impact": 3,
-  "name": "Destruction Vampire",
-  "description": "An evolved vampire with devastating powers."
+  "impact": 3
 }

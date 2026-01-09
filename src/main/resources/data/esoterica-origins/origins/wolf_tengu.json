@@ -5,7 +5,5 @@
     "esoterica-origins:tengu/insomnia_wolf"
   ],
   "icon": "minecraft:shield",
-  "impact": 2,
-  "name": "Wolf Tengu",
-  "description": "Wolf Youkai that are highly proficient in combat and shogi."
+  "impact": 2
 }

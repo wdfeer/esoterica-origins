@@ -9,7 +9,5 @@
     "origins:fragile"
   ],
   "icon": "minecraft:lily_of_the_valley",
-  "impact": 3,
-  "name": "Poison Youkai",
-  "description": "Doll Youkai that unleashes deadly poison."
+  "impact": 3
 }

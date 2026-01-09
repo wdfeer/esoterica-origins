@@ -1,7 +1,5 @@
 {
   "type": "origins:stacking_status_effect",
-  "name": "Cold Weakness",
-  "description": "You gain Weakness in cold biomes.",
   "min_stacks": -1,
   "max_stacks": 1,
   "duration_per_stack": 20,

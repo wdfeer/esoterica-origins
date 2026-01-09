@@ -1,7 +1,5 @@
 {
   "type": "origins:multiple",
-  "name": "Alchemy Expert",
-  "description": "Immune to most negative effects. Absorption provides 2 extra hearts.",
   "immunities": {
     "type": "origins:effect_immunity",
     "effects": [

@@ -10,7 +10,5 @@
     "esoterica-origins:cold_weak"
   ],
   "icon": "minecraft:sunflower",
-  "impact": 3,
-  "name": "Sun Fairy",
-  "description": "Playful fairy of light that draws power from the sun, capable of refracting light."
+  "impact": 3
 }

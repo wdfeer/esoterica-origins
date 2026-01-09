@@ -1,7 +1,5 @@
 {
   "type": "origins:attribute",
-  "name": "Scarlet Fangs",
-  "description": "You deal 3 extra melee damage.",
   "modifier": {
     "attribute": "minecraft:generic.attack_damage",
     "value": 3.0,

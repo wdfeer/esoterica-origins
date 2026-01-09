@@ -1,6 +1,4 @@
 {
-  "name": "Fortunate Mining",
-  "description": "You gain doubled drops from emerald, gold and diamond ores.",
   "type": "origins:replace_loot_table",
   "replace": {
     "minecraft:blocks/emerald_ore": "esoterica-origins:double_drops",

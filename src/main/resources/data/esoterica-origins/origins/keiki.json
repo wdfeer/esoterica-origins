@@ -5,7 +5,5 @@
     "esoterica-origins:pacifist"
   ],
   "icon": "minecraft:bedrock",
-  "impact": 3,
-  "name": "Creation Goddess",
-  "description": "Pacifist Goddess of creation."
+  "impact": 3
 }

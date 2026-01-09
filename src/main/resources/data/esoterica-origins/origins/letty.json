@@ -6,7 +6,5 @@
     "esoterica-origins:fire_vulnerable"
   ],
   "icon": "minecraft:snow_block",
-  "impact": 2,
-  "name": "Yuki-Onna",
-  "description": "Nature spirit embodying winter itself."
+  "impact": 2
 }

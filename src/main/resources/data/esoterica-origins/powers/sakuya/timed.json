@@ -1,6 +1,4 @@
 {
-  "name": "Time Flow",
-  "description": "Every 30 seconds, if you break a block or deal damage in the last 500 ms, gain Haste, Speed and Strength for 30 seconds.",
   "type": "origins:multiple",
   "timer": {
     "type": "origins:resource",

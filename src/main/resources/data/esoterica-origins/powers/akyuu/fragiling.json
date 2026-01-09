@@ -1,6 +1,4 @@
 {
-  "name": "Diminishing Lifespan",
-  "description": "Lose 1 heart permanently and prevent death every 60 minutes, up to 5 hearts.",
   "type": "origins:multiple",
   "cooldown": {
     "type": "origins:cooldown",

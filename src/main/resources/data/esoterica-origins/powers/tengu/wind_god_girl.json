@@ -1,6 +1,4 @@
 {
-  "name": "Wind God's Power",
-  "description": "Every 10 seconds, upon taking damage, gain Graze I for 60 seconds.",
   "type": "origins:action_when_damage_taken",
   "cooldown": 200,
   "hud_render": {

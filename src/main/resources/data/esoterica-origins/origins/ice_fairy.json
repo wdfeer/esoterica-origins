@@ -9,7 +9,5 @@
     "esoterica-origins:fire_vulnerable"
   ],
   "icon": "minecraft:packed_ice",
-  "impact": 3,
-  "name": "Ice Fairy",
-  "description": "Playful spirit of nature that draws energy from flowers and has power over cold."
+  "impact": 3
 }

@@ -1,6 +1,4 @@
 {
-  "name": "Teacher's Dedication",
-  "description": "Gain Haste when standing still in human form.",
   "type": "origins:stacking_status_effect",
   "min_stacks": 0,
   "max_stacks": 5,

@@ -1,6 +1,4 @@
 {
-  "name": "Oni Physique",
-  "description": "You deal 20% more damage and have 20% more health.",
   "type": "origins:multiple",
   "damage": {
     "type": "origins:attribute",

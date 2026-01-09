@@ -1,6 +1,4 @@
 {
-  "name": "Magical Catalyst",
-  "description": "Right click every 10 seconds to consume the item in hand and cast a spell: Fire Charge = Fireball, Ice = Freeze Ray, Book = Absorption, Iron Ingot = Resistance, Gold Ingot = Regeneration.",
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:and",

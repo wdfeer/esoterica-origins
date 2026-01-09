@@ -1,6 +1,4 @@
 {
-  "name": "Serenity",
-  "description": "Charges slowly passively. Lose all charge upon taking damage if not active. Take 50% less damage when active.",
   "type": "origins:multiple",
   "resource": {
     "type": "origins:resource",
@@ -138,7 +136,6 @@
       "compare_to": 1
     },
     "modifier": {
-      "name": "Serenity damage resistance",
       "operation": "multiply_base",
       "value": -0.5
     }

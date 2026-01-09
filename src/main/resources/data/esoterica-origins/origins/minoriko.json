@@ -5,7 +5,5 @@
     "origins:light_armor"
   ],
   "icon": "minecraft:farmland",
-  "impact": 3,
-  "name": "Harvest God",
-  "description": "God of Harvest capable of enriching farmland and harvesting efficiently."
+  "impact": 3
 }

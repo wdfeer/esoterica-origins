@@ -1,6 +1,4 @@
 {
-  "name": "Purification",
-  "description": "Activate to cleanse all status effects with minimal cooldown.",
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:clear_effect"

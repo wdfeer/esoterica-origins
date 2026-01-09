@@ -11,7 +11,5 @@
     "origins:fragile"
   ],
   "icon": "minecraft:frogspawn",
-  "impact": 3,
-  "name": "Mountain Lake God",
-  "description": "Mischievous and mysterious God capable of creating Earthliness."
+  "impact": 3
 }

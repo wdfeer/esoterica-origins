@@ -1,6 +1,4 @@
 {
-  "name": "Concealing Darkness",
-  "description": "You gain invisibility whilst under the effects of Blindness or Darkness.",
   "type": "origins:stacking_status_effect",
   "min_stacks": 0,
   "max_stacks": 1,

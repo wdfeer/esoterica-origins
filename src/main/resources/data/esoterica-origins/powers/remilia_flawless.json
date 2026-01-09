@@ -1,6 +1,4 @@
 {
-  "name": "Scarlet Purity",
-  "description": "Gain Flawless for 30 seconds, making you take 1 damage at most, at a two minute cooldown",
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:and",

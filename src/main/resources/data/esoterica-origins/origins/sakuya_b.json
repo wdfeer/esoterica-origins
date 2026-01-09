@@ -8,7 +8,5 @@
     "origins:light_armor"
   ],
   "icon": "minecraft:wither_skeleton_skull",
-  "impact": 3,
-  "name": "Devil's Maid",
-  "description": "A servant borrowing her vampire's powers."
+  "impact": 3
 }

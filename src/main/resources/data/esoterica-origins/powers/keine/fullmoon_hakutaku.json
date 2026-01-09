@@ -1,6 +1,4 @@
 {
-  "name": "Transformation",
-  "description": "You are forced into hakutaku form during a full moon.",
   "type": "origins:action_over_time",
   "interval": 5,
   "entity_action": {
