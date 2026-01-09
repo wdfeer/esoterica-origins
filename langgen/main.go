@@ -17,7 +17,8 @@ func main() {
 
 	origins := make([]Origin, len(files))
 	for i, filename := range files {
-		origins[i] = parseOrigin(filename.Name())
+		originName := strings.Split(filename.Name(), ".")[0]
+		origins[i] = parseOrigin(originName)
 	}
 
 	lang := buildLang(origins)
@@ -28,23 +29,32 @@ func main() {
 }
 
 type Origin struct {
-	path        string
-	name        string
-	description string
-	powers      []Power
+	internalName string
+	name         string
+	description  string
+	powers       []Power
 }
 
-func parseOrigin(path string) Origin {
-	object := readJson(originDir + path)
+func (origin Origin) getPath() string {
+	return originDir + origin.internalName + ".json"
+}
+
+func parseOrigin(internalName string) Origin {
+	origin := Origin{
+		internalName: internalName,
+	}
+
+	path := origin.getPath()
+	object := readJson(path)
 
 	if object["name"] == nil {
-		panic("Failed reading origin at\"" + path + "\", name not found!")
+		panic("Failed reading origin at \"" + path + "\", name not found!")
 	}
 	if object["description"] == nil {
-		panic("Failed reading origin at\"" + path + "\", description not found!")
+		panic("Failed reading origin at \"" + path + "\", description not found!")
 	}
 	if object["powers"] == nil {
-		panic("Failed reading origin at\"" + path + "\", powers not found!")
+		panic("Failed reading origin at \"" + path + "\", powers not found!")
 	}
 
 	powerNames := object["powers"].([]any)
@@ -56,19 +66,21 @@ func parseOrigin(path string) Origin {
 		}
 	}
 
-	return Origin{
-		path:        path,
-		name:        object["name"].(string),
-		description: object["description"].(string),
-		powers:      powers,
-	}
+	origin.name = object["name"].(string)
+	origin.description = object["description"].(string)
+	origin.powers = powers
+	return origin
 }
 
 type Power struct {
-	path        string
-	hidden      bool
-	name        string
-	description string
+	internalName string
+	hidden       bool
+	name         string
+	description  string
+}
+
+func (power Power) getPath() string {
+	return powerDir + power.internalName + ".json"
 }
 
 func parsePower(name string) Power {
@@ -77,8 +89,8 @@ func parsePower(name string) Power {
 
 	if object["hidden"] == true {
 		return Power{
-			hidden: true,
-			path:   name,
+			hidden:       true,
+			internalName: name,
 		}
 	}
 
@@ -90,9 +102,9 @@ func parsePower(name string) Power {
 	}
 
 	return Power{
-		path:        name,
-		name:        object["name"].(string),
-		description: object["description"].(string),
+		internalName: name,
+		name:         object["name"].(string),
+		description:  object["description"].(string),
 	}
 }
 
@@ -112,13 +124,13 @@ func readJson(path string) map[string]any {
 func buildLang(origins []Origin) map[string]string {
 	dict := map[string]string{}
 	for _, o := range origins {
-		dict["origin.esoterica-origins."+o.path+".name"] = o.name
-		dict["origin.esoterica-origins."+o.path+".description"] = o.description
+		dict["origin.esoterica-origins."+o.internalName+".name"] = o.name
+		dict["origin.esoterica-origins."+o.internalName+".description"] = o.description
 
 		for _, p := range o.powers {
 			if !p.hidden {
-				dict["power.esoterica-origins."+p.path+".name"] = p.name
-				dict["power.esoterica-origins."+p.path+".description"] = p.description
+				dict["power.esoterica-origins."+p.internalName+".name"] = p.name
+				dict["power.esoterica-origins."+p.internalName+".description"] = p.description
 			}
 		}
 	}
@@ -126,13 +138,13 @@ func buildLang(origins []Origin) map[string]string {
 }
 
 func deleteOld(origins []Origin) {
-	files := make([]string, len(origins)*3)
+	files := []string{}
 
 	for _, origin := range origins {
-		files = append(files, originDir+origin.path+".json")
+		files = append(files, origin.getPath())
 		for _, power := range origin.powers {
 			if !power.hidden {
-				files = append(files, powerDir+power.path+".json")
+				files = append(files, power.getPath())
 			}
 		}
 	}
