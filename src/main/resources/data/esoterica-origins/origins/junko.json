@@ -7,7 +7,5 @@
     "esoterica-origins:no_armor"
   ],
   "icon": "minecraft:fire_coral_block",
-  "impact": 3,
-  "name": "Pure Fox",
-  "description": "Divine Spirit that can purify anything."
+  "impact": 3
 }

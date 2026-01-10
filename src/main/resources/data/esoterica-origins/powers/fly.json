@@ -1,6 +1,4 @@
 {
-  "name": "Flight",
-  "description": "You can fly as if with an elytra.",
   "type": "origins:elytra_flight",
   "render_elytra": false
 }

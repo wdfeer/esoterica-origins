@@ -1,13 +1,10 @@
 {
-  "name": "Counter Formula",
-  "description": "You take 80% less damage from magic, drowning, fire and freezing.",
   "type": "origins:modify_damage_taken",
   "damage_condition": {
     "type": "origins:in_tag",
     "tag": "esoterica-origins:patchy_resist"
   },
   "modifier": {
-    "name": "Elemental resistance",
     "operation": "multiply_total",
     "value": -0.8
   }

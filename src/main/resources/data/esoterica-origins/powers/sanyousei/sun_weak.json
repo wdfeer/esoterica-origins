@@ -1,6 +1,4 @@
 {
-  "name": "Blending Sunlight",
-  "description": "You gain Weakness when exposed to the sun.",
   "type": "origins:stacking_status_effect",
   "min_stacks": 0,
   "max_stacks": 1,

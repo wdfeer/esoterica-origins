@@ -1,6 +1,4 @@
 {
-  "name": "Nimble Fox",
-  "description": "Gain Jump Boost II when sneaking.",
   "type": "origins:action_over_time",
   "entity_action": {
     "type": "origins:apply_effect",

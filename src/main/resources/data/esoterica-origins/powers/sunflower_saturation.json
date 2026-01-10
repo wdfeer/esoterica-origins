@@ -1,6 +1,4 @@
 {
-  "name": "Sunflower Powered",
-  "description": "You regain saturation by being near sunflowers and cannot eat any food.",
   "type": "origins:multiple",
   "saturation": {
     "type": "origins:action_over_time",
@@ -28,7 +26,6 @@
     }
   },
   "no_eat": {
-    "name": "Sunflower Powered",
     "type": "origins:prevent_item_use",
     "item_condition": {
       "type": "origins:food"

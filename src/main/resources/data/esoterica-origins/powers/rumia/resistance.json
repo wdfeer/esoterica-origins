@@ -1,6 +1,4 @@
 {
-  "name": "I didn't see it",
-  "description": "You take 80% less damage from entities more than 4 blocks away whilst under Blindness or Darkness.",
   "type": "origins:modify_damage_taken",
   "condition": {
     "type": "origins:or",
@@ -21,7 +19,6 @@
     "compare_to": 4
   },
   "modifier": {
-    "name": "Strong against far away attacks",
     "operation": "multiply_total",
     "value": -0.8
   }

@@ -1,6 +1,4 @@
 {
-  "name": "Dark Orb Flight",
-  "description": "You gain creative flight whilst under the effects of Darkness.",
   "type": "origins:creative_flight",
   "condition": {
     "type": "origins:status_effect",

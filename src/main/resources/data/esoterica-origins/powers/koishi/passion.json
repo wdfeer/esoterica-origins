@@ -1,6 +1,4 @@
 {
-  "name": "Passion",
-  "description": "Charges upon dealing 2 or more damage. Deal and take 100% more damage when active.",
   "type": "origins:multiple",
   "resource": {
     "type": "origins:resource",
@@ -139,7 +137,6 @@
       "compare_to": 1
     },
     "modifier": {
-      "name": "Passion damage multiplier",
       "operation": "multiply_base",
       "value": 1
     }
@@ -153,7 +150,6 @@
       "compare_to": 1
     },
     "modifier": {
-      "name": "Passion damage multiplier",
       "operation": "multiply_base",
       "value": 1
     }
@@ -167,7 +163,6 @@
       "compare_to": 1
     },
     "modifier": {
-      "name": "Passion damage multiplier",
       "operation": "multiply_base",
       "value": 1
     }

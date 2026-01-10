@@ -1,7 +1,5 @@
 {
   "type": "origins:keep_inventory",
-  "name": "Boundary of My Stuff",
-  "description": "After having visited the End, keep items and experience on death unless you are in the End.",
   "condition": {
     "type": "origins:and",
     "conditions": [

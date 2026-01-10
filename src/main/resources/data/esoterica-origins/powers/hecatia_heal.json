@@ -1,6 +1,4 @@
 {
-  "name": "Spare Body",
-  "description": "Activate to fully heal every 10 minutes. Gain creative flight whilst charging or +2 hearts when charged. Activates before death.",
   "type": "origins:multiple",
   "active": {
     "type": "origins:active_self",

@@ -1,6 +1,4 @@
 {
-  "name": "Spring Declaration",
-  "description": "You move 10% faster in temperate climate biomes.",
   "type": "origins:conditioned_attribute",
   "modifier": {
     "attribute": "minecraft:generic.movement_speed",

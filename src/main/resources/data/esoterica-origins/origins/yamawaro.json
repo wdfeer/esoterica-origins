@@ -6,7 +6,5 @@
     "origins:fragile"
   ],
   "icon": "minecraft:oak_leaves",
-  "impact": 2,
-  "name": "Yamawaro",
-  "description": "Kappa that live in the woods and can manipulate forest qi."
+  "impact": 2
 }

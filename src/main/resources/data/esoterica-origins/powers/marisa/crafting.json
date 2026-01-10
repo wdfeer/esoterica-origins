@@ -1,6 +1,4 @@
 {
-  "name": "Refine Potion",
-  "description": "You have additional potion ingredient recipes.",
   "type": "origins:multiple",
   "wart": {
     "type": "origins:recipe",

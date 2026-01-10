@@ -1,6 +1,4 @@
 {
-  "name": "Unsilked",
-  "description": "Cannot dig blocks with silk touch tools.",
   "type": "origins:modify_break_speed",
   "condition": {
     "type": "origins:equipped_item",

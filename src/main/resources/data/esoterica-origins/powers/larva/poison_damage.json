@@ -1,6 +1,4 @@
 {
-  "name": "Toxins",
-  "description": "You deal 50% more melee damage to enemies affected by poison.",
   "type": "origins:modify_damage_dealt",
   "target_condition": {
     "type": "origins:status_effect",

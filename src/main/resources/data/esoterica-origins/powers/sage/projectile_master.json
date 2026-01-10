@@ -1,6 +1,4 @@
 {
-  "name": "Projectile Master",
-  "description": "All projectiles deal 2 extra damage. Spectral arrows heal 2 hearts and apply Flawless for 5 seconds instead of dealing damage.",
   "type": "origins:multiple",
   "extra_damage": {
     "type": "origins:modify_projectile_damage",

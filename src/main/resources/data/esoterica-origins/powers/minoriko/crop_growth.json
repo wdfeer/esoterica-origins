@@ -1,6 +1,4 @@
 {
-  "name": "Goddess' Blessing",
-  "description": "Crops and saplings next to you grow instantly.",
   "type": "origins:action_over_time",
   "interval": 2,
   "entity_action": {

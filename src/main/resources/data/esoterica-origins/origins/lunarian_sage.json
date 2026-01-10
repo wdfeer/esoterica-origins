@@ -9,7 +9,5 @@
     "esoterica-origins:no_armor"
   ],
   "icon": "minecraft:brewing_stand",
-  "impact": 3,
-  "name": "Lunarian Sage",
-  "description": "An enlightened being from the Moon, master of alchemy and purity."
+  "impact": 3
 }

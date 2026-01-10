@@ -1,6 +1,4 @@
 {
-  "name": "Tengu Maneuvering",
-  "description": "Every 30 seconds, gain Graze I for 60 seconds if not wearing armor.",
   "type": "origins:action_over_time",
   "interval": 600,
   "hud_render": {

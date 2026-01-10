@@ -12,7 +12,5 @@
     "origins:no_cobweb_slowdown"
   ],
   "icon": "minecraft:spider_eye",
-  "impact": 3,
-  "name": "Firefly Youkai",
-  "description": "A Youkai capable of manipulating insects."
+  "impact": 3
 }

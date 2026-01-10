@@ -1,6 +1,4 @@
 {
-  "name": "Illness Immunity",
-  "description": "You cannot be affected by Poison nor by the Wither effect.",
   "type": "origins:effect_immunity",
   "effects": [
     "minecraft:poison",

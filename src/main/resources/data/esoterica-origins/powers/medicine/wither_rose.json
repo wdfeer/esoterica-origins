@@ -1,6 +1,4 @@
 {
-  "name": "Flower Conversion",
-  "description": "You can craft a wither rose from a lily of the valley.",
   "type": "origins:recipe",
   "recipe": {
     "id": "esoterica-origins:medicine_wither_rose",

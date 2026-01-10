@@ -1,6 +1,4 @@
 {
-  "name": "Changing Perception",
-  "description": "Activate to gain Strength, or Invisibility if sneaking, for 20 seconds every 60 seconds.",
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:if_else",

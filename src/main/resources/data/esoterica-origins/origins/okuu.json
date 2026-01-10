@@ -13,7 +13,5 @@
     "esoterica-origins:okuu/heat_particles"
   ],
   "icon": "minecraft:blaze_rod",
-  "impact": 3,
-  "name": "Nuclear Raven",
-  "description": "Hell Raven capable of manipulating nuclear fusion."
+  "impact": 3
 }

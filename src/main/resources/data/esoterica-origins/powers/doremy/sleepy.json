@@ -1,6 +1,4 @@
 {
-  "name": "Sleep Paralysis",
-  "description": "Gain Slowness unless you have Speed or Haste.",
   "type": "origins:stacking_status_effect",
   "min_stacks": 0,
   "max_stacks": 1,

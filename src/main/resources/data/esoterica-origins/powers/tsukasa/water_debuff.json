@@ -1,6 +1,4 @@
 {
-  "name": "Wet Clothes",
-  "description": "Gain Slowness for 10 seconds when in water.",
   "type": "origins:stacking_status_effect",
   "min_stacks": 0,
   "max_stacks": 20,

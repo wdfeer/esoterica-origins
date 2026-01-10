@@ -8,7 +8,5 @@
     "origins:fragile"
   ],
   "icon": "minecraft:lapis_block",
-  "impact": 3,
-  "name": "Elemental Mage",
-  "description": "Master of the Elements, capable of casting devastating spells but fragile in physique."
+  "impact": 3
 }

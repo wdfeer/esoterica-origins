@@ -1,6 +1,4 @@
 {
-  "name": "Poison Immunity",
-  "description": "You cannot be affected by poison.",
   "type": "origins:effect_immunity",
   "effects": [
     "minecraft:poison"

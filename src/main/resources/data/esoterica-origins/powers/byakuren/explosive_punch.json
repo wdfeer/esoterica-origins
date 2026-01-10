@@ -1,6 +1,4 @@
 {
-  "name": "Superhuman",
-  "description": "Deal 8 extra area damage with your bare fist at 1 attack speed.",
   "type": "origins:multiple",
   "attribute": {
     "type": "origins:conditioned_attribute",

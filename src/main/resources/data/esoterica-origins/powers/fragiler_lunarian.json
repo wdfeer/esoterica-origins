@@ -1,6 +1,4 @@
 {
-  "name": "Fragile Physique",
-  "description": "Your lunar body is delicate, reducing your health to 2 hearts.",
   "type": "origins:attribute",
   "modifier": {
     "attribute": "minecraft:generic.max_health",

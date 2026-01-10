@@ -1,6 +1,4 @@
 {
-  "name": "Pacifist",
-  "description": "You cannot deal damage.",
   "type": "origins:multiple",
   "melee": {
     "type": "origins:modify_damage_dealt",

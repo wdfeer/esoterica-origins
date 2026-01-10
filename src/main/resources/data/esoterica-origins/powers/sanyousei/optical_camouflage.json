@@ -1,6 +1,4 @@
 {
-  "name": "Optical Camouflage",
-  "description": "Gain Invisibility and Resistance for 30 seconds upon activation, every 2 minutes.",
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:apply_effect",

@@ -1,6 +1,4 @@
 {
-  "name": "Suwa Clear Water",
-  "description": "While at 5 or more faith, gain Conduit Power.",
   "type": "origins:stacking_status_effect",
   "min_stacks": 0,
   "max_stacks": 1,

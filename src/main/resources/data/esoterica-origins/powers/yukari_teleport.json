@@ -1,6 +1,4 @@
 {
-  "name": "Gap Lady",
-  "description": "Activate every 60 seconds to teleport target entity within 64 blocks 50 blocks into the air. Teleport yourself instead if sneaking.",
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:if_else",

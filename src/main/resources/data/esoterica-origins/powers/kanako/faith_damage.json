@@ -1,6 +1,4 @@
 {
-  "name": "Divine Intervention",
-  "description": "You deal double damage at 20 Faith, consuming 2 Faith.",
   "type": "origins:multiple",
   "melee": {
     "type": "origins:modify_damage_dealt",

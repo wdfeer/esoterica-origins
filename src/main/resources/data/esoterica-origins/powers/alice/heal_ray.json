@@ -1,6 +1,4 @@
 {
-  "name": "Demon Killing Ray",
-  "description": "Every 90 seconds, activate to gain Flawless for 1 second and shoot a beam that heals 3 hearts. Undead are dealt 20 damage instead.",
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:raycast",

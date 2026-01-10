@@ -5,7 +5,5 @@
     "esoterica-origins:sanae/slow_armored"
   ],
   "icon": "minecraft:feather",
-  "impact": 2,
-  "name": "Wind Priestess",
-  "description": "A shrine maiden blessed by the gods with great self-healing abilities."
+  "impact": 2
 }

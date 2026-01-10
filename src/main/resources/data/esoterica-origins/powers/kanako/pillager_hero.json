@@ -1,6 +1,4 @@
 {
-  "name": "God of the People",
-  "description": "Gain 4 Faith and Hero of the Village for 10 minutes after killing an illager.",
   "type": "origins:self_action_on_kill",
   "entity_action": {
     "type": "origins:and",

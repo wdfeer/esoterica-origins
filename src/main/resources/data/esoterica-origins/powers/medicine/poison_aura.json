@@ -1,6 +1,4 @@
 {
-  "name": "Poisonous Aura",
-  "description": "All entities within 8 blocks are afflicted by Poison.",
   "type": "origins:action_over_time",
   "entity_action": {
     "type": "origins:area_of_effect",

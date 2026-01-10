@@ -1,6 +1,4 @@
 {
-  "name": "Takeminakata Contact",
-  "description": "You can only wear a chestplate.",
   "type": "origins:restrict_armor",
   "head": {
     "type": "origins:armor_value",

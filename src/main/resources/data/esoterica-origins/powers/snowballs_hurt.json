@@ -1,6 +1,4 @@
 {
-  "name": "Rock Snow",
-  "description": "Snowballs deal 4 damage when thrown.",
   "type": "origins:modify_projectile_damage",
   "damage_condition": {
     "type": "origins:projectile",

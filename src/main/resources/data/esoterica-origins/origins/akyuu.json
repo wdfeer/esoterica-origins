@@ -6,7 +6,5 @@
     "esoterica-origins:akyuu/fragiling"
   ],
   "icon": "minecraft:book",
-  "impact": 3,
-  "name": "Child of Miare",
-  "description": "Preserver of knowledge, fragile in body yet blessed with memory and utility."
+  "impact": 3
 }

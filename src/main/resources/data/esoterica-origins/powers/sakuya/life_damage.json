@@ -1,6 +1,4 @@
 {
-  "name": "Life Game",
-  "description": "Every 30 seconds, activate to lose 5 hearts and deal double damage for 30 seconds.",
   "type": "origins:multiple",
   "active": {
     "type": "origins:active_self",
@@ -48,7 +46,6 @@
       "compare_to": 0
     },
     "modifier": {
-      "name": "Life Game",
       "operation": "multiply_total",
       "value": 2.0
     },
@@ -95,7 +92,6 @@
       "compare_to": 0
     },
     "modifier": {
-      "name": "Life Game",
       "operation": "multiply_total",
       "value": 2.0
     },

@@ -1,6 +1,4 @@
 {
-  "name": "Faith",
-  "description": "You can gather up to 10 Faith Points.",
   "type": "origins:resource",
   "min": 0,
   "max": 10,

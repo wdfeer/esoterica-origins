@@ -1,6 +1,4 @@
 {
-  "name": "Heating Up",
-  "description": "Every second, gain 1% heat for each creature within 16 blocks on fire.",
   "type": "origins:action_over_time",
   "entity_action": {
     "type": "origins:area_of_effect",

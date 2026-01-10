@@ -1,6 +1,4 @@
 {
-  "name": "Ranged Inability",
-  "description": "You deal half as much damage with all projectiles.",
   "type": "origins:modify_projectile_damage",
   "modifier": {
     "operation": "multiply_total",

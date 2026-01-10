@@ -1,6 +1,4 @@
 {
-  "name": "Orrery's Sun",
-  "description": "Slowly gain charge after dealing damage. When at full charge, gain Absorption and deal triple damage for 10 seconds.",
   "type": "origins:multiple",
   "charge": {
     "type": "origins:resource",
@@ -47,7 +45,6 @@
       "compare_to": 0
     },
     "modifier": {
-      "name": "Triple damage when in burst",
       "operation": "multiply_total",
       "value": 2.0
     }
@@ -61,7 +58,6 @@
       "compare_to": 0
     },
     "modifier": {
-      "name": "Triple damage when in burst",
       "operation": "multiply_total",
       "value": 2.0
     }

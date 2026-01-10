@@ -8,7 +8,5 @@
     "esoterica-origins:sagume_notrade"
   ],
   "icon": "minecraft:twisting_vines",
-  "impact": 3,
-  "name": "Reverse Goddess",
-  "description": "Lunarian Divine Spirit capable of reversing anything."
+  "impact": 3
 }

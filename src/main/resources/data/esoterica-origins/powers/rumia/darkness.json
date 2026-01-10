@@ -1,6 +1,4 @@
 {
-  "name": "True Darkness",
-  "description": "Activate to apply Darkness for 30 seconds to yourself and entities within 8 blocks with a cooldown of 90 seconds.",
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:area_of_effect",

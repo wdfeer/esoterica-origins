@@ -1,6 +1,4 @@
 {
-  "name": "Wordless",
-  "description": "Cannot trade with villagers.",
   "type": "origins:prevent_entity_use",
   "bientity_action": {
     "type": "origins:actor_action",

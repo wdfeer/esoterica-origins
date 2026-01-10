@@ -8,7 +8,5 @@
     "origins:aquatic"
   ],
   "icon": "minecraft:kelp",
-  "impact": 2,
-  "name": "Kappa",
-  "description": "Technologically advanced amphibian youkai."
+  "impact": 2
 }

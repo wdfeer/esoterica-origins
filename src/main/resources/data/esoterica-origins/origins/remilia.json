@@ -11,7 +11,5 @@
     "esoterica-origins:undead"
   ],
   "icon": "minecraft:ghast_tear",
-  "impact": 3,
-  "name": "Scarlet Vampire",
-  "description": "An evolved, long-living vampire with exquisite dietary preferences."
+  "impact": 3
 }

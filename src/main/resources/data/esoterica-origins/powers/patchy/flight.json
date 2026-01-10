@@ -1,6 +1,4 @@
 {
-  "name": "Focus Flight",
-  "description": "You gain creative flight whilst Magical Catalyst is recharging",
   "type": "origins:creative_flight",
   "condition": {
     "type": "origins:resource",

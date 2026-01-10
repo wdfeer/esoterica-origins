@@ -10,7 +10,5 @@
     "esoterica-origins:undead"
   ],
   "icon": "minecraft:ghast_tear",
-  "impact": 3,
-  "name": "Vampire",
-  "description": "Powerful youkai that are weak to water and sun."
+  "impact": 3
 }

@@ -1,6 +1,4 @@
 {
-  "name": "Lunarian Hatred",
-  "description": "You take 80% less damage from entities with Flawless.",
   "type": "origins:modify_damage_taken",
   "bientity_condition": {
     "type": "origins:actor_condition",
@@ -11,7 +9,6 @@
     }
   },
   "modifier": {
-    "name": "Strong against flawless",
     "operation": "multiply_total",
     "value": -0.8
   }

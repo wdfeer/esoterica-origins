@@ -1,6 +1,4 @@
 {
-  "name": "Faith Dissipation",
-  "description": "Every 2 seconds, lose 1 Faith if you are not at full health.",
   "type": "origins:action_over_time",
   "interval": 40,
   "entity_action": {

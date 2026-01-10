@@ -9,7 +9,5 @@
     "esoterica-origins:half_melee_damage"
   ],
   "icon": "minecraft:splash_potion",
-  "impact": 3,
-  "name": "Potioncrafter",
-  "description": "Human magician proficient in crafting potions and gathering mushrooms."
+  "impact": 3
 }

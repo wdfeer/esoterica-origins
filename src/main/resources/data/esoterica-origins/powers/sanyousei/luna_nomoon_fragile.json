@@ -1,6 +1,4 @@
 {
-  "name": "Moonlight Powered",
-  "description": "You have 4 less hearts unless exposed to the night sky.",
   "type": "origins:conditioned_attribute",
   "modifier": {
     "attribute": "minecraft:generic.max_health",

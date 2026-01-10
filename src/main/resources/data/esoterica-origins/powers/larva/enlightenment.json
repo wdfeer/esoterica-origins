@@ -1,6 +1,4 @@
 {
-  "name": "Powder of Enlightenment",
-  "description": "Right Click with a Totem of Undying to consume it and grant players within 8 blocks Health Boost for an hour.",
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:and",

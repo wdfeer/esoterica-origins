@@ -1,6 +1,4 @@
 {
-  "name": "Fire Impact",
-  "description": "Activate to shoot an explosive fireball every 30 seconds.",
   "type": "origins:fire_projectile",
   "entity_type": "minecraft:fireball",
   "tag": "{ExplosionPower:2b}",

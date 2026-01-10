@@ -1,6 +1,4 @@
 {
-  "name": "Short-sighted",
-  "description": "Toggle applying Blindness to all entities within 16 blocks, including yourself.",
   "type": "origins:multiple",
   "toggle": {
     "type": "origins:toggle",

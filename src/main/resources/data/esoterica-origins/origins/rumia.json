@@ -9,7 +9,5 @@
     "origins:fragile"
   ],
   "icon": "minecraft:black_concrete",
-  "impact": 3,
-  "name": "Darkness Youkai",
-  "description": "Youkai capable of manipulating darkness."
+  "impact": 3
 }

@@ -11,7 +11,5 @@
     "origins:light_armor"
   ],
   "icon": "minecraft:elytra",
-  "impact": 3,
-  "name": "Wind God Girl",
-  "description": "Crow Tengu with evolved evasive techniques."
+  "impact": 3
 }

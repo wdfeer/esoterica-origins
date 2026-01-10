@@ -1,7 +1,5 @@
 {
   "type": "origins:stacking_status_effect",
-  "name": "Insecticide",
-  "description": "You gain Weakness and Slowness while under the effects of Wither.",
   "min_stacks": 0,
   "max_stacks": 1,
   "duration_per_stack": 40,

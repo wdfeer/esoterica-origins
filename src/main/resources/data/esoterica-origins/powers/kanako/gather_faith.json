@@ -1,6 +1,4 @@
 {
-  "name": "Gather Faith",
-  "description": "Every second, every living entity within 16 blocks has a 4% chance to give you 1 Faith.",
   "type": "origins:action_over_time",
   "interval": 20,
   "entity_action": {

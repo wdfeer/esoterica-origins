@@ -1,6 +1,4 @@
 {
-  "name": "Spirit of Winter",
-  "description": "You spawn in a snowy plains biome.",
   "type": "origins:modify_player_spawn",
   "biome": "minecraft:snowy_plains",
   "dimension": "minecraft:overworld"

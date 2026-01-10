@@ -1,6 +1,4 @@
 {
-  "name": "Gather Faith",
-  "description": "Every 8 seconds, gain 2 Faith if in water or 1 Faith.",
   "type": "origins:action_over_time",
   "interval": 160,
   "entity_action": {

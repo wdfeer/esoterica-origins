@@ -1,6 +1,4 @@
 {
-  "name": "Devilry Light Ray",
-  "description": "Every 30 seconds, activate to shoot a laser that deals 8 magic damage and applies Wither for 10 seconds to the target creature within 32 blocks.",
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:raycast",

@@ -1,6 +1,4 @@
 {
-  "name": "No Armor",
-  "description": "You cannot wear any armor.",
   "type": "origins:restrict_armor",
   "head": {
     "type": "origins:armor_value",

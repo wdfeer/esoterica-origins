@@ -1,9 +1,6 @@
 {
   "type": "origins:attribute",
-  "name": "No Melee Damage",
-  "description": "You cannot deal melee damage.",
   "modifier": {
-    "name": "Nullify melee damage dealt",
     "attribute": "minecraft:generic.attack_damage",
     "value": -1.0,
     "operation": "multiply_total"

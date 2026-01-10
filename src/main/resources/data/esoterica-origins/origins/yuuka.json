@@ -6,7 +6,5 @@
     "esoterica-origins:no_armor"
   ],
   "icon": "minecraft:sunflower",
-  "impact": 3,
-  "name": "Sunflower Youkai",
-  "description": "A mighty youkai that is very protective of sunflowers."
+  "impact": 3
 }

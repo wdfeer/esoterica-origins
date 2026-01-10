@@ -1,6 +1,4 @@
 {
-  "name": "Thread Building",
-  "description": "You have a simplified scaffolding recipe and can craft chainmail armor from strings.",
   "type": "origins:multiple",
   "scaffolding": {
     "type": "origins:recipe",

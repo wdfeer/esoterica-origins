@@ -1,6 +1,4 @@
 {
-  "name": "Silk Attack",
-  "description": "Activate every 60 seconds to web an enemy, giving them Slowness V for 15 seconds.",
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:raycast",

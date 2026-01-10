@@ -1,7 +1,5 @@
 {
   "type": "origins:multiple",
-  "name": "What's this?",
-  "description": "You start with an ender eye in inventory and have alternative ender eye recipes.",
   "start": {
     "type": "origins:starting_equipment",
     "stack": {

@@ -1,6 +1,4 @@
 {
-  "name": "Channeling Strength",
-  "description": "Activate to gain Strength II for 30 seconds every 80 seconds.",
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:and",

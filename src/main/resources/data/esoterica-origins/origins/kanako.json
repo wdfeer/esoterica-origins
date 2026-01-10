@@ -9,7 +9,5 @@
     "esoterica-origins:kanako/only_chestplate"
   ],
   "icon": "minecraft:feather",
-  "impact": 3,
-  "name": "Wind God",
-  "description": "Divine Spirit proficient at marketing schemes to gather more faith."
+  "impact": 3
 }

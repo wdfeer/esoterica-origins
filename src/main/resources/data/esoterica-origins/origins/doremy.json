@@ -10,7 +10,5 @@
     "esoterica-origins:end_vulnerability"
   ],
   "icon": "minecraft:purple_bed",
-  "impact": 3,
-  "name": "Dream Lord",
-  "description": "Master of Dreams but vulnerable in material space."
+  "impact": 3
 }

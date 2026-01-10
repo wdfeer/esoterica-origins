@@ -10,7 +10,5 @@
     "esoterica-origins:mike/no_silk_touch"
   ],
   "icon": "minecraft:gold_ingot",
-  "impact": 3,
-  "name": "Lucky Cat",
-  "description": "Cat Youkai that brings good luck."
+  "impact": 3
 }

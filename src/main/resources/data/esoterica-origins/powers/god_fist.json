@@ -1,6 +1,4 @@
 {
-  "name": "Fist of the Goddess",
-  "description": "Deal 9 extra damage with your bare fist at 1 attack speed.",
   "type": "origins:conditioned_attribute",
   "modifiers": [
     {

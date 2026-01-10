@@ -1,6 +1,4 @@
 {
-  "name": "Huo Huan",
-  "description": "You can phase through most blocks.",
   "type": "origins:phasing",
   "blacklist": true,
   "render_type": "blindness",

@@ -1,6 +1,4 @@
 {
-  "name": "Forest Energy",
-  "description": "When near logs or leaves, regenerate health passively and gain haste.",
   "type": "origins:multiple",
   "healing": {
     "type": "origins:action_over_time",
@@ -61,6 +59,5 @@
       "comparison": ">",
       "compare_to": 0
     }
-
   }
 }

@@ -1,6 +1,4 @@
 {
-  "name": "Earth Fang",
-  "description": "Your attack speed is increased by 20% with iron weapons.",
   "type": "origins:conditioned_attribute",
   "modifier": {
     "attribute": "minecraft:generic.attack_speed",

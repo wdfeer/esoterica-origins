@@ -1,6 +1,4 @@
 {
-  "name": "Withering Jealousy",
-  "description": "All nearby entities within line of sight that have 10 or more hearts are afflicted with Wither.",
   "type": "origins:action_over_time",
   "entity_action": {
     "type": "origins:area_of_effect",

@@ -3,7 +3,5 @@
   "modifier": {
     "operation": "multiply_base",
     "value": 0.5
-  },
-  "name": "Perfect Memory",
-  "description": "You gain 50% more experience."
+  }
 }

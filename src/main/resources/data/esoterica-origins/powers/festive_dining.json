@@ -1,6 +1,4 @@
 {
-  "name": "Festive Dining",
-  "description": "You gain slowness for 30 seconds after eating.",
   "type": "origins:action_on_item_use",
   "entity_action": {
     "type": "origins:apply_effect",

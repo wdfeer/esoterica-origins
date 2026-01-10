@@ -1,7 +1,5 @@
 {
   "type": "origins:multiple",
-  "name": "Frog Blessing",
-  "description": "You receive double healing from all sources and have passive regeneration that consumes 1 Faith every second.",
   "double_heal": {
     "type": "origins:modify_healing",
     "modifier": {

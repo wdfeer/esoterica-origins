@@ -1,6 +1,4 @@
 {
-  "name": "Divine Protection",
-  "description": "Every 10 seconds when you take damage, consume 1 Faith to gain Absorption for 15 seconds.",
   "type": "origins:action_when_damage_taken",
   "entity_action": {
     "type": "origins:and",

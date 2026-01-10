@@ -1,6 +1,4 @@
 {
-  "name": "Wheel of Misfortune",
-  "description": "All entities within 16 blocks that have Wither take additional 2 damage per second, including yourself.",
   "type": "origins:action_over_time",
   "interval": 30,
   "entity_action": {

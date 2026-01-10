@@ -1,6 +1,4 @@
 {
-  "name": "Easygoing",
-  "description": "Sprinting is disabled unless you have Strength.",
   "type": "origins:prevent_sprinting",
   "condition": {
     "inverted": true,

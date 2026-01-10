@@ -1,6 +1,4 @@
 {
-  "name": "Faith Dependent",
-  "description": "You gain Resistance for up to 60 seconds at 10 or more Faith and have 4 less hearts without any Faith.",
   "type": "origins:multiple",
   "buff": {
     "type": "origins:stacking_status_effect",

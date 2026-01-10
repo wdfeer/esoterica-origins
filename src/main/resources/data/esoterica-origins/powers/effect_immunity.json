@@ -1,6 +1,4 @@
 {
-  "name": "Transcendent",
-  "description": "Immune to all status effects.",
   "type": "origins:effect_immunity",
   "inverted": true
 }

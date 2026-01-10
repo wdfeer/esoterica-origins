@@ -1,6 +1,4 @@
 {
-  "name": "Fugue",
-  "description": "Charges upon breaking blocks. Gain creative flight when active.",
   "type": "origins:multiple",
   "resource": {
     "type": "origins:resource",
