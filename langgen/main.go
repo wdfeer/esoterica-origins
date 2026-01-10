@@ -66,7 +66,10 @@ func parseOrigin(internalName string) (Origin, error) {
 	for _, identifier := range powerNames {
 		split := strings.Split(identifier.(string), ":")
 		if split[0] == "esoterica-origins" {
-			powers = append(powers, parsePower(split[1]))
+			power, err := parsePower(split[1])
+			if err != nil {
+				powers = append(powers, power)
+			}
 		}
 	}
 
@@ -87,29 +90,29 @@ func (power Power) getPath() string {
 	return powerDir + power.internalName + ".json"
 }
 
-func parsePower(name string) Power {
+func parsePower(name string) (Power, error) {
 	path := powerDir + name + ".json"
 	object := readJson(path)
 
+	power := Power{
+		internalName: name,
+	}
+
 	if object["hidden"] == true {
-		return Power{
-			hidden:       true,
-			internalName: name,
-		}
+		power.hidden = true
+		return power, nil
 	}
 
 	if object["name"] == nil {
-		panic("Failed reading power at\"" + path + "\", name not found!")
+		return power, errors.New("Failed reading power at\"" + path + "\", name not found!")
 	}
 	if object["description"] == nil {
-		panic("Failed reading power at\"" + path + "\", description not found!")
+		return power, errors.New("Failed reading power at\"" + path + "\", description not found!")
 	}
 
-	return Power{
-		internalName: name,
-		name:         object["name"].(string),
-		description:  object["description"].(string),
-	}
+	power.name = object["name"].(string)
+	power.description = object["description"].(string)
+	return power, nil
 }
 
 func readJson(path string) map[string]any {
