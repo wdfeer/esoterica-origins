@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"errors"
 	"os"
 	"strings"
 )
@@ -15,10 +16,13 @@ const (
 func main() {
 	files, _ := os.ReadDir(originDir)
 
-	origins := make([]Origin, len(files))
-	for i, filename := range files {
+	origins := []Origin{}
+	for _, filename := range files {
 		originName := strings.Split(filename.Name(), ".")[0]
-		origins[i] = parseOrigin(originName)
+		origin, err := parseOrigin(originName)
+		if err != nil {
+			origins = append(origins, origin)
+		}
 	}
 
 	lang := buildLang(origins)
@@ -39,7 +43,7 @@ func (origin Origin) getPath() string {
 	return originDir + origin.internalName + ".json"
 }
 
-func parseOrigin(internalName string) Origin {
+func parseOrigin(internalName string) (Origin, error) {
 	origin := Origin{
 		internalName: internalName,
 	}
@@ -48,13 +52,13 @@ func parseOrigin(internalName string) Origin {
 	object := readJson(path)
 
 	if object["name"] == nil {
-		panic("Failed reading origin at \"" + path + "\", name not found!")
+		return origin, errors.New("Failed reading origin at \"" + path + "\", name not found!")
 	}
 	if object["description"] == nil {
-		panic("Failed reading origin at \"" + path + "\", description not found!")
+		return origin, errors.New("Failed reading origin at \"" + path + "\", description not found!")
 	}
 	if object["powers"] == nil {
-		panic("Failed reading origin at \"" + path + "\", powers not found!")
+		return origin, errors.New("Failed reading origin at \"" + path + "\", powers not found!")
 	}
 
 	powerNames := object["powers"].([]any)
@@ -69,7 +73,7 @@ func parseOrigin(internalName string) Origin {
 	origin.name = object["name"].(string)
 	origin.description = object["description"].(string)
 	origin.powers = powers
-	return origin
+	return origin, nil
 }
 
 type Power struct {
