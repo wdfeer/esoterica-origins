@@ -1,5 +1,10 @@
 {
-  "powers": [],
+  "powers": [
+    "esoterica-origins:kyouko/mountain_speed",
+    "esoterica-origins:kyouko/glowing_wallhacks",
+    "esoterica-origins:kyouko/sonic_boom",
+    "esoterica-origins:kyouko/fragile"
+  ],
   "icon": "minecraft:echo_shard",
   "impact": 3,
   "name": "Yamabiko",
