@@ -1,0 +1,19 @@
+{
+  "name": "Presence Detection",
+  "description": "While toggled on, can see entities within 16 blocks through blocks.",
+  "type": "origins:multiple",
+  "toggle": {
+    "type": "origins:toggle",
+    "active_by_default": false,
+    "key": {
+      "key": "key.origins.secondary_active"
+    }
+  },
+  "glow": {
+    "type": "origins:entity_glow",
+    "condition": {
+      "type": "origins:power_active",
+      "power": "esoterica-origins:kyouko/glowing_wallhack_toggle"
+    }
+  }
+}
