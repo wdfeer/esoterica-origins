@@ -1,0 +1,32 @@
+{
+  "name": "Sonic Attack",
+  "description": "Every 2 minutes, activate to launch a beam dealing 20 damage and that goes through blocks.",
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:raycast",
+    "distance": 16,
+    "block": false,
+    "entity": true,
+    "fluid_handling": "none",
+    "bientity_action": {
+      "type": "origins:target_action",
+      "action": {
+        "type": "origins:and",
+        "actions": [
+          {
+            "type": "origins:damage",
+            "amount": 20,
+            "damage_type": "minecraft:sonic_boom"
+          }
+        ]
+      }
+    },
+    "command_along_ray": "particle sonic_boom",
+    "command_step": 1
+  },
+  "cooldown": 2400,
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+    "bar_index": 15
+  }
+}
