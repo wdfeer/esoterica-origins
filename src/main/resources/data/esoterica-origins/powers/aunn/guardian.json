@@ -1,6 +1,6 @@
 {
   "name": "Guardian",
-  "description": "You take 2 less damage from all sources if you are within 25 blocks of a bad.",
+  "description": "You take 2 less damage from all sources if you are within 25 blocks of a bed.",
   "type": "origins:modify_damage_taken",
   "modifier": {
     "name": "Resistant near beds",
