@@ -14,6 +14,11 @@
     "condition": {
       "type": "origins:power_active",
       "power": "esoterica-origins:kyouko/glowing_wallhack_toggle"
+    },
+    "bientity_condition": {
+      "type": "origins:distance",
+      "comparison": "<=",
+      "compare_to": 16
     }
   }
 }
