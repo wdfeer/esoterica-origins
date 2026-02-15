@@ -17,36 +17,48 @@
         "type": "origins:choice",
         "actions": [
           {
-            "type": "origins:apply_effect",
-            "effect": {
-              "effect": "minecraft:resistance",
-              "duration": 12000,
-              "amplifier": 0
-            }
+            "element": {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:resistance",
+                "duration": 12000,
+                "amplifier": 0
+              }
+            },
+            "weight": 1
           },
           {
-            "type": "origins:apply_effect",
-            "effect": {
-              "effect": "minecraft:saturation",
-              "duration": 12000,
-              "amplifier": 0
-            }
+            "element": {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:saturation",
+                "duration": 12000,
+                "amplifier": 0
+              }
+            },
+            "weight": 1
           },
           {
-            "type": "origins:apply_effect",
-            "effect": {
-              "effect": "minecraft:haste",
-              "duration": 12000,
-              "amplifier": 0
-            }
+            "element": {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:haste",
+                "duration": 12000,
+                "amplifier": 0
+              }
+            },
+            "weight": 1
           },
           {
-            "type": "origins:apply_effect",
-            "effect": {
-              "effect": "minecraft:slowness",
-              "duration": 12000,
-              "amplifier": 0
-            }
+            "element": {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:slowness",
+                "duration": 12000,
+                "amplifier": 0
+              }
+            },
+            "weight": 1
           }
         ]
       }
