@@ -1,6 +1,6 @@
 {
   "name": "Mine Blast",
-  "description": "When toggled, mined blocks explode, destroying nearby blocks and erasing the item drop.",
+  "description": "When toggled, mined blocks create a small explosion, destroying nearby blocks and erasing the item drop.",
   "type": "origins:multiple",
   "toggle": {
     "type": "origins:toggle",
@@ -16,10 +16,23 @@
       "power": "esoterica-origins:momoyo/excavation_toggle"
     },
     "block_action": {
-      "type": "origins:explode",
-      "power": 2,
-      "destruction_type": "break",
-      "create_fire": false
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "particle minecraft:explosion"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "playsound minecraft:entity.generic.explode player @a ~ ~ ~ 0.7"
+        },
+        {
+          "type": "origins:explode",
+          "power": 1,
+          "destruction_type": "break",
+          "create_fire": false
+        }
+      ]
     },
     "only_when_harvested": false
   }
