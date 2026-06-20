@@ -1,0 +1,10 @@
+{
+  "type": "origins:creative_flight",
+  "name": "Creative Flight",
+  "description": "Can fly as if in Creative Mode when at max health.",
+  "condition": {
+    "type": "origins:relative_health",
+    "comparison": ">=",
+    "compare_to": 1
+  }
+}

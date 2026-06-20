@@ -508,8 +508,9 @@ Lunarian Divine Spirit capable of reversing anything.
 
 - Flawless: You cannot take more than 1 damage at once.
 - Winged: You have Elytra wings without needing to equip any.
+- Creative Flight: Can fly as if in Creative Mode when at max health.
 - Counter Harm: Whenever you take or deal 1 or more damage, the victim gains Resistance IV for 3 seconds.
-- Mining Wave: Upon breaking a block, if you have Mining Fatigue, clear it and gain Haste V for 5 seconds. Otherwise, clear Haste and gain Mining Fatigue for 5 seconds.
+- Mining Wave: Gain Mining Fatigue for half a second upon breaking a block.
 - Fragile Physique: Your lunar body is delicate, reducing your health to 3 hearts.
 - Wordless: Cannot trade with villagers.
 
