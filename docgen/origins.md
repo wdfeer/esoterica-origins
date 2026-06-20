@@ -453,7 +453,7 @@ Feline youkai, good at dealing with spirits.
 A Youkai that feeds of off jealousy.
 
 - Jealousy Defense: You take half as much damage from enemies with 6 hearts or more.
-- Withering Jealousy: All nearby entities within line of sight that have 10 or more hearts are afflicted with Wither.
+- Withering Jealousy: All nearby entities within line of sight that have 10 or more health are afflicted with Wither.
 - Fragile: You have 3 less hearts of health than humans.
 
 ## Elemental Mage
@@ -510,7 +510,7 @@ Lunarian Divine Spirit capable of reversing anything.
 - Winged: You have Elytra wings without needing to equip any.
 - Creative Flight: Can fly as if in Creative Mode when at max health.
 - Counter Harm: Whenever you take or deal 1 or more damage, the victim gains Resistance IV for 3 seconds.
-- Mining Wave: Gain Mining Fatigue for half a second upon breaking a block.
+- Mining Inability: Gain Mining Fatigue for half a second upon breaking a block.
 - Fragile Physique: Your lunar body is delicate, reducing your health to 3 hearts.
 - Wordless: Cannot trade with villagers.
 
