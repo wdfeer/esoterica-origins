@@ -2,7 +2,7 @@
   "powers": [
     "esoterica-origins:miko/golden_speed",
     "esoterica-origins:miko/postmortal_buff",
-    "esoterica-origins:no_armor"
+    "esoterica-origins:miko/only_gold_armor"
   ],
   "icon": "minecraft:golden_sword",
   "impact": 3,

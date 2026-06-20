@@ -1,0 +1,33 @@
+{
+  "name": "Shikaisen Protection",
+  "description": "You can only wear gold armor.",
+  "type": "origins:restrict_armor",
+  "head": {
+    "inverted": "true",
+    "type": "origins:ingredient",
+    "ingredient": {
+        "tag": "esoterica-origins:miko_golden_items"
+    }
+  },
+  "chest": {
+    "inverted": "true",
+    "type": "origins:ingredient",
+    "ingredient": {
+        "tag": "esoterica-origins:miko_golden_items"
+    }
+  },
+  "legs": {
+    "inverted": "true",
+    "type": "origins:ingredient",
+    "ingredient": {
+        "tag": "esoterica-origins:miko_golden_items"
+    }
+  },
+  "feet": {
+    "inverted": "true",
+    "type": "origins:ingredient",
+    "ingredient": {
+        "tag": "esoterica-origins:miko_golden_items"
+    }
+  }
+}

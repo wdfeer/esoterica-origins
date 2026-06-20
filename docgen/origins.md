@@ -357,7 +357,7 @@ Hermit capable of Taoist magic and attracting desires.
 
 - Shukuchi Movement: You move 10% faster whilst holding a golden item or a totem of undying.
 - Apotheosis: After having used a totem of undying, you permanently take 1 less damage from all sources.
-- No Armor: You cannot wear any armor.
+- Shikaisen Protection: You can only wear gold armor.
 
 ## Harvest God
 God of Harvest capable of enriching farmland and harvesting efficiently.
