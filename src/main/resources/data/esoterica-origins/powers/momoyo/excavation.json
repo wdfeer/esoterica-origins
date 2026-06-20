@@ -1,6 +1,6 @@
 {
   "name": "Mine Blast",
-  "description": "When toggled, mined blocks create a small explosion, destroying nearby blocks and erasing the item drop.",
+  "description": "When toggled, upon breaking a block, adjacent blocks are also destroyed.",
   "type": "origins:multiple",
   "toggle": {
     "type": "origins:toggle",
@@ -24,13 +24,21 @@
         },
         {
           "type": "origins:execute_command",
-          "command": "playsound minecraft:entity.generic.explode player @a ~ ~ ~ 0.7"
+          "command": "playsound minecraft:entity.generic.explode player @a ~ ~ ~ 0.5"
         },
         {
-          "type": "origins:explode",
-          "power": 1,
-          "destruction_type": "break",
-          "create_fire": false
+          "type": "origins:area_of_effect",
+          "radius": 1,
+          "shape": "star",
+          "block_action": {
+            "type": "origins:execute_command",
+            "command": "setblock ~ ~ ~ air destroy"
+          },
+          "block_condition": {
+            "type": "origins:hardness",
+            "comparison": "!=",
+            "compare_to": -1
+          }
         }
       ]
     },
