@@ -17,6 +17,15 @@ Youkai magician capable of demonic light manipulation.
 - Need for Mobility: You can not wear any heavy armor (armor with protection values higher than chainmail).
 - Weak: Melee damage dealt is halved.
 
+## Komainu
+Holy guardian beast.
+
+- Intruder Detection: When toggled on, entities within 25 blocks glow.
+- Guardian: You take 2 less damage from all sources if you are within 25 blocks of a bed.
+- Double Workforce: You break blocks 20% faster.
+- Large Appetite: You exhaust much quicker than others, thus requiring you to eat more.
+- Ranged Inability: You deal half as much damage with all projectiles.
+
 ## Wind God Girl
 Crow Tengu with evolved evasive techniques.
 
@@ -186,6 +195,20 @@ A satori with a sealed third eye, capable of manipulating the unconscious.
 - Passion: Charges upon dealing 2 or more damage. Deal and take 100% more damage when active.
 - Fugue: Charges upon breaking blocks. Gain creative flight when active.
 - Fragile: You have 3 less hearts of health than humans.
+
+## Demon Librarian
+A human capable of reading youkai grimoires.
+
+- Hidden Texts: Right Click with an Enchanted Book to consume it and gain Resistance, Saturation, Haste or Slowness for 10 minutes.
+- Fragile: You take 15% more fall damage.
+
+## Yamabiko
+Youkai embodying mountain echos and capable of sound manipulation.
+
+- Mountain Resonance: You move 15% faster and gain Jump Boost in mountainous biomes.
+- Presence Detection: While toggled on, can see entities within 16 blocks through blocks.
+- Sonic Attack: Every 2 minutes, activate to launch a beam dealing 20 damage and that goes through blocks.
+- Fragile Body: You have 2 less hearts.
 
 ## Butterfly Fairy
 A Fairy of nature capable of spreading scales.
@@ -361,6 +384,16 @@ Undying entity of flame.
 - No Armor: You cannot wear any armor.
 - Pain Threshold: Taking damage gives you hunger. Gain weakness if at less than 10 hearts.
 
+## Night Sparrow
+Bird youkai capable of driving people insane through singing.
+
+- Winged: You have Elytra wings without needing to equip any.
+- Nightborn Creature: You move 15% faster at night.
+- Bewildering Song: Activate to inflict Weakness II for 30 seconds to other entities within 16 blocks every 2 minutes. If sneaking, apply Strength instead.
+- Signature Dish: You gain extra food points from eating cooked seafood.
+- Need for Mobility: You can not wear any heavy armor (armor with protection values higher than chainmail).
+- Fragile: You have 3 less hearts of health than humans.
+
 ## Firefly Youkai
 A Youkai capable of manipulating insects.
 
@@ -373,6 +406,15 @@ A Youkai capable of manipulating insects.
 - Need for Mobility: You can not wear any heavy armor (armor with protection values higher than chainmail).
 - Insecticide: You gain Weakness and Slowness while under the effects of Wither.
 - Fire Vulnerability: You take 50% more damage from fire.
+
+## Nue
+Ancient Youkai capable of making objects unidentifiable.
+
+- Danmaku Conduit: You start with a Trident enchanted with Sharpness III.
+- Undefined Darkness: Enemies hit with a trident take 3 additional damage and gain Blindness for 30 seconds.
+- Unknown Location: Activate to gain Invisibility for 30 seconds every minute.
+- UFO: You gain creative flight when you are invisible.
+- No Armor: You cannot wear any armor.
 
 ## Nuclear Raven
 Hell Raven capable of manipulating nuclear fusion.
@@ -427,7 +469,7 @@ Master of the Elements, capable of casting devastating spells but fragile in phy
 ## Hakurei Exterminator
 A lazy shrine maiden skilled in exterminating spirits and youkai when needed.
 
-- Ace Exterminator: You get a Smite III iron sword and deal 25% more damage to undead.
+- Ace Exterminator: You start with a Smite III iron sword and deal 25% more damage to undead.
 - Fist of the Hakurei: Deal 8 extra damage with your fists at 1.2 attack speed.
 - Channeling Strength: Activate to gain Strength for 30 seconds every minute.
 - Easygoing: Sprinting is disabled unless you have Strength.
@@ -435,7 +477,7 @@ A lazy shrine maiden skilled in exterminating spirits and youkai when needed.
 ## Hakurei Priestess
 A shrine maiden skilled in exterminating spirits and youkai, but gets lazy when hungry.
 
-- Ace Exterminator: You get a Smite III iron sword and deal 25% more damage to undead.
+- Ace Exterminator: You start with a Smite III iron sword and deal 25% more damage to undead.
 - Hungry and Lazy: Sprinting is disabled earlier when hungry or when under the Hunger effect.
 
 ## Scarlet Vampire
@@ -524,6 +566,16 @@ Taoist Hermit capable of passing through matter and necromancy.
 - Huo Huan: You can phase through most blocks.
 - No Armor: You cannot wear any armor.
 
+## Amanojaku
+Twisted youkai capable of turning over anything.
+
+- Reverse Gravity: Activate to give upwards velocity to yourself and entities within 10 blocks with minimal cooldown.
+- Turning over Life: Full-health entities within 16 blocks take 4 damage when toggled on.
+- Turning over Death: Whenever you have less than 2 hearts, fully heal yourself.
+- Uncooperative: Cannot trade with villagers.
+- Unconventional: Swords, axes and normal arrows deal no damage.
+- No Armor: You cannot wear any armor.
+
 ## Star Fairy
 Playful fairy of light that draws power from the stars, capable of detecting moving things.
 
@@ -608,6 +660,16 @@ Kappa that live in the woods and can manipulate forest qi.
 - Kappa's Backpack: You have a backpack, letting you carry another 9 items with you.
 - Fragile: You have 3 less hearts of health than humans.
 
+## Phantom Swordswoman
+Half-phantom from the Netherworld specializing in sword combat.
+
+- Channeling Strength: Activate to gain Strength for 30 seconds every minute.
+- Heaven Sword: Your attack speed is increased by 20% with swords.
+- Multitalented Gardener: Shears break blocks faster and all foods provide more saturation.
+- Preta Realm Sword: Swords are kept after death.
+- Half-human, Half-phantom: You take 1 less damage from all instances when at more than 5 hearts but receive 80% less healing from all sources when at 5 hearts or lower.
+- Need for Mobility: You can not wear any heavy armor (armor with protection values higher than chainmail).
+
 ## Gap Youkai
 Powerful being capable of manipulating boundaries.
 
@@ -629,4 +691,11 @@ A mighty youkai that is very protective of sunflowers.
 - Sunflower Armor: Gain Resistance II for 15 seconds when there are at least 3 sunflowers nearby.
 - Sunflower Powered: You regain saturation by being near sunflowers and cannot eat any food.
 - No Armor: You cannot wear any armor.
+
+## Ghost Princess
+Immortal ghost capable of manipulating death.
+
+- Law of Mortality: Other entities within 20 blocks take 2 damage every 2 seconds when toggled on.
+- Death Butterfly Dance: Projectiles inflict Wither for 2 minutes.
+- Glutton: Gain Hunger whilst sprinting.
 
