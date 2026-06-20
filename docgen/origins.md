@@ -385,6 +385,16 @@ Undying entity of flame.
 - No Armor: You cannot wear any armor.
 - Pain Threshold: Taking damage gives you hunger. Gain weakness if at less than 10 hearts.
 
+## Oomukade
+Dragon-eating giant centipede youkai that houses in caves, adept at mining.
+
+- Channeling Strength: Activate to gain Strength for 30 seconds every minute.
+- Mine Blast: When toggled, mined blocks explode, destroying nearby blocks and erasing the item drop.
+- Cave Insect: Whilst not exposed to the overworld sky, you deal 25% extra melee damage and take 25% less damage.
+- Insecticide: You gain Weakness and Slowness while under the effects of Wither.
+- Ranged Inability: You deal half as much damage with all projectiles.
+- No Armor: You cannot wear any armor.
+
 ## Night Sparrow
 Bird youkai capable of driving people insane through singing.
 

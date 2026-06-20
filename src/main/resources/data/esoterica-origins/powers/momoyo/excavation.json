@@ -1,0 +1,26 @@
+{
+  "name": "Mine Blast",
+  "description": "When toggled, mined blocks explode, destroying nearby blocks and erasing the item drop.",
+  "type": "origins:multiple",
+  "toggle": {
+    "type": "origins:toggle",
+    "key": {
+      "key": "key.origins.secondary_active"
+    },
+    "active_by_default": false
+  },
+  "explode": {
+    "type": "origins:action_on_block_break",
+    "condition": {
+      "type": "origins:power_active",
+      "power": "esoterica-origins:momoyo/excavation_toggle"
+    },
+    "block_action": {
+      "type": "origins:explode",
+      "power": 2,
+      "destruction_type": "break",
+      "create_fire": false
+    },
+    "only_when_harvested": false
+  }
+}

@@ -1,9 +1,11 @@
 {
   "powers": [
+    "esoterica-origins:active_strength",
     "esoterica-origins:momoyo/excavation",
     "esoterica-origins:momoyo/cave_dweller",
-    "esoterica-origins:momoyo/anti_dragon",
-    "esoterica-origins:momoyo/slow_outside"
+    "esoterica-origins:wither_insecticide",
+    "esoterica-origins:ranged_inability",
+    "esoterica-origins:no_armor"
   ],
   "icon": "minecraft:golden_shovel",
   "impact": 3,
