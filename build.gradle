@@ -70,7 +70,7 @@ publishing {
     }
 }
 
-task runDocgen(type: Exec) {
+tasks.register('runDocgen', Exec) {
     group = 'documentation'
     description = 'Generates markdown docs using the Go docgen tool'
 

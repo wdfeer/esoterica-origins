@@ -17,6 +17,15 @@ Youkai magician capable of demonic light manipulation.
 - Need for Mobility: You can not wear any heavy armor (armor with protection values higher than chainmail).
 - Weak: Melee damage dealt is halved.
 
+## Komainu
+Holy guardian beast.
+
+- Intruder Detection: When toggled on, entities within 25 blocks glow.
+- Guardian: You take 2 less damage from all sources if you are within 25 blocks of a bed.
+- Double Workforce: You break blocks 20% faster.
+- Large Appetite: You exhaust much quicker than others, thus requiring you to eat more.
+- Ranged Inability: You deal half as much damage with all projectiles.
+
 ## Wind God Girl
 Crow Tengu with evolved evasive techniques.
 
@@ -186,6 +195,20 @@ A satori with a sealed third eye, capable of manipulating the unconscious.
 - Passion: Charges upon dealing 2 or more damage. Deal and take 100% more damage when active.
 - Fugue: Charges upon breaking blocks. Gain creative flight when active.
 - Fragile: You have 3 less hearts of health than humans.
+
+## Demon Librarian
+A human capable of reading youkai grimoires.
+
+- Hidden Texts: Right Click with an Enchanted Book to consume it and gain Resistance, Saturation, Haste or Slowness for 10 minutes.
+- Fragile: You take 15% more fall damage.
+
+## Yamabiko
+Youkai embodying mountain echos and capable of sound manipulation.
+
+- Mountain Resonance: You move 15% faster and gain Jump Boost in mountainous biomes.
+- Presence Detection: While toggled on, can see entities within 16 blocks through blocks.
+- Sonic Attack: Every 2 minutes, activate to launch a beam dealing 20 damage and that goes through blocks.
+- Fragile Body: You have 2 less hearts.
 
 ## Butterfly Fairy
 A Fairy of nature capable of spreading scales.
@@ -360,6 +383,16 @@ Undying entity of flame.
 - Immortal Flame: Shoot fireballs in all directions and gain Strength II for 20 seconds.
 - No Armor: You cannot wear any armor.
 - Pain Threshold: Taking damage gives you hunger. Gain weakness if at less than 10 hearts.
+
+## Night Sparrow
+Bird youkai capable of driving people insane through singing.
+
+- Winged: You have Elytra wings without needing to equip any.
+- Nightborn Creature: You move 15% faster at night.
+- Bewildering Song: Activate to inflict Weakness II for 30 seconds to other entities within 16 blocks every 2 minutes. If sneaking, apply Strength instead.
+- Signature Dish: You gain extra food points from eating cooked seafood.
+- Need for Mobility: You can not wear any heavy armor (armor with protection values higher than chainmail).
+- Fragile: You have 3 less hearts of health than humans.
 
 ## Firefly Youkai
 A Youkai capable of manipulating insects.

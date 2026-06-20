@@ -1,0 +1,9 @@
+{
+  "name": "Double Workforce",
+  "description": "You break blocks 20% faster.",
+  "type": "origins:modify_break_speed",
+  "modifier": {
+    "operation": "multiply_base",
+    "value": 0.2
+  }
+}

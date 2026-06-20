@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "esoterica-origins:kyouko/mountain_speed",
+    "esoterica-origins:kyouko/glowing_wallhack",
+    "esoterica-origins:kyouko/sonic_boom",
+    "esoterica-origins:kyouko/fragile"
+  ],
+  "icon": "minecraft:echo_shard",
+  "impact": 3,
+  "name": "Yamabiko",
+  "description": "Youkai embodying mountain echos and capable of sound manipulation."
+}
