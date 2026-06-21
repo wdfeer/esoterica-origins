@@ -399,7 +399,7 @@ Dragon-eating giant centipede youkai that houses in caves, adept at mining.
 
 - Channeling Strength: Activate to gain Strength for 30 seconds every minute.
 - Mine Blast: When toggled, upon breaking a block, adjacent blocks are also destroyed.
-- Cave Insect: Whilst not exposed to the overworld sky, you deal 25% extra melee damage and take 25% less damage.
+- Cave Insect: Whilst not exposed to the sky, you deal 25% extra melee damage and take 25% less damage.
 - Insecticide: You gain Weakness and Slowness while under the effects of Wither.
 - Large Appetite: You exhaust much quicker than others, thus requiring you to eat more.
 - Earthbound: You cannot equip an elytra.

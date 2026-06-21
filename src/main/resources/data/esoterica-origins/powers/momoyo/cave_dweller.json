@@ -1,22 +1,12 @@
 {
   "name": "Cave Insect",
-  "description": "Whilst not exposed to the overworld sky, you deal 25% extra melee damage and take 25% less damage.",
+  "description": "Whilst not exposed to the sky, you deal 25% extra melee damage and take 25% less damage.",
   "type": "origins:multiple",
   "damage_increase": {
     "type": "origins:modify_damage_dealt",
     "condition": {
-      "type": "origins:or",
-      "conditions": [
-        {
-          "type": "origins:dimension",
-          "dimension": "minecraft:overworld",
-          "inverted": true
-        },
-        {
-          "type": "origins:exposed_to_sky",
-          "inverted": true
-        }
-      ]
+      "type": "origins:exposed_to_sky",
+      "inverted": true
     },
     "modifier": {
       "operation": "multiply_total",
