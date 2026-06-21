@@ -52,7 +52,7 @@ Buddhist monk skilled in youkai arts and body-enhancing magic.
 ## Marketplace God
 God who governs the act of trading.
 
-- Guardian of the Marketplace: Toggle between gaining Haste or Resistance whilst within 25 blocks of a villager.
+- Market Guardian: Toggle between gaining Haste or Resistance whilst within 32 blocks of a villager.
 - Trading Spirit: You move 10% faster with emeralds or diamonds in your inventory.
 - Special Marketplace: Gain the Hero of The Village effect whilst you possess a banner pattern or a music disc.
 - Starting Capital: You start with 64 emeralds.

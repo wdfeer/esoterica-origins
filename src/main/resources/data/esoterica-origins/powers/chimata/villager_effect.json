@@ -1,6 +1,6 @@
 {
-  "name": "Guardian of the Marketplace",
-  "description": "Toggle between gaining Haste or Resistance whilst within 25 blocks of a villager.",
+  "name": "Market Guardian",
+  "description": "Toggle between gaining Haste or Resistance whilst within 32 blocks of a villager.",
   "type": "origins:multiple",
   "toggle": {
     "type": "origins:toggle"
@@ -9,7 +9,7 @@
     "type": "origins:action_over_time",
     "entity_action": {
       "type": "origins:area_of_effect",
-      "radius": 25,
+      "radius": 32,
       "bientity_condition": {
         "type": "origins:target_condition",
         "condition": {
@@ -23,13 +23,16 @@
           "type": "origins:apply_effect",
           "effect": {
             "effect": "minecraft:haste",
-            "duration": 100,
-            "amplifier": 0
+            "duration": 50,
+            "amplifier": 0,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
           }
         }
       }
     },
-    "interval": 20,
+    "interval": 30,
     "condition": {
       "type": "origins:power_active",
       "power": "esoterica-origins:chimata/villager_effect_toggle"
@@ -39,7 +42,7 @@
     "type": "origins:action_over_time",
     "entity_action": {
       "type": "origins:area_of_effect",
-      "radius": 25,
+      "radius": 32,
       "bientity_condition": {
         "type": "origins:target_condition",
         "condition": {
@@ -53,13 +56,16 @@
           "type": "origins:apply_effect",
           "effect": {
             "effect": "minecraft:resistance",
-            "duration": 100,
-            "amplifier": 0
+            "duration": 50,
+            "amplifier": 0,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
           }
         }
       }
     },
-    "interval": 20,
+    "interval": 30,
     "condition": {
       "type": "origins:power_active",
       "power": "esoterica-origins:chimata/villager_effect_toggle",
