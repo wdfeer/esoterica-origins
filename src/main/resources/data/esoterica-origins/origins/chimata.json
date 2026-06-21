@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "esoterica-origins:chimata/villager_haste",
+    "esoterica-origins:chimata/emerald_speed",
+    "esoterica-origins:chimata/collector",
+    "esoterica-origins:chimata/starting_emeralds",
+    "esoterica-origins:chimata/half_melee_damage"
+  ],
+  "icon": "minecraft:emerald",
+  "impact": 3,
+  "name": "Marketplace God",
+  "description": "God who governs the act of trading."
+}
