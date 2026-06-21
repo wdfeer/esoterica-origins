@@ -1,0 +1,11 @@
+{
+  "name": "Earthbound",
+  "description": "You cannot equip an elytra.",
+  "type": "origins:restrict_armor",
+  "chest": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "item": "minecraft:elytra"
+    }
+  }
+}

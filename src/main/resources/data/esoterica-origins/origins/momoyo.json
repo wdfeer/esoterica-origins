@@ -5,7 +5,8 @@
     "esoterica-origins:momoyo/cave_dweller",
     "esoterica-origins:wither_insecticide",
     "origins:more_exhaustion",
-    "esoterica-origins:no_armor"
+    "esoterica-origins:momoyo/no_elytra",
+    "esoterica-origins:momoyo/notrade"
   ],
   "icon": "minecraft:golden_shovel",
   "impact": 3,
