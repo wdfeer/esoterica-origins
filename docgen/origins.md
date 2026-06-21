@@ -49,6 +49,15 @@ Buddhist monk skilled in youkai arts and body-enhancing magic.
 - Iron Skin: Gain 10 armor if you have Resistance or Absorption.
 - No Armor: You cannot wear any armor.
 
+## Marketplace God
+God who governs the act of trading.
+
+- Guardian of the Marketplace: Toggle between gaining Haste or Resistance whilst within 25 blocks of a villager.
+- Trading Spirit: You move 10% faster with emeralds or diamonds in your inventory.
+- Special Marketplace: Gain the Hero of The Village effect whilst you possess a banner pattern or a music disc.
+- Starting Capital: You start with 64 emeralds.
+- Feeble: You deal half as much damage in melee combat.
+
 ## Lunatic Fairy
 Hell Fairy capable of making others lose sanity.
 
@@ -393,7 +402,8 @@ Dragon-eating giant centipede youkai that houses in caves, adept at mining.
 - Cave Insect: Whilst not exposed to the overworld sky, you deal 25% extra melee damage and take 25% less damage.
 - Insecticide: You gain Weakness and Slowness while under the effects of Wither.
 - Large Appetite: You exhaust much quicker than others, thus requiring you to eat more.
-- No Armor: You cannot wear any armor.
+- Earthbound: You cannot equip an elytra.
+- Negative Aura: You cannot trade with villagers.
 
 ## Night Sparrow
 Bird youkai capable of driving people insane through singing.

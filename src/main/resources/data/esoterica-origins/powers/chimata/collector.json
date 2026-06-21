@@ -1,0 +1,39 @@
+{
+  "name": "Special Marketplace",
+  "description": "Gain the Hero of The Village effect whilst you possess a banner pattern or a music disc.",
+  "type": "origins:stacking_status_effect",
+  "min_stacks": 0,
+  "max_stacks": 1,
+  "duration_per_stack": 30,
+  "effects": [
+    {
+      "effect": "minecraft:hero_of_the_village",
+      "is_ambient": true,
+      "show_particles": false,
+      "show_icon": true
+    }
+  ],
+  "condition": {
+    "type": "origins:inventory",
+    "process_mode": "items",
+    "item_condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "esoterica-origins:banner_patterns"
+          }
+        },
+        {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "c:music_discs"
+          }
+        }
+      ]
+    },
+    "comparison": ">",
+    "compare_to": 0
+  }
+}

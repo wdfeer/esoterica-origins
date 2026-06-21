@@ -1,0 +1,10 @@
+{
+  "name": "Starting Capital",
+  "description": "You start with 64 emeralds.",
+  "type": "origins:starting_equipment",
+  "stack": {
+    "item": "minecraft:emerald",
+    "amount": 64,
+    "slot": 8
+  }
+}

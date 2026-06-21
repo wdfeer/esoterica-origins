@@ -1,0 +1,33 @@
+{
+  "name": "Trading Spirit",
+  "description": "You move 10% faster with emeralds or diamonds in your inventory.",
+  "type": "origins:conditioned_attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.movement_speed",
+    "value": 0.1,
+    "operation": "multiply_total"
+  },
+  "condition": {
+    "type": "origins:inventory",
+    "process_mode": "items",
+    "item_condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "item": "minecraft:emerald"
+          }
+        },
+        {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "item": "minecraft:diamond"
+          }
+        }
+      ]
+    },
+    "comparison": ">",
+    "compare_to": 0
+  }
+}
