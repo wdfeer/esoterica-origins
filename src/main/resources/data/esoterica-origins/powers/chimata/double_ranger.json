@@ -4,7 +4,7 @@
   "type": "origins:multiple",
   "timer": {
     "type": "origins:cooldown",
-    "cooldown": 72000,
+    "cooldown": 300,
     "hud_render": {
       "should_render": true,
       "condition": {
@@ -29,6 +29,10 @@
       "name": "Chimata Ranger",
       "operation": "multiply_base",
       "value": 1
+    },
+    "self_action": {
+      "type": "origins:trigger_cooldown",
+      "power": "esoterica-origins:chimata/double_ranger_timer"
     }
   }
 }
