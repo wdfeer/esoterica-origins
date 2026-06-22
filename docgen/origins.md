@@ -711,8 +711,8 @@ Powerful being capable of manipulating boundaries.
 A mighty youkai that is very protective of sunflowers.
 
 - Channeling Strength: Activate to gain Strength II for 30 seconds every 80 seconds.
-- Sunflower Armor: Gain Resistance II for 15 seconds when there are at least 3 sunflowers nearby.
-- Sunflower Powered: You regain saturation by being near sunflowers and cannot eat any food.
+- Sunflower Armor: Gain Resistance II for 15 seconds when there are at least 3 sunflowers within 8 blocks.
+- Sunflower Powered: You regain saturation by being within 8 blocks of a sunflower and cannot eat any food.
 - No Armor: You cannot wear any armor.
 
 ## Ghost Princess
