@@ -52,11 +52,12 @@ Buddhist monk skilled in youkai arts and body-enhancing magic.
 ## Marketplace God
 God who governs the act of trading.
 
+- Asylum of Danmaku: Every 15 seconds, next projectile deals double damage.
 - Market Guardian: Toggle between gaining Haste or Resistance whilst within 32 blocks of a villager.
 - Trading Spirit: You move 10% faster with emeralds or diamonds in your inventory.
-- Special Marketplace: Gain the Hero of The Village effect whilst you possess a banner pattern or a music disc.
 - Starting Capital: You start with 64 emeralds.
 - Feeble: You deal half as much damage in melee combat.
+- Need for Mobility: You can not wear any heavy armor (armor with protection values higher than chainmail).
 
 ## Lunatic Fairy
 Hell Fairy capable of making others lose sanity.

@@ -1,10 +1,11 @@
 {
   "powers": [
+    "esoterica-origins:chimata/double_ranger",
     "esoterica-origins:chimata/villager_effect",
     "esoterica-origins:chimata/emerald_speed",
-    "esoterica-origins:chimata/collector",
     "esoterica-origins:chimata/starting_emeralds",
-    "esoterica-origins:chimata/half_melee_damage"
+    "esoterica-origins:chimata/half_melee_damage",
+    "origins:light_armor"
   ],
   "icon": "minecraft:emerald",
   "impact": 3,

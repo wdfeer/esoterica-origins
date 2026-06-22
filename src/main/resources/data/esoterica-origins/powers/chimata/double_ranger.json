@@ -1,0 +1,34 @@
+{
+  "name": "Asylum of Danmaku",
+  "description": "Every 15 seconds, next projectile deals double damage.",
+  "type": "origins:multiple",
+  "timer": {
+    "type": "origins:cooldown",
+    "cooldown": 72000,
+    "hud_render": {
+      "should_render": true,
+      "condition": {
+        "type": "origins:resource",
+        "resource": "esoterica-origins:chimata/double_ranger_timer",
+        "comparison": "!=",
+        "compare_to": 0
+      },
+      "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+      "bar_index": 2
+    }
+  },
+  "double_damage": {
+    "type": "origins:modify_projectile_damage",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:chimata/double_ranger_timer",
+      "comparison": "==",
+      "compare_to": 0
+    },
+    "modifier": {
+      "name": "Chimata Ranger",
+      "operation": "multiply_base",
+      "value": 1
+    }
+  }
+}
