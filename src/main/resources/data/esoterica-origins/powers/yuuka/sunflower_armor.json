@@ -1,6 +1,6 @@
 {
   "name": "Sunflower Armor",
-  "description": "Gain Resistance II for 15 seconds when there are at least 3 sunflowers within 8 blocks.",
+  "description": "Gain Resistance III for 30 seconds when there are at least 3 sunflowers within 8 blocks.",
   "type": "origins:action_over_time",
   "entity_action": {
     "type": "origins:apply_effect",
