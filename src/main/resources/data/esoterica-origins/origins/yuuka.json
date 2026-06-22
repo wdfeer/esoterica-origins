@@ -1,8 +1,8 @@
 {
   "powers": [
     "esoterica-origins:active_strength2",
-    "esoterica-origins:sunflower_armor",
-    "esoterica-origins:sunflower_saturation",
+    "esoterica-origins:yuuka/sunflower_armor",
+    "esoterica-origins:yuuka/sunflower_saturation",
     "esoterica-origins:no_armor"
   ],
   "icon": "minecraft:sunflower",
