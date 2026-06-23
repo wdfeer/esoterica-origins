@@ -588,7 +588,7 @@ Taoist Hermit capable of passing through matter and necromancy.
 
 - Trick of Wicked Hermit: Apply Mending and Curse of Vanishing to the held tool upon killing a mob.
 - Huo Huan: You can phase through most blocks.
-- No Armor: You cannot wear any armor.
+- Need for Mobility: You can not wear any heavy armor (armor with protection values higher than chainmail).
 
 ## Amanojaku
 Twisted youkai capable of turning over anything.

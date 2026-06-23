@@ -2,7 +2,7 @@
   "powers": [
     "esoterica-origins:seiga/enchanting",
     "esoterica-origins:seiga/phasing",
-    "esoterica-origins:no_armor"
+    "origins:light_armor"
   ],
   "icon": "minecraft:blue_orchid",
   "impact": 3,
