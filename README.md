@@ -9,7 +9,7 @@ What this mod hopes to achieve:
 
 ## Origins
 
-As of version 0.18.0, the mod adds 72 different origins. Refer to [the docs](https://github.com/wdfeer/esoterica-origins/blob/master/docgen/origins.md) for names and descriptions of their powers as seen in-game.
+As of version 0.19.X, the mod adds 74 different origins. Refer to [the docs](https://github.com/wdfeer/esoterica-origins/blob/master/docgen/origins.md) for names and descriptions of their powers as seen in-game.
 
 ## Not Origins
 
