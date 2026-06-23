@@ -282,6 +282,7 @@ Fast and nimble rabbit from the Lunar Capital.
 
 - Flawless: You cannot take more than 1 damage at once.
 - Strong Ankles: You are able to jump higher by jumping while sprinting.
+- Nimble Feet: You take greatly reduced fall damage.
 - Fragile Physique: Your lunar body is delicate, reducing your health to 3 hearts.
 - Need for Mobility: You can not wear any heavy armor (armor with protection values higher than chainmail).
 - Vegetarian: You can't digest any meat.
