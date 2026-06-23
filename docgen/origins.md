@@ -366,7 +366,7 @@ Cat Youkai that brings good luck.
 Hermit capable of Taoist magic and attracting desires.
 
 - Sword of Light: Every 30 seconds, deal double damage with your next sword hit, applying Absorption to yourself and players within 16 blocks in line of sight for 30 seconds.
-- Shukuchi Movement: You move 10% faster whilst holding a golden item or a totem of undying.
+- Shukuchi Movement: You move 20% faster whilst holding a golden item or a totem of undying.
 - Apotheosis: After having used a totem of undying, you permanently take 1 less damage from all sources.
 - Shikaisen Protection: You can only wear gold armor.
 
