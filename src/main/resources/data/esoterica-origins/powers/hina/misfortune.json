@@ -1,6 +1,6 @@
 {
   "name": "Conservation of Misfortune",
-  "description": "You have a Fortune meter that slowly resets to the middle.",
+  "description": "You have a Fortune meter that resets to the middle by 1% of the bar every second.",
   "type": "origins:multiple",
   "resource": {
     "type": "origins:resource",
@@ -16,13 +16,13 @@
     "type": "origins:action_over_time",
     "condition": {
       "type": "origins:resource",
-      "resource": "esoterica-origins:hina/fortune_resource",
+      "resource": "esoterica-origins:hina/misfortune_resource",
       "comparison": "<",
       "compare_to": 50
     },
     "entity_action": {
       "type": "origins:change_resource",
-      "resource": "esoterica-origins:hina/fortune_resource",
+      "resource": "esoterica-origins:hina/misfortune_resource",
       "change": 1
     },
     "interval": 20
@@ -31,13 +31,13 @@
     "type": "origins:action_over_time",
     "condition": {
       "type": "origins:resource",
-      "resource": "esoterica-origins:hina/fortune_resource",
+      "resource": "esoterica-origins:hina/misfortune_resource",
       "comparison": ">",
       "compare_to": 50
     },
     "entity_action": {
       "type": "origins:change_resource",
-      "resource": "esoterica-origins:hina/fortune_resource",
+      "resource": "esoterica-origins:hina/misfortune_resource",
       "change": -1
     },
     "interval": 20
