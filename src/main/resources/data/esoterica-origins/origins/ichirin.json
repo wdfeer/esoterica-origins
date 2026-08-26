@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "esoterica-origins:ichirin/unzan_punch",
+    "esoterica-origins:ichirin/unzan_parry",
+    "esoterica-origins:ichirin/unzan_efficiency",
+    "esoterica-origins:ichirin/unzan_carry",
+    "esoterica-origins:byakuren/nodiamond_faster",
+    "esoterica-origins:no_armor"
+  ],
+  "icon": "minecraft:cornflower",
+  "impact": 3,
+  "name": "Nyuudou User",
+  "description": "Buddhist monk capable of summoning an enlightened spirit."
+}
