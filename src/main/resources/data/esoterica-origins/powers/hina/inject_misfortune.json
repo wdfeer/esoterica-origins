@@ -32,7 +32,7 @@
         }
       ]
     },
-    "command_along_ray": "particle minecraft:enchanted_hit",
-    "command_step": 1
+    "command_along_ray": "particle soul",
+    "command_step": 2
   }
 }

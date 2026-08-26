@@ -37,7 +37,7 @@
         }
       ]
     },
-    "command_along_ray": "particle minecraft:enchanted_hit",
-    "command_step": 1
+    "command_along_ray": "particle heart",
+    "command_step": 2
   }
 }
