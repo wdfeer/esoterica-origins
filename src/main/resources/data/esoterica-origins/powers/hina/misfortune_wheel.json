@@ -1,0 +1,21 @@
+{
+  "name": "Wheel of Misfortune",
+  "description": "Move the misfortune bar left by 3% whenever you deal damage. Move it right instead whenever you take damage.",
+  "type": "origins:multiple",
+  "damage_dealt": {
+    "type": "origins:modify_damage_dealt",
+    "self_action": {
+      "type": "origins:change_resource",
+      "resource": "esoterica-origins:hina/misfortune_resource",
+      "change": -3
+    }
+  },
+  "damage_taken": {
+    "type": "origins:modify_damage_taken",
+    "self_action": {
+      "type": "origins:change_resource",
+      "resource": "esoterica-origins:hina/misfortune_resource",
+      "change": 3
+    }
+  }
+}
