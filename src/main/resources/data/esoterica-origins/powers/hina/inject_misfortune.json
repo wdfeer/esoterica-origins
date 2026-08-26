@@ -1,6 +1,6 @@
 {
   "name": "Inject Misfortune",
-  "description": "Activate to apply Wither for 8 seconds to the target creature within 32 blocks, moving the fortune bar left by 25%.",
+  "description": "Activate to deal 3 hearts of magic damage to the target creature within 32 blocks, moving the fortune bar left by 25%.",
   "type": "origins:active_self",
   "condition": {
     "type": "origins:resource",
@@ -18,11 +18,9 @@
       "type": "origins:and",
       "actions": [
         {
-          "type": "origins:apply_effect",
-          "effect": {
-            "effect": "minecraft:wither",
-            "duration": 160
-          }
+          "type": "origins:damage",
+          "amount": 6,
+          "damage_type": "minecraft:magic"
         },
         {
           "type": "origins:actor_action",
