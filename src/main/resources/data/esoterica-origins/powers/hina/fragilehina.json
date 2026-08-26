@@ -9,7 +9,7 @@
   "condition": {
     "type": "origins:resource",
     "resource": "esoterica-origins:hina/misfortune_resource",
-    "comparison": "==",
+    "comparison": "!=",
     "compare_to": 50
   }
 }
