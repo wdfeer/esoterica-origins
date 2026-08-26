@@ -130,7 +130,7 @@ Goddess of Hell, physically and offensively strong.
 God capable of gathering and recycling misfortune.
 
 - Conservation of Misfortune: You have a misfortune meter that resets to the middle by 1% of the bar every second.
-- Consume Misfortune: Activate to heal 5 hearts to the target creature within 32 blocks, moving the misfortune bar right by 15%.
+- Harbor Misfortune: Activate to heal 5 hearts to the target creature within 32 blocks, moving the misfortune bar right by 15%.
 - Inject Misfortune: Activate to deal 3 hearts of magic damage to the target creature within 32 blocks, moving the misfortune bar left by 25%.
 - Wheel of Misfortune: Move the misfortune bar left by 3% whenever you deal damage. Move it right instead whenever you take damage.
 - Burdens of Misfortune: You cannot gain health from any sources whilst the misfortune bar is over 50%.

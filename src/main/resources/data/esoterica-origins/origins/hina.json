@@ -1,7 +1,7 @@
 {
   "powers": [
     "esoterica-origins:hina/misfortune",
-    "esoterica-origins:hina/grant_fortune",
+    "esoterica-origins:hina/gain_misfortune",
     "esoterica-origins:hina/inject_misfortune",
     "esoterica-origins:hina/misfortune_wheel",
     "esoterica-origins:hina/hina_noheal"
