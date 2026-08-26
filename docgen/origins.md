@@ -134,6 +134,7 @@ God capable of gathering and recycling misfortune.
 - Inject Misfortune: Activate to deal 3 hearts of magic damage to the target creature within 32 blocks, moving the misfortune bar left by 25%.
 - Wheel of Misfortune: Move the misfortune bar left by 3% whenever you deal damage. Move it right instead whenever you take damage.
 - Burdens of Misfortune: You cannot gain health from any sources whilst the misfortune bar is over 50%.
+- Fate Imbalance: Whilst the misfortune bar is not exactly in the middle, you take +1 damage from all sources.
 
 ## Ice Fairy
 Playful spirit of nature that draws energy from flowers and has power over cold.

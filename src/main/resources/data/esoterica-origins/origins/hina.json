@@ -4,7 +4,8 @@
     "esoterica-origins:hina/gain_misfortune",
     "esoterica-origins:hina/inject_misfortune",
     "esoterica-origins:hina/misfortune_wheel",
-    "esoterica-origins:hina/hina_noheal"
+    "esoterica-origins:hina/hina_noheal",
+    "esoterica-origins:hina/hina_fragile"
   ],
   "icon": "minecraft:poppy",
   "impact": 3,
