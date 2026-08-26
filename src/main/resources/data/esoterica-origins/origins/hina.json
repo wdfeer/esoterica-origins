@@ -3,7 +3,7 @@
     "esoterica-origins:hina/misfortune",
     "esoterica-origins:hina/grant_fortune",
     "esoterica-origins:hina/inject_misfortune",
-    "origins:fragile"
+    "esoterica-origins:hina/fragilehina"
   ],
   "icon": "minecraft:poppy",
   "impact": 3,

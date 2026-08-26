@@ -1,0 +1,15 @@
+{
+  "name": "Fate Imbalance",
+  "description": "Whilst the misfortune bar is not exactly in the middle, you take +1 damage from all sources.",
+  "type": "origins:modify_damage_taken",
+  "modifier": {
+    "operation": "addition",
+    "value": 1
+  },
+  "condition": {
+    "type": "origins:resource",
+    "resource": "esoterica-origins:hina/misfortune_resource",
+    "comparison": "==",
+    "compare_to": 50
+  }
+}
