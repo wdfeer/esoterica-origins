@@ -1,6 +1,6 @@
 {
   "name": "Inject Misfortune",
-  "description": "Activate to deal 3 hearts of magic damage to the target creature within 32 blocks, moving the fortune bar left by 25%.",
+  "description": "Activate to deal 3 hearts of magic damage to the target creature within 32 blocks, moving the misfortune bar left by 25%.",
   "type": "origins:active_self",
   "condition": {
     "type": "origins:resource",

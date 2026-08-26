@@ -1,6 +1,6 @@
 {
   "name": "Consume Misfortune",
-  "description": "Activate to heal 5 hearts to the target creature within 32 blocks, moving the fortune bar right by 15%.",
+  "description": "Activate to heal 5 hearts to the target creature within 32 blocks, moving the misfortune bar right by 15%.",
   "type": "origins:active_self",
   "condition": {
     "type": "origins:resource",
