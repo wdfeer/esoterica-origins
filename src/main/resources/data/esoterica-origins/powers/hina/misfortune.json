@@ -4,6 +4,7 @@
   "type": "origins:multiple",
   "resource": {
     "type": "origins:resource",
+    "start_value": 50,
     "min": 0,
     "max": 100,
     "hud_render": {
