@@ -2,6 +2,9 @@
   "name": "Harbor Misfortune",
   "description": "Activate to heal 5 hearts to the target creature within 32 blocks, moving the misfortune bar right by 15%.",
   "type": "origins:active_self",
+  "key": {
+    "key": "key.origins.secondary_active"
+  },
   "condition": {
     "type": "origins:resource",
     "resource": "esoterica-origins:hina/misfortune_resource",
