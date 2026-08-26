@@ -1,12 +1,12 @@
 {
-  "name": "Grant Fortune",
-  "description": "Activate to apply Resistance for 8 seconds to the target creature within 32 blocks, moving the fortune bar right by 25%.",
+  "name": "Consume Misfortune",
+  "description": "Activate to heal 5 hearts to the target creature within 32 blocks, moving the fortune bar right by 15%.",
   "type": "origins:active_self",
   "condition": {
     "type": "origins:resource",
     "resource": "esoterica-origins:hina/misfortune_resource",
-    "comparison": ">",
-    "compare_to": 25
+    "comparison": "<=",
+    "compare_to": 85
   },
   "entity_action": {
     "type": "origins:and",
@@ -20,11 +20,8 @@
         "bientity_action": {
           "type": "origins:target_action",
           "action": {
-            "type": "origins:apply_effect",
-            "effect": {
-              "effect": "minecraft:resistance",
-              "duration": 160
-            }
+            "type": "origins:heal",
+            "amount": 10
           }
         },
         "command_along_ray": "particle minecraft:enchanted_hit",
@@ -33,7 +30,7 @@
       {
         "type": "origins:change_resource",
         "resource": "esoterica-origins:hina/misfortune_resource",
-        "change": 25
+        "change": 15
       }
     ]
   }

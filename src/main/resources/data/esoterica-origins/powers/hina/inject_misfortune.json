@@ -5,8 +5,8 @@
   "condition": {
     "type": "origins:resource",
     "resource": "esoterica-origins:hina/misfortune_resource",
-    "comparison": "<",
-    "compare_to": 75
+    "comparison": ">=",
+    "compare_to": 25
   },
   "entity_action": {
     "type": "origins:and",
