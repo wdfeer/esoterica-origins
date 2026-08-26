@@ -2,6 +2,7 @@
   "name": "Inject Misfortune",
   "description": "Activate to deal 3 hearts of magic damage to the target creature within 32 blocks, moving the misfortune bar left by 25%.",
   "type": "origins:active_self",
+  "cooldown": 30,
   "condition": {
     "type": "origins:resource",
     "resource": "esoterica-origins:hina/misfortune_resource",
