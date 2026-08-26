@@ -1,0 +1,40 @@
+{
+  "name": "Grant Fortune",
+  "description": "Activate to apply Resistance for 8 seconds to the target creature within 32 blocks, moving the fortune bar right by 25%.",
+  "type": "origins:active_self",
+  "condition": {
+    "type": "origins:resource",
+    "resource": "esoterica-origins:hina/misfortune_resource",
+    "comparison": ">",
+    "compare_to": 25
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:raycast",
+        "distance": 32,
+        "block": true,
+        "entity": true,
+        "fluid_handling": "none",
+        "bientity_action": {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:apply_effect",
+            "effect": {
+              "effect": "minecraft:resistance",
+              "duration": 160
+            }
+          }
+        },
+        "command_along_ray": "particle minecraft:enchanted_hit",
+        "command_step": 1
+      },
+      {
+        "type": "origins:change_resource",
+        "resource": "esoterica-origins:hina/misfortune_resource",
+        "change": 25
+      }
+    ]
+  }
+}
