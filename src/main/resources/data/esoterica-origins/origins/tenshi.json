@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "esoterica-origins:tenshi/sword_of_hisou",
+    "esoterica-origins:tenshi/earthquake",
+    "esoterica-origins:tenshi/free_armor",
+    "esoterica-origins:tenshi/picky_eater",
+    "esoterica-origins:no_armor"
+  ],
+  "icon": "minecraft:apple",
+  "impact": 3,
+  "name": "Earth Celestial",
+  "description": "Heavenly Celestial capable of manipulating earthly natural disasters."
+}

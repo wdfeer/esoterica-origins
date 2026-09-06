@@ -1,0 +1,10 @@
+{
+  "name": "Wall of Bhaavaagra",
+  "description": "You always have 20 armor points.",
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.armor",
+    "operation": "addition",
+    "value": 20
+  }
+}
