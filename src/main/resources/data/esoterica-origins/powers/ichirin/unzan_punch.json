@@ -1,6 +1,6 @@
 {
   "name": "Divine Fist",
-  "description": "Every 6 seconds, your next melee or ranged attack deals additional 4 area damage.",
+  "description": "Every 6 seconds, your next melee or ranged attack deals additional 5 area damage.",
   "type": "origins:multiple",
   "cooldown": {
     "type": "origins:cooldown",
@@ -28,7 +28,7 @@
     "modifier": {
       "name": "Unzan damage",
       "operation": "addition",
-      "value": 4.0
+      "value": 5.0
     },
     "self_action": {
       "type": "origins:trigger_cooldown",
@@ -42,7 +42,7 @@
           "particle": {
             "type": "minecraft:explosion"
           },
-          "count": 1,
+          "count": 2,
           "speed": 0.0,
           "force": true,
           "spread": {
@@ -54,11 +54,11 @@
         {
           "type": "origins:play_sound",
           "sound": "minecraft:entity.generic.explode",
-          "volume": 0.2
+          "volume": 0.3
         },
         {
           "type": "origins:area_of_effect",
-          "radius": 1.5,
+          "radius": 1.8,
           "bientity_condition": {
             "type": "origins:target_condition",
             "condition": {
@@ -72,7 +72,7 @@
             "type": "origins:target_action",
             "action": {
               "type": "origins:damage",
-              "amount": 4,
+              "amount": 5,
               "damage_type": "minecraft:player_explosion"
             }
           }
@@ -91,7 +91,7 @@
     "modifier": {
       "name": "Unzan damage",
       "operation": "addition",
-      "value": 4.0
+      "value": 5.0
     },
     "self_action": {
       "type": "origins:trigger_cooldown",
@@ -105,7 +105,7 @@
           "particle": {
             "type": "minecraft:explosion"
           },
-          "count": 1,
+          "count": 2,
           "speed": 0.0,
           "force": true,
           "spread": {
@@ -117,11 +117,11 @@
         {
           "type": "origins:play_sound",
           "sound": "minecraft:entity.generic.explode",
-          "volume": 0.2
+          "volume": 0.3
         },
         {
           "type": "origins:area_of_effect",
-          "radius": 1.5,
+          "radius": 1.8,
           "bientity_condition": {
             "type": "origins:target_condition",
             "condition": {
@@ -135,7 +135,7 @@
             "type": "origins:target_action",
             "action": {
               "type": "origins:damage",
-              "amount": 4,
+              "amount": 5,
               "damage_type": "minecraft:player_explosion"
             }
           }
