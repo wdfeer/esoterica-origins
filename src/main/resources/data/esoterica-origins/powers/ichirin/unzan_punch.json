@@ -25,6 +25,10 @@
       "comparison": "==",
       "compare_to": 0
     },
+    "self_action": {
+      "type": "origins:trigger_cooldown",
+      "power": "esoterica-origins:ichirin/unzan_punch_cooldown"
+    },
     "target_action": {
       "type": "origins:and",
       "actions": [
@@ -78,6 +82,10 @@
       "resource": "esoterica-origins:ichirin/unzan_punch_cooldown",
       "comparison": "==",
       "compare_to": 0
+    },
+    "self_action": {
+      "type": "origins:trigger_cooldown",
+      "power": "esoterica-origins:ichirin/unzan_punch_cooldown"
     },
     "target_action": {
       "type": "origins:and",
