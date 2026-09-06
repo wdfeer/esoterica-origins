@@ -1,23 +1,34 @@
 {
   "name": "Huo Huan",
-  "description": "You can phase through most blocks.",
-  "type": "origins:phasing",
-  "blacklist": true,
-  "render_type": "blindness",
-  "view_distance": 14,
-  "block_condition": {
-    "type": "origins:in_tag",
-    "tag": "origins:unphasable"
+  "description": "You can phase through most blocks when toggled.",
+  "type": "origins:multiple",
+  "toggle": {
+    "type": "origins:toggle"
   },
-  "phase_down_condition": {
-    "type": "origins:and",
-    "conditions": [
-      {
-        "type": "origins:sneaking"
-      },
-      {
-        "type": "origins:on_block"
-      }
-    ]
+  "phasing": {
+    "type": "origins:phasing",
+    "blacklist": true,
+    "render_type": "blindness",
+    "view_distance": 14,
+    "condition": {
+      "type": "origins:power_active",
+      "power": "esoterica-origins:seiga/phasing_toggle",
+      "inverted": true
+    },
+    "block_condition": {
+      "type": "origins:in_tag",
+      "tag": "origins:unphasable"
+    },
+    "phase_down_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:sneaking"
+        },
+        {
+          "type": "origins:on_block"
+        }
+      ]
+    }
   }
 }
