@@ -25,6 +25,11 @@
       "comparison": "==",
       "compare_to": 0
     },
+    "modifier": {
+      "name": "Unzan damage",
+      "operation": "addition",
+      "value": 4.0
+    },
     "self_action": {
       "type": "origins:trigger_cooldown",
       "power": "esoterica-origins:ichirin/unzan_punch_cooldown"
@@ -82,6 +87,11 @@
       "resource": "esoterica-origins:ichirin/unzan_punch_cooldown",
       "comparison": "==",
       "compare_to": 0
+    },
+    "modifier": {
+      "name": "Unzan damage",
+      "operation": "addition",
+      "value": 4.0
     },
     "self_action": {
       "type": "origins:trigger_cooldown",
