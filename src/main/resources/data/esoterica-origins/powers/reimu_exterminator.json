@@ -1,9 +1,10 @@
 {
   "type": "origins:multiple",
   "name": "Ace Exterminator",
-  "description": "You start with a Smite III iron sword and deal 25% more damage to undead.",
+  "description": "You gain a Smite III iron sword on spawn and deal 25% more damage to undead.",
   "sword": {
     "type": "origins:starting_equipment",
+    "recurrent": true,
     "stack": {
       "item": "minecraft:iron_sword",
       "tag": "{Enchantments:[{id:\"smite\",lvl:3},{id:\"vanishing_curse\",lvl:1}]}"
