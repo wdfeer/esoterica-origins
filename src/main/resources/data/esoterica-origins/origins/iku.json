@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "esoterica-origins:iku/adaptability",
+    "esoterica-origins:iku/summon_lightning",
+    "esoterica-origins:iku/peaceful",
+    "origins:light_armor"
+  ],
+  "icon": "minecraft:poppy",
+  "impact": 3,
+  "name": "Oarfish Youkai",
+  "description": "Laid-back youkai who is a messenger of the Dragon Palace."
+}
