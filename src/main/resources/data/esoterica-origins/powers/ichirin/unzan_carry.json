@@ -1,0 +1,6 @@
+{
+  "name": "Genso-Tarou Cloud",
+  "description": "You can carry another 9 items with you that don't drop on death.",
+  "type": "origins:inventory",
+  "drop_on_death": false
+}
