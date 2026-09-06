@@ -1,0 +1,41 @@
+{
+  "name": "Summon Earthquake",
+  "description": "Activate to produce a large non-destructive explosion. 1 minute cooldown.",
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:explode",
+        "power": 7,
+        "destruction_type": "none",
+        "damage_self": false,
+        "create_fire": false
+      },
+      {
+        "type": "origins:spawn_particles",
+        "particle": {
+          "type": "minecraft:explosion_emitter"
+        },
+        "count": 2,
+        "speed": 0.0,
+        "force": true,
+        "spread": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      {
+        "type": "origins:play_sound",
+        "sound": "minecraft:entity.generic.explode",
+        "volume": 1.0
+      }
+    ]
+  },
+  "cooldown": 1200,
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+    "bar_index": 2
+  }
+}

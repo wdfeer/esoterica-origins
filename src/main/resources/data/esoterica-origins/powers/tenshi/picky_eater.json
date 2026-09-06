@@ -1,0 +1,37 @@
+{
+  "name": "Spoiled Diet",
+  "description": "Can only eat golden foods or fruit.",
+  "type": "origins:prevent_item_use",
+  "item_condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:food"
+      },
+      {
+        "type": "origins:ingredient",
+        "inverted": true,
+        "ingredient": [
+          {
+            "item": "minecraft:apple"
+          },
+          {
+            "item": "minecraft:golden_apple"
+          },
+          {
+            "item": "minecraft:enchanted_golden_apple"
+          },
+          {
+            "item": "minecraft:golden_carrot"
+          },
+          {
+            "item": "minecraft:chorus_fruit"
+          },
+          {
+            "item": "minecraft:glow_berries"
+          }
+        ]
+      }
+    ]
+  }
+}

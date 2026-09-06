@@ -1,0 +1,9 @@
+{
+  "name": "Sword of Divine Justice",
+  "description": "Start with a legendary celestial sword.",
+  "type": "origins:starting_equipment",
+  "stack": {
+    "item": "minecraft:golden_sword",
+    "tag": "{display: {Name: '{\"text\": \"Sword of Hisou\", \"color\": \"aqua\", \"italic\": true}'}, Enchantments:[{id:\"sharpness\",lvl:10}, {id:\"unbreaking\",lvl:5}, {id:\"mending\",lvl:1}]}"
+  }
+}
