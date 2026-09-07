@@ -8,7 +8,7 @@
     "max": 710,
     "hud_render": {
       "should_render": true,
-      "sprite_location": "esoterica-origins:textures/gui/resource_bar.png",
+      "sprite_location": "esoterica-origins:textures/gui/sakuya_resource_bar.png",
       "bar_index": 0
     }
   },
