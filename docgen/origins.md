@@ -664,6 +664,7 @@ Heavenly Celestial capable of manipulating earthly natural disasters.
 - Sword of Divine Justice: Start with a legendary celestial sword.
 - Summon Earthquake: Activate to produce a large non-destructive explosion. 1 minute cooldown.
 - Wall of Bhaavaagra: You always have 20 armor points.
+- Earthbending: You break blocks 25% faster.
 - Spoiled Diet: Can only eat golden foods or fruit.
 - No Armor: You cannot wear any armor.
 
