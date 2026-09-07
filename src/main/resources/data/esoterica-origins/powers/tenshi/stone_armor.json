@@ -1,5 +1,5 @@
 {
   "name": "Keystone Protection",
-  "description": "Whilst in possession of stone, gain 10 armor points and reduce damage taken by 2. Taking damage consumes a stone.",
+  "description": "Whilst in possession of stone, reduce damage taken by 1. Taking damage consumes a stone.",
   "type": "origins:self_active"
 }

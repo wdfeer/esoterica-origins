@@ -1,6 +1,6 @@
 {
   "name": "Keystone Mounting",
-  "description": "Whilst in posession of stone, gain creative flight. Every 5 seconds of flight consumes a stone.",
+  "description": "Whilst in posession of stone, gain creative flight. Every second of flight consumes a stone.",
   "type": "origins:multiple",
   "flight": {
   },
