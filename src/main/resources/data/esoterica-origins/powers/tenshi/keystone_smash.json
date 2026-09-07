@@ -1,0 +1,9 @@
+{
+  "name": "World Creation Press",
+  "description": "Stone can be used as a melee weapon with 12 AoE damage at 1.0 attack speed, consuming the stone after a hit.",
+  "type": "origins:multiple",
+  "break_speed": {
+  },
+  "silk_touch": {
+  }
+}

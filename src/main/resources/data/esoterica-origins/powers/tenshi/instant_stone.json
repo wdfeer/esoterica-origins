@@ -1,0 +1,9 @@
+{
+  "name": "Hinanawi Conversion",
+  "description": "Whilst toggled on, mining stone is instant and will not cobble the stone.",
+  "type": "origins:multiple",
+  "break_speed": {
+  },
+  "silk_touch": {
+  }
+}

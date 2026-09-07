@@ -1,0 +1,5 @@
+{
+  "name": "Calming the Lands",
+  "description": "Whilst toggled on, gain Resistance IV but consume a stone every second.",
+  "type": "origins:self_active"
+}
