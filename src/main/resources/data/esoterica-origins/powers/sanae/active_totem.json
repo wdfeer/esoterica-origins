@@ -1,6 +1,6 @@
 {
   "name": "Divine Rebirth",
-  "description": "Right Click on a Totem of Undying or a Nether Star to gain Flawless for 5 minutes and consume 10 Faith.",
+  "description": "Right Click on a Totem of Undying or a Nether Star to gain Flawless for 5 minutes, consuming 10 Faith and the used item.",
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:and",

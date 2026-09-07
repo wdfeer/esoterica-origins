@@ -588,7 +588,7 @@ A shrine maiden capable of using deities' power to perform miracles.
 - Gather Faith: Every second, if you don't have Flawless, every living entity within 32 blocks within line of sight has a 2% chance to give you 1 Faith.
 - Spiritual Defense: Gain 4, 10 and 20 total armor points when you have 2, 5 and 8 or more Faith respectively.
 - Miracle Execution: Activate to gain Resistance & Absorption, Strength & Haste, Speed & Dolphin's Grace or Regeneration & Saturation for 60 seconds randomly and use 4 Faith.
-- Divine Rebirth: Right Click on a Totem of Undying or a Nether Star to gain Flawless for 5 minutes and consume 10 Faith.
+- Divine Rebirth: Right Click on a Totem of Undying or a Nether Star to gain Flawless for 5 minutes, consuming 10 Faith and the used item.
 - Moriya Blessing: You receive 50% more healing from all sources and have passive regeneration that doesn't use up saturation.
 - Faith Dissipation: Every 2 seconds, lose 1 Faith if you are not at full health.
 - Demigod: You have 3 less hearts if you don't have any Faith.
