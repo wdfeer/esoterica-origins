@@ -4,10 +4,10 @@
     "esoterica-origins:misumaru/strength_from_projectile",
     "esoterica-origins:misumaru/armor_if_effect",
     "esoterica-origins:half_melee_damage",
-    "origins:fragile"
+    "origins:nine_lives"
   ],
   "icon": "minecraft:crafting_table",
-  "impact": 3,
+  "impact": 2,
   "name": "Magatama Crafter",
   "description": "God known for crafting magatama and yin-yang orbs."
 }

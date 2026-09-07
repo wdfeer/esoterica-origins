@@ -405,7 +405,7 @@ God known for crafting magatama and yin-yang orbs.
 - Hakurei Blessing: Apply Strength for 60 seconds to players within 8 blocks after dealing projectile damage.
 - Ancient Barrier: Gain 2 armor for having each of these status effects: Strength, Resistance, Absorption.
 - Weak: Melee damage dealt is halved.
-- Fragile: You have 3 less hearts of health than humans.
+- Nine Lives: You have 1 less heart of health than humans.
 
 ## Phoenix
 Undying entity of flame.
