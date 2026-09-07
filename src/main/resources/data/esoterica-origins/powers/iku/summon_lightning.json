@@ -11,5 +11,11 @@
     "command_at_hit": "summon lightning_bolt",
     "command_along_ray": "particle block obsidian ~ ~ ~ 0.05 0.05 0.05 1 2 normal",
     "command_step": 1
+  },
+  "cooldown": 1200,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+    "bar_index": 8
   }
 }
