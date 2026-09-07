@@ -1,7 +1,8 @@
 {
   "powers": [
-    "esoterica-origins:iku/adaptability",
     "esoterica-origins:iku/summon_lightning",
+    "esoterica-origins:iku/adaptability",
+    "esoterica-origins:iku/ultimate_parry",
     "esoterica-origins:iku/peaceful",
     "origins:light_armor"
   ],

@@ -1,0 +1,61 @@
+{
+  "name": "Ultimate Flexibility",
+  "description": "Every 10 minutes, prevent death by becoming invincible for 1 second and gain Invisibility for 30 seconds.",
+  "type": "origins:multiple",
+  "cooldown": {
+    "type": "origins:cooldown",
+    "cooldown": 12000,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+      "bar_index": 6
+    }
+  },
+  "prevent_death": {
+    "type": "origins:prevent_death",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "esoterica-origins:iku/ultimate_parry_cooldown",
+      "comparison": "==",
+      "compare_to": 0
+    },
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:apply_effect",
+          "effects": [
+            {
+              "effect": "minecraft:resistance",
+              "amplifier": 5,
+              "duration": 20
+            },
+            {
+              "effect": "minecraft:invisibility",
+              "amplifier": 0,
+              "duration": 600
+            }
+          ]
+        },
+        {
+          "type": "origins:spawn_particles",
+          "particle": {
+            "type": "minecraft:smoke"
+          },
+          "count": 24,
+          "speed": 0.3,
+          "force": false,
+          "spread": {
+            "x": 1.5,
+            "y": 1.7,
+            "z": 1.5
+          }
+        },
+        {
+          "type": "origins:trigger_cooldown",
+          "power": "esoterica-origins:iku/ultimate_parry_cooldown"
+        }
+      ]
+    }
+  }
+}
