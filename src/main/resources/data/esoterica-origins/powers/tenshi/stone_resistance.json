@@ -1,5 +1,59 @@
 {
   "name": "Calming the Lands",
   "description": "Whilst toggled on, gain Resistance IV but consume a stone every second.",
-  "type": "origins:self_active"
+  "type": "origins:multiple",
+  "toggle": {
+    "type": "origins:toggle",
+    "active_by_default": false
+  },
+  "over_time": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:resistance",
+            "duration": 20,
+            "amplifier": 3
+          }
+        },
+        {
+          "type": "origins:modify_inventory",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "minecraft:stone"
+            }
+          },
+          "item_action": {
+            "type": "origins:consume"
+          }
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:power_active",
+          "power": "esoterica-origins:tenshi/stone_resistance_toggle"
+        },
+        {
+          "type": "origins:inventory",
+          "process_mode": "items",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "minecraft:stone"
+            }
+          },
+          "comparison": ">",
+          "compare_to": 0
+        }
+      ]
+    },
+    "interval": 20
+  }
 }

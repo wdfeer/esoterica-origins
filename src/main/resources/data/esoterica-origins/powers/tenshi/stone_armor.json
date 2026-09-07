@@ -1,5 +1,0 @@
-{
-  "name": "Keystone Protection",
-  "description": "Whilst in possession of stone, reduce damage taken by 1. Taking damage consumes a stone.",
-  "type": "origins:self_active"
-}

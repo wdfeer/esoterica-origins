@@ -3,7 +3,36 @@
   "description": "Whilst in posession of stone, gain creative flight. Every second of flight consumes a stone.",
   "type": "origins:multiple",
   "flight": {
+    "type": "origins:creative_flight",
+    "condition": {
+      "type": "origins:inventory",
+      "process_mode": "items",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:stone"
+        }
+      },
+      "comparison": ">",
+      "compare_to": 0
+    }
   },
   "consumption": {
+    "type": "origins:action_over_time",
+    "condition": {
+      "type": "origins:creative_flying"
+    },
+    "entity_action": {
+      "type": "origins:modify_inventory",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:stone"
+        }
+      },
+      "item_action": {
+        "type": "origins:consume"
+      }
+    }
   }
 }
