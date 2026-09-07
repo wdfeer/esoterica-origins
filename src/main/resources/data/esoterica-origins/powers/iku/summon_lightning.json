@@ -1,0 +1,15 @@
+{
+  "name": "Orsted's Powers",
+  "description": "Activate to summon lightning at the target location. Cooldown: 60 seconds.",
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:raycast",
+    "distance": 128,
+    "block": true,
+    "entity": true,
+    "fluid_handling": "none",
+    "command_at_hit": "summon lightning_bolt",
+    "command_along_ray": "particle block obsidian ~ ~ ~ 0.05 0.05 0.05 1 2 normal",
+    "command_step": 1
+  }
+}

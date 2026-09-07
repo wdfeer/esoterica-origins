@@ -1,0 +1,19 @@
+{
+  "name": "Peaceful Youkai",
+  "description": "Gain Weakness unless you have Resistance.",
+  "type": "origins:stacking_status_effect",
+  "min_stacks": 0,
+  "max_stacks": 1,
+  "duration_per_stack": 20,
+  "effect": {
+    "effect": "minecraft:weakness",
+    "is_ambient": true,
+    "show_particles": false,
+    "show_icon": true
+  },
+  "condition": {
+    "type": "origins:status_effect",
+    "inverted": true,
+    "effect": "minecraft:resistance"
+  }
+}

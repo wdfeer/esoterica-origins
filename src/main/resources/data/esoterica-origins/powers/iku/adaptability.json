@@ -1,0 +1,38 @@
+{
+  "name": "Reading the atmosphere",
+  "description": "Gain Strength upon dealing melee damage, Haste upon breaking a block, Resistance upon taking damage. Effect duration: 10 seconds.",
+  "type": "origins:multiple",
+  "strength": {
+    "type": "origins:modify_damage_dealt",
+    "self_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:strength",
+        "duration": 200,
+        "amplifier": 0
+      }
+    }
+  },
+  "haste": {
+    "type": "origins:action_on_block_break",
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:haste",
+        "duration": 200,
+        "amplifier": 0
+      }
+    }
+  },
+  "resistance": {
+    "type": "origins:modify_damage_taken",
+    "self_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:resistance",
+        "duration": 200,
+        "amplifier": 0
+      }
+    }
+  }
+}
