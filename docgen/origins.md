@@ -668,6 +668,16 @@ Heavenly Celestial capable of manipulating earthly natural disasters.
 - Spoiled Diet: Can only eat golden foods or fruit.
 - No Armor: You cannot wear any armor.
 
+## Keystone User
+Celestial of the Hinanawi clan capable of manipulating keystones.
+
+- World Creation Press: Stone can be used as a melee weapon with 12 AoE damage at 1.0 attack speed, consuming a stone on each hit.
+- Keystone Mounting: Whilst in posession of stone, gain creative flight. Every second of flight consumes a stone.
+- Calming the Lands: Whilst toggled on, gain Resistance IV but consume a stone every second.
+- Earthbending: You break blocks 25% faster.
+- Spoiled Diet: Can only eat golden foods or fruit.
+- No Armor: You cannot wear any armor.
+
 ## Kuda-gitsune
 A sly fox youkai capable of exploiting weaknesses in one's soul.
 
