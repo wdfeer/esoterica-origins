@@ -40,7 +40,7 @@ Crow Tengu with evolved evasive techniques.
 - Need for Mobility: You can not wear any heavy armor (armor with protection values higher than chainmail).
 
 ## Dharmic Magician
-Buddhist monk skilled in youkai arts and body-enhancing magic.
+Buddhist priest skilled in youkai arts and body-enhancing magic.
 
 - Channeling Strength: Activate to gain Strength for 30 seconds every minute.
 - Defensive Barrier: Activate to gain Resistance for 30 seconds every minute.
@@ -146,6 +146,24 @@ Playful spirit of nature that draws energy from flowers and has power over cold.
 - Fragile: You have 3 less hearts of health than humans.
 - Need for Mobility: You can not wear any heavy armor (armor with protection values higher than chainmail).
 - Fire Vulnerability: You take 50% more damage from fire.
+
+## Nyuudou User
+Buddhist monk capable of summoning an enlightened spirit.
+
+- Divine Fist: Every 6 seconds, your next melee or ranged attack deals additional 5 area damage.
+- Spirit Workforce: You break blocks 20% faster.
+- Genso-Tarou Cloud: You can carry another 9 items with you that don't drop on death.
+- Vajrapani Sprint: You move 20% faster unless you are in possession of diamond or netherite items.
+- No Armor: You cannot wear any armor.
+
+## Oarfish Youkai
+Laid-back youkai who is a messenger of the Dragon Palace.
+
+- Orsted's Powers: Activate to summon lightning at the target location. Cooldown: 60 seconds.
+- Reading the atmosphere: Gain Strength upon dealing melee damage, Haste upon breaking a block, Resistance upon taking damage. Effect duration: 10 seconds.
+- Ultimate Flexibility: Every 10 minutes, prevent death by becoming invincible for 1 second and gain Invisibility for 30 seconds.
+- Peaceful Youkai: Gain Weakness unless you have Resistance.
+- Need for Mobility: You can not wear any heavy armor (armor with protection values higher than chainmail).
 
 ## Pure Fox
 Divine Spirit that can purify anything.
@@ -494,7 +512,7 @@ Master of the Elements, capable of casting devastating spells but fragile in phy
 ## Hakurei Exterminator
 A lazy shrine maiden skilled in exterminating spirits and youkai when needed.
 
-- Ace Exterminator: You start with a Smite III iron sword and deal 25% more damage to undead.
+- Ace Exterminator: You gain a Smite III iron sword on spawn and deal 25% more damage to undead.
 - Fist of the Hakurei: Deal 8 extra damage with your fists at 1.2 attack speed.
 - Channeling Strength: Activate to gain Strength for 30 seconds every minute.
 - Easygoing: Sprinting is disabled unless you have Strength.
@@ -502,7 +520,7 @@ A lazy shrine maiden skilled in exterminating spirits and youkai when needed.
 ## Hakurei Priestess
 A shrine maiden skilled in exterminating spirits and youkai, but gets lazy when hungry.
 
-- Ace Exterminator: You start with a Smite III iron sword and deal 25% more damage to undead.
+- Ace Exterminator: You gain a Smite III iron sword on spawn and deal 25% more damage to undead.
 - Hungry and Lazy: Sprinting is disabled earlier when hungry or when under the Hunger effect.
 
 ## Scarlet Vampire
@@ -589,7 +607,7 @@ Mind-reading Youkai capable of mental manipulation.
 Taoist Hermit capable of passing through matter and necromancy.
 
 - Trick of Wicked Hermit: Apply Mending and Curse of Vanishing to the held tool upon killing a mob.
-- Huo Huan: You can phase through most blocks.
+- Huo Huan: You can phase through most blocks when toggled.
 - Need for Mobility: You can not wear any heavy armor (armor with protection values higher than chainmail).
 
 ## Amanojaku
@@ -639,6 +657,15 @@ Mischievous and mysterious God capable of creating Earthliness.
 - Fins: Your underwater speed is increased.
 - Need for Mobility: You can not wear any heavy armor (armor with protection values higher than chainmail).
 - Fragile: You have 3 less hearts of health than humans.
+
+## Earth Celestial
+Heavenly Celestial capable of manipulating earthly natural disasters.
+
+- Sword of Divine Justice: Start with a legendary celestial sword.
+- Summon Earthquake: Activate to produce a large non-destructive explosion. 1 minute cooldown.
+- Wall of Bhaavaagra: You always have 20 armor points.
+- Spoiled Diet: Can only eat golden foods or fruit.
+- No Armor: You cannot wear any armor.
 
 ## Kuda-gitsune
 A sly fox youkai capable of exploiting weaknesses in one's soul.
