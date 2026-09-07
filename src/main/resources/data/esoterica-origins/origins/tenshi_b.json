@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "esoterica-origins:tenshi/keystone_blast",
+    "esoterica-origins:tenshi/stone_flight",
+    "esoterica-origins:tenshi/stone_armor",
+    "esoterica-origins:tenshi/instant_stone",
+    "esoterica-origins:tenshi/picky_eater",
+    "esoterica-origins:no_armor"
+  ],
+  "icon": "minecraft:stone",
+  "impact": 3,
+  "name": "Keystone User",
+  "description": "Celestial of the Hinanawi clan capable of manipulating keystones."
+}
