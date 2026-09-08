@@ -244,12 +244,12 @@ Youkai embodying mountain echos and capable of sound manipulation.
 ## Butterfly Fairy
 A Fairy of nature capable of spreading scales.
 
-- Holy Scale Powder: Create a large poison cloud with a radius of 8 blocks for 15 seconds.
+- Holy Scale Powder: Activate to create large poison cloud with a radius of 8 blocks for 15 seconds. Cooldown: 90 seconds.
 - Toxins: You deal 50% more melee damage to enemies affected by poison.
 - Powder of Enlightenment: Right Click with a Totem of Undying to consume it and grant players within 8 blocks Health Boost for an hour.
 - Winged: You have Elytra wings without needing to equip any.
 - Poison Immunity: You cannot be affected by poison.
-- Fragile: You have 3 less hearts of health than humans.
+- Fragile: You have 3 fewer hearts of health than humans.
 - Need for Mobility: You can not wear any heavy armor (armor with protection values higher than chainmail).
 - Insecticide: You gain Weakness and Slowness while under the effects of Wither.
 
