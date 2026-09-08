@@ -30,7 +30,7 @@
             "action": {
               "type": "origins:fire_projectile",
               "entity_type": "minecraft:fireball",
-              "tag": "{ExplosionPower:1b}"
+              "tag": "{ExplosionPower:2b}"
             }
           },
           {
