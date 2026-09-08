@@ -1,6 +1,6 @@
 {
   "name": "Magical Catalyst",
-  "description": "Right click every 10 seconds to consume the item in hand and cast a spell: Fire Charge = Fireball, Ice = Freeze Ray, Book = Absorption, Iron Ingot = Resistance, Gold Ingot = Regeneration.",
+  "description": "Right click every 10 seconds to consume the item in hand and cast a spell: Fire Charge = Fireball, Ice = Freeze Ray, Book = Absorption, Iron Ingot = Resistance, Gold Ingot = Regeneration, Dandelion = Saturation.",
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:and",
@@ -137,6 +137,26 @@
                 "amplifier": 0
               }
             }
+          },
+          {
+            "condition": {
+              "type": "origins:equipped_item",
+              "equipment_slot": "mainhand",
+              "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                  "item": "minecraft:dandelion"
+                }
+              }
+            },
+            "action": {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:saturation",
+                "duration": 600,
+                "amplifier": 0
+              }
+            }
           }
         ]
       }
@@ -162,6 +182,9 @@
         },
         {
           "item": "minecraft:gold_ingot"
+        },
+        {
+          "item": "minecraft:dandelion"
         }
       ]
     }
