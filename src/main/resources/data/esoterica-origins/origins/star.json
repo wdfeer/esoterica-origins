@@ -7,7 +7,7 @@
     "origins:elytra",
     "origins:launch_into_air",
     "origins:fragile",
-    "esoterica-origins:no_armor",
+    "origins:light_armor",
     "esoterica-origins:sanyousei/sun_weak"
   ],
   "icon": "minecraft:nether_star",
