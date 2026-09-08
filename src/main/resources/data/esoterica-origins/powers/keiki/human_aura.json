@@ -1,6 +1,6 @@
 {
-  "name": "Aura of Creation",
-  "description": "Iron and snow golems within 16 blocks gain Regeneration.",
+  "name": "Protector of Humans",
+  "description": "You provide Resistance to villagers and players within 16 blocks, including yourself.",
   "type": "origins:action_over_time",
   "entity_action": {
     "type": "origins:area_of_effect",
@@ -10,9 +10,12 @@
       "action": {
         "type": "origins:apply_effect",
         "effect": {
-          "effect": "minecraft:regeneration",
+          "effect": "minecraft:resistance",
           "duration": 600,
-          "amplifier": 0
+          "amplifier": 0,
+          "is_ambient": true,
+          "show_particles": false,
+          "show_icon": true
         }
       }
     },
@@ -23,15 +26,15 @@
         "conditions": [
           {
             "type": "origins:entity_type",
-            "entity_type": "minecraft:iron_golem"
+            "entity_type": "minecraft:villager"
           },
           {
             "type": "origins:entity_type",
-            "entity_type": "minecraft:snow_golem"
+            "entity_type": "minecraft:player"
           }
         ]
       }
     }
   },
-  "interval": 25
+  "interval": 24
 }

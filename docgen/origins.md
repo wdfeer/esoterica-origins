@@ -206,7 +206,8 @@ Hairball-looking spirits of nature.
 Pacifist Goddess of creation.
 
 - Creative Flight: Can fly as if in Creative Mode.
-- Aura of Creation: Iron and snow golems within 16 blocks gain Regeneration for 30 seconds.
+- Aura of Creation: Iron and snow golems within 16 blocks gain Regeneration.
+- Protector of Humans: You provide Resistance to villagers and players within 16 blocks, including yourself.
 - Pacifist: You cannot deal damage.
 
 ## Were-hakutaku
