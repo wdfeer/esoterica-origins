@@ -1,8 +1,8 @@
 {
   "powers": [
     "esoterica-origins:creative_flight",
-    "esoterica-origins:keiki_aura",
-    "esoterica-origins:pacifist"
+    "esoterica-origins:keiki/creation_aura",
+    "esoterica-origins:keiki/pacifist"
   ],
   "icon": "minecraft:bedrock",
   "impact": 3,
