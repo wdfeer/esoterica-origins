@@ -206,8 +206,8 @@ Hairball-looking spirits of nature.
 Pacifist Goddess of creation.
 
 - Creative Flight: Can fly as if in Creative Mode.
-- Aura of Creation: Iron and snow golems within 16 blocks gain Regeneration.
 - Protector of Humans: You provide Resistance to villagers and players within 16 blocks, including yourself.
+- Aura of Creation: Iron and snow golems within 16 blocks gain Regeneration.
 - Pacifist: You cannot deal damage.
 
 ## Were-hakutaku
@@ -239,7 +239,7 @@ Youkai embodying mountain echos and capable of sound manipulation.
 - Mountain Resonance: You move 15% faster and gain Jump Boost in mountainous biomes.
 - Presence Detection: While toggled on, can see entities within 16 blocks through blocks.
 - Sonic Attack: Every 2 minutes, activate to launch a beam dealing 20 damage and that goes through blocks.
-- Fragile Body: You have 2 less hearts.
+- Fragile Body: You have 2 fewer hearts.
 
 ## Butterfly Fairy
 A Fairy of nature capable of spreading scales.
