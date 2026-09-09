@@ -47,7 +47,7 @@
             "action": {
               "type": "origins:apply_effect",
               "effect": {
-                "effect": "minecraft:dolphin_grace",
+                "effect": "minecraft:dolphins_grace",
                 "duration": 600,
                 "amplifier": 0,
                 "is_ambient": false,
