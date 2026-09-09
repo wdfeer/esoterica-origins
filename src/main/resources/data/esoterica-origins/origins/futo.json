@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "esoterica-origins:futo/fengshui",
+    "esoterica-origins:futo/prediction",
+    "esoterica-origins:futo/postmortal_regen",
+    "esoterica-origins:futo/lose_effects",
+    "esoterica-origins:futo/leather_armor"
+  ],
+  "icon": "minecraft:bowl",
+  "impact": 3,
+  "name": "Taoist Soothsayer",
+  "description": "Shikaisen capable of divination and manipulating the flow of qi."
+}

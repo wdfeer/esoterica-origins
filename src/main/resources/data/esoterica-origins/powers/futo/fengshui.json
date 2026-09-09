@@ -1,0 +1,5 @@
+{
+  "name": "Feng shui manipulation",
+  "description": "Every 30 seconds gain an effect for 30 seconds: Fire Resistance in the nether, Dolphin's Grace in water, Speed otherwise.",
+  "type": "origins:action_over_time"
+}
