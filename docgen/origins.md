@@ -114,6 +114,15 @@ Playful spirit of nature that draws power from flowers.
 - Need for Mobility: You can not wear any heavy armor (armor with protection values higher than chainmail).
 - Cold Weakness: You gain Weakness in cold biomes.
 
+## Taoist Soothsayer
+Shikaisen capable of divination and manipulating the flow of qi.
+
+- Feng shui manipulation: Every 30 seconds gain an effect for 30 seconds: Fire Resistance in the nether, Dolphin's Grace in water, Speed otherwise.
+- Predict the Future: Every 30 seconds, additionally gain Resistance IV for 30 seconds.
+- Soul Transfer: After having used a totem of undying, you permanently receive +25% more healing from all sources.
+- Saint Girl: Lose all status effects upon taking damage.
+- Antique Wear: You can only wear leather armor, but it provides 2x armor points.
+
 ## Lord of Hell
 Goddess of Hell, physically and offensively strong.
 
@@ -415,7 +424,7 @@ Undying entity of flame.
 - Flawless: You cannot take more than 1 damage at once.
 - Immortal Flame: Shoot fireballs in all directions and gain Strength II for 20 seconds.
 - No Armor: You cannot wear any armor.
-- Pain Threshold: Taking damage gives you hunger. Gain weakness if at less than 10 hearts.
+- Pain Threshold: Taking damage gives you Hunger. Gain Weakness if at less than 10 hearts.
 
 ## Oomukade
 Dragon-eating giant centipede youkai that houses in caves, adept at mining.

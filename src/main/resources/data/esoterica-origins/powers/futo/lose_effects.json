@@ -1,4 +1,9 @@
 {
   "name": "Saint Girl",
-  "description": "Lose all status effects upon taking damage."
+  "description": "Lose all status effects upon taking damage.",
+  "type": "origins:action_when_damage_taken",
+  "entity_action": {
+    "type": "origins:clear_effect"
+  },
+  "cooldown": 1
 }

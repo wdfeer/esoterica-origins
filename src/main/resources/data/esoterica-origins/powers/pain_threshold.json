@@ -1,6 +1,6 @@
 {
   "name": "Pain Threshold",
-  "description": "Taking damage gives you hunger. Gain weakness if at less than 10 hearts.",
+  "description": "Taking damage gives you Hunger. Gain Weakness if at less than 10 hearts.",
   "type": "origins:multiple",
   "hunger": {
     "type": "origins:action_when_damage_taken",
