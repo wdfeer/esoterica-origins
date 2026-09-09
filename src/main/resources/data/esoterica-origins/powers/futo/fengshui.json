@@ -1,5 +1,80 @@
 {
   "name": "Feng shui manipulation",
   "description": "Every 30 seconds gain an effect for 30 seconds: Fire Resistance in the nether, Dolphin's Grace in water, Speed otherwise.",
-  "type": "origins:action_over_time"
+  "type": "origins:action_over_time",
+  "interval": 600,
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:resistance",
+          "duration": 600,
+          "amplifier": 3,
+          "is_ambient": false,
+          "show_particles": false,
+          "show_icon": true
+        }
+      },
+      {
+        "type": "origins:if_else_list",
+        "actions": [
+          {
+            "condition": {
+              "type": "origins:dimension",
+              "dimension": "minecraft:the_nether"
+            },
+            "action": {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:fire_resistance",
+                "duration": 600,
+                "amplifier": 0,
+                "is_ambient": false,
+                "show_particles": false,
+                "show_icon": true
+              }
+            }
+          },
+          {
+            "condition": {
+              "type": "origins:fluid_height",
+              "fluid": "minecraft:water",
+              "comparison": "!=",
+              "compare_to": 0
+            },
+            "action": {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:dolphin_grace",
+                "duration": 600,
+                "amplifier": 0,
+                "is_ambient": false,
+                "show_particles": false,
+                "show_icon": true
+              }
+            }
+          },
+          {
+            "condition": {
+              "type": "origins:constant",
+              "value": true
+            },
+            "action": {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:speed",
+                "duration": 600,
+                "amplifier": 0,
+                "is_ambient": false,
+                "show_particles": false,
+                "show_icon": true
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
 }
