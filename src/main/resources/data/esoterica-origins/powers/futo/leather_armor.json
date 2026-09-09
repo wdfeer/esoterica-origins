@@ -1,5 +1,44 @@
 {
   "name": "Antique Wear",
   "description": "You can only wear leather armor, but it provides 2x armor points.",
-  "type": "origins:multiple"
+  "type": "origins:multiple",
+  "restrict": {
+    "type": "origins:restrict_armor",
+    "head": {
+      "inverted": "true",
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:leather_helmet"
+      }
+    },
+    "chest": {
+      "inverted": "true",
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:leather_chestplate"
+      }
+    },
+    "legs": {
+      "inverted": "true",
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:leather_leggings"
+      }
+    },
+    "feet": {
+      "inverted": "true",
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:leather_boots"
+      }
+    }
+  },
+  "buff": {
+    "type": "origins:attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.armor",
+      "operation": "multiply_base",
+      "value": 1
+    }
+  }
 }
