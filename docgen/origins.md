@@ -696,7 +696,7 @@ Taoist ghost capable of causing lightning.
 - Ancient Carcass: You take no damage from lightning, fire, drowning or freezing .
 - Ghostly Float: You fall half as fast and are immune to fall damage.
 - Ghost Healing: Regenerate 1 hp every 10 seconds in the stead of natural regeneration.
-- Absence of Lower Body: You cannot wear armor for legs or feet.
+- No Lower Body: You cannot wear armor for legs or feet.
 
 ## Kuda-gitsune
 A sly fox youkai capable of exploiting weaknesses in one's soul.

@@ -1,5 +1,5 @@
 {
-  "name": "Absence of Lower Body",
+  "name": "No Lower Body",
   "description": "You cannot wear armor for legs or feet.",
   "type": "origins:restrict_armor",
   "legs": {
