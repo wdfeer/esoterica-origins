@@ -1,0 +1,9 @@
+{
+  "name": "Failure Not Tolerated",
+  "description": "Upon respawn, transform into the \"Time Manipulator\" origin.",
+  "type": "origins:action_on_callback",
+  "entity_action_respawned": {
+    "type": "origins:execute_command",
+    "command": "origin set @s origins:origin esoterica-origins:sakuya_a"
+  }
+}

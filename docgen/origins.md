@@ -583,6 +583,7 @@ A servant borrowing her vampire's powers.
 - Spatial Defense: You take 80% less damage from kinetic damage sources, suffocation and fire.
 - Unnatural: You don't have natural health regeneration.
 - Need for Mobility: You can not wear any heavy armor (armor with protection values higher than chainmail).
+- Failure Not Tolerated: Upon respawn, transform into the "Time Manipulator" origin.
 
 ## Wind Priestess
 A shrine maiden blessed by the gods with great self-healing abilities.

@@ -5,7 +5,8 @@
     "esoterica-origins:sakuya/big_game",
     "esoterica-origins:sakuya/resistance",
     "esoterica-origins:sakuya/no_natural_regen",
-    "origins:light_armor"
+    "origins:light_armor",
+    "esoterica-origins:sakuya/death_transformation"
   ],
   "icon": "minecraft:wither_skeleton_skull",
   "impact": 3,
