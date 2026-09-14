@@ -1,0 +1,20 @@
+{
+  "name": "Iruka's Thunder",
+  "description": "Every 10 seconds, activate to summon a lightning bolt at the targeted location, up to 30 blocks away.",
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:raycast",
+    "distance": 30,
+    "block": true,
+    "entity": true,
+    "fluid_handling": "none",
+    "command_at_hit": "summon lightning_bolt",
+    "command_along_ray": "particle enchant",
+    "command_step": 1
+  },
+  "cooldown": 200,
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+    "bar_index": 7
+  }
+}
