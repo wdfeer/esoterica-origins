@@ -1,0 +1,16 @@
+{
+  "name": "Holy Armaments",
+  "description": "Whilst wearing a full set of Mending-enchanted armor, heal 2 hearts whenever you take damage.",
+  "type": "origins:action_when_damage_taken",
+  "condition": {
+    "type": "origins:enchantment",
+    "enchantment": "minecraft:mending",
+    "calculation": "sum",
+    "comparison": ">=",
+    "compare_to": 4
+  },
+  "entity_action": {
+    "type": "origins:heal",
+    "amount": 4
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Counter",
+  "description": "Whenever you take damage, deal 12 magic damage to the creature at your crosshair up to 64 blocks away.",
+  "type": "origins:action_when_damage_taken",
+  "entity_action": {
+    "type": "origins:raycast",
+    "distance": 64,
+    "block": true,
+    "entity": true,
+    "fluid_handling": "none",
+    "bientity_action": {
+      "type": "origins:target_action",
+      "action": {
+        "type": "origins:damage",
+        "amount": 12,
+        "damage_type": "minecraft:magic"
+      }
+    },
+    "command_at_hit": "particle block iron_block ~ ~ ~ 0.3 0.3 0.3 1 32 normal",
+    "command_along_ray": "particle block iron_block ~ ~ ~ 0.05 0.05 0.05 1 2 normal",
+    "command_step": 1,
+    "command_along_ray_only_on_hit": true
+  }
+}

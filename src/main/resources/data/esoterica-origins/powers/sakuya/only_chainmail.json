@@ -1,0 +1,33 @@
+{
+  "name": "Silverwear",
+  "description": "You can only wear chainmail armor.",
+  "type": "origins:restrict_armor",
+  "head": {
+    "inverted": "true",
+    "type": "origins:ingredient",
+    "ingredient": {
+      "item": "minecraft:chainmail_helmet"
+    }
+  },
+  "chest": {
+    "inverted": "true",
+    "type": "origins:ingredient",
+    "ingredient": {
+      "item": "minecraft:chainmail_chestplate"
+    }
+  },
+  "legs": {
+    "inverted": "true",
+    "type": "origins:ingredient",
+    "ingredient": {
+      "item": "minecraft:chainmail_leggings"
+    }
+  },
+  "feet": {
+    "inverted": "true",
+    "type": "origins:ingredient",
+    "ingredient": {
+      "item": "minecraft:chainmail_boots"
+    }
+  }
+}

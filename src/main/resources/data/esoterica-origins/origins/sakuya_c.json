@@ -1,9 +1,7 @@
 {
   "powers": [
-    "esoterica-origins:sakuya/preparation",
-    "origins:throw_ender_pearl",
-    "esoterica-origins:sakuya/daycycle_hunting",
-    "esoterica-origins:resist_undead",
+    "esoterica-origins:sakuya/timed",
+    "esoterica-origins:sakuya/counter_ray",
     "esoterica-origins:sakuya/mending_armor_healing",
     "esoterica-origins:sakuya/only_chainmail"
   ],

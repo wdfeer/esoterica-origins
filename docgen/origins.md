@@ -585,6 +585,14 @@ A servant borrowing her vampire's powers.
 - Need for Mobility: You can not wear any heavy armor (armor with protection values higher than chainmail).
 - Failure Not Tolerated: Upon respawn, transform into the "Time Manipulator" origin.
 
+## Vampire Huntress
+A mysterious time-manipulating vampire hunter from the Outside World.
+
+- Time Flow: Every 30 seconds, if you break a block or deal damage in the last 500 ms, gain Haste, Speed and Strength for 30 seconds.
+- Counter: Whenever you take damage, deal 12 magic damage to the creature at your crosshair up to 64 blocks away.
+- Holy Armaments: Whilst wearing a full set of Mending-enchanted armor, heal 2 hearts whenever you take damage.
+- Silverwear: You can only wear chainmail armor.
+
 ## Wind Priestess
 A shrine maiden blessed by the gods with great self-healing abilities.
 
