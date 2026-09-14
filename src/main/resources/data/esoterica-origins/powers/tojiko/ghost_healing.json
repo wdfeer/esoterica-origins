@@ -1,0 +1,16 @@
+{
+  "name": "Ghost Healing",
+  "description": "Regenerate 1 hp every 10 seconds in the stead of natural regeneration.",
+  "type": "origins:multiple",
+  "new_regen": {
+    "type": "origins:action_over_time",
+    "interval": 200,
+    "entity_action": {
+      "type": "origins:heal",
+      "amount": 1
+    }
+  },
+  "no_natural_regen": {
+    "type": "origins:disable_regen"
+  }
+}
