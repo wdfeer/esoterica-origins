@@ -5,7 +5,7 @@
   "entity_action": {
     "type": "origins:raycast",
     "distance": 64,
-    "block": true,
+    "block": false,
     "entity": true,
     "fluid_handling": "none",
     "bientity_action": {
