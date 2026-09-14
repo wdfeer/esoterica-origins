@@ -1,19 +1,7 @@
 {
   "name": "Ghostly Float",
-  "description": "Remain in the air indefinitely unless sneaking. You fall half as fast and are immune to fall damage.",
-  "type": "origins:multiple",
-  "floating": {
-    "type": "origins:modify_falling",
-    "velocity": 0,
-    "take_fall_damage": false,
-    "condition": {
-      "type": "origins:sneaking",
-      "inverted": true
-    }
-  },
-  "slower": {
-    "type": "origins:modify_falling",
-    "velocity": 0.04,
-    "take_fall_damage": false
-  }
+  "description": "You fall half as fast and are immune to fall damage.",
+  "type": "origins:modify_falling",
+  "velocity": 0.04,
+  "take_fall_damage": false
 }
