@@ -1,0 +1,10 @@
+{
+  "values": [
+    "#minecraft:is_fire",
+    "minecraft:in_wall",
+    "minecraft:cramming",
+    "minecraft:drown",
+    "minecraft:freeze",
+    "minecraft:lightning_bolt"
+  ]
+}

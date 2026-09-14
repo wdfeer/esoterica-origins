@@ -688,6 +688,16 @@ Celestial of the Hinanawi clan capable of manipulating keystones.
 - Spoiled Diet: Can only eat golden foods or fruit.
 - No Armor: You cannot wear any armor.
 
+## Lightning Ghost
+Taoist ghost capable of causing lightning.
+
+- Iruka's Thunder: Every 10 seconds, activate to summon a lightning bolt at the targeted location, up to 30 blocks away.
+- Thunder Arrow: Upon hitting an entity with a projectile, summon lightning at its position.
+- Ancient Carcass: You take no damage from lightning, fire, drowning or freezing .
+- Ghostly Float: You fall half as fast and are immune to fall damage.
+- Ghost Healing: Regenerate 1 hp every 10 seconds in the stead of natural regeneration.
+- Absence of Lower Body: You cannot wear armor for legs or feet.
+
 ## Kuda-gitsune
 A sly fox youkai capable of exploiting weaknesses in one's soul.
 
