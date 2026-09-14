@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "esoterica-origins:sakuya/preparation",
+    "origins:throw_ender_pearl",
+    "esoterica-origins:sakuya/daycycle_hunting",
+    "esoterica-origins:resist_undead",
+    "esoterica-origins:sakuya/mending_armor_healing",
+    "esoterica-origins:sakuya/only_chainmail"
+  ],
+  "icon": "minecraft:chainmail_chestplate",
+  "impact": 3,
+  "name": "Vampire Huntress",
+  "description": "A mysterious time-manipulating vampire hunter from the Outside World."
+}
