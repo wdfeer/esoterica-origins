@@ -1,0 +1,9 @@
+{
+  "name": "Thunder Arrow",
+  "description": "Upon hitting an entity with a projectile, summon lightning at its position.",
+  "type": "origins:modify_projectile_damage",
+  "target_action": {
+    "type": "origins:spawn_entity",
+    "entity_type": "minecraft:lightning_bolt"
+  }
+}
