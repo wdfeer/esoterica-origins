@@ -1,0 +1,15 @@
+{
+  "powers": [
+    "esoterica-origins:tojiko/lightning_blast",
+    "esoterica-origins:tojiko/lightning_projectiles",
+    "esoterica-origins:tojiko/lightning_flight",
+    "esoterica-origins:tojiko/ghostly_resistance",
+    "esoterica-origins:tojiko/hates_buddhists",
+    "esoterica-origins:tojiko/ghost_healing",
+    "esoterica-origins:tojiko/no_legs"
+  ],
+  "icon": "minecraft:lightning_rod",
+  "impact": 3,
+  "name": "Lightning Ghost",
+  "description": "Taoist ghost capable of causing lightning."
+}
