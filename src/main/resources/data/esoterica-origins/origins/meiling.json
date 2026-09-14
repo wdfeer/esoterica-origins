@@ -1,0 +1,16 @@
+{
+  "powers": [
+    "esoterica-origins:meiling/qi",
+    "esoterica-origins:meiling/combotime",
+    "esoterica-origins:meiling/punch_a",
+    "esoterica-origins:meiling/punch_b",
+    "esoterica-origins:meiling/resistance",
+    "esoterica-origins:meiling/fall_roll",
+    "esoterica-origins:ranged_inability",
+    "esoterica-origins:only_leather"
+  ],
+  "icon": "minecraft:nether_star",
+  "impact": 3,
+  "name": "Martial Artist Youkai",
+  "description": "Chinese martial artist capable of using qi."
+}
