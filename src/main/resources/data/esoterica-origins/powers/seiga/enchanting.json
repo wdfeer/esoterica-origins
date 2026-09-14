@@ -6,18 +6,18 @@
     "type": "origins:equipped_item_action",
     "equipment_slot": "mainhand",
     "action": {
-      "type": "origins:merge_nbt",
-      "nbt": "{Enchantments:[{id:\"minecraft:mending\",lvl:1s},{id:\"minecraft:vanishing_curse\",lvl:1s}]}"
-    }
-  },
-  "cooldown": 1,
-  "condition": {
-    "type": "origins:equipped_item",
-    "equipment_slot": "mainhand",
-    "item_condition": {
-      "type": "origins:ingredient",
-      "ingredient": {
-        "tag": "minecraft:tools"
+      "type": "origins:modify",
+      "modifier": "esoterica-origins:seiga_enchanting"
+    },
+    "cooldown": 1,
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "minecraft:tools"
+        }
       }
     }
   }
