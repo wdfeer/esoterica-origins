@@ -2,9 +2,8 @@
   "powers": [
     "esoterica-origins:tojiko/lightning_blast",
     "esoterica-origins:tojiko/lightning_projectiles",
-    "esoterica-origins:tojiko/lightning_flight",
-    "esoterica-origins:tojiko/ghostly_resistance",
-    "esoterica-origins:tojiko/hates_buddhists",
+    "esoterica-origins:tojiko/ghost_no_fall",
+    "esoterica-origins:tojiko/slow_falling_stasis",
     "esoterica-origins:tojiko/ghost_healing",
     "esoterica-origins:tojiko/no_legs"
   ],
