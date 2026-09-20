@@ -15,14 +15,42 @@
   "increment": {
     "type": "origins:self_action_on_hit",
     "entity_action": {
-      "type": "origins:change_resource",
-      "resource": "*/*_counter",
-      "amount": 1
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:change_resource",
+          "resource": "*/*_counter",
+          "amount": 1
+        },
+        {
+          "type": "origins:trigger_cooldown",
+          "power": "*:*_wear_off_timer"
+        }
+      ]
     },
     "damage_condition": {
       "type": "origins:amount",
       "comparison": ">=",
       "compare_to": 5.0
+    }
+  },
+  "wear_off_timer": {
+    "type": "origins:cooldown",
+    "cooldown": 100
+  },
+  "wear_off": {
+    "type": "origins:action_over_time",
+    "interval": 5,
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "*:*_counter",
+      "change": -50
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "*:*_wear_off_timer",
+      "comparison": "==",
+      "compare_to": 0
     }
   },
   "buff10": {
