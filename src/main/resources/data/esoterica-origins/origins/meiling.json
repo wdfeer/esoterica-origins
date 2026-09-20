@@ -1,11 +1,9 @@
 {
   "powers": [
-    "esoterica-origins:meiling/qi",
-    "esoterica-origins:meiling/combotime",
-    "esoterica-origins:meiling/punch_a",
-    "esoterica-origins:meiling/punch_b",
-    "esoterica-origins:meiling/resistance",
-    "esoterica-origins:meiling/fall_roll",
+    "esoterica-origins:meiling/fist_buff",
+    "esoterica-origins:meiling/combo",
+    "esoterica-origins:meiling/counter",
+    "esoterica-origins:meiling/evolution",
     "esoterica-origins:ranged_inability",
     "esoterica-origins:only_leather"
   ],

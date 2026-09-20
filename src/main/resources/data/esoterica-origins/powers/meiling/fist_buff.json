@@ -1,0 +1,25 @@
+{
+  "name": "Martial Arts",
+  "description": "Fist damage, including all melee damage bonuses, is doubled and attack speed is set to 2.",
+  "type": "origins:conditioned_attribute",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "operation": "multiply_total",
+      "value": 1
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "operation": "addition",
+      "value": -2
+    }
+  ],
+  "tick_rate": 2,
+  "condition": {
+    "type": "origins:equipped_item",
+    "equipment_slot": "mainhand",
+    "item_condition": {
+      "type": "origins:empty"
+    }
+  }
+}
