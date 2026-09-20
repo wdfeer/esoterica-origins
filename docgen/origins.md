@@ -386,7 +386,7 @@ A cunning Great Tengu that can manipulate the starry sky.
 Chinese martial artist capable of using qi.
 
 - Martial Arts: Fist damage, including all melee damage bonuses, is doubled and attack speed is set to 2.
-- Rainbow Combination: Increase the combo counter on every melee hit dealing 5 or more damage, up to 50 combo. Gain +2 melee damage and +4 armor for each 10 combo. Combo resets after 5 seconds without hitting anything.
+- Crimson Energy: Increase the combo counter on every melee hit dealing 4 or more damage, up to 25 combo. Gain +1 melee damage and +4 armor for each 5 combo. Combo resets after 10 seconds without hitting anything.
 - Counter: Activate to gain invulnerability and Strength II for 0.8 seconds every 10 seconds.
 - Vivid Chaotic Dance: After ten thousand fist punches, permanently deal +4 melee damage.
 - Steady Foothold: You are immune to knockback.

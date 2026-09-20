@@ -1,11 +1,11 @@
 {
-  "name": "Rainbow Combination",
-  "description": "Increase the combo counter on every melee hit dealing 5 or more damage, up to 50 combo. Gain +2 melee damage and +4 armor for each 10 combo. Combo resets after 5 seconds without hitting anything.",
+  "name": "Crimson Energy",
+  "description": "Increase the combo counter on every melee hit dealing 4 or more damage, up to 25 combo. Gain +1 melee damage and +4 armor for each 5 combo. Combo resets after 10 seconds without hitting anything.",
   "type": "origins:multiple",
   "counter": {
     "type": "origins:resource",
     "min": 0,
-    "max": 50,
+    "max": 25,
     "hud_render": {
       "should_render": true,
       "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
@@ -31,12 +31,12 @@
     "damage_condition": {
       "type": "origins:amount",
       "comparison": ">=",
-      "compare_to": 5.0
+      "compare_to": 4.0
     }
   },
   "wear_off_timer": {
     "type": "origins:cooldown",
-    "cooldown": 100
+    "cooldown": 200
   },
   "wear_off": {
     "type": "origins:action_over_time",
@@ -44,7 +44,7 @@
     "entity_action": {
       "type": "origins:change_resource",
       "resource": "*:*_counter",
-      "change": -50
+      "change": -999
     },
     "condition": {
       "type": "origins:resource",
@@ -59,7 +59,29 @@
       {
         "attribute": "minecraft:generic.attack_damage",
         "operation": "addition",
-        "value": 2
+        "value": 1
+      },
+      {
+        "attribute": "minecraft:generic.armor",
+        "operation": "addition",
+        "value": 4
+      }
+    ],
+    "condition": {
+      "type": "origins:resource",
+      "resource": "*:*_counter",
+      "comparison": ">=",
+      "compare_to": 5
+    },
+    "tick_rate": 2
+  },
+  "buff20": {
+    "type": "origins:conditioned_attribute",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "operation": "addition",
+        "value": 1
       },
       {
         "attribute": "minecraft:generic.armor",
@@ -73,15 +95,37 @@
       "comparison": ">=",
       "compare_to": 10
     },
-    "tick_rate": 75
+    "tick_rate": 2
   },
-  "buff20": {
+  "buff30": {
     "type": "origins:conditioned_attribute",
     "modifiers": [
       {
         "attribute": "minecraft:generic.attack_damage",
         "operation": "addition",
-        "value": 2
+        "value": 1
+      },
+      {
+        "attribute": "minecraft:generic.armor",
+        "operation": "addition",
+        "value": 4
+      }
+    ],
+    "condition": {
+      "type": "origins:resource",
+      "resource": "*:*_counter",
+      "comparison": ">=",
+      "compare_to": 15
+    },
+    "tick_rate": 2
+  },
+  "buff40": {
+    "type": "origins:conditioned_attribute",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "operation": "addition",
+        "value": 1
       },
       {
         "attribute": "minecraft:generic.armor",
@@ -95,51 +139,7 @@
       "comparison": ">=",
       "compare_to": 20
     },
-    "tick_rate": 75
-  },
-  "buff30": {
-    "type": "origins:conditioned_attribute",
-    "modifiers": [
-      {
-        "attribute": "minecraft:generic.attack_damage",
-        "operation": "addition",
-        "value": 2
-      },
-      {
-        "attribute": "minecraft:generic.armor",
-        "operation": "addition",
-        "value": 4
-      }
-    ],
-    "condition": {
-      "type": "origins:resource",
-      "resource": "*:*_counter",
-      "comparison": ">=",
-      "compare_to": 30
-    },
-    "tick_rate": 75
-  },
-  "buff40": {
-    "type": "origins:conditioned_attribute",
-    "modifiers": [
-      {
-        "attribute": "minecraft:generic.attack_damage",
-        "operation": "addition",
-        "value": 2
-      },
-      {
-        "attribute": "minecraft:generic.armor",
-        "operation": "addition",
-        "value": 4
-      }
-    ],
-    "condition": {
-      "type": "origins:resource",
-      "resource": "*:*_counter",
-      "comparison": ">=",
-      "compare_to": 40
-    },
-    "tick_rate": 75
+    "tick_rate": 2
   },
   "buff50": {
     "type": "origins:conditioned_attribute",
@@ -147,7 +147,7 @@
       {
         "attribute": "minecraft:generic.attack_damage",
         "operation": "addition",
-        "value": 2
+        "value": 1
       },
       {
         "attribute": "minecraft:generic.armor",
@@ -159,8 +159,8 @@
       "type": "origins:resource",
       "resource": "*:*_counter",
       "comparison": ">=",
-      "compare_to": 50
+      "compare_to": 25
     },
-    "tick_rate": 75
+    "tick_rate": 2
   }
 }
