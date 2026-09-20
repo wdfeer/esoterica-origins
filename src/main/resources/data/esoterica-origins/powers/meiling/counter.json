@@ -11,7 +11,7 @@
           {
             "effect": "minecraft:resistance",
             "duration": 16,
-            "amplifier": 0
+            "amplifier": 4
           },
           {
             "effect": "minecraft:strength",
