@@ -19,8 +19,8 @@
       "actions": [
         {
           "type": "origins:change_resource",
-          "resource": "*/*_counter",
-          "amount": 1
+          "resource": "*:*_counter",
+          "change": 1
         },
         {
           "type": "origins:trigger_cooldown",
