@@ -1,0 +1,10 @@
+{
+  "name": "Steady Foothold",
+  "description": "You are immune to knockback.",
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.knockback_resistance",
+    "value": 1,
+    "operation": "addition"
+  }
+}

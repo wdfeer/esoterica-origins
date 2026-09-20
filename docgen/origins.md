@@ -389,6 +389,7 @@ Chinese martial artist capable of using qi.
 - Rainbow Combination: Increase the combo counter on every melee hit dealing 5 or more damage, up to 50 combo. Gain +2 melee damage and +4 armor for each 10 combo. Combo resets after 5 seconds without hitting anything.
 - Counter: Activate to gain invulnerability and Strength II for 0.8 seconds every 10 seconds.
 - Vivid Chaotic Dance: After ten thousand fist punches, permanently deal +4 melee damage.
+- Steady Foothold: You are immune to knockback.
 - Ranged Inability: You deal half as much damage with all projectiles.
 - Unrestrictive Garments: You can only wear leather armor.
 
