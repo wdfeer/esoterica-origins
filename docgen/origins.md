@@ -214,6 +214,7 @@ Hairball-looking spirits of nature.
 ## Creation Goddess
 Pacifist Goddess of creation.
 
+- Divine Crafter: Activate to open a crafting table.
 - Creative Flight: Can fly as if in Creative Mode.
 - Protector of Humans: You provide Resistance to villagers and players within 16 blocks, including yourself.
 - Aura of Creation: Iron and snow golems within 16 blocks gain Regeneration.
@@ -380,6 +381,16 @@ A cunning Great Tengu that can manipulate the starry sky.
 - Trouble Attractor: You have a 3% chance to gain Bad Omen for 20 minutes every minute.
 - Unwieldy: The way your hands are formed provide no way of holding a shield upright.
 - No Armor: You cannot wear any armor.
+
+## Martial Artist Youkai
+Chinese martial artist capable of using qi.
+
+- Martial Arts: Fist damage, including all melee damage bonuses, is doubled and attack speed is set to 2.
+- Rainbow Combination: Increase the combo counter on every melee hit dealing 5 or more damage, up to 50 combo. Gain +2 melee damage and +4 armor for each 10 combo. Combo resets after 5 seconds without hitting anything.
+- Counter: Activate to gain invulnerability and Strength II for 0.8 seconds every 10 seconds.
+- Vivid Chaotic Dance: After ten thousand fist punches, permanently deal +4 melee damage.
+- Ranged Inability: You deal half as much damage with all projectiles.
+- Unrestrictive Garments: You can only wear leather armor.
 
 ## Lucky Cat
 Cat Youkai that brings good luck.

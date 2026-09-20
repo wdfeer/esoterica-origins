@@ -14,8 +14,8 @@
         "comparison": "!=",
         "compare_to": 10000
       },
-      "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
-      "bar_index": 1
+      "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+      "bar_index": 6
     }
   },
   "increment": {
