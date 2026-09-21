@@ -2,10 +2,9 @@
   "powers": [
     "esoterica-origins:flawless",
     "origins:elytra",
-    "esoterica-origins:sagume/creative_flight",
-    "esoterica-origins:sagume/bad_damage",
-    "esoterica-origins:sagume/mining_fatigue",
-    "esoterica-origins:sagume/notrade"
+    "esoterica-origins:sagume/flawless_dispenser",
+    "esoterica-origins:sagume/ranged_wither",
+    "esoterica-origins:sagume/villager_lightning"
   ],
   "icon": "minecraft:twisting_vines",
   "impact": 3,

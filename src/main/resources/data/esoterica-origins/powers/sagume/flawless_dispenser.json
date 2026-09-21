@@ -1,0 +1,13 @@
+{
+  "name": "Counter Harm",
+  "description": "After dealing melee damage, apply Flawless to the target for 30 seconds.",
+  "type": "origins:target_action_on_hit",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "*:flawless",
+      "amplifier": 0,
+      "duration": 600
+    }
+  }
+}
