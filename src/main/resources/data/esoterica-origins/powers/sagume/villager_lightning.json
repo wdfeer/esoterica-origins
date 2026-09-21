@@ -1,12 +1,12 @@
 {
   "name": "Wordless",
-  "description": "Cannot trade with villagers.",
+  "description": "Attempting to interact with villagers turns them into witches.",
   "type": "origins:prevent_entity_use",
   "bientity_action": {
-    "type": "origins:actor_action",
+    "type": "origins:target_action",
     "action": {
-      "type": "origins:execute_command",
-      "command": "title @s actionbar {\"text\": \"Cannot talk with villagers!\", \"color\": \"red\"}"
+      "type": "origins:spawn_entity",
+      "entity_type": "minecraft:lightning_bolt"
     }
   },
   "bientity_condition": {

@@ -573,10 +573,9 @@ Lunarian Divine Spirit capable of reversing anything.
 
 - Flawless: You cannot take more than 1 damage at once.
 - Winged: You have Elytra wings without needing to equip any.
-- Creative Flight: Can fly as if in Creative Mode when at max health.
-- Counter Harm: You deal -80% damage.
-- Mining Inability: Gain Mining Fatigue for half a second upon breaking a block.
-- Wordless: Cannot trade with villagers.
+- Counter Harm: After dealing melee damage, apply Flawless to the target for 30 seconds.
+- Death Butterfly Dance: Projectiles inflict Wither for 60 seconds on both yourself and the target.
+- Wordless: Attempting to interact with villagers turns them into witches.
 
 ## Time Manipulator
 A human capable of controlling time, rewarding precision.
