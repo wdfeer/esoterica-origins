@@ -574,7 +574,7 @@ Lunarian Divine Spirit capable of reversing anything.
 - Flawless: You cannot take more than 1 damage at once.
 - Winged: You have Elytra wings without needing to equip any.
 - Counter Harm: After dealing melee damage, apply Flawless to the target for 30 seconds.
-- Death Butterfly Dance: Projectiles inflict Wither for 60 seconds on both yourself and the target.
+- Rewording Life: Projectiles inflict Wither for 60 seconds on both yourself and the target.
 - Wordless: Attempting to interact with villagers turns them into witches.
 
 ## Time Manipulator
