@@ -29,7 +29,7 @@
                     "action": {
                       "type": "origins:change_resource",
                       "resource": "esoterica-origins:okuu/heat",
-                      "change": -2
+                      "change": -1
                     }
                   },
                   {
@@ -61,7 +61,7 @@
                     "action": {
                       "type": "origins:change_resource",
                       "resource": "esoterica-origins:okuu/heat",
-                      "change": -9
+                      "change": -5
                     }
                   },
                   {
@@ -88,7 +88,7 @@
                     "action": {
                       "type": "origins:change_resource",
                       "resource": "esoterica-origins:okuu/heat",
-                      "change": -13
+                      "change": -5
                     }
                   },
                   {
