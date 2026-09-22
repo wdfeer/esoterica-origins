@@ -67,10 +67,18 @@
           "bientity_condition": {
             "type": "origins:target_condition",
             "condition": {
-              "inverted": true,
-              "type": "origins:origin",
-              "origin": "esoterica-origins:byakuren",
-              "layer": "origins:origin"
+              "type": "origins:and",
+              "conditions": [
+                {
+                  "inverted": true,
+                  "type": "origins:origin",
+                  "origin": "esoterica-origins:byakuren",
+                  "layer": "origins:origin"
+                },
+                {
+                  "type": "origins:living"
+                }
+              ]
             }
           },
           "bientity_action": {

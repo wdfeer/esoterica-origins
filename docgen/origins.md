@@ -485,9 +485,9 @@ Ancient Youkai capable of making objects unidentifiable.
 Hell Raven capable of manipulating nuclear fusion.
 
 - Heat: You have a heat bar. Lose 1% heat per second passively. Gain 4% heat per second in lava, lose 4% heat per second in water.
-- Heating Up: Every second, gain 1% heat for each creature within 16 blocks on fire.
+- Heating Up: Every second, gain 1% heat for each entity within 16 blocks on fire, including yourself.
 - Blazing Heat: Every second, if at over 10% heat, deal damage and lose heat to/for each creature within 16 blocks. Deal more damage and lose more heat the higher your heat is.
-- Flaming Hit: Melee hits light enemies on fire for 8 seconds.
+- Flaming Hit: Melee and ranged hits light enemies on fire for 8 seconds.
 - Winged: You have Elytra wings without needing to equip any.
 - Fire Immunity: You are immune to all types of fire damage.
 - No Armor: You cannot wear any armor.

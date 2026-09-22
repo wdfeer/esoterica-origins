@@ -60,13 +60,18 @@
           "type": "origins:area_of_effect",
           "radius": 1.8,
           "bientity_condition": {
-            "type": "origins:target_condition",
-            "condition": {
-              "inverted": true,
-              "type": "origins:origin",
-              "origin": "esoterica-origins:ichirin",
-              "layer": "origins:origin"
-            }
+            "type": "origins:and",
+            "conditions": [
+              {
+                "type": "origins:living"
+              },
+              {
+                "inverted": true,
+                "type": "origins:origin",
+                "origin": "esoterica-origins:ichirin",
+                "layer": "origins:origin"
+              }
+            ]
           },
           "bientity_action": {
             "type": "origins:target_action",

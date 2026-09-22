@@ -105,6 +105,12 @@
           ]
         }
       ]
+    },
+    "bientity_condition": {
+      "type": "origins:target_condition",
+      "condition": {
+        "type": "origins:living"
+      }
     }
   },
   "interval": 20,

@@ -38,6 +38,9 @@
             }
           ]
         }
+      },
+      "bientity_condition": {
+        "type": "origins:living"
       }
     },
     "condition": {
