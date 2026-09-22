@@ -1,0 +1,19 @@
+{
+  "name": "Flaming Hit",
+  "description": "Melee and ranged hits light enemies on fire for 8 seconds.",
+  "type": "origins:multiple",
+  "melee": {
+    "type": "origins:modify_damage_dealt",
+    "target_action": {
+      "type": "origins:set_on_fire",
+      "duration": 8
+    }
+  },
+  "ranged": {
+    "type": "origins:modify_projectile_damage",
+    "target_action": {
+      "type": "origins:set_on_fire",
+      "duration": 8
+    }
+  }
+}
