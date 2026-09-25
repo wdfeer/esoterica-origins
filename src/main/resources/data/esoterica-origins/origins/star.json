@@ -6,9 +6,8 @@
     "esoterica-origins:sanyousei/star_projectile_glowing",
     "origins:elytra",
     "origins:launch_into_air",
-    "origins:fragile",
     "origins:light_armor",
-    "esoterica-origins:sanyousei/sun_weak"
+    "esoterica-origins:sanyousei/star_fragile"
   ],
   "icon": "minecraft:nether_star",
   "impact": 3,
