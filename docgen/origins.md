@@ -59,6 +59,17 @@ God who governs the act of trading.
 - Feeble: You deal half as much damage in melee combat.
 - Need for Mobility: You can not wear any heavy armor (armor with protection values higher than chainmail).
 
+## Ice Fairy
+Playful spirit of nature that draws energy from flowers and has power over cold.
+
+- Frost Armor: When near snow or ice blocks, gain 10 Armor and Resistance for 20 seconds.
+- Rock Snow: Snowballs deal 4 damage when thrown.
+- Flower Energy: Whilst near flowers, regenerate health passively and gain strength for 15 seconds.
+- Winged: You have Elytra wings without needing to equip any.
+- Fragile: You have 3 less hearts of health than humans.
+- Need for Mobility: You can not wear any heavy armor (armor with protection values higher than chainmail).
+- Fire Vulnerability: You take 50% more damage from fire.
+
 ## Lunatic Fairy
 Hell Fairy capable of making others lose sanity.
 
@@ -144,17 +155,6 @@ God capable of gathering and recycling misfortune.
 - Wheel of Misfortune: Move the misfortune bar left by 3% whenever you deal damage. Move it right instead whenever you take damage.
 - Burdens of Misfortune: You cannot gain health from any sources whilst the misfortune bar is over 50%.
 - Fate Imbalance: Whilst the misfortune bar is not exactly in the middle, you take +1 damage from all sources.
-
-## Ice Fairy
-Playful spirit of nature that draws energy from flowers and has power over cold.
-
-- Frost Armor: When near snow or ice blocks, gain 10 Armor and Resistance for 20 seconds.
-- Rock Snow: Snowballs deal 4 damage when thrown.
-- Flower Energy: Whilst near flowers, regenerate health passively and gain strength for 15 seconds.
-- Winged: You have Elytra wings without needing to equip any.
-- Fragile: You have 3 less hearts of health than humans.
-- Need for Mobility: You can not wear any heavy armor (armor with protection values higher than chainmail).
-- Fire Vulnerability: You take 50% more damage from fire.
 
 ## Nyuudou User
 Buddhist monk capable of summoning an enlightened spirit.
