@@ -1,13 +1,11 @@
 {
   "powers": [
-    "esoterica-origins:sanyousei/moving_damage",
-    "esoterica-origins:sanyousei/anti_air",
-    "esoterica-origins:sanyousei/anti_glowing",
-    "esoterica-origins:sanyousei/star_projectile_glowing",
+    "esoterica-origins:sanyousei/star/periodic_explosion",
+    "esoterica-origins:sanyousei/star/raycast_explosion",
+    "esoterica-origins:sanyousei/star/glowing_nova",
+    "esoterica-origins:sanyousei/star/lockon_debuff",
     "origins:elytra",
-    "origins:launch_into_air",
-    "origins:light_armor",
-    "esoterica-origins:sanyousei/star_fragile"
+    "esoterica-origins:sanyousei/star/conditional_armor_reduction"
   ],
   "icon": "minecraft:nether_star",
   "impact": 3,

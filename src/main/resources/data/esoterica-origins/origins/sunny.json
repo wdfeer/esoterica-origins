@@ -1,12 +1,11 @@
 {
   "powers": [
-    "esoterica-origins:sanyousei/optical_camouflage",
-    "esoterica-origins:sanyousei/sun_food",
-    "esoterica-origins:sanyousei/sun_armor",
+    "esoterica-origins:sanyousei/sunny/periodic_damage_charges",
+    "esoterica-origins:optical_camouflage",
+    "esoterica-origins:sanyousei/sunny/invisibility_nova",
+    "esoterica-origins:sanyousei/sunny/invisibility_damage_buff",
     "origins:elytra",
-    "origins:launch_into_air",
-    "origins:light_armor",
-    "esoterica-origins:sanyousei/sunny_fragile"
+    "esoterica-origins:sanyousei/sunny/conditional_armor_reduction"
   ],
   "icon": "minecraft:sunflower",
   "impact": 3,

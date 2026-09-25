@@ -1,11 +1,11 @@
 {
   "powers": [
-    "esoterica-origins:active_resistance_secondary",
-    "esoterica-origins:sanyousei/luna_silent",
+    "esoterica-origins:sanyousei/luna/periodic_reduce_damage",
+    "esoterica-origins:sanyousei/luna/damage_self_damage_aoe",
+    "esoterica-origins:sanyousei/luna/flawless_nova",
+    "esoterica-origins:sanyousei/luna/silent",
     "origins:elytra",
-    "origins:launch_into_air",
-    "origins:light_armor",
-    "esoterica-origins:sanyousei/luna_fragile"
+    "esoterica-origins:sanyousei/luna/conditional_armor_reduction"
   ],
   "icon": "minecraft:sea_lantern",
   "impact": 3,
