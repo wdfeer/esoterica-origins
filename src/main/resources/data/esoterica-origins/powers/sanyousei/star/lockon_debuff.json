@@ -1,3 +1,24 @@
 {
-  "hidden": true
+  "hidden": true,
+  "type": "origins:multiple",
+  "increase_taken_damage": {
+    "type": "origins:modify_damage_taken",
+    "modifier": {
+      "operation": "addition",
+      "value": 3
+    },
+    "condition": {
+      "type": "origins:status_effect",
+      "effect": "minecraft:glowing"
+    }
+  },
+  "revoke_self": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:revoke_power",
+      "power": "esoterica-origins:sanyousei/star/lockon_debuff",
+      "source": "esoterica-origins:sanyousei/star/lockon_aura"
+    },
+    "interval": 100
+  }
 }

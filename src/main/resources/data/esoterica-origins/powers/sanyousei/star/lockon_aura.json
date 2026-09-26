@@ -1,4 +1,18 @@
 {
   "name": "Star of Orion",
-  "description": "Glowing entities within 64 blocks take 3 additional damage from all sources."
+  "description": "Glowing entities within 64 blocks take 3 additional damage from all sources.",
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:area_of_effect",
+    "radius": 64,
+    "bientity_action": {
+      "type": "origins:target_action",
+      "action": {
+        "type": "origins:grant_power",
+        "power": "esoterica-origins:sanyousei/star/lockon_debuff",
+        "source": "esoterica-origins:sanyousei/star/lockon_aura"
+      }
+    }
+  },
+  "interval": 2
 }
