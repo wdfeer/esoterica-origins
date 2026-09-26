@@ -1,4 +1,139 @@
 {
   "name": "Showering Starlight",
-  "description": "Every 10 seconds, your next projectile deals 3 additional area damage within 3 blocks of the target, and applies Glowing to the victims."
+  "description": "Every 10 seconds, your next hit deals 3 additional area damage within 3 blocks of the target, and applies Glowing to the victims.",
+  "type": "origins:multiple",
+  "cooldown": {
+    "type": "origins:cooldown",
+    "cooldown": 200,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+      "bar_index": 1,
+      "condition": {
+        "type": "origins:resource",
+        "resource": "*:*_cooldown",
+        "comparison": "!=",
+        "compare_to": 0
+      }
+    }
+  },
+  "melee": {
+    "type": "origins:modify_damage_dealt",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "*:*_cooldown",
+      "comparison": "==",
+      "compare_to": 0
+    },
+    "modifier": {
+      "operation": "addition",
+      "value": 3.0
+    },
+    "self_action": {
+      "type": "origins:trigger_cooldown",
+      "power": "*:*_cooldown"
+    },
+    "target_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:spawn_particles",
+          "particle": {
+            "type": "minecraft:glow"
+          },
+          "count": 8,
+          "speed": 0.0,
+          "force": true,
+          "spread": {
+            "x": 3.0,
+            "y": 3.0,
+            "z": 3.0
+          }
+        },
+        {
+          "type": "origins:area_of_effect",
+          "radius": 3.0,
+          "bientity_condition": {
+            "type": "origins:and",
+            "conditions": [
+              {
+                "type": "origins:living"
+              },
+              {
+                "inverted": true,
+                "type": "origins:origin",
+                "origin": "esoterica-origins:star",
+                "layer": "origins:origin"
+              }
+            ]
+          },
+          "bientity_action": {
+            "type": "origins:target_action",
+            "action": {
+              "type": "origins:damage",
+              "amount": 3,
+              "damage_type": "minecraft:player_attack"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "ranged": {
+    "type": "origins:modify_projectile_damage",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "*:*_cooldown",
+      "comparison": "==",
+      "compare_to": 0
+    },
+    "modifier": {
+      "operation": "addition",
+      "value": 3.0
+    },
+    "self_action": {
+      "type": "origins:trigger_cooldown",
+      "power": "*:*_cooldown"
+    },
+    "target_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:spawn_particles",
+          "particle": {
+            "type": "minecraft:glow"
+          },
+          "count": 8,
+          "speed": 0.0,
+          "force": true,
+          "spread": {
+            "x": 3.0,
+            "y": 3.0,
+            "z": 3.0
+          }
+        },
+        {
+          "type": "origins:area_of_effect",
+          "radius": 3.0,
+          "bientity_condition": {
+            "type": "origins:target_condition",
+            "condition": {
+              "inverted": true,
+              "type": "origins:origin",
+              "origin": "esoterica-origins:star",
+              "layer": "origins:origin"
+            }
+          },
+          "bientity_action": {
+            "type": "origins:target_action",
+            "action": {
+              "type": "origins:damage",
+              "amount": 3,
+              "damage_type": "minecraft:player_attack"
+            }
+          }
+        }
+      ]
+    }
+  }
 }
