@@ -1,21 +1,22 @@
 {
-  "name": "Moonlight Powered",
-  "description": "You have 4 less hearts unless exposed to the night sky.",
+  "name": "Starlight Powered",
+  "description": "Whilst not under a clear night sky, reduce armor by 80%.",
   "type": "origins:conditioned_attribute",
   "modifier": {
-    "attribute": "minecraft:generic.max_health",
-    "operation": "addition",
-    "value": -8
+    "attribute": "minecraft:generic.armor",
+    "operation": "multiply_total",
+    "value": -0.8
   },
   "tick_rate": 10,
   "condition": {
-    "inverted": true,
-    "type": "origins:and",
+    "type": "origins:or",
     "conditions": [
       {
+        "inverted": true,
         "type": "origins:exposed_to_sky"
       },
       {
+        "inverted": true,
         "type": "origins:predicate",
         "predicate": "esoterica-origins:clear_night"
       }
