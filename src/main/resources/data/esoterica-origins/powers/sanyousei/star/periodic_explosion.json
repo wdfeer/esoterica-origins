@@ -135,6 +135,13 @@
           }
         },
         {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:glowing",
+            "duration": 600
+          }
+        },
+        {
           "type": "origins:area_of_effect",
           "radius": 3.0,
           "bientity_condition": {
