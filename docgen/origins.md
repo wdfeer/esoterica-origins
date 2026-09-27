@@ -73,11 +73,11 @@ Playful spirit of nature that draws energy from flowers and has power over cold.
 ## Lunatic Fairy
 Hell Fairy capable of making others lose sanity.
 
-- Lunacy: Activate to give every entity within 25 blocks, including yourself, Strength II and Absorption for 30 seconds every 2 minutes.
-- Lunatic Torch: With a torch in hand, other entities within 16 blocks in line of sight gain Weakness II or Levitation or are set on fire for 3 seconds every second randomly.
+- Berserk Lifeforce: Every 90 seconds, activate to apply Strength and Regeneration for 30 seconds to entities within 32 blocks in line of sight, including yourself. Sneaking players gain Speed and Resistance instead.
+- Lunatic Torch: Whilst holding a torch, other entities within 32 blocks in line of sight take +1 damage from all sources. The entity under your crosshair is also set on fire.
 - Winged: You have Elytra wings without needing to equip any.
-- Need for Mobility: You can not wear any heavy armor (armor with protection values higher than chainmail).
-- Fragile: You have 3 less hearts of health than humans.
+- Celestial Light: You can see in the dark whilst exposed to the sky.
+- Child of Hell: Whilst not in the nether, reduce armor by 80%.
 
 ## Crow Tengu
 Highly mobile flying youkai.
@@ -291,6 +291,7 @@ Playful fairy of light that draws power from the moon and can manipulate sound.
 - Moonlight Wall: Every 3 minutes, activate to apply Flawless to yourself and players within 8 blocks for 10 seconds, reducing all damage taken to 1.
 - Silent Investigator: You do not produce vibrations.
 - Winged: You have Elytra wings without needing to equip any.
+- Celestial Light: You can see in the dark whilst exposed to the sky.
 - Moonlight Powered: Whilst not under a clear night sky, reduce armor by 80%.
 
 ## Lunarian
@@ -652,11 +653,12 @@ Twisted youkai capable of turning over anything.
 ## Star Fairy
 Playful fairy of light that draws power from the stars, capable of detecting moving things.
 
-- Showering Starlight: Every 10 seconds, your next hit deals 3 additional area damage within 3 blocks of the target, and applies Glowing to the victims.
+- Showering Starlight: Every 10 seconds, your next hit deals 3 additional area damage within 3 blocks of the target, and applies Glowing to the victims for 30 seconds.
 - Comet Stream: Every 30 seconds, activate to unleash the explosion effect of Showering Starlight centered at the entity under your crosshair, up to 64 blocks away.
 - Bright Star: Every 90 seconds, activate to apply Glowing for 30 seconds to all entities within 16 blocks.
 - Star of Orion: Glowing entities within 64 blocks take 3 additional damage from all sources.
 - Winged: You have Elytra wings without needing to equip any.
+- Celestial Light: You can see in the dark whilst exposed to the sky.
 - Starlight Powered: Whilst not under a clear night sky, reduce armor by 80%.
 
 ## Sun Fairy

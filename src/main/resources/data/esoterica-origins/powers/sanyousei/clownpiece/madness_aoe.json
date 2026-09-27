@@ -20,12 +20,12 @@
               "type": "origins:apply_effect",
               "effects": [
                 {
-                  "effect": "minecraft:strength",
+                  "effect": "minecraft:speed",
                   "duration": 600,
                   "amplifier": 0
                 },
                 {
-                  "effect": "minecraft:regeneration",
+                  "effect": "minecraft:resistance",
                   "duration": 600,
                   "amplifier": 0
                 }
@@ -35,12 +35,12 @@
               "type": "origins:apply_effect",
               "effects": [
                 {
-                  "effect": "minecraft:speed",
+                  "effect": "minecraft:strength",
                   "duration": 600,
                   "amplifier": 0
                 },
                 {
-                  "effect": "minecraft:resistance",
+                  "effect": "minecraft:regeneration",
                   "duration": 600,
                   "amplifier": 0
                 }
