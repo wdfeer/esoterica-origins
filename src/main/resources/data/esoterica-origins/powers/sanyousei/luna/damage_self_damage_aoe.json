@@ -42,7 +42,7 @@
         }
       }
     },
-    "cooldown": 1e10,
+    "cooldown": 1e6,
     "hud_render": {
       "should_render": true,
       "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
@@ -61,7 +61,7 @@
       "action": {
         "type": "origins:change_resource",
         "resource": "*:*_active",
-        "change": 0.25e10
+        "change": -2.5e5
       }
     }
   }
