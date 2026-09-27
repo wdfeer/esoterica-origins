@@ -1,0 +1,35 @@
+{
+  "hidden": true,
+  "type": "origins:multiple",
+  "melee": {
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+      "operation": "addition",
+      "value": 3
+    },
+    "condition": {
+      "type": "origins:status_effect",
+      "effect": "minecraft:invisibility"
+    }
+  },
+  "ranged": {
+    "type": "origins:modify_projectile_damage",
+    "modifier": {
+      "operation": "addition",
+      "value": 3
+    },
+    "condition": {
+      "type": "origins:status_effect",
+      "effect": "minecraft:invisibility"
+    }
+  },
+  "revoke_self": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:revoke_power",
+      "power": "esoterica-origins:sanyousei/sunny/invisibility_buff",
+      "source": "esoterica-origins:sanyousei/sunny/invisibility_buff_aura"
+    },
+    "interval": 99
+  }
+}

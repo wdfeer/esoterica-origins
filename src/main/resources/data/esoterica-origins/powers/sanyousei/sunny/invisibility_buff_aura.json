@@ -1,0 +1,18 @@
+{
+  "name": "Refracted Sunlight",
+  "description": "Invisible players within 16 blocks, including yourself, deal 3 additional damage with all attacks.",
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:area_of_effect",
+    "radius": 16,
+    "bientity_action": {
+      "type": "origins:target_action",
+      "action": {
+        "type": "origins:grant_power",
+        "power": "esoterica-origins:sanyousei/sunny/invisibility_buff",
+        "source": "esoterica-origins:sanyousei/star/invisibility_buff_aura"
+      }
+    }
+  },
+  "interval": 2
+}
