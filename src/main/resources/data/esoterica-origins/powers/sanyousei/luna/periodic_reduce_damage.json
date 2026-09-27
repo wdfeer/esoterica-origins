@@ -1,0 +1,39 @@
+{
+  "name": "Stillness",
+  "description": "Every 10 seconds, reduce the next incoming damage by 3 and apply Weakness to the attacker for 30 seconds. Does not activate whilst you have Flawless.",
+  "type": "origins:multiple",
+  "resource": {
+    "type": "origins:cooldown",
+    "cooldown": 200,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+      "bar_index": 0
+    }
+  },
+  "effect": {
+    "type": "origins:modify_damage_taken",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "*:*_resource",
+      "comparison": "==",
+      "compare_to": 0
+    },
+    "self_action": {
+      "type": "origins:trigger_cooldown",
+      "power": "*:*_resource"
+    },
+    "attacker_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:weakness",
+        "duration": 600,
+        "amplifier": 0
+      }
+    },
+    "modifier": {
+      "operation": "addition",
+      "value": -3
+    }
+  }
+}
