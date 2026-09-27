@@ -12,6 +12,13 @@
         "power": "esoterica-origins:sanyousei/sunny/invisibility_buff",
         "source": "esoterica-origins:sanyousei/star/invisibility_buff_aura"
       }
+    },
+    "bientity_condition": {
+      "type": "origins:target_condition",
+      "condition": {
+        "type": "origins:entity_type",
+        "entity_type": "minecraft:player"
+      }
     }
   },
   "interval": 2
