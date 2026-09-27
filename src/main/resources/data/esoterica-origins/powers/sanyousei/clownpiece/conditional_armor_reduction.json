@@ -1,0 +1,24 @@
+{
+  "name": "Child of Hell",
+  "description": "Whilst not in the nether, reduce armor and armor toughness by 80%.",
+  "type": "origins:conditioned_attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.armor",
+    "operation": "multiply_total",
+    "value": -0.8
+  },
+  "tick_rate": 10,
+  "condition": {
+    "inverted": true,
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:exposed_to_sky"
+      },
+      {
+        "type": "origins:predicate",
+        "predicate": "esoterica-origins:clear_night"
+      }
+    ]
+  }
+}

@@ -1,11 +1,10 @@
 {
   "powers": [
-    "esoterica-origins:clownpiece_strength",
-    "esoterica-origins:clownpiece_torch",
+    "esoterica-origins:sanyousei/clownpiece/strength",
+    "esoterica-origins:sanyousei/clownpiece/torch_lunacy",
     "origins:elytra",
     "esoterica-origins:sanyousei/night_vision_if_exposed",
-    "origins:light_armor",
-    "origins:fragile"
+    "esoterica-origins:sanyousei/clownpiece/armor_reduction"
   ],
   "icon": "minecraft:redstone_torch",
   "impact": 3,
