@@ -1,0 +1,8 @@
+{
+  "name": "Celestial Light",
+  "description": "You can see in the dark whilst exposed to the sky.",
+  "type": "origins:night_vision",
+  "condition": {
+    "type": "origins:exposed_to_sun"
+  }
+}
