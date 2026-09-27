@@ -1,6 +1,6 @@
 {
   "name": "Showering Starlight",
-  "description": "Every 10 seconds, your next hit deals 3 additional area damage within 3 blocks of the target, and applies Glowing to the victims.",
+  "description": "Every 10 seconds, your next hit deals 3 additional area damage within 3 blocks of the target, and applies Glowing to the victims for 30 seconds.",
   "type": "origins:multiple",
   "cooldown": {
     "type": "origins:cooldown",
@@ -73,9 +73,21 @@
           "bientity_action": {
             "type": "origins:target_action",
             "action": {
-              "type": "origins:damage",
-              "amount": 3,
-              "damage_type": "minecraft:player_attack"
+              "type": "origins:and",
+              "actions": [
+                {
+                  "type": "origins:damage",
+                  "amount": 3,
+                  "damage_type": "minecraft:player_attack"
+                },
+                {
+                  "type": "origins:apply_effect",
+                  "effect": {
+                    "effect": "minecraft:glowing",
+                    "duration": 600
+                  }
+                }
+              ]
             }
           }
         }
