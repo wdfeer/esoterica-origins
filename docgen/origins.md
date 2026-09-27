@@ -286,12 +286,12 @@ Fairy of nature capable of announcing the coming of spring.
 ## Moon Fairy
 Playful fairy of light that draws power from the moon and can manipulate sound.
 
-- Defensive Barrier: Activate to gain Resistance for 30 seconds every minute.
-- Silent Investigator: You do not produce vibrations. Gain Speed for a second whenever you would've produced a vibration.
+- Stillness: Every 10 seconds, reduce the next incoming damage by 3 and apply Weakness to the attacker for 30 seconds. Does not activate whilst you have Flawless.
+- Luna Cyclone: Activate to deal 10 magic damage and apply Weakness for 10 seconds to entities within 8 blocks. Instead of a cooldown, recharges by 25% whenever you take damage.
+- Moonlight Wall: Every 3 minutes, activate to apply Flawless to yourself and players within 8 blocks for 10 seconds, reducing all damage taken to 1.
+- Silent Investigator: You do not produce vibrations.
 - Winged: You have Elytra wings without needing to equip any.
-- Gift of the Winds: Every 30 seconds, you are able to launch about 20 blocks up into the air.
-- Moonlight Powered: You have 4 less hearts unless exposed to the night sky.
-- Need for Mobility: You can not wear any heavy armor (armor with protection values higher than chainmail).
+- Moonlight Powered: Whilst not under a clear night sky, reduce armor by 80%.
 
 ## Lunarian
 Delicate resident of the Lunar Capital.
@@ -652,27 +652,22 @@ Twisted youkai capable of turning over anything.
 ## Star Fairy
 Playful fairy of light that draws power from the stars, capable of detecting moving things.
 
-- Full Tracking: While not moving, you deal 25% more melee and projectile damage to entities moving horizontally.
-- Anti-Air Defense: You deal 50% more melee and projectile damage against phantoms, blazes, ghasts and vexes.
-- Lock On: You deal 50% extra melee and projectile damage to enemies affected by Glowing.
-- Gleaming Starlight: Whilst exposed to the clear night sky, projectiles inflict Glowing for 30 seconds.
+- Showering Starlight: Every 10 seconds, your next hit deals 3 additional area damage within 3 blocks of the target, and applies Glowing to the victims.
+- Comet Stream: Every 30 seconds, activate to unleash the explosion effect of Showering Starlight centered at the entity under your crosshair, up to 64 blocks away.
+- Bright Star: Every 90 seconds, activate to apply Glowing for 30 seconds to all entities within 16 blocks.
+- Star of Orion: Glowing entities within 64 blocks take 3 additional damage from all sources.
 - Winged: You have Elytra wings without needing to equip any.
-- Gift of the Winds: Every 30 seconds, you are able to launch about 20 blocks up into the air.
-- Fragile: You have 3 less hearts of health than humans.
-- Need for Mobility: You can not wear any heavy armor (armor with protection values higher than chainmail).
-- Blending Sunlight: You gain Weakness when exposed to the sun.
+- Starlight Powered: Whilst not under a clear night sky, reduce armor by 80%.
 
 ## Sun Fairy
 Playful fairy of light that draws power from the sun, capable of refracting light.
 
+- Sunshine Needle: Gain 1 charge every 10 seconds, storing up to 7 charges. A charge is used to deal 3 additional damage and briefly set the victim on fire upon a melee or ranged attack.
 - Optical Camouflage: Gain Invisibility and Resistance for 30 seconds upon activation, every 2 minutes.
-- Solar Energy: Food gives extra food points when eaten in sunlight.
-- Daylight Powered: You gain 8 armor whilst in daylight.
+- Flashbang: Every 90 seconds, activate to apply Invisibility to yourself and players within 8 blocks for 30 seconds.
+- Refracted Sunlight: Invisible players within 16 blocks, including yourself, deal 3 additional damage with all attacks.
 - Winged: You have Elytra wings without needing to equip any.
-- Gift of the Winds: Every 30 seconds, you are able to launch about 20 blocks up into the air.
-- Fragile: You have 3 less hearts of health than humans.
-- No Armor: You cannot wear any armor.
-- Cold Weakness: You gain Weakness in cold biomes.
+- Sunlight Powered: Whilst not in clear daylight, reduce armor by 80%.
 
 ## Mountain Lake God
 Mischievous and mysterious God capable of creating Earthliness.
