@@ -4,7 +4,7 @@
     "esoterica-origins:sanyousei/clownpiece/torch",
     "origins:elytra",
     "esoterica-origins:sanyousei/night_vision_if_exposed",
-    "esoterica-origins:sanyousei/clownpiece/armor_reduction"
+    "esoterica-origins:sanyousei/clownpiece/conditional_armor_reduction"
   ],
   "icon": "minecraft:redstone_torch",
   "impact": 3,
