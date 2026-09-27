@@ -2,7 +2,7 @@
   "powers": [
     "esoterica-origins:yuyuko/damage_aura",
     "esoterica-origins:yuyuko/wither_projectiles",
-    "esoterica-origins:yuyuko/glutton"
+    "esoterica-origins:half_melee_damage"
   ],
   "icon": "minecraft:cherry_sapling",
   "impact": 3,
