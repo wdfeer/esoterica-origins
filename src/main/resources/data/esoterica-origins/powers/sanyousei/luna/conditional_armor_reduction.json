@@ -1,11 +1,11 @@
 {
   "name": "Moonlight Powered",
-  "description": "You have 4 less hearts unless exposed to the night sky.",
+  "description": "Whilst not under a clear night sky, reduce armor by 80%.",
   "type": "origins:conditioned_attribute",
   "modifier": {
-    "attribute": "minecraft:generic.max_health",
-    "operation": "addition",
-    "value": -8
+    "attribute": "minecraft:generic.armor",
+    "operation": "multiply_total",
+    "value": -0.8
   },
   "tick_rate": 10,
   "condition": {
