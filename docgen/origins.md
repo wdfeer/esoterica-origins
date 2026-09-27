@@ -795,7 +795,8 @@ A mighty youkai that is very protective of sunflowers.
 ## Ghost Princess
 Immortal ghost capable of manipulating death.
 
-- Law of Mortality: Other entities within 20 blocks take 2 damage every 2 seconds when toggled on.
-- Death Butterfly Dance: Projectiles inflict Wither for 2 minutes.
-- Glutton: Gain Hunger whilst sprinting.
+- Guaranteed Death: Melee hits deal additional 5 void damage with a 3 second delay.
+- Death Butterfly Dance: Projectiles inflict Wither for 30 seconds.
+- Law of Mortality: Entities within 16 blocks take +1 damage from all sources.
+- Weak: Melee damage dealt is halved.
 

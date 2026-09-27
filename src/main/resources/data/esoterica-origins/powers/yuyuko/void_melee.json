@@ -1,0 +1,19 @@
+{
+  "name": "Guaranteed Death",
+  "description": "Melee hits deal additional 5 void damage with a 3 second delay.",
+  "type": "origins:target_action_on_hit",
+  "damage_condition": {
+    "type": "origins:amount",
+    "comparison": ">=",
+    "compare_to": 0.5
+  },
+  "entity_action": {
+    "type": "origins:delay",
+    "ticks": 60,
+    "action": {
+      "type": "origins:damage",
+      "amount": 5,
+      "damage_type": "minecraft:out_of_world"
+    }
+  }
+}
