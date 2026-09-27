@@ -13,6 +13,11 @@
   },
   "effect": {
     "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:amount",
+      "comparison": ">",
+      "compare_to": 0
+    },
     "condition": {
       "type": "origins:and",
       "conditions": [
