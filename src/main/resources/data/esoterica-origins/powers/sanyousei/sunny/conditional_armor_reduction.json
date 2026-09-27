@@ -1,6 +1,6 @@
 {
   "name": "Sunlight Powered",
-  "description": "Whilst in clear daylight, reduce armor by 80%.",
+  "description": "Whilst not in clear daylight, reduce armor by 80%.",
   "type": "origins:conditioned_attribute",
   "modifier": {
     "attribute": "minecraft:generic.armor",
