@@ -14,10 +14,20 @@
   "effect": {
     "type": "origins:modify_damage_taken",
     "condition": {
-      "type": "origins:resource",
-      "resource": "*:*_resource",
-      "comparison": "==",
-      "compare_to": 0
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "*:*_resource",
+          "comparison": "==",
+          "compare_to": 0
+        },
+        {
+          "inverted": true,
+          "type": "origins:status_effect",
+          "effect": "esoterica-origins:flawless"
+        }
+      ]
     },
     "self_action": {
       "type": "origins:trigger_cooldown",
