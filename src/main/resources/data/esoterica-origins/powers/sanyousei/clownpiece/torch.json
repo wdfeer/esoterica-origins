@@ -1,0 +1,90 @@
+{
+  "name": "Lunatic Torch",
+  "description": "Whilst holding a torch, other entities within 32 blocks in line of sight take +1 damage from all sources. The entity under your crosshair is also set on fire.",
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:raycast",
+        "distance": 32,
+        "entity": true,
+        "bientity_action": {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:set_on_fire",
+            "duration": 10
+          }
+        }
+      },
+      {
+        "type": "origins:area_of_effect",
+        "radius": 32,
+        "bientity_action": {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:grant_power",
+            "power": "esoterica-origins:sanyousei/clownpiece/torch_debuff",
+            "source": "esoterica-origins:sanyousei/clownpiece/torch"
+          }
+        },
+        "bientity_condition": {
+          "type": "origins:and",
+          "conditions": [
+            {
+              "type": "origins:can_see"
+            },
+            {
+              "type": "origins:target_condition",
+              "condition": {
+                "type": "origins:living"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": [
+            {
+              "item": "minecraft:torch"
+            },
+            {
+              "item": "minecraft:soul_torch"
+            },
+            {
+              "item": "minecraft:redstone_torch"
+            }
+          ]
+        }
+      },
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": [
+            {
+              "item": "minecraft:torch"
+            },
+            {
+              "item": "minecraft:soul_torch"
+            },
+            {
+              "item": "minecraft:redstone_torch"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "interval": 6
+}
