@@ -1,0 +1,18 @@
+{
+  "name": "Delay Death",
+  "description": "You deal only half as much damage in melee combat and with projectiles.",
+  "melee": {
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+      "operation": "multiply_total",
+      "value": -0.5
+    }
+  },
+  "ranged": {
+    "type": "origins:modify_projectile_damage",
+    "modifier": {
+      "operation": "multiply_total",
+      "value": -0.5
+    }
+  }
+}

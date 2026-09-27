@@ -798,5 +798,5 @@ Immortal ghost capable of manipulating death.
 - Guaranteed Death: Melee hits deal additional 5 void damage with a 3 second delay.
 - Death Butterfly Dance: Projectiles inflict Wither for 30 seconds.
 - Law of Mortality: Entities within 16 blocks take +1 damage from all sources.
-- Weak: Melee damage dealt is halved.
+- Delay Death: You deal only half as much damage in melee combat and with projectiles.
 

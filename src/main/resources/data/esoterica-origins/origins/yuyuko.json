@@ -3,7 +3,7 @@
     "esoterica-origins:yuyuko/void_melee",
     "esoterica-origins:yuyuko/wither_projectiles",
     "esoterica-origins:yuyuko/vulnerability_aura",
-    "esoterica-origins:half_melee_damage"
+    "esoterica-origins:yuyuko/half_damage"
   ],
   "icon": "minecraft:cherry_sapling",
   "impact": 3,
