@@ -41,13 +41,20 @@
           "particle": {
             "type": "minecraft:glow"
           },
-          "count": 8,
+          "count": 16,
           "speed": 0.0,
           "force": true,
           "spread": {
             "x": 3.0,
             "y": 3.0,
             "z": 3.0
+          }
+        },
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:glowing",
+            "duration": 600
           }
         },
         {
