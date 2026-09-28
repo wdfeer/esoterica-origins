@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "esoterica-origins:mamizou/world_gate",
+    "esoterica-origins:mamizou/disguise",
+    "esoterica-origins:reduced_fall_damage",
+    "esoterica-origins:half_melee_damage"
+  ],
+  "icon": "minecraft:rabbit_foot",
+  "impact": 3,
+  "name": "Bake-danuki",
+  "description": "Racoon dog youkai capable of disguising as anyone."
+}
