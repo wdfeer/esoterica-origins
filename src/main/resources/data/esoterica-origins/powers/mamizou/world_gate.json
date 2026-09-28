@@ -1,0 +1,45 @@
+{
+  "name": "Youkai Gate",
+  "description": "Every 5 minutes, activate to teleport to your exact position in the Nether. If sneaking, move to the End instead. If you are already in the Nether or the End, move to the overworld instead.",
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:if_else_list",
+    "actions": [
+      {
+        "condition": {
+          "type": "origins:dimension",
+          "dimension": "minecraft:overworld",
+          "inverted": true
+        },
+        "action": {
+          "type": "origins:execute_command",
+          "command": "execute in overworld run tp @s ~ ~ ~"
+        }
+      },
+      {
+        "condition": {
+          "inverted": true,
+          "type": "origins:sneaking"
+        },
+        "action": {
+          "type": "origins:execute_command",
+          "command": "execute in the_nether run tp @s ~ ~ ~"
+        }
+      },
+      {
+        "condition": {
+          "type": "origins:sneaking"
+        },
+        "action": {
+          "type": "origins:execute_command",
+          "command": "execute in the_end run tp @s ~ ~ ~"
+        }
+      }
+    ]
+  },
+  "cooldown": 6000,
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+    "bar_index": 7
+  }
+}
