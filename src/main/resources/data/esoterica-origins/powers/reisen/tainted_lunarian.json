@@ -1,0 +1,45 @@
+{
+  "name": "Earthen Impurity",
+  "description": "You cannot restore health in any way unless you have Graze or Flawless.",
+  "type": "origins:multiple",
+  "no_natural": {
+    "type": "origins:disable_regen",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "inverted": true,
+          "type": "origins:status_effect",
+          "effect": "esoterica-origins:graze"
+        },
+        {
+          "inverted": true,
+          "type": "origins:status_effect",
+          "effect": "esoterica-origins:flawless"
+        }
+      ]
+    }
+  },
+  "disable_healing": {
+    "type": "origins:modify_healing",
+    "modifier": {
+      "operation": "multiply_total",
+      "value": -1
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "inverted": true,
+          "type": "origins:status_effect",
+          "effect": "esoterica-origins:graze"
+        },
+        {
+          "inverted": true,
+          "type": "origins:status_effect",
+          "effect": "esoterica-origins:flawless"
+        }
+      ]
+    }
+  }
+}

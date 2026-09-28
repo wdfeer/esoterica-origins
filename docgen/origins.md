@@ -103,6 +103,17 @@ Master of Dreams but vulnerable in material space.
 - Sleep Paralysis: Gain Slowness unless you have Speed or Haste.
 - End Vulnerability: You take double damage from end creatures.
 
+## Lunarian Sage
+An enlightened being from the Moon, master of alchemy and purity.
+
+- Flawless: You cannot take more than 1 damage at once.
+- Alchemy Expert: Immune to most negative effects. Absorption provides 2 extra hearts.
+- Projectile Master: All projectiles deal 2 extra damage. Spectral arrows heal 2 hearts and apply Flawless for 5 seconds instead of dealing damage.
+- Winged: You have Elytra wings without needing to equip any.
+- Nocturnal: You can slightly see in the dark when not in water.
+- Fragile Physique: Your lunar body is delicate, reducing your health to 2 hearts.
+- No Armor: You cannot wear any armor.
+
 ## Destruction Vampire
 An evolved vampire with devastating powers.
 
@@ -182,6 +193,15 @@ Divine Spirit that can purify anything.
 - Fire Immunity: You are immune to all types of fire damage.
 - Lunarian Hatred: You take 80% less damage from entities with Flawless.
 - No Armor: You cannot wear any armor.
+
+## Lunarian Princess
+A mystical lunar princess.
+
+- Flawless: You cannot take more than 1 damage at once.
+- Fragile Physique: Your lunar body is delicate, reducing your health to 2 hearts.
+- Creative Flight: Can fly as if in Creative Mode.
+- Weak: Melee damage dealt is halved.
+- Need for Mobility: You can not wear any heavy armor (armor with protection values higher than chainmail).
 
 ## Wind God
 Divine Spirit proficient at marketing schemes to gather more faith.
@@ -300,15 +320,6 @@ Delicate resident of the Lunar Capital.
 - Flawless: You cannot take more than 1 damage at once.
 - Fragile Physique: Your lunar body is delicate, reducing your health to 3 hearts.
 
-## Lunarian Princess
-A mystical lunar princess.
-
-- Flawless: You cannot take more than 1 damage at once.
-- Fragile Physique: Your lunar body is delicate, reducing your health to 2 hearts.
-- Creative Flight: Can fly as if in Creative Mode.
-- Weak: Melee damage dealt is halved.
-- Need for Mobility: You can not wear any heavy armor (armor with protection values higher than chainmail).
-
 ## Lunarian Rabbit
 Fast and nimble rabbit from the Lunar Capital.
 
@@ -318,17 +329,6 @@ Fast and nimble rabbit from the Lunar Capital.
 - Fragile Physique: Your lunar body is delicate, reducing your health to 3 hearts.
 - Need for Mobility: You can not wear any heavy armor (armor with protection values higher than chainmail).
 - Vegetarian: You can't digest any meat.
-
-## Lunarian Sage
-An enlightened being from the Moon, master of alchemy and purity.
-
-- Flawless: You cannot take more than 1 damage at once.
-- Alchemy Expert: Immune to most negative effects. Absorption provides 2 extra hearts.
-- Projectile Master: All projectiles deal 2 extra damage. Spectral arrows heal 2 hearts and apply Flawless for 5 seconds instead of dealing damage.
-- Winged: You have Elytra wings without needing to equip any.
-- Nocturnal: You can slightly see in the dark when not in water.
-- Fragile Physique: Your lunar body is delicate, reducing your health to 2 hearts.
-- No Armor: You cannot wear any armor.
 
 ## Fantasy Sensitive
 A human sensitive to boundaries.
@@ -545,6 +545,16 @@ A shrine maiden skilled in exterminating spirits and youkai, but gets lazy when 
 
 - Ace Exterminator: You gain a Smite III iron sword on spawn and deal 25% more damage to undead.
 - Hungry and Lazy: Sprinting is disabled earlier when hungry or when under the Hunger effect.
+
+## Lunatic Rabbit
+Moon rabbit tainted by the Earth, capable of manipulating wavelengths and insanity.
+
+- Visionary Tuning: Every 90 seconds, activate to provide Night Vision to yourself and players within 8 blocks and give Glowing to creatures within 64 blocks for 20 seconds.
+- Medicine Peddler: Every 30 seconds, right click a player or a tamed creature to give them Regeneration II for 22 seconds.
+- Menacing Hallucination: Every 5 seconds, if you have Night Vision, apply Graze and Invisibility to yourself and players within 4 blocks for 2 seconds.
+- Nimble Feet: You take greatly reduced fall damage.
+- Vegetarian: You can't digest any meat.
+- Earthen Impurity: You cannot restore health in any way unless you have Graze or Flawless.
 
 ## Scarlet Vampire
 An evolved, long-living vampire with exquisite dietary preferences.
