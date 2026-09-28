@@ -1,16 +1,15 @@
 {
   "powers": [
-    "esoterica-origins:flawless",
     "esoterica-origins:reisen/vision_tuning",
     "esoterica-origins:reisen/medicine_peddler",
     "esoterica-origins:reisen/night_vision_graze",
     "esoterica-origins:reduced_fall_damage",
     "origins:vegetarian",
-    "esoterica-origins:fragile_lunarian",
-    "esoterica-origins:no_armor"
+    "esoterica-origins:no_armor",
+    "esoterica-origins:reisen/tainted_lunarian"
   ],
   "icon": "minecraft:rabbit_foot",
   "impact": 3,
   "name": "Lunatic Rabbit",
-  "description": "Moon rabbit capable of manipulating wavelengths and insanity."
+  "description": "Moon rabbit tainted by the Earth, capable of manipulating wavelengths and insanity."
 }
