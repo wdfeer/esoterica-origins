@@ -1,0 +1,76 @@
+{
+  "name": "Medicine Peddler",
+  "description": "Every 30 seconds, right click a player or a tamed creature to give them Regeneration II for 22 seconds.",
+  "type": "origins:multiple",
+  "cooldown": {
+    "type": "origins:cooldown",
+    "cooldown": 600,
+    "hud_render": {
+      "should_render": true,
+      "condition": {
+        "type": "origins:resource",
+        "resource": "*:*_cooldown",
+        "comparison": "!=",
+        "compare_to": 0
+      },
+      "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+      "bar_index": 9
+    }
+  },
+  "action": {
+    "type": "origins:action_on_entity_use",
+    "bientity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:actor_action",
+          "action": {
+            "type": "origins:trigger_cooldown",
+            "power": "*:*_cooldown"
+          }
+        },
+        {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:and",
+            "actions": [
+              {
+                "type": "origins:apply_effect",
+                "effect": {
+                  "effect": "minecraft:regeneration",
+                  "duration": 440,
+                  "amplifier": 1
+                }
+              },
+              {
+                "type": "origins:execute_command",
+                "command": "particle heart ~ ~0.5 ~ 0.3 0.3 0.3 0.009 4 normal @a"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "bientity_condition": {
+      "type": "origins:target_condition",
+      "condition": {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:player"
+          },
+          {
+            "type": "origins:tamed"
+          }
+        ]
+      }
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "*:*_cooldown",
+      "comparison": "==",
+      "compare_to": 0
+    }
+  }
+}
