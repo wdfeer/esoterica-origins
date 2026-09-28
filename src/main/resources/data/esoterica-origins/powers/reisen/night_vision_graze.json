@@ -1,0 +1,36 @@
+{
+  "name": "Menacing Hallucination",
+  "description": "Every 5 seconds, if you have Night Vision, apply Graze and Invisibility to yourself and players within 4 blocks for 2 seconds.",
+  "type": "origins:action_over_time",
+  "condition": {
+    "type": "origins:status_effect",
+    "effect": "minecraft:night_vision"
+  },
+  "entity_action": {
+    "type": "origins:area_of_effect",
+    "radius": 4,
+    "bientity_condition": {
+      "type": "origins:target_condition",
+      "condition": {
+        "type": "origins:entity_type",
+        "entity_type": "minecraft:player"
+      }
+    },
+    "bientity_action": {
+      "type": "origins:target_action",
+      "action": {
+        "type": "origins:apply_effect",
+        "effects": [
+          {
+            "effect": "esoterica-origins:graze",
+            "duration": 40
+          },
+          {
+            "effect": "minecraft:invisibility",
+            "duration": 40
+          }
+        ]
+      }
+    }
+  }
+}
