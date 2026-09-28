@@ -11,7 +11,7 @@
       },
       {
         "type": "origins:grant_power",
-        "power": "esoterica-origins:mamizou/disguise_timer",
+        "power": "esoterica-origins:mamizou/disguise_return",
         "source": "esoterica-origins:mamizou/disguise"
       }
     ]
