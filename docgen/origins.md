@@ -330,6 +330,14 @@ Fast and nimble rabbit from the Lunar Capital.
 - Need for Mobility: You can not wear any heavy armor (armor with protection values higher than chainmail).
 - Vegetarian: You can't digest any meat.
 
+## Bake-danuki
+Racoon dog youkai capable of disguising as anyone.
+
+- Youkai Gate: Every 5 minutes, activate to teleport to your exact position in the Nether. If sneaking, move to the End instead. If you are already in the Nether or the End, move to the overworld instead.
+- Perfect Actor: Activate to open the origin selection GUI, allowing you to switch to any other origin for 30 minutes, after which you return to Bake-danuki form. During this time you lose abilities and detriments of the Bake-danuki origin.
+- Nimble Feet: You take greatly reduced fall damage.
+- Weak: Melee damage dealt is halved.
+
 ## Fantasy Sensitive
 A human sensitive to boundaries.
 

@@ -1,0 +1,23 @@
+{
+  "name": "Perfect Actor",
+  "description": "Activate to open the origin selection GUI, allowing you to switch to any other origin for 30 minutes, after which you return to Bake-danuki form. During this time you lose abilities and detriments of the Bake-danuki origin.",
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "origin gui @s origin:origin"
+      },
+      {
+        "type": "origins:grant_power",
+        "power": "esoterica-origins:mamizou/disguise_timer",
+        "source": "esoterica-origins:mamizou/disguise"
+      }
+    ]
+  },
+  "key": {
+    "key": "key.origins.secondary_active"
+  },
+  "cooldown": 36000
+}

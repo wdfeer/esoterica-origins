@@ -1,0 +1,37 @@
+{
+  "hidden": true,
+  "type": "origins:multiple",
+  "cooldown": {
+    "type": "origins:cooldown",
+    "cooldown": 36000,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+      "bar_index": 1
+    }
+  },
+  "turn_back": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:revoke_power",
+          "power": "esoterica-origins:mamizou/disguise_timer",
+          "source": "esoterica-origins:mamizou/disguise"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "origin set @s origin:origin esoterica-origins:mamizou"
+        }
+      ]
+    },
+    "interval": 21,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "*:*_cooldown",
+      "comparison": "==",
+      "compare_to": 0
+    }
+  }
+}
