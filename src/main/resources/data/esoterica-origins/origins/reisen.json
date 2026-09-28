@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "esoterica-origins:flawless",
+    "esoterica-origins:reduced_fall_damage",
+    "esoterica-origins:reduced_fall_damage",
+    "origins:vegetarian",
+    "esoterica-origins:fragile_lunarian",
+    "esoterica-origins:no_armor"
+  ],
+  "icon": "minecraft:rabbit_foot",
+  "impact": 3,
+  "name": "Lunatic Rabbit",
+  "description": "Moon rabbit capable of manipulating wavelengths and insanity."
+}
