@@ -549,7 +549,7 @@ A shrine maiden skilled in exterminating spirits and youkai, but gets lazy when 
 ## Lunatic Rabbit
 Moon rabbit tainted by the Earth, capable of manipulating wavelengths and insanity.
 
-- Visionary Tuning: Every 90 seconds, activate to provide Night Vision to yourself and players within 8 blocks and give Glowing to creatures within 64 blocks for 20 seconds.
+- Visionary Tuning: Every 90 seconds, activate to provide Night Vision for 20 seconds to yourself and players within 8 blocks whilst giving Glowing to non-player creatures within 64 blocks.
 - Medicine Peddler: Every 30 seconds, right click a player or a tamed creature to give them Regeneration II for 22 seconds.
 - Menacing Hallucination: Every 5 seconds, if you have Night Vision, apply Graze and Invisibility to yourself and players within 4 blocks for 2 seconds.
 - Nimble Feet: You take greatly reduced fall damage.
