@@ -1,0 +1,43 @@
+{
+  "name": "Ascetic Virtues",
+  "description": "Whilst above 5 hearts, gain Strength. Whilst at or below 5 hearts, gain Flawless, reducing taken damage to 1.",
+  "type": "origins:multiple",
+  "strength": {
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 4,
+    "duration_per_stack": 5,
+    "effects": [
+      {
+        "effect": "minecraft:strength",
+        "is_ambient": false,
+        "show_particles": false,
+        "show_icon": true
+      }
+    ],
+    "condition": {
+      "type": "origins:health",
+      "comparison": ">",
+      "compare_to": 10
+    }
+  },
+  "flawless": {
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 4,
+    "duration_per_stack": 5,
+    "effects": [
+      {
+        "effect": "esoterica-origins:flawless",
+        "is_ambient": false,
+        "show_particles": false,
+        "show_icon": true
+      }
+    ],
+    "condition": {
+      "type": "origins:health",
+      "comparison": "<=",
+      "compare_to": 10
+    }
+  }
+}
