@@ -1,6 +1,6 @@
 {
   "name": "Immortal Flame",
-  "description": "Shoot fireballs in all directions and gain Strength II for 20 seconds.",
+  "description": "Activate every 2 minutes to shoot fireballs in all directions and gain Strength II for 20 seconds.",
   "type": "origins:fire_projectile",
   "entity_type": "minecraft:small_fireball",
   "cooldown": 2400,
