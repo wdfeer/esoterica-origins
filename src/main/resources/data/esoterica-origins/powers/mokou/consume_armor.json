@@ -1,6 +1,6 @@
 {
   "name": "Indiscriminate Ignition",
-  "description": "Upon dealing damage, if any armor slot is occupied, destroy worn items and gain Strength II for 15 seconds.",
+  "description": "Upon dealing damage, if any armor slot is occupied, destroy worn items, gain Strength II for 15 seconds and ignite creatures within 8 blocks.",
   "type": "origins:multiple",
   "melee": {
     "type": "origins:action_on_hit",
@@ -94,6 +94,31 @@
               "x": 1.0,
               "y": 1.5,
               "z": 1.0
+            }
+          },
+          {
+            "type": "origins:area_of_effect",
+            "radius": 8,
+            "bientity_action": {
+              "type": "origins:target_action",
+              "action": {
+                "type": "origins:set_on_fire",
+                "duration": 10
+              }
+            },
+            "bientity_condition": {
+              "type": "origins:and",
+              "conditions": [
+                {
+                  "type": "origins:can_see"
+                },
+                {
+                  "type": "origins:target_condition",
+                  "condition": {
+                    "type": "origins:living"
+                  }
+                }
+              ]
             }
           }
         ]
@@ -200,6 +225,31 @@
               "x": 1.0,
               "y": 1.5,
               "z": 1.0
+            }
+          },
+          {
+            "type": "origins:area_of_effect",
+            "radius": 8,
+            "bientity_action": {
+              "type": "origins:target_action",
+              "action": {
+                "type": "origins:set_on_fire",
+                "duration": 10
+              }
+            },
+            "bientity_condition": {
+              "type": "origins:and",
+              "conditions": [
+                {
+                  "type": "origins:can_see"
+                },
+                {
+                  "type": "origins:target_condition",
+                  "condition": {
+                    "type": "origins:living"
+                  }
+                }
+              ]
             }
           }
         ]
