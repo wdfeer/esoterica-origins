@@ -4,7 +4,7 @@
     "esoterica-origins:mokou/strength_affects_projectiles",
     "esoterica-origins:mokou/elytra_if_flawless",
     "origins:fire_immunity",
-    "esoterica-origins:no_armor",
+    "esoterica-origins:mokou/indiscriminate_hit",
     "origins:flame_particles"
   ],
   "icon": "minecraft:blaze_powder",
