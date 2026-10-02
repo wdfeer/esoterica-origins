@@ -81,6 +81,20 @@
               "duration": 300,
               "amplifier": 1
             }
+          },
+          {
+            "type": "origins:spawn_particles",
+            "particle": {
+              "type": "minecraft:flame"
+            },
+            "count": 16,
+            "speed": 0.2,
+            "force": false,
+            "spread": {
+              "x": 1.0,
+              "y": 1.5,
+              "z": 1.0
+            }
           }
         ]
       }
@@ -164,6 +178,28 @@
             "item_condition": {
               "inverted": true,
               "type": "origins:empty"
+            }
+          },
+          {
+            "type": "origins:apply_effect",
+            "effect": {
+              "effect": "minecraft:strength",
+              "duration": 300,
+              "amplifier": 1
+            }
+          },
+          {
+            "type": "origins:spawn_particles",
+            "particle": {
+              "type": "minecraft:flame"
+            },
+            "count": 16,
+            "speed": 0.2,
+            "force": false,
+            "spread": {
+              "x": 1.0,
+              "y": 1.5,
+              "z": 1.0
             }
           }
         ]
