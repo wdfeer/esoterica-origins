@@ -4,8 +4,7 @@
     "esoterica-origins:mokou/strength_on_projectiles",
     "esoterica-origins:mokou/elytra_if_flawless",
     "origins:fire_immunity",
-    "esoterica-origins:mokou/consume_armor",
-    "origins:flame_particles"
+    "esoterica-origins:mokou/consume_armor"
   ],
   "icon": "minecraft:blaze_powder",
   "impact": 3,
