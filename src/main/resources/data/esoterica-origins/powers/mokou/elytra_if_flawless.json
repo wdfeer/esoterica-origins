@@ -1,0 +1,9 @@
+{
+  "name": "Phoenix's Feathers",
+  "description": "Whilst you have Flawless, gain elytra flight.",
+  "type": "origins:elytra_flight",
+  "condition": {
+    "type": "origins:status_effect",
+    "effect": "esoterica-origins:flawless"
+  }
+}

@@ -441,11 +441,11 @@ God known for crafting magatama and yin-yang orbs.
 ## Phoenix
 Undying entity of flame.
 
+- Ascetic Virtues: Whilst above 5 hearts, gain Strength. Whilst at or below 5 hearts, gain Flawless, reducing taken damage to 1.
+- Imperishable Shooting: Strength also affects projectile damage.
+- Phoenix's Feathers: Whilst you have Flawless, gain elytra flight.
 - Fire Immunity: You are immune to all types of fire damage.
-- Flawless: You cannot take more than 1 damage at once.
-- Immortal Flame: Shoot fireballs in all directions and gain Strength II for 20 seconds.
 - No Armor: You cannot wear any armor.
-- Pain Threshold: Taking damage gives you Hunger. Gain Weakness if at less than 10 hearts.
 
 ## Oomukade
 Dragon-eating giant centipede youkai that houses in caves, adept at mining.

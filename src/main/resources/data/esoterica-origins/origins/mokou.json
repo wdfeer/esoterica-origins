@@ -2,6 +2,7 @@
   "powers": [
     "esoterica-origins:mokou/strength_and_flawless",
     "esoterica-origins:mokou/strength_affects_projectiles",
+    "esoterica-origins:mokou/elytra_if_flawless",
     "origins:fire_immunity",
     "esoterica-origins:no_armor",
     "origins:flame_particles"
