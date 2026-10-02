@@ -1,12 +1,17 @@
 {
   "name": "Imperishable Shooting",
-  "description": "Strength also affects projectile damage.",
+  "description": "If the target is within 16 blocks of range, Strength also increases projectile damage.",
   "type": "origins:multiple",
   "strength1": {
     "type": "origins:modify_projectile_damage",
     "condition": {
       "type": "origins:status_effect",
       "effect": "minecraft:strength"
+    },
+    "bientity_condition": {
+      "type": "origins:distance",
+      "comparison": "<=",
+      "compare_to": 16
     },
     "modifier": {
       "operation": "addition",
@@ -19,6 +24,11 @@
       "type": "origins:status_effect",
       "effect": "minecraft:strength",
       "min_amplifier": 1
+    },
+    "bientity_condition": {
+      "type": "origins:distance",
+      "comparison": "<=",
+      "compare_to": 16
     },
     "modifier": {
       "operation": "addition",

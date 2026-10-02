@@ -442,7 +442,7 @@ God known for crafting magatama and yin-yang orbs.
 Undying entity of flame.
 
 - Ascetic Virtues: Whilst above 5 hearts, gain Strength. Whilst at or below 5 hearts, gain Flawless, reducing taken damage to 1.
-- Imperishable Shooting: Strength also affects projectile damage.
+- Imperishable Shooting: If the target is within 16 blocks of range, Strength also increases projectile damage.
 - Phoenix's Feathers: Whilst you have Flawless, gain elytra flight.
 - Fire Immunity: You are immune to all types of fire damage.
 - Indiscriminate Ignition: Upon dealing damage, if any armor slot is occupied, destroy worn items and gain Strength II for 15 seconds.
