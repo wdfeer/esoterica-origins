@@ -1,10 +1,10 @@
 {
   "powers": [
-    "origins:fire_immunity",
-    "esoterica-origins:flawless",
     "esoterica-origins:mokou/fireballs",
-    "esoterica-origins:no_armor",
+    "esoterica-origins:flawless",
+    "origins:fire_immunity",
     "esoterica-origins:mokou/pain_threshold",
+    "esoterica-origins:no_armor",
     "esoterica-origins:mokou/extra_fireball_damage",
     "origins:flame_particles"
   ],
