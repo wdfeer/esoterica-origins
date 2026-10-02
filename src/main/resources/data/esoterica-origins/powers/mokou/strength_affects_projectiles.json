@@ -1,0 +1,28 @@
+{
+  "name": "Imperishable Shooting",
+  "description": "Strength also affects projectile damage.",
+  "type": "origins:multiple",
+  "strength1": {
+    "type": "origins:modify_projectile_damage",
+    "condition": {
+      "type": "origins:status_effect",
+      "effect": "minecraft:strength"
+    },
+    "modifier": {
+      "operation": "addition",
+      "value": 3
+    }
+  },
+  "strength2": {
+    "type": "origins:modify_projectile_damage",
+    "condition": {
+      "type": "origins:status_effect",
+      "effect": "minecraft:strength",
+      "min_amplifier": 1
+    },
+    "modifier": {
+      "operation": "addition",
+      "value": 3
+    }
+  }
+}

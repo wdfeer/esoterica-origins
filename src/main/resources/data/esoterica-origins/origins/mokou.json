@@ -1,11 +1,9 @@
 {
   "powers": [
-    "esoterica-origins:mokou/fireballs",
     "esoterica-origins:mokou/strength_and_flawless",
+    "esoterica-origins:mokou/strength_affects_projectiles",
     "origins:fire_immunity",
-    "esoterica-origins:mokou/pain_threshold",
     "esoterica-origins:no_armor",
-    "esoterica-origins:mokou/extra_fireball_damage",
     "origins:flame_particles"
   ],
   "icon": "minecraft:blaze_powder",
