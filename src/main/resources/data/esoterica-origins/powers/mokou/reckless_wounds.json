@@ -1,0 +1,66 @@
+{
+  "name": "Reckless Wounds",
+  "description": "Shortly after dealing melee or ranged damage, the target takes 4 fire damage, but you also take 1 magic damage.",
+  "type": "origins:multiple",
+  "melee": {
+    "type": "origins:action_on_hit",
+    "bientity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:actor_action",
+          "action": {
+            "type": "origins:delay",
+            "ticks": 10,
+            "action": {
+              "type": "origins:damage",
+              "amount": 1,
+              "damage_type": "minecraft:indirect_magic"
+            }
+          }
+        },
+        {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:delay",
+            "ticks": 10,
+            "action": {
+              "type": "origins:damage",
+              "amount": 4,
+              "damage_type": "minecraft:on_fire"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "ranged": {
+    "type": "origins:modify_projectile_damage",
+    "damage_condition": {
+      "type": "origins:amount",
+      "comparison": ">",
+      "compare_to": 0.8
+    },
+    "self_action": {
+      "type": "origins:delay",
+      "ticks": 10,
+      "action": {
+        "type": "origins:damage",
+        "amount": 1,
+        "damage_type": "minecraft:indirect_magic"
+      }
+    },
+    "target_action": {
+      "type": "origins:target_action",
+      "action": {
+        "type": "origins:delay",
+        "ticks": 10,
+        "action": {
+          "type": "origins:damage",
+          "amount": 4,
+          "damage_type": "minecraft:on_fire"
+        }
+      }
+    }
+  }
+}

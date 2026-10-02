@@ -445,6 +445,7 @@ Undying entity of flame.
 - Imperishable Shooting: Strength also affects projectile damage.
 - Phoenix's Feathers: Whilst you have Flawless, gain elytra flight.
 - Fire Immunity: You are immune to all types of fire damage.
+- Reckless Wounds: Shortly after dealing melee or ranged damage, the target takes 4 fire damage, but you also take 1 magic damage.
 - Indiscriminate Ignition: Dealing melee damage ignites the target for 20 seconds, but your worn armor is damaged by 10 durability points.
 
 ## Oomukade
