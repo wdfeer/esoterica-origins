@@ -9,6 +9,7 @@
   "entity_action": {
     "type": "origins:area_of_effect",
     "radius": 4,
+    "include_target": true,
     "bientity_condition": {
       "type": "origins:target_condition",
       "condition": {
