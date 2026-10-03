@@ -7,7 +7,7 @@
     "actions": [
       {
         "type": "origins:execute_command",
-        "command": "origin gui @s origin:origin"
+        "command": "origin gui @s origins:origin"
       },
       {
         "type": "origins:grant_power",

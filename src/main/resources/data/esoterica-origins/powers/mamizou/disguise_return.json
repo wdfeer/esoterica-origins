@@ -22,7 +22,7 @@
         },
         {
           "type": "origins:execute_command",
-          "command": "origin set @s origin:origin esoterica-origins:mamizou"
+          "command": "origin set @s origins:origin esoterica-origins:mamizou"
         }
       ]
     },
