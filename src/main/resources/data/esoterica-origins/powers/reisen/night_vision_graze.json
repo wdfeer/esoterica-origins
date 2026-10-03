@@ -2,6 +2,7 @@
   "name": "Menacing Hallucination",
   "description": "Every 5 seconds, if you have Night Vision, apply Graze and Invisibility to yourself and players within 4 blocks for 2 seconds.",
   "type": "origins:action_over_time",
+  "interval": 100,
   "condition": {
     "type": "origins:status_effect",
     "effect": "minecraft:night_vision"
