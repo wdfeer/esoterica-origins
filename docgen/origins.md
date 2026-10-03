@@ -425,7 +425,7 @@ Hermit capable of Taoist magic and attracting desires.
 ## Harvest God
 God of Harvest capable of enriching farmland and harvesting efficiently.
 
-- Daily Harvest: Food gives extra food points when eaten in sunlight.
+- Daily Harvest: Non-meat food is 25% more effective for yourself and players within 16 blocks.
 - Goddess' Blessing: Crops and saplings next to you grow instantly.
 - Need for Mobility: You can not wear any heavy armor (armor with protection values higher than chainmail).
 

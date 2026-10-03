@@ -1,10 +1,10 @@
 {
-  "name": "Natural Diet",
-  "description": "Gain extra food points from eating but you cannot eat meat.",
+  "hidden": true,
   "type": "origins:multiple",
-  "vegetarian": {
-    "type": "origins:prevent_item_use",
+  "buff": {
+    "type": "origins:modify_food",
     "item_condition": {
+      "inverted": true,
       "type": "origins:or",
       "conditions": [
         {
@@ -41,14 +41,23 @@
           }
         }
       ]
+    },
+    "food_modifier": {
+      "operation": "multiply_base",
+      "value": 0.25
+    },
+    "saturation_modifier": {
+      "operation": "multiply_base",
+      "value": 0.25
     }
   },
-  "extra_food": {
-    "type": "origins:modify_food",
-    "food_modifier": {
-      "name": "Increased food points",
-      "operation": "addition",
-      "value": 1.0
-    }
+  "revoke_self": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:revoke_power",
+      "power": "esoterica-origins:minoriko/food_aura_buff",
+      "source": "esoterica-origins:minoriko/food_aura"
+    },
+    "interval": 75
   }
 }

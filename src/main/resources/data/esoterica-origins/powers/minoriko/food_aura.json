@@ -1,0 +1,26 @@
+{
+  "name": "Daily Harvest",
+  "description": "Non-meat food is 25% more effective for yourself and players within 16 blocks.",
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:area_of_effect",
+    "radius": 16,
+    "include_target": true,
+    "bientity_action": {
+      "type": "origins:target_action",
+      "action": {
+        "type": "origins:grant_power",
+        "power": "esoterica-origins:minoriko/food_aura_buff",
+        "source": "esoterica-origins:minoriko/food_aura"
+      }
+    },
+    "bientity_condition": {
+      "type": "origins:target_condition",
+      "condition": {
+        "type": "origins:entity_type",
+        "entity_type": "minecraft:player"
+      }
+    }
+  },
+  "interval": 2
+}
