@@ -38,6 +38,7 @@
       {
         "type": "origins:area_of_effect",
         "radius": 8,
+        "include_target": true,
         "bientity_condition": {
           "type": "origins:target_condition",
           "condition": {
