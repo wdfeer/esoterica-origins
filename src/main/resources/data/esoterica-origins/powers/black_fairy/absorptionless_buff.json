@@ -1,6 +1,6 @@
 {
   "name": "Lunacy",
-  "description": "Without Absorption, you deal and take +2 damage.",
+  "description": "Whilst you don't have Absorption, damage dealt and taken is increased by 2.",
   "type": "origins:multiple",
   "taken": {
     "type": "origins:modify_damage_taken",
