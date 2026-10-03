@@ -1,0 +1,43 @@
+{
+  "name": "Lunacy",
+  "description": "Without Absorption, you deal and take +2 damage.",
+  "type": "origins:multiple",
+  "taken": {
+    "type": "origins:modify_damage_taken",
+    "modifier": {
+      "operation": "addition",
+      "value": 2
+    },
+    "condition": {
+      "inverted": true,
+      "type": "origins:status_effect",
+      "effect": "minecraft:absorption"
+    }
+  },
+  "melee": {
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+      "operation": "addition",
+      "value": 2
+    },
+    "condition": {
+      "inverted": true,
+      "type": "origins:status_effect",
+      "effect": "minecraft:absorption"
+    }
+  },
+  "ranged": {
+    "melee": {
+      "type": "origins:modify_projectile_damage",
+      "modifier": {
+        "operation": "addition",
+        "value": 2
+      },
+      "condition": {
+        "inverted": true,
+        "type": "origins:status_effect",
+        "effect": "minecraft:absorption"
+      }
+    }
+  }
+}
