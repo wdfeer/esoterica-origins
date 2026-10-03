@@ -170,90 +170,84 @@
       ]
     },
     "self_action": {
-      "condition": {
-        "type": "origins:or",
-        "conditions": [
-          {
-            "type": "origins:equipped_item",
-            "equipment_slot": "head",
-            "item_condition": {
-              "inverted": true,
-              "type": "origins:empty"
-            }
-          },
-          {
-            "type": "origins:equipped_item",
-            "equipment_slot": "chest",
-            "item_condition": {
-              "inverted": true,
-              "type": "origins:empty"
-            }
-          },
-          {
-            "type": "origins:equipped_item",
-            "equipment_slot": "legs",
-            "item_condition": {
-              "inverted": true,
-              "type": "origins:empty"
-            }
-          },
-          {
-            "type": "origins:equipped_item",
-            "equipment_slot": "feet",
-            "item_condition": {
-              "inverted": true,
-              "type": "origins:empty"
-            }
-          },
-          {
-            "type": "origins:apply_effect",
-            "effect": {
-              "effect": "minecraft:strength",
-              "duration": 300,
-              "amplifier": 1
-            }
-          },
-          {
-            "type": "origins:spawn_particles",
-            "particle": {
-              "type": "minecraft:flame"
-            },
-            "count": 16,
-            "speed": 0.2,
-            "force": false,
-            "spread": {
-              "x": 1.0,
-              "y": 1.5,
-              "z": 1.0
-            }
-          },
-          {
-            "type": "origins:area_of_effect",
-            "radius": 8,
-            "bientity_action": {
-              "type": "origins:target_action",
-              "action": {
-                "type": "origins:set_on_fire",
-                "duration": 10
-              }
-            },
-            "bientity_condition": {
-              "type": "origins:and",
-              "conditions": [
-                {
-                  "type": "origins:can_see"
-                },
-                {
-                  "type": "origins:target_condition",
-                  "condition": {
-                    "type": "origins:living"
-                  }
-                }
-              ]
-            }
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:equipped_item_action",
+          "equipment_slot": "head",
+          "action": {
+            "type": "origins:consume"
           }
-        ]
-      }
+        },
+        {
+          "type": "origins:equipped_item_action",
+          "equipment_slot": "chest",
+          "action": {
+            "type": "origins:consume"
+          }
+        },
+        {
+          "type": "origins:equipped_item_action",
+          "equipment_slot": "legs",
+          "action": {
+            "type": "origins:consume"
+          }
+        },
+        {
+          "type": "origins:equipped_item_action",
+          "equipment_slot": "feet",
+          "action": {
+            "type": "origins:consume"
+          }
+        },
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:strength",
+            "duration": 300,
+            "amplifier": 1
+          }
+        },
+        {
+          "type": "origins:spawn_particles",
+          "particle": {
+            "type": "minecraft:flame"
+          },
+          "count": 16,
+          "speed": 0.2,
+          "force": false,
+          "spread": {
+            "x": 1.0,
+            "y": 1.5,
+            "z": 1.0
+          }
+        },
+        {
+          "type": "origins:area_of_effect",
+          "radius": 8,
+          "bientity_action": {
+            "type": "origins:target_action",
+            "action": {
+              "type": "origins:set_on_fire",
+              "duration": 10
+            }
+          },
+          "bientity_condition": {
+            "type": "origins:and",
+            "conditions": [
+              {
+                "type": "origins:can_see"
+              },
+              {
+                "type": "origins:target_condition",
+                "condition": {
+                  "type": "origins:living"
+                }
+              }
+            ]
+          }
+        }
+      ]
     }
   }
 }
