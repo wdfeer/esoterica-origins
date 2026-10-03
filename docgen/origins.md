@@ -39,6 +39,14 @@ Crow Tengu with evolved evasive techniques.
 - Unwieldy: The way your hands are formed provide no way of holding a shield upright.
 - Need for Mobility: You can not wear any heavy armor (armor with protection values higher than chainmail).
 
+## Black Butterfly
+Natural fairy embodying dark spirits.
+
+- Stage Enemy: Upon respawn, gain 14 Absorption hearts for an hour.
+- Winged: You have Elytra wings without needing to equip any.
+- Lunacy: Without Absorption, you deal and take +2 damage.
+- Small Threat: You only have 6 hearts.
+
 ## Dharmic Magician
 Buddhist priest skilled in youkai arts and body-enhancing magic.
 
