@@ -17,7 +17,7 @@
       "actions": [
         {
           "type": "origins:revoke_power",
-          "power": "esoterica-origins:mamizou/disguise_timer",
+          "power": "esoterica-origins:mamizou/disguise_return",
           "source": "esoterica-origins:mamizou/disguise"
         },
         {
