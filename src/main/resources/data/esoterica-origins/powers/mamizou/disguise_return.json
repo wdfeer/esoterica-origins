@@ -1,13 +1,23 @@
 {
   "hidden": true,
   "type": "origins:multiple",
-  "cooldown": {
-    "type": "origins:cooldown",
-    "cooldown": 36000,
+  "seconds_left": {
+    "type": "origins:resource",
+    "start_value": 1800,
+    "min": 0,
+    "max": 1800,
     "hud_render": {
       "should_render": true,
       "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
       "bar_index": 1
+    }
+  },
+  "decrement": {
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "*:*_seconds_left"
     }
   },
   "turn_back": {
@@ -29,7 +39,7 @@
     "interval": 21,
     "condition": {
       "type": "origins:resource",
-      "resource": "*:*_cooldown",
+      "resource": "*:*_seconds_left",
       "comparison": "==",
       "compare_to": 0
     }
