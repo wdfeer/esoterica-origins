@@ -1,7 +1,18 @@
 {
   "name": "Stage Enemy",
-  "description": "Upon respawn, gain 14 Absorption hearts for an hour.",
+  "description": "Upon choosing this origin and upon respawn, gain 14 Absorption hearts for an hour.",
   "type": "origins:action_on_callback",
+  "entity_action_chosen": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:absorption",
+      "duration": 72000,
+      "amplifier": 7,
+      "is_ambient": false,
+      "show_particles": false,
+      "show_icon": true
+    }
+  },
   "entity_action_respawned": {
     "type": "origins:apply_effect",
     "effect": {

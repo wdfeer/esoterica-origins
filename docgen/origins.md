@@ -42,7 +42,7 @@ Crow Tengu with evolved evasive techniques.
 ## Black Butterfly
 Natural fairy embodying dark spirits.
 
-- Stage Enemy: Upon respawn, gain 14 Absorption hearts for an hour.
+- Stage Enemy: Upon choosing this origin and upon respawn, gain 14 Absorption hearts for an hour.
 - Winged: You have Elytra wings without needing to equip any.
 - Lunacy: Whilst you don't have Absorption, damage dealt and taken is increased by 2.
 - Nature Spirit: Instead of natural health regeneration, you are restored to full health every 10 seconds.
