@@ -1,9 +1,9 @@
 {
   "powers": [
-    "esoterica-origins:kedama_fluffy",
-    "esoterica-origins:kedama_fluffen",
-    "esoterica-origins:fragile_kedama",
-    "esoterica-origins:burnable"
+    "esoterica-origins:kedama/fluffy",
+    "esoterica-origins:kedama/fluffen",
+    "esoterica-origins:kedama/fragile_kedama",
+    "esoterica-origins:kedama/burnable"
   ],
   "icon": "minecraft:white_wool",
   "impact": 3,
