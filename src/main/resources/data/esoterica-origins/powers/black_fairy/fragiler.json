@@ -1,0 +1,10 @@
+{
+  "name": "Small Threat",
+  "description": "You have have half as much health as humans.",
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.max_health",
+    "value": -0.5,
+    "operation": "multiply_total"
+  }
+}

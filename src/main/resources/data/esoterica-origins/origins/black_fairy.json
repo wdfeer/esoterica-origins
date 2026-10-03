@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "esoterica-origins:black_fairy/absorption_respawn",
+    "esoterica-origins:black_fairy/absorption_barrier",
+    "esoterica-origins:black_fairy/lunacy",
+    "esoterica-origins:black_fairy/fragiler"
+  ],
+  "icon": "minecraft:black_glazed_terracotta",
+  "impact": 3,
+  "name": "Black Butterfly",
+  "description": "Natural fairy embodying dark spirits."
+}
