@@ -1,10 +1,10 @@
 {
   "name": "Small Threat",
-  "description": "You have have half as much health as humans.",
+  "description": "You only have 6 hearts.",
   "type": "origins:attribute",
   "modifier": {
     "attribute": "minecraft:generic.max_health",
-    "value": -0.5,
+    "value": -0.4,
     "operation": "multiply_total"
   }
 }
