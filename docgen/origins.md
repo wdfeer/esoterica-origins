@@ -773,7 +773,7 @@ An earth spider youkai capable of manipulating webs and diseases.
 ## Yamawaro
 Kappa that live in the woods and can manipulate forest qi.
 
-- Forest Defense: Activate to gain absorption when near logs and resistance for 30 seconds.
+- Forest Defense: Every 50 seconds, activate to gain absorption when near logs and resistance for 30 seconds.
 - Forest Energy: When near logs or leaves, regenerate health passively and gain haste.
 - Kappa's Backpack: You have a backpack, letting you carry another 9 items with you.
 - Fragile: You have 3 less hearts of health than humans.
