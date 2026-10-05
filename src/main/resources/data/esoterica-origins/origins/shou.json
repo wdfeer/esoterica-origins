@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "esoterica-origins:byakuren/nodiamond_faster",
+    "esoterica-origins:no_armor"
+  ],
+  "icon": "minecraft:lantern",
+  "impact": 3,
+  "name": "Avatar of Bishamonten",
+  "description": "High priest and a representative of the Buddhist deity Bishamonten."
+}
