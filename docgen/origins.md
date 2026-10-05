@@ -684,8 +684,8 @@ High priest and a representative of the Buddhist deity Bishamonten.
 - Sacred Pagoda: Whilst holding a lantern, players within 8 blocks including yourself gain Strength.
 - Dazzling Gold: Whilst holding a golden item or a totem of undying, players within 8 blocks including yourself gain Regeneration.
 - Buddha's Light: Every 30 minutes, a death of a player within 16 blocks including yourself is automatically prevented, making them invulnerable for 5 seconds.
-- Tiger Rage: Whilst "Buddha's Light" is recharging, melee damage dealt is increased by 3.
-- No Armor: You cannot wear any armor.
+- Tiger Rage: Whilst "Buddha's Light" is recharging, you cannot wear any armor and melee damage dealt is increased by 3.
+- Sleeping Tiger: Whilst "Buddha's Light" is charged, melee damage dealt is decreased by 3.
 
 ## Star Fairy
 Playful fairy of light that draws power from the stars, capable of detecting moving things.
