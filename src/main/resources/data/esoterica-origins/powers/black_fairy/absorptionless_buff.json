@@ -27,17 +27,15 @@
     }
   },
   "ranged": {
-    "melee": {
-      "type": "origins:modify_projectile_damage",
-      "modifier": {
-        "operation": "addition",
-        "value": 2
-      },
-      "condition": {
-        "inverted": true,
-        "type": "origins:status_effect",
-        "effect": "minecraft:absorption"
-      }
+    "type": "origins:modify_projectile_damage",
+    "modifier": {
+      "operation": "addition",
+      "value": 2
+    },
+    "condition": {
+      "inverted": true,
+      "type": "origins:status_effect",
+      "effect": "minecraft:absorption"
     }
   }
 }
