@@ -1,6 +1,10 @@
 {
   "powers": [
-    "esoterica-origins:byakuren/nodiamond_faster",
+    "esoterica-origins:shou/radiant_gun",
+    "esoterica-origins:shou/lantern_buff",
+    "esoterica-origins:shou/dazzling_gold",
+    "esoterica-origins:shou/prevent_nearby_death",
+    "esoterica-origins:shou/tiger_rage",
     "esoterica-origins:no_armor"
   ],
   "icon": "minecraft:lantern",

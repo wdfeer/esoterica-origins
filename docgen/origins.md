@@ -677,6 +677,16 @@ Twisted youkai capable of turning over anything.
 - Unconventional: Swords, axes and normal arrows deal no damage.
 - No Armor: You cannot wear any armor.
 
+## Avatar of Bishamonten
+High priest and a representative of the Buddhist deity Bishamonten.
+
+- Radiant Treasure Gun: Every 30 seconds, deal double damage with your next projectile, applying Absorption to yourself and players 16 blocks around you.
+- Sacred Pagoda: Whilst holding a lantern, players within 8 blocks including yourself gain Strength.
+- Dazzling Gold: Whilst holding a golden item or a totem of undying, players within 8 blocks including yourself gain Regeneration.
+- Buddha's Light: Every 30 minutes, a death of a player within 16 blocks including yourself is automatically prevented, making them invulnerable for 5 seconds.
+- Tiger Rage: Whilst "Buddha's Light" is recharging, melee damage dealt is increased by 3.
+- No Armor: You cannot wear any armor.
+
 ## Star Fairy
 Playful fairy of light that draws power from the stars, capable of detecting moving things.
 
