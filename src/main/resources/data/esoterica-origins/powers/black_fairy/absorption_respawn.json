@@ -7,7 +7,7 @@
     "effect": {
       "effect": "minecraft:absorption",
       "duration": 72000,
-      "amplifier": 7,
+      "amplifier": 6,
       "is_ambient": false,
       "show_particles": false,
       "show_icon": true
@@ -18,7 +18,7 @@
     "effect": {
       "effect": "minecraft:absorption",
       "duration": 72000,
-      "amplifier": 7,
+      "amplifier": 6,
       "is_ambient": false,
       "show_particles": false,
       "show_icon": true
