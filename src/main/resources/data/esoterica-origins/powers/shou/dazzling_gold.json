@@ -1,4 +1,40 @@
 {
   "name": "Dazzling Gold",
-  "description": "Whilst holding a golden item or a totem of undying, players within 8 blocks including yourself gain Regeneration."
+  "description": "Whilst holding a golden item or a totem of undying, players within 8 blocks including yourself gain Regeneration.",
+  "type": "origins:action_over_time",
+  "condition": {
+    "type": "origins:equipped_item",
+    "equipment_slot": "mainhand",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": [
+        {
+          "tag": "esoterica-origins:miko_golden_items"
+        }
+      ]
+    }
+  },
+  "entity_action": {
+    "type": "origins:area_of_effect",
+    "radius": 8,
+    "include_target": true,
+    "bientity_action": {
+      "type": "origins:target_action",
+      "action": {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:regeneration",
+          "duration": 20,
+          "amplifier": 0
+        }
+      }
+    },
+    "bientity_condition": {
+      "type": "origins:target_condition",
+      "condition": {
+        "type": "origins:entity_type",
+        "entity_type": "minecraft:player"
+      }
+    }
+  }
 }
