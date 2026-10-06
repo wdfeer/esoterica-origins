@@ -3,19 +3,39 @@
   "description": "Whilst holding a lantern, players within 8 blocks including yourself gain Strength.",
   "type": "origins:action_over_time",
   "condition": {
-    "type": "origins:equipped_item",
-    "equipment_slot": "mainhand",
-    "item_condition": {
-      "type": "origins:ingredient",
-      "ingredient": [
-        {
-          "item": "minecraft:lantern"
-        },
-        {
-          "item": "minecraft:soul_lantern"
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": [
+            {
+              "item": "minecraft:lantern"
+            },
+            {
+              "item": "minecraft:soul_lantern"
+            }
+          ]
         }
-      ]
-    }
+      },
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": [
+            {
+              "item": "minecraft:lantern"
+            },
+            {
+              "item": "minecraft:soul_lantern"
+            }
+          ]
+        }
+      }
+    ]
   },
   "entity_action": {
     "type": "origins:area_of_effect",
@@ -27,7 +47,7 @@
         "type": "origins:apply_effect",
         "effect": {
           "effect": "minecraft:strength",
-          "duration": 20,
+          "duration": 25,
           "amplifier": 0
         }
       }
