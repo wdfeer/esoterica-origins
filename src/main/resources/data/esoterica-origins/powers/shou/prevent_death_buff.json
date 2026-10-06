@@ -6,13 +6,11 @@
     "actions": [
       {
         "type": "origins:apply_effect",
-        "effects": [
-          {
-            "effect": "minecraft:resistance",
-            "amplifier": 4,
-            "duration": 100
-          }
-        ]
+        "effect": {
+          "effect": "minecraft:resistance",
+          "amplifier": 4,
+          "duration": 100
+        }
       },
       {
         "type": "origins:spawn_particles",
@@ -27,8 +25,6 @@
           "y": 1.7,
           "z": 1.5
         }
-      },
-      {
       },
       {
         "type": "origins:area_of_effect",
