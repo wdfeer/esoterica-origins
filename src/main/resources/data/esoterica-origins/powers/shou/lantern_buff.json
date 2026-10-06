@@ -9,7 +9,10 @@
       "type": "origins:ingredient",
       "ingredient": [
         {
-          "tag": "minecraft:lanterns"
+          "item": "minecraft:lantern"
+        },
+        {
+          "item": "minecraft:soul_lantern"
         }
       ]
     }
