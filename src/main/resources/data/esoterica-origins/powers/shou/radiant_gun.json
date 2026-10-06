@@ -1,4 +1,86 @@
 {
   "name": "Radiant Treasure Gun",
-  "description": "Every 30 seconds, deal double damage with your next projectile, applying Absorption to yourself and players 16 blocks around you."
+  "description": "Every 30 seconds, deal double damage with your next projectile, applying Absorption to yourself and players 16 blocks around you.",
+  "type": "origins:multiple",
+  "cooldown": {
+    "type": "origins:cooldown",
+    "cooldown": 600,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+      "bar_index": 2
+    }
+  },
+  "damage": {
+    "type": "origins:modify_projectile_damage",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "*:*_cooldown",
+      "comparison": "==",
+      "compare_to": 0
+    },
+    "modifier": {
+      "operation": "multiply_total",
+      "value": 1.0
+    },
+    "self_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:trigger_cooldown",
+          "power": "*:*_cooldown"
+        },
+        {
+          "type": "origins:area_of_effect",
+          "radius": 16,
+          "bientity_action": {
+            "type": "origins:target_action",
+            "action": {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:absorption",
+                "duration": 600,
+                "amplifier": 0
+              }
+            }
+          },
+          "bientity_condition": {
+            "type": "origins:and",
+            "conditions": [
+              {
+                "type": "origins:can_see"
+              },
+              {
+                "type": "origins:target_condition",
+                "condition": {
+                  "type": "origins:entity_type",
+                  "entity_type": "minecraft:player"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "target_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:spawn_particles",
+          "particle": {
+            "type": "minecraft:enchanted_hit",
+            "params": ""
+          },
+          "count": 12,
+          "speed": 1.0,
+          "force": true,
+          "spread": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          }
+        }
+      ]
+    }
+  }
 }
