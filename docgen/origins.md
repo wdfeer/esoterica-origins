@@ -577,7 +577,7 @@ An evolved, long-living vampire with exquisite dietary preferences.
 
 - Bloodsucking: Heal yourself by 1 health after hitting another entity.
 - Winged: You have Elytra wings without needing to equip any.
-- Scarlet Purity: Gain Flawless for 30 seconds, making you take 1 damage at most, at a two minute cooldown
+- Scarlet Purity: Activate to gain Flawless for 30 seconds, making you take 1 damage at most, at a two minute cooldown.
 - Scarlet Fangs: You deal 3 extra melee damage.
 - Nocturnal: You can slightly see in the dark when not in water.
 - Exquisite Diet: Can only eat extravagant and exotic foods such as golden carrots, cakes, tropical fish or others.
