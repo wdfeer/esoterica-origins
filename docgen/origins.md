@@ -442,7 +442,7 @@ God of Harvest capable of enriching farmland and harvesting efficiently.
 God known for crafting magatama and yin-yang orbs.
 
 - Divine Crafter: Activate to open a crafting table.
-- Hakurei Blessing: Apply Strength for 60 seconds to players within 8 blocks after dealing projectile damage.
+- Hakurei Blessing: Apply Strength for 60 seconds to yourself and players within 8 blocks after dealing projectile damage.
 - Ancient Barrier: Gain 2 armor for having each of these status effects: Strength, Resistance, Absorption.
 - Weak: Melee damage dealt is halved.
 - Nine Lives: You have 1 less heart of health than humans.

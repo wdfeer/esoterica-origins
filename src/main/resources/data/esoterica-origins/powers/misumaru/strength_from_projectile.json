@@ -1,6 +1,6 @@
 {
   "name": "Hakurei Blessing",
-  "description": "Apply Strength for 60 seconds to players within 8 blocks after dealing projectile damage.",
+  "description": "Apply Strength for 60 seconds to yourself and players within 8 blocks after dealing projectile damage.",
   "type": "origins:modify_projectile_damage",
   "damage_condition": {
     "type": "origins:amount",
