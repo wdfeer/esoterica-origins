@@ -1,0 +1,24 @@
+{
+  "name": "Orb Reliance",
+  "description": "Melee damage dealt is halved and can only be dealt when you have Strength.",
+  "type": "origins:multiple",
+  "halving": {
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+      "operation": "multiply_total",
+      "value": -0.5
+    }
+  },
+  "disable_without_strength": {
+    "type": "origins:modify_damage_dealt",
+    "condition": {
+      "inverted": true,
+      "type": "origins:status_effect",
+      "effect": "minecraft:strength"
+    },
+    "modifier": {
+      "operation": "multiply_total",
+      "value": -1
+    }
+  }
+}
