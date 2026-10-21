@@ -1,6 +1,6 @@
 {
   "name": "Steal Wealth",
-  "description": "Killing a mob affected by Saturation has a 0.5% chance to drop a diamond.",
+  "description": "Killing a mob affected by Saturation has a 1% chance to drop a diamond.",
   "type": "origins:replace_loot_table",
   "bientity_condition": {
     "type": "origins:target_condition",

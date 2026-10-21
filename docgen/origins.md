@@ -198,7 +198,7 @@ Laid-back youkai who is a messenger of the Dragon Palace.
 God who governs financial ruin, bringing misfortune.
 
 - Brainwashing: Melee hits apply Saturation on the victim for 15 seconds.
-- Steal Wealth: Killing a mob affected by Saturation has a 0.5% chance to drop a diamond.
+- Steal Wealth: Killing a mob affected by Saturation has a 1% chance to drop a diamond.
 - Weak: Melee damage dealt is halved.
 
 ## Pure Fox
