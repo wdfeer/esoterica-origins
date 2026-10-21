@@ -1,0 +1,13 @@
+{
+  "name": "Brainwashing",
+  "description": "Melee hits apply Saturation on the victim for 15 seconds.",
+  "type": "origins:target_action_on_hit",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "saturation",
+      "amplifier": 0,
+      "duration": 300
+    }
+  }
+}
