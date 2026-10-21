@@ -194,6 +194,13 @@ Laid-back youkai who is a messenger of the Dragon Palace.
 - Peaceful Youkai: Gain Weakness unless you have Resistance.
 - Need for Mobility: You can not wear any heavy armor (armor with protection values higher than chainmail).
 
+## Pestilence God
+God who governs financial ruin, bringing misfortune.
+
+- Brainwashing: Melee hits apply Saturation on the victim for 15 seconds.
+- Steal Wealth: Killing a mob affected by Saturation has a 0.5% chance to drop a diamond.
+- Weak: Melee damage dealt is halved.
+
 ## Pure Fox
 Divine Spirit that can purify anything.
 

@@ -2,7 +2,13 @@
   "name": "Steal Wealth",
   "description": "Killing a mob affected by Saturation has a 0.5% chance to drop a diamond.",
   "type": "origins:replace_loot_table",
-  "condition": {},
+  "bientity_condition": {
+    "type": "origins:target_condition",
+    "condition": {
+      "type": "origins:status_effect",
+      "effect": "minecraft:saturation"
+    }
+  },
   "replace": {
     ".*:entities/.*": "esoterica-origins:joon_diamond"
   }
