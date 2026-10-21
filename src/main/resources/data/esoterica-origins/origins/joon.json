@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "esoterica-origins:joon/saturation_attack",
+    "esoterica-origins:joon/saturation_diamond_drops",
+    "esoterica-origins:half_melee_damage"
+  ],
+  "icon": "minecraft:diamond",
+  "impact": 3,
+  "name": "Pestilence God",
+  "description": "God who governs financial ruin, bringing misfortune."
+}
