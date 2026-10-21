@@ -1,0 +1,9 @@
+{
+  "name": "Steal Wealth",
+  "description": "Killing a mob affected by Saturation has a 0.5% chance to drop a diamond.",
+  "type": "origins:replace_loot_table",
+  "condition": {},
+  "replace": {
+    ".*:entities/.*": "esoterica-origins:joon_diamond"
+  }
+}
