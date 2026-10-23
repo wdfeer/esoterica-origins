@@ -211,13 +211,14 @@ Divine Spirit that can purify anything.
 - No Armor: You cannot wear any armor.
 
 ## Lunarian Princess
-A mystical lunar princess.
+Princess from the Lunar Capital capable of manipulating eternity and the instantaneous.
 
+- Pure Eternity: You have a time bar which recharges 1% per second.
+- Prison of Eternity: Instead of dealing damage, melee hits instead capture the target in a Limbo state where they cannot deal or take damage or move.
+- Spellbound: For each entity captured in a Limbo state, you lose 1% time each second. If it reaches 0% or you are more than 64 blocks away, the target is released.
+- Accelerator: When toggled, gain Haste and Speed but consume 1% of your time bar every second.
 - Flawless: You cannot take more than 1 damage at once.
-- Fragile Physique: Your lunar body is delicate, reducing your health to 2 hearts.
-- Creative Flight: Can fly as if in Creative Mode.
-- Weak: Melee damage dealt is halved.
-- Need for Mobility: You can not wear any heavy armor (armor with protection values higher than chainmail).
+- Fragile Physique: Your lunar body is delicate, reducing your health to 3 hearts.
 
 ## Wind God
 Divine Spirit proficient at marketing schemes to gather more faith.

@@ -1,13 +1,14 @@
 {
   "powers": [
+    "esoterica-origins:kaguya/time_resource",
+    "esoterica-origins:kaguya/limbo",
+    "esoterica-origins:kaguya/limbo_consumption_text",
+    "esoterica-origins:kaguya/accelerator",
     "esoterica-origins:flawless",
-    "esoterica-origins:fragiler_lunarian",
-    "esoterica-origins:creative_flight",
-    "esoterica-origins:half_melee_damage",
-    "origins:light_armor"
+    "esoterica-origins:fragile_lunarian"
   ],
-  "icon": "minecraft:ender_eye",
+  "icon": "minecraft:nautilus_shell",
   "impact": 3,
   "name": "Lunarian Princess",
-  "description": "A mystical lunar princess."
+  "description": "Princess from the Lunar Capital capable of manipulating eternity and the instantaneous."
 }
