@@ -6,6 +6,12 @@
     "operation": "multiply_total",
     "value": -1
   },
+  "target_condition": {
+    "inverted": true,
+    "type": "origins:origin",
+    "origin": "esoterica-origins:kaguya",
+    "layer": "origins:origin"
+  },
   "target_action": {
     "type": "origins:grant_power",
     "power": "esoterica-origins:kaguya/limbo_debuff",
