@@ -219,6 +219,7 @@ Princess from the Lunar Capital capable of manipulating eternity and the instant
 - Freeze Gravity: You have creative flight that consumes 1 point of time per second.
 - Flawless: You cannot take more than 1 damage at once.
 - Fragile Physique: Your lunar body is delicate, reducing your health to 3 hearts.
+- No Armor: You cannot wear any armor.
 
 ## Wind God
 Divine Spirit proficient at marketing schemes to gather more faith.
