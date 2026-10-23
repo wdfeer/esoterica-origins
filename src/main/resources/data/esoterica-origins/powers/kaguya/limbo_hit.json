@@ -2,6 +2,10 @@
   "name": "Prison of Eternity",
   "description": "Instead of dealing damage, melee hits instead capture the target in a Limbo state where they cannot deal or take damage or move.",
   "type": "origins:modify_damage_dealt",
+  "damage_condition": {
+    "type": "origins:name",
+    "name": "player"
+  },
   "modifier": {
     "operation": "multiply_total",
     "value": -1
