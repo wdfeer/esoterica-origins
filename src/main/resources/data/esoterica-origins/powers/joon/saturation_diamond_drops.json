@@ -10,6 +10,6 @@
     }
   },
   "replace": {
-    ".*:entities/.*": "esoterica-origins:joon_diamond"
+    ".*:entities\/.*": "esoterica-origins:joon_diamond"
   }
 }
