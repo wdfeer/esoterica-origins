@@ -1,4 +1,4 @@
 {
   "name": "Pure Eternity",
-  "description": "You have a time bar which recharges 1% per second."
+  "description": "You have a time bar which recharges by 1 point every second, up to 60 points."
 }
