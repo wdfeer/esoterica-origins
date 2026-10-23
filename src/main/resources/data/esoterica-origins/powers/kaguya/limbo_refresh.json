@@ -1,5 +1,78 @@
 {
   "name": "Spellbound",
   "description": "For each entity captured in \"Prison of Eternity\", you lose 1 time each second. If you reach 0 time or you are more than 16 blocks away, the target is released.",
-  "type": "origins:empty"
+  "type": "origins:action_over_time",
+  "condition": {
+    "type": "origins:resource",
+    "resource": "esoterica-origins:kaguya/time_resource",
+    "comparison": ">",
+    "compare_to": 0
+  },
+  "interval": 2,
+  "entity_action": {
+    "type": "origins:area_of_effect",
+    "radius": 16,
+    "bientity_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:actor_condition",
+          "condition": {
+            "type": "origins:resource",
+            "resource": "esoterica-origins:kaguya/time_resource",
+            "comparison": ">",
+            "compare_to": 0
+          }
+        },
+        {
+          "type": "origins:target_condition",
+          "condition": {
+            "type": "origins:power",
+            "power": "esoterica-origins:kaguya/limbo_debuff"
+          }
+        }
+      ]
+    },
+    "bientity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:actor_action",
+          "action": {
+            "type": "origins:change_resource",
+            "resource": "esoterica-origins:kaguya/time_resource",
+            "change": -2
+          }
+        },
+        {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:and",
+            "actions": [
+              {
+                "type": "origins:change_resource",
+                "resource": "esoterica-origins:kaguya/limbo_debuff_timer",
+                "change": -10
+              },
+              {
+                "type": "origins:spawn_particles",
+                "particle": {
+                  "type": "minecraft:dust",
+                  "params": "0.1 0.1 0.1 2"
+                },
+                "count": 1,
+                "speed": 0.2,
+                "force": false,
+                "spread": {
+                  "x": 1.0,
+                  "y": 1.5,
+                  "z": 1.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+        }
+  }
 }
