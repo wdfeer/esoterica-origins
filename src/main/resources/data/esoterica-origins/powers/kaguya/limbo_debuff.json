@@ -2,17 +2,65 @@
   "hidden": true,
   "type": "origins:multiple",
   "timer": {
+    "type": "origins:resource",
+    "start_value": 0,
+    "min": 0,
+    "max": 10
+  },
+  "timer_decrement": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "*:*_timer",
+      "change": 0
+    }
   },
   "revoke_self": {
-  },
-  "no_item_use": {
+    "type": "origins:action_over_time",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "*:*_timer",
+      "comparison": "==",
+      "compare_to": 10
+    },
+    "entity_action": {
+      "type": "origins:revoke_power",
+      "power": "esoterica-origins:kaguya/limbo_debuff",
+      "source": "esoterica-origins:kaguya/limbo"
+    },
+    "interval": 2
   },
   "no_melee": {
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+      "operation": "multiply_total",
+      "value": -1
+    }
   },
   "no_ranged": {
+    "type": "origins:modify_projectile_damage",
+    "modifier": {
+      "operation": "multiply_total",
+      "value": -1
+    }
   },
   "no_incoming": {
+    "type": "origins:modify_damage_taken",
+    "modifier": {
+      "operation": "multiply_total",
+      "value": -1
+    }
   },
   "no_velocity": {
+    "type": "origins:modify_velocity",
+    "modifier": {
+      "value": -1,
+      "operation": "multiply_total"
+    },
+    "axes": [
+      "x",
+      "y",
+      "z"
+    ]
   }
 }

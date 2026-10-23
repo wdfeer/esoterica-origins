@@ -1,5 +1,5 @@
 {
   "name": "Spellbound",
-  "description": "For each entity captured in \"Prison of Eternity\", you lose 1 time each second. If you reach 0 time or you are more than 64 blocks away, the target is released.",
+  "description": "For each entity captured in \"Prison of Eternity\", you lose 1 time each second. If you reach 0 time or you are more than 16 blocks away, the target is released.",
   "type": "origins:empty"
 }

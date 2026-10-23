@@ -215,7 +215,7 @@ Princess from the Lunar Capital capable of manipulating eternity and the instant
 
 - Pure Eternity: You have a time bar which recharges by 1 point every second, up to 60 points.
 - Prison of Eternity: Instead of dealing damage, melee hits instead capture the target in a Limbo state where they cannot deal or take damage or move.
-- Spellbound: For each entity captured in "Prison of Eternity", you lose 1 time each second. If you reach 0 time or you are more than 64 blocks away, the target is released.
+- Spellbound: For each entity captured in "Prison of Eternity", you lose 1 time each second. If you reach 0 time or you are more than 16 blocks away, the target is released.
 - Freeze Gravity: You have creative flight that consumes 1 point of time per second.
 - Flawless: You cannot take more than 1 damage at once.
 - Fragile Physique: Your lunar body is delicate, reducing your health to 3 hearts.
