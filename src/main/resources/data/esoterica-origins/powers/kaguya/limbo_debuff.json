@@ -1,0 +1,18 @@
+{
+  "hidden": true,
+  "type": "origins:multiple",
+  "timer": {
+  },
+  "revoke_self": {
+  },
+  "no_item_use": {
+  },
+  "no_melee": {
+  },
+  "no_ranged": {
+  },
+  "no_incoming": {
+  },
+  "no_velocity": {
+  }
+}

@@ -1,4 +1,14 @@
 {
   "name": "Prison of Eternity",
-  "description": "Instead of dealing damage, melee hits instead capture the target in a Limbo state where they cannot deal or take damage or move."
+  "description": "Instead of dealing damage, melee hits instead capture the target in a Limbo state where they cannot deal or take damage or move.",
+  "type": "origins:modify_damage_dealt",
+  "modifier": {
+    "operation": "multiply_total",
+    "value": -1
+  },
+  "target_action": {
+    "type": "origins:grant_power",
+    "power": "esoterica-origins:kaguya/limbo_debuff",
+    "source": "esoterica-origins:kaguya/limbo"
+  }
 }
