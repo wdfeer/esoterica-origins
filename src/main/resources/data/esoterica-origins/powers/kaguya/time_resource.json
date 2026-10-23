@@ -1,4 +1,12 @@
 {
   "name": "Pure Eternity",
-  "description": "You have a time bar which recharges by 1 point every second, up to 60 points."
+  "description": "You have a time bar which recharges by 1 point every second, up to 60 points.",
+  "type": "origins:resource",
+  "min": 0,
+  "max": 60,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+    "bar_index": 1
+  }
 }
