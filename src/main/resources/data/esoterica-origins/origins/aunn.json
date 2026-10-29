@@ -6,7 +6,7 @@
     "origins:more_exhaustion",
     "esoterica-origins:ranged_inability"
   ],
-  "icon": "minecraft:chiseled_stone_bricks",
+  "icon": "minecraft:lodestone",
   "impact": 3,
   "name": "Komainu",
   "description": "Holy guardian beast."

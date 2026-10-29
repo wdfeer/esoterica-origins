@@ -1,0 +1,9 @@
+{
+  "powers": [
+    "esoterica-origins:narumi/saturation_attack"
+  ],
+  "icon": "minecraft:chiseled_stone_bricks",
+  "impact": 3,
+  "name": "Jizo Statue",
+  "description": "Animated statue of one of the four principal bodhisattvas."
+}
