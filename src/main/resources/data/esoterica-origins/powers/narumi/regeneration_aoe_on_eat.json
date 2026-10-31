@@ -1,0 +1,23 @@
+{
+  "name": "Grant Life Energy",
+  "description": "After eating, grant entities within 16 blocks Regeneration for 30 seconds.",
+  "type": "origins:action_on_item_use",
+  "entity_action": {
+    "type": "origins:area_of_effect",
+    "radius": 16,
+    "bientity_action": {
+      "type": "origins:target_action",
+      "action": {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:regeneration",
+          "amplifier": 0,
+          "duration": 600
+        }
+      }
+    }
+  },
+  "item_condition": {
+    "type": "origins:food"
+  }
+}
