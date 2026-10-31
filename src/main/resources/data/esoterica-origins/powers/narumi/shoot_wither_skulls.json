@@ -1,0 +1,39 @@
+{
+  "name": "Living Projectile",
+  "description": "Activate to shoot three wither skulls with a short delay. Cooldown: 60 seconds.",
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:fire_projectile",
+        "entity_type": "minecraft:wither_skull",
+        "divergence": 0.8
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 10,
+        "action": {
+          "type": "origins:fire_projectile",
+          "entity_type": "minecraft:wither_skull",
+          "divergence": 0.8
+        }
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 20,
+        "action": {
+          "type": "origins:fire_projectile",
+          "entity_type": "minecraft:wither_skull",
+          "divergence": 0.8
+        }
+      }
+    ]
+  },
+  "cooldown": 1200,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+    "bar_index": 14
+  }
+}
