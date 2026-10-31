@@ -1,5 +1,5 @@
 {
-  "name": "Life Support",
+  "name": "Support Life",
   "description": "Creatures within 32 blocks with Regeneration gain additional 1 hp every 2 seconds.",
   "type": "origins:action_over_time",
   "interval": 40,

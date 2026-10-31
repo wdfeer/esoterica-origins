@@ -1,9 +1,9 @@
 {
   "powers": [
     "esoterica-origins:narumi/shoot_wither_skulls",
-    "esoterica-origins:narumi/wither_damage",
+    "esoterica-origins:narumi/wither_slowness_aoe",
     "esoterica-origins:narumi/regeneration_aoe_on_eat",
-    "esoterica-origins:narumi/regeneration_heal",
+    "esoterica-origins:narumi/regeneration_heal_aoe",
     "esoterica-origins:narumi/golem_resistance",
     "esoterica-origins:narumi/armor_becomes_resistance",
     "esoterica-origins:narumi/introvert"
