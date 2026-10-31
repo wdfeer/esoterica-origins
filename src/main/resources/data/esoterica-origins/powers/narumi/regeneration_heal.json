@@ -1,0 +1,24 @@
+{
+  "name": "Life Support",
+  "description": "Creatures within 32 blocks with Regeneration gain additional 1 hp every 2 seconds.",
+  "type": "origins:action_over_time",
+  "interval": 40,
+  "entity_action": {
+    "type": "origins:area_of_effect",
+    "radius": 32,
+    "bientity_action": {
+      "type": "origins:target_action",
+      "action": {
+        "type": "origins:if_else",
+        "condition": {
+          "type": "origins:status_effect",
+          "effect": "minecraft:regeneration"
+        },
+        "if_action": {
+          "type": "origins:heal",
+          "amount": 1
+        }
+      }
+    }
+  }
+}
