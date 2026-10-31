@@ -2,7 +2,14 @@
   "name": "Stone Armor",
   "description": "You permanently have 4 armor. Equipping armor items destroys them, providing you with Absorption for 30 seconds.",
   "type": "origins:multiple",
-  "armor_buff": {},
+  "armor_buff": {
+    "type": "origins:attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.armor",
+      "operation": "addition",
+      "value": 4
+    }
+  },
   "consume_armor": {
     "type": "origins:action_over_time",
     "interval": 10,
