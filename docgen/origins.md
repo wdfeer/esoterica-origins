@@ -485,6 +485,16 @@ Bird youkai capable of driving people insane through singing.
 - Need for Mobility: You can not wear any heavy armor (armor with protection values higher than chainmail).
 - Fragile: You have 3 less hearts of health than humans.
 
+## Jizo Statue
+Animated statue of one of the four principal bodhisattvas.
+
+- Living Projectile: Activate to shoot three wither skulls with a short delay. Cooldown: 60 seconds.
+- Erase Life: Upon dealing damage, apply Wither II for 3 seconds to the victim.
+- Life Support: Every 4 seconds, creatures within 4 blocks, including yourself, regain 1 health. This excludes creatures affected by Wither.
+- Stone Golem: You are immune to Poison and Wither but you cannot use bows or elytra.
+- Stone Armor: You permanently have 4 armor. Equipping armor items destroys them, providing you with Absorption for 30 seconds.
+- Secluded Introvert: You cannot trade with villagers.
+
 ## Firefly Youkai
 A Youkai capable of manipulating insects.
 

@@ -1,6 +1,6 @@
 {
   "name": "Life Support",
-  "description": "Every 4 seconds, all creatures within 4 blocks, including yourself, regain 1 health.",
+  "description": "Every 4 seconds, creatures within 4 blocks, including yourself, regain 1 health. This excludes creatures affected by Wither.",
   "type": "origins:multiple",
   "cooldown": {
     "type": "origins:cooldown",
