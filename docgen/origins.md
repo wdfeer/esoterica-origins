@@ -489,9 +489,10 @@ Bird youkai capable of driving people insane through singing.
 Animated statue of one of the four principal bodhisattvas.
 
 - Living Projectile: Activate to shoot three wither skulls with a short delay. Cooldown: 60 seconds.
-- Erase Life: Upon dealing damage, apply Wither II for 3 seconds to the victim.
-- Life Support: Every 4 seconds, creatures within 4 blocks, including yourself, regain 1 health. This excludes creatures affected by Wither.
-- Stone Golem: You are immune to Poison and Wither but you cannot use bows or elytra.
+- Erase Life: Entities with Wither within 32 blocks are additionally granted Slowness.
+- Grant Life Energy: After eating, grant entities within 16 blocks Regeneration for 30 seconds.
+- Support Life: Creatures within 32 blocks with Regeneration gain additional 1 hp every 2 seconds.
+- Stone Golem: You are immune to fire and all status effects except resistance.
 - Stone Armor: You permanently have 4 armor. Equipping armor items destroys them, providing you with Absorption for 30 seconds.
 - Secluded Introvert: You cannot trade with villagers.
 
