@@ -493,7 +493,7 @@ Animated statue of one of the four principal bodhisattvas.
 - Grant Life Energy: After eating, grant entities within 16 blocks Regeneration for 30 seconds.
 - Support Life: Creatures within 32 blocks with Regeneration gain additional 1 hp every 2 seconds.
 - Stone Golem: You are immune to fire and all status effects except Resistance.
-- Stone Armor: You permanently have 4 armor. Equipping armor items destroys them, providing you with Resistance for 30 seconds.
+- Granite Reinforcement: You permanently have 4 armor. Equipping armor items destroys them, providing you with Resistance for 30 seconds.
 - Secluded Introvert: You cannot trade with villagers.
 
 ## Firefly Youkai

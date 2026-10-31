@@ -1,5 +1,5 @@
 {
-  "name": "Stone Armor",
+  "name": "Granite Reinforcement",
   "description": "You permanently have 4 armor. Equipping armor items destroys them, providing you with Resistance for 30 seconds.",
   "type": "origins:multiple",
   "armor_buff": {
