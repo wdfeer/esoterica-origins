@@ -1,10 +1,11 @@
 {
   "powers": [
     "esoterica-origins:narumi/shoot_wither_skulls",
-    "esoterica-origins:narumi/destroy_life",
+    "esoterica-origins:narumi/wither_damage",
+    "esoterica-origins:narumi/regeneration_aoe_on_eat",
     "esoterica-origins:narumi/regeneration_heal",
-    "esoterica-origins:narumi/golem_resist_restrict",
-    "esoterica-origins:narumi/armor_becomes_absorption",
+    "esoterica-origins:narumi/golem_resistance",
+    "esoterica-origins:narumi/armor_becomes_resistance",
     "esoterica-origins:narumi/introvert"
   ],
   "icon": "minecraft:chiseled_stone_bricks",

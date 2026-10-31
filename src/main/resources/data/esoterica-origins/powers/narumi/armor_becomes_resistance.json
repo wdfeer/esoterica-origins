@@ -126,7 +126,7 @@
             "action": {
               "type": "origins:apply_effect",
               "effect": {
-                "effect": "minecraft:absorption",
+                "effect": "minecraft:resistance",
                 "amplifier": 0,
                 "duration": 600
               }
