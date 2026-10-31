@@ -1,6 +1,6 @@
 {
   "name": "Stone Armor",
-  "description": "You permanently have 4 armor. Equipping armor items destroys them, providing you with Absorption for 30 seconds.",
+  "description": "You permanently have 4 armor. Equipping armor items destroys them, providing you with Resistance for 30 seconds.",
   "type": "origins:multiple",
   "armor_buff": {
     "type": "origins:attribute",
