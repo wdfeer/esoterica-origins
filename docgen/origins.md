@@ -266,6 +266,14 @@ Being capable of erasing and creating history and transforming into a hakutaku.
 - Transformation: You are forced into hakutaku form during a full moon.
 - Post-Transformation Sickness: Gain Weakness for 20 minutes and Hunger for 1 minute after exiting Hakutaku form.
 
+## Little Devil
+Youkai Magician serving as a Library Assistant.
+
+- Life Drain: Activate every 60 seconds to fire a beam, dealing 8 damage to the target within 16 blocks whilst healing you by 2 hearts.
+- Winged: You have Elytra wings without needing to equip any.
+- Weak: Melee damage dealt is halved.
+- Fragile: You have 3 less hearts of health than humans.
+
 ## Unconscious Youkai
 A satori with a sealed third eye, capable of manipulating the unconscious. 
 

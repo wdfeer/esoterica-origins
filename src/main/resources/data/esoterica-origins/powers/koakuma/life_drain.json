@@ -1,0 +1,40 @@
+{
+  "name": "Life Drain",
+  "description": "Activate every 60 seconds to fire a beam, dealing 8 damage to the target within 16 blocks whilst healing you by 2 hearts.",
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:raycast",
+    "distance": 16,
+    "block": true,
+    "entity": true,
+    "fluid_handling": "none",
+    "bientity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:damage",
+            "amount": 8,
+            "damage_type": "minecraft:magic"
+          }
+        },
+        {
+          "type": "origins:actor_action",
+          "action": {
+            "type": "origins:heal",
+            "amount": 4
+          }
+        }
+      ]
+    },
+    "command_at_hit": "particle block redstone_block ~ ~ ~ 0.3 0.3 0.3 1 32 normal",
+    "command_along_ray": "particle block redstone_block ~ ~ ~ 0.05 0.05 0.05 1 2 normal",
+    "command_step": 1
+  },
+  "cooldown": 600,
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+    "bar_index": 15
+  }
+}
