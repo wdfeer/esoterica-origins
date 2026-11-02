@@ -2,6 +2,7 @@
   "powers": [
     "esoterica-origins:koakuma/life_drain",
     "origins:elytra",
+    "esoterica-origins:koakuma/resistances",
     "esoterica-origins:half_melee_damage",
     "origins:fragile"
   ],
