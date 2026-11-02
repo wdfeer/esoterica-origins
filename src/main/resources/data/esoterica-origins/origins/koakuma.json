@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "esoterica-origins:koakuma/life_drain",
+    "origins:elytra",
+    "esoterica-origins:half_melee_damage",
+    "origins:fragile"
+  ],
+  "icon": "minecraft:redstone_block",
+  "impact": 3,
+  "name": "Little Devil",
+  "description": "Youkai Magician serving as a Library Assistant."
+}
