@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "origins:sprint_jump",
+    "esoterica-origins:reduced_fall_damage",
+    "origins:light_armor",
+    "origins:vegetarian"
+  ],
+  "icon": "minecraft:rabbit_foot",
+  "impact": 3,
+  "name": "Lucky Rabbit",
+  "description": "Ancient and mischievous Earth Rabbit Youkai capable of granting luck."
+}
