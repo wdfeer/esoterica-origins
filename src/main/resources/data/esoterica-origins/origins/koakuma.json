@@ -4,6 +4,7 @@
     "origins:elytra",
     "esoterica-origins:koakuma/resistances",
     "esoterica-origins:half_melee_damage",
+    "esoterica-origins:koakuma/no_armor_toughness",
     "origins:fragile"
   ],
   "icon": "minecraft:redstone_block",
