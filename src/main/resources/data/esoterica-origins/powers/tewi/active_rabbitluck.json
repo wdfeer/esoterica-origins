@@ -1,0 +1,39 @@
+{
+  "name": "Rabbit Luck",
+  "description": "Activate every 60 seconds to gain Rabbitluck for 20 seconds, making critical hits guaranteed.",
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "esoterica-origins:rabbitluck",
+          "duration": 400,
+          "amplifier": 0
+        }
+      },
+      {
+        "type": "origins:spawn_particles",
+        "particle": {
+          "type": "minecraft:dust",
+          "params": "0.9 0.9 0.2 2"
+        },
+        "count": 8,
+        "speed": 0.2,
+        "force": false,
+        "spread": {
+          "x": 1.0,
+          "y": 1.5,
+          "z": 1.0
+        }
+      }
+    ]
+  },
+  "cooldown": 1200,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+    "bar_index": 9
+  }
+}
