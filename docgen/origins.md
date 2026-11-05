@@ -770,6 +770,15 @@ Celestial of the Hinanawi clan capable of manipulating keystones.
 - Spoiled Diet: Can only eat golden foods or fruit.
 - No Armor: You cannot wear any armor.
 
+## Lucky Rabbit
+Ancient and mischievous Earth Rabbit Youkai capable of granting luck.
+
+- Rabbit Luck: Activate every 60 seconds to gain Rabbitluck for 20 seconds, making critical hits guaranteed.
+- Strong Ankles: You are able to jump higher by jumping while sprinting.
+- Nimble Feet: You take greatly reduced fall damage.
+- Home Advantage: Unless you are in a bamboo jungle, reduce armor by 80%.
+- Vegetarian: You can't digest any meat.
+
 ## Lightning Ghost
 Taoist ghost capable of causing lightning.
 

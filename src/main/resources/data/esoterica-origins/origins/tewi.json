@@ -3,7 +3,7 @@
     "esoterica-origins:tewi/active_rabbitluck",
     "origins:sprint_jump",
     "esoterica-origins:reduced_fall_damage",
-    "origins:light_armor",
+    "esoterica-origins:tewi/conditional_armor_reduction",
     "origins:vegetarian"
   ],
   "icon": "minecraft:rabbit_foot",

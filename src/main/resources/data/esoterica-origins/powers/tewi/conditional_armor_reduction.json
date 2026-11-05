@@ -1,0 +1,16 @@
+{
+  "name": "Home Advantage",
+  "description": "Unless you are in a bamboo jungle, reduce armor by 80%.",
+  "type": "origins:conditioned_attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.armor",
+    "operation": "multiply_total",
+    "value": -0.8
+  },
+  "tick_rate": 10,
+  "condition": {
+    "inverted": true,
+    "type": "origins:biome",
+    "biome": "minecraft:bamboo_jungle"
+  }
+}
