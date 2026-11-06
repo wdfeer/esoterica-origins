@@ -7,6 +7,7 @@ import net.minecraft.util.Formatting;
 public class Flawless extends StatusEffect {
     public static final Flawless INSTANCE = new Flawless();
     protected Flawless() {
+        // TODO: consider changing color
         super(StatusEffectCategory.BENEFICIAL, Formatting.YELLOW.getColorValue());
     }
 }

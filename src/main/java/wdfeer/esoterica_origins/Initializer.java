@@ -17,6 +17,7 @@ public class Initializer implements ModInitializer {
     public void onInitialize() {
         Registry.register(Registries.STATUS_EFFECT, Identifier.of(MOD_ID, "flawless"), Flawless.INSTANCE);
         Registry.register(Registries.STATUS_EFFECT, Identifier.of(MOD_ID, "graze"), Graze.INSTANCE);
+        Registry.register(Registries.STATUS_EFFECT, Identifier.of(MOD_ID, "rabbitluck"), Rabbitluck.INSTANCE);
         LOGGER.info("Esoterica Origins loaded!");
     }
 }
