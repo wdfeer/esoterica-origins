@@ -773,7 +773,7 @@ Celestial of the Hinanawi clan capable of manipulating keystones.
 ## Lucky Rabbit
 Ancient and mischievous Earth Rabbit Youkai capable of granting luck.
 
-- Rabbit Luck: Activate every 60 seconds to gain Rabbitluck for 20 seconds, making critical hits guaranteed.
+- Rabbit Luck: Activate every 60 seconds to gain Rabbitluck for 30 seconds, making melee critical hits guaranteed.
 - Strong Ankles: You are able to jump higher by jumping while sprinting.
 - Nimble Feet: You take greatly reduced fall damage.
 - Home Advantage: Unless you are in a bamboo jungle, reduce armor by 80%.

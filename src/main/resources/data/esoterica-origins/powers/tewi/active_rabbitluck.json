@@ -1,6 +1,6 @@
 {
   "name": "Rabbit Luck",
-  "description": "Activate every 60 seconds to gain Rabbitluck for 20 seconds, making critical hits guaranteed.",
+  "description": "Activate every 60 seconds to gain Rabbitluck for 30 seconds, making melee critical hits guaranteed.",
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:and",
@@ -9,7 +9,7 @@
         "type": "origins:apply_effect",
         "effect": {
           "effect": "esoterica-origins:rabbitluck",
-          "duration": 400,
+          "duration": 600,
           "amplifier": 0
         }
       },
