@@ -8,6 +8,6 @@ import java.awt.*;
 public class Rabbitluck extends StatusEffect {
     public static final Rabbitluck INSTANCE = new Rabbitluck();
     protected Rabbitluck() {
-        super(StatusEffectCategory.BENEFICIAL, Color.getHSBColor(0.2f, 0.13f, 0.95f).getRGB());
+        super(StatusEffectCategory.BENEFICIAL, Color.getHSBColor(20f / 360, 0.13f, 0.95f).getRGB());
     }
 }
