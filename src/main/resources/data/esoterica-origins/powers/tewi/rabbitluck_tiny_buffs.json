@@ -49,6 +49,13 @@
       "value": -0.75
     }
   },
+  "less_exhaustion": {
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+      "operation": "multiply_base",
+      "value": 0.8
+    }
+  },
   "revoke_self": {
     "type": "origins:action_over_time",
     "entity_action": {
