@@ -1,6 +1,6 @@
 {
   "name": "Rabbit Luck",
-  "description": "Activate every 60 seconds to gain Rabbitluck for 30 seconds, making melee critical hits guaranteed.",
+  "description": "Activate every 60 seconds to gain Rabbitluck for 30 seconds, slightly increasing all stats.",
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:and",
