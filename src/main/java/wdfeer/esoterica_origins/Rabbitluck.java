@@ -2,12 +2,12 @@ package wdfeer.esoterica_origins;
 
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectCategory;
-import net.minecraft.util.Formatting;
+
+import java.awt.*;
 
 public class Rabbitluck extends StatusEffect {
     public static final Rabbitluck INSTANCE = new Rabbitluck();
     protected Rabbitluck() {
-        // TODO: make unique color
-        super(StatusEffectCategory.BENEFICIAL, Formatting.YELLOW.getColorValue());
+        super(StatusEffectCategory.BENEFICIAL, Color.getHSBColor(0.2f, 0.13f, 0.95f).getRGB());
     }
 }
