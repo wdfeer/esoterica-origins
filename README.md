@@ -1,22 +1,28 @@
 # About
 
-What this mod hopes to achieve:
-
-- Add origins based on as many touhou characters/species as possible, also offering alternative origins within the same species/character, like ReimuA and ReimuB.
-- Depict the basic character abilities/personality without necessarily being 100% faithful to the lore, e.g. Flandre = Destruction and Fairies = Nature.
-- Keep the origins *somewhat* balanced (e.g. no direct upgrades over other origins) and hopefully fun.
-- Allow different playstyles depending on the origin, e.g. Sakuya = Precise, Keiki = Builder, Satori = Support, etc
+Goals:
+- More or less balanced
+- Cover many playstyles
+- Cover many species / characters from Touhou
+- Attempt to depict the vibe of characters truthfully 
 
 ## Origins
 
-As of version 0.22.X, the mod adds 86 different origins. Refer to [the docs](https://github.com/wdfeer/esoterica-origins/blob/master/docgen/origins.md) for names and descriptions of their powers as seen in-game.
+As of version 0.23.X, the mod adds 90 different origins.
+See [the origin list](https://github.com/wdfeer/esoterica-origins/blob/master/docgen/origins.md) for names and descriptions of their powers as seen in-game.
 
-## Not Origins
+## Status Effects
 
-1. **Flawless** status effect: used to depict immortality on some origins (mostly Lunarians) without making them literally unkillable, inspired by [Touhou: Lost Branch of Legend](https://store.steampowered.com/app/1140150/Touhou_Lost_Branch_of_Legend/). \
-  *Reduces all damage taken to 1.*
-2. **Graze** status effect: used to depict dodging/agile origins, primarily tengu. \
-  *Reduces the next damage taken to 0 and reduces its own amplifier by 1 (e.g. `Graze II => Graze I => no Graze`).*
+1. *Flawless*: Reduces all damage taken to 1.
+2. *Graze*: Reduces the next damage taken to 0 and reduces its own amplifier by 1 (e.g. `Graze II => Graze I => no Graze`).
+3. *Rabbitluck*: Increases many stats by a small amount. (e.g. +1 damage, +1 armor, +10% healing received, and more)
+
+**Depictions:**
+1. *Flawless*: immortality, either as a temporary Ultimate-like ability or as a permanent power on Lunarians and such.
+2. *Graze*: agility, dodging, usually as a temporarily activated power.
+3. *Rabbitluck*: extreme "luck". Currently only used by [Tewi](https://github.com/wdfeer/esoterica-origins/blob/master/docgen/origins.md#lucky-rabbit) and not planned on other origins.
+
+Flawless and Graze are 1-to-1 inspired by [Touhou: Lost Branch of Legend](https://store.steampowered.com/app/1140150/Touhou_Lost_Branch_of_Legend/).
 
 # Obvious stuff
 
