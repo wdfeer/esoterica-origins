@@ -1,0 +1,9 @@
+{
+  "name": "Building a Rocket",
+  "description": "After having built a fully-powered beacon, Focus Flight is permanently active.",
+  "type": "origins:creative_flight",
+  "condition": {
+    "type": "origins:advancement",
+    "advancement": "minecraft:nether/create_full_beacon"
+  }
+}

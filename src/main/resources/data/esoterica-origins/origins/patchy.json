@@ -1,7 +1,8 @@
 {
   "powers": [
     "esoterica-origins:patchy/primary",
-    "esoterica-origins:patchy/flight",
+    "esoterica-origins:patchy/cooldown_flight",
+    "esoterica-origins:patchy/beaconator_flight",
     "esoterica-origins:patchy/resistances",
     "esoterica-origins:no_armor",
     "esoterica-origins:no_melee_damage",

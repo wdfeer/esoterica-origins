@@ -573,6 +573,7 @@ Master of the Elements, capable of casting devastating spells but fragile in phy
 
 - Magical Catalyst: Right click every 10 seconds to consume the item in hand and cast a spell: Fire Charge = Fireball, Ice = Freeze Ray, Book = Absorption, Iron Ingot = Resistance, Gold Ingot = Regeneration, Dandelion = Saturation.
 - Focus Flight: You gain creative flight whilst Magical Catalyst is recharging
+- Building a Rocket: After having built a fully-powered beacon, Focus Flight is permanently active.
 - Counter Formula: You take 80% less damage from magic, drowning, fire and freezing.
 - No Armor: You cannot wear any armor.
 - No Melee Damage: You cannot deal melee damage.
