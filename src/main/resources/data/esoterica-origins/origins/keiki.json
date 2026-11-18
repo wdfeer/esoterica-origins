@@ -6,7 +6,7 @@
     "esoterica-origins:keiki/creation_aura",
     "esoterica-origins:keiki/pacifist"
   ],
-  "icon": "minecraft:bedrock",
+  "icon": "minecraft:bricks",
   "impact": 3,
   "name": "Creation Goddess",
   "description": "Pacifist Goddess of creation."
