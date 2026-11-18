@@ -20,7 +20,7 @@ See [the origin list](https://github.com/wdfeer/esoterica-origins/blob/master/do
 **Depictions:**
 1. *Flawless*: immortality, either as a temporary Ultimate-like ability or as a permanent power on Lunarians and such.
 2. *Graze*: agility, dodging, usually as a temporarily activated power.
-3. *Rabbitluck*: extreme "luck". Currently only used by [Tewi](https://github.com/wdfeer/esoterica-origins/blob/master/docgen/origins.md#lucky-rabbit) and not planned on other origins.
+3. *Rabbitluck*: extreme "luck".
 
 Flawless and Graze are 1-to-1 inspired by [Touhou: Lost Branch of Legend](https://store.steampowered.com/app/1140150/Touhou_Lost_Branch_of_Legend/).
 
