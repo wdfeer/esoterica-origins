@@ -1,0 +1,16 @@
+{
+  "powers": [
+    "esoterica-origins:toyohime/disintegrating_winds",
+    "esoterica-origins:toyohime/rabbitluck_when_hit",
+    "esoterica-origins:toyohime/dimensional_teleport",
+    "esoterica-origins:flawless",
+    "esoterica-origins:fragile_lunarian",
+    "esoterica-origins:toyohime/resistances",
+    "esoterica-origins:insomnia",
+    "esoterica-origins:no_armor"
+  ],
+  "icon": "minecraft:bedrock",
+  "impact": 3,
+  "name": "Disintegration Princess",
+  "description": "Lunarian Princess capable of mass destruction and dimensional manipulation."
+}
