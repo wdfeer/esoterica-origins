@@ -1,11 +1,10 @@
 {
   "powers": [
     "esoterica-origins:toyohime/disintegrating_winds",
-    "esoterica-origins:toyohime/rabbitluck_when_hit",
-    "esoterica-origins:toyohime/dimensional_teleport",
+    "esoterica-origins:toyohime/toggle_rabbitluck",
+    "esoterica-origins:toyohime/disintegration_scaling",
     "esoterica-origins:flawless",
     "esoterica-origins:fragile_lunarian",
-    "esoterica-origins:toyohime/resistances",
     "esoterica-origins:insomnia",
     "esoterica-origins:no_armor"
   ],

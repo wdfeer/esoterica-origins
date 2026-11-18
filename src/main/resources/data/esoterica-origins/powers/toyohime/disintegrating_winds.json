@@ -1,0 +1,149 @@
+{
+  "name": "Disintegrating Winds",
+  "description": "Every 5 minutes, your next hit deals additional 20 void damage to entities within 8 blocks after a short delay.",
+  "type": "origins:multiple",
+  "cooldown": {
+    "type": "origins:cooldown",
+    "cooldown": 6000,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+      "bar_index": 1
+    }
+  },
+  "melee": {
+    "type": "origins:modify_damage_dealt",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "*:*_cooldown",
+      "comparison": "==",
+      "compare_to": 0
+    },
+    "self_action": {
+      "type": "origins:trigger_cooldown",
+      "power": "*:*_cooldown"
+    },
+    "target_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:spawn_particles",
+          "particle": {
+            "type": "minecraft:dust",
+            "params": "0.5 0.5 0.5 2"
+          },
+          "count": 40,
+          "speed": 0.5,
+          "force": false,
+          "spread": {
+            "x": 8,
+            "y": 8,
+            "z": 8
+          }
+        },
+        {
+          "type": "origins:area_of_effect",
+          "radius": 8.0,
+          "bientity_condition": {
+            "type": "origins:target_condition",
+            "condition": {
+              "type": "origins:and",
+              "conditions": [
+                {
+                  "type": "origins:living"
+                },
+                {
+                  "inverted": true,
+                  "type": "origins:origin",
+                  "origin": "esoterica-origins:toyohime",
+                  "layer": "origins:origin"
+                }
+              ]
+            }
+          },
+          "include_target": true,
+          "bientity_action": {
+            "type": "origins:target_action",
+            "action": {
+              "type": "origins:delay",
+              "ticks": 15,
+              "action": {
+                "type": "origins:damage",
+                "amount": 20,
+                "damage_type": "minecraft:out_of_world"
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "ranged": {
+    "type": "origins:modify_projectile_damage",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "*:*_cooldown",
+      "comparison": "==",
+      "compare_to": 0
+    },
+    "self_action": {
+      "type": "origins:trigger_cooldown",
+      "power": "*:*_cooldown"
+    },
+    "target_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:spawn_particles",
+          "particle": {
+            "type": "minecraft:dust",
+            "params": "0.5 0.5 0.5 2"
+          },
+          "count": 40,
+          "speed": 0.5,
+          "force": false,
+          "spread": {
+            "x": 8,
+            "y": 8,
+            "z": 8
+          }
+        },
+        {
+          "type": "origins:area_of_effect",
+          "radius": 8.0,
+          "bientity_condition": {
+            "type": "origins:target_condition",
+            "condition": {
+              "type": "origins:and",
+              "conditions": [
+                {
+                  "type": "origins:living"
+                },
+                {
+                  "inverted": true,
+                  "type": "origins:origin",
+                  "origin": "esoterica-origins:toyohime",
+                  "layer": "origins:origin"
+                }
+              ]
+            }
+          },
+          "include_target": true,
+          "bientity_action": {
+            "type": "origins:target_action",
+            "action": {
+              "type": "origins:delay",
+              "ticks": 15,
+              "action": {
+                "type": "origins:damage",
+                "amount": 20,
+                "damage_type": "minecraft:out_of_world"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
+}
