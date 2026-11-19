@@ -1,0 +1,69 @@
+{
+  "name": "Fortune of the General",
+  "description": "Toggle between gaining Rabbitluck for yourself or applying Strength to other players and tamed creatures within 8 blocks.",
+  "type": "origins:multiple",
+  "toggle": {
+    "type": "origins:toggle",
+    "key": {
+      "key": "key.origins.secondary_active"
+    }
+  },
+  "rabbitluck": {
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 10,
+    "effect": {
+      "effect": "esoterica-origins:rabbitluck",
+      "is_ambient": true,
+      "show_particles": false,
+      "show_icon": true
+    },
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_toggle"
+    }
+  },
+  "aoe_buff": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:area_of_effect",
+      "radius": 8,
+      "bientity_condition": {
+        "type": "origins:target_condition",
+        "condition": {
+          "type": "origins:or",
+          "conditions": [
+            {
+              "type": "origins:entity_type",
+              "entity_type": "minecraft:player"
+            },
+            {
+              "type": "origins:tamed"
+            }
+          ]
+        }
+      },
+      "bientity_action": {
+        "type": "origins:actor_action",
+        "action": {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:strength",
+            "duration": 30,
+            "amplifier": 0,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+          }
+        }
+      }
+    },
+    "interval": 20,
+    "condition": {
+      "type": "origins:power_active",
+      "inverted": true,
+      "power": "*:*_toggle"
+    }
+  }
+}
