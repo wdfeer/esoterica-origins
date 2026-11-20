@@ -3,10 +3,7 @@
   "description": "Toggle between gaining Rabbitluck for yourself or applying Strength to other players and tamed creatures within 8 blocks.",
   "type": "origins:multiple",
   "toggle": {
-    "type": "origins:toggle",
-    "key": {
-      "key": "key.origins.secondary_active"
-    }
+    "type": "origins:toggle"
   },
   "rabbitluck": {
     "type": "origins:stacking_status_effect",
