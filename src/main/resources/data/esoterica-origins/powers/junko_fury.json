@@ -17,7 +17,7 @@
     "damage_condition": {
       "type": "origins:amount",
       "comparison": ">",
-      "compare_to": 0
+      "compare_to": 0.1
     },
     "self_action": {
       "type": "origins:change_resource",
