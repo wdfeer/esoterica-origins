@@ -2,26 +2,37 @@
   "name": "Disintegrating Winds",
   "description": "Every 5 minutes, your next hit deals additional 20 void damage to entities within 8 blocks after a short delay.",
   "type": "origins:multiple",
-  "cooldown": {
-    "type": "origins:cooldown",
-    "cooldown": 6000,
+  "timer": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 60000,
     "hud_render": {
       "should_render": true,
       "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
       "bar_index": 1
     }
   },
+  "recharge": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "*:*_timer",
+      "change": 100
+    },
+    "interval": 10
+  },
   "melee": {
     "type": "origins:modify_damage_dealt",
     "condition": {
       "type": "origins:resource",
-      "resource": "*:*_cooldown",
+      "resource": "*:*_timer",
       "comparison": "==",
       "compare_to": 0
     },
     "self_action": {
-      "type": "origins:trigger_cooldown",
-      "power": "*:*_cooldown"
+      "type": "origins:change_resource",
+      "resource": "*:*_timer",
+      "change": -60000
     },
     "target_action": {
       "type": "origins:and",
@@ -82,13 +93,14 @@
     "type": "origins:modify_projectile_damage",
     "condition": {
       "type": "origins:resource",
-      "resource": "*:*_cooldown",
+      "resource": "*:*_timer",
       "comparison": "==",
       "compare_to": 0
     },
     "self_action": {
-      "type": "origins:trigger_cooldown",
-      "power": "*:*_cooldown"
+      "type": "origins:change_resource",
+      "resource": "*:*_timer",
+      "change": -60000
     },
     "target_action": {
       "type": "origins:and",
@@ -146,4 +158,4 @@
     }
   }
 }
-}
+

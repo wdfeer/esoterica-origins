@@ -790,6 +790,17 @@ Taoist ghost capable of causing lightning.
 - Ghost Healing: Regenerate 1 hp every 10 seconds in the stead of natural regeneration.
 - No Lower Body: You cannot wear armor for legs or feet.
 
+## Disintegration Princess
+Lunarian Princess capable of mass destruction and dimensional manipulation.
+
+- Disintegrating Winds: Every 5 minutes, your next hit deals additional 20 void damage to entities within 8 blocks after a short delay.
+- Fortune of the General: Toggle between gaining Rabbitluck for yourself or applying Strength to other players and tamed creatures within 8 blocks.
+- Particle Purification: Recharge rate of "Disintegrating Winds" is increased by 10% for each entity within 8 blocks with Strength or Rabbitluck, including yourself.
+- Flawless: You cannot take more than 1 damage at once.
+- Fragile Physique: Your lunar body is delicate, reducing your health to 3 hearts.
+- Insomnia: You cannot sleep.
+- No Armor: You cannot wear any armor.
+
 ## Kuda-gitsune
 A sly fox youkai capable of exploiting weaknesses in one's soul.
 

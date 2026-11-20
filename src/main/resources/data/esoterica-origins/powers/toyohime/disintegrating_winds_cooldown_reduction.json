@@ -1,0 +1,35 @@
+{
+  "name": "Particle Purification",
+  "description": "Recharge rate of \"Disintegrating Winds\" is increased by 10% for each entity within 8 blocks with Strength or Rabbitluck, including yourself.",
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:area_of_effect",
+    "include_target": true,
+    "radius": 8,
+    "bientity_action": {
+      "type": "origins:actor_action",
+      "action": {
+        "type": "origins:change_resource",
+        "resource": "*:*_timer",
+        "change": 10
+      }
+    },
+    "bientity_condition": {
+      "type": "origins:target_condition",
+      "condition": {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:status_effect",
+            "effect": "esoterica-origins:rabbitluck"
+          },
+          {
+            "type": "origins:status_effect",
+            "effect": "minecraft:strength"
+          }
+        ]
+      }
+    }
+  },
+  "interval": 10
+}
