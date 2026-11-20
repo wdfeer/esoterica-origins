@@ -27,7 +27,7 @@
       "type": "origins:resource",
       "resource": "*:*_timer",
       "comparison": "==",
-      "compare_to": 0
+      "compare_to": 60000
     },
     "self_action": {
       "type": "origins:change_resource",
@@ -95,7 +95,7 @@
       "type": "origins:resource",
       "resource": "*:*_timer",
       "comparison": "==",
-      "compare_to": 0
+      "compare_to": 60000
     },
     "self_action": {
       "type": "origins:change_resource",
