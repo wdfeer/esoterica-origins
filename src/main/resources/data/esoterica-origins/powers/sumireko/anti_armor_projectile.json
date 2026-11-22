@@ -1,0 +1,15 @@
+{
+  "name": "Large Caliber",
+  "description": "Projectiles deal +25% damage to enemies with armor.",
+  "type": "origins:modify_projectile_damage",
+  "modifier": {
+    "operation": "addition",
+    "value": 2
+  },
+  "target_condition": {
+    "type": "origins:attribute",
+    "attribute": "minecraft:generic.armor",
+    "comparison": ">",
+    "compare_to": 0
+  }
+}
