@@ -3,8 +3,8 @@
   "description": "Projectiles deal +25% damage to enemies with armor.",
   "type": "origins:modify_projectile_damage",
   "modifier": {
-    "operation": "addition",
-    "value": 2
+    "value": 0.25,
+    "operation": "multiply_base"
   },
   "target_condition": {
     "type": "origins:attribute",

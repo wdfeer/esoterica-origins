@@ -1,7 +1,7 @@
 {
   "powers": [
     "esoterica-origins:sumireko/anti_armor_projectile",
-    "esoterica-origins:sumireko/projectile_aoe",
+    "esoterica-origins:sumireko/flat_projectile_damage",
     "esoterica-origins:half_melee_damage"
   ],
   "icon": "minecraft:crossbow",

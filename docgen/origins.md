@@ -728,6 +728,13 @@ Playful fairy of light that draws power from the stars, capable of detecting mov
 - Celestial Light: You can see in the dark whilst exposed to the sky.
 - Starlight Powered: Whilst not under a clear night sky, reduce armor by 80%.
 
+## Secret Esper
+Young human with esper powers.
+
+- Large Caliber: Projectiles deal +25% damage to enemies with armor.
+- Secret Cloak: Whilst at full health, projectiles deal +3 damage. Otherwise, you take -3 damage from projectiles.
+- Weak: Melee damage dealt is halved.
+
 ## Sun Fairy
 Playful fairy of light that draws power from the sun, capable of refracting light.
 
