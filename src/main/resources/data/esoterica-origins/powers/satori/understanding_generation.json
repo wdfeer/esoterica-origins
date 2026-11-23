@@ -1,4 +1,68 @@
 {
   "name": "Seeing the Mysteries",
-  "description": "Gain 0.2% understanding per second for each player with Creative Flight, Fire Immunity or Night Vision within 32 blocks."
+  "description": "Gain 0.2% understanding per second for each player with Creative Flight, Fire Immunity or Night Vision within 32 blocks.",
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:area_of_effect",
+    "radius": 32,
+    "include_target": true,
+    "bientity_action": {
+      "type": "origins:actor_action",
+      "action": {
+        "type": "origins:and",
+        "actions": [
+          {
+            "type": "origins:apply_effect",
+            "effect": {
+              "effect": "minecraft:speed",
+              "duration": 40,
+              "amplifier": 0,
+              "show_particles": false
+            }
+          },
+          {
+            "type": "origins:change_resource",
+            "resource": "satori/understanding",
+            "change": 2
+          }
+        ]
+      }
+    },
+    "bientity_condition": {
+      "type": "origins:target_condition",
+      "condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:player"
+          },
+          {
+            "type": "origins:living"
+          },
+          {
+            "type": "origins:or",
+            "conditions": [
+              {
+                "type": "origins:creative_flying"
+              },
+              {
+                "type": "origins:status_effect",
+                "effect": "minecraft:fire_resistance"
+              },
+              {
+                "type": "origins:power",
+                "power": "origins:fire_immunity"
+              },
+              {
+                "type": "origins:status_effect",
+                "effect": "minecraft:night_vision"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "interval": 20
 }
