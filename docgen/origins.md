@@ -376,7 +376,7 @@ A human sensitive to boundaries.
 ## Potioncrafter
 Human magician proficient in crafting potions and gathering mushrooms.
 
-- Unstable Concoction: Activate to throw an Instant Damage II or a 10-second Wither II potion randomly.
+- Unstable Concoction: Activate to throw an Instant Damage II or a 10-second Wither II potion randomly once every 30 seconds.
 - Hoarder: You have access to an additional 9 slots of inventory.
 - Refine Potion: You have additional potion ingredient recipes.
 - Flight: You can fly as if with an elytra.
