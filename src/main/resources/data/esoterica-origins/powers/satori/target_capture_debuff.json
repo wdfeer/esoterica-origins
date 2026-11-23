@@ -1,0 +1,60 @@
+{
+  "hidden": true,
+  "type": "origins:multiple",
+  "timer": {
+    "type": "origins:resource",
+    "start_value": 0,
+    "min": 0,
+    "max": 200
+  },
+  "timer_decrement": {
+    "type": "origins:action_over_time",
+    "interval": 1,
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "*:*_timer",
+      "change": 1
+    }
+  },
+  "revoke_self": {
+    "type": "origins:action_over_time",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "*:*_timer",
+      "comparison": "==",
+      "compare_to": 200
+    },
+    "entity_action": {
+      "type": "origins:revoke_power",
+      "power": "esoterica-origins:satori/target_capture_debuff",
+      "source": "esoterica-origins:satori/target_capture"
+    },
+    "interval": 2
+  },
+  "no_melee": {
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+      "operation": "multiply_total",
+      "value": -1
+    }
+  },
+  "no_ranged": {
+    "type": "origins:modify_projectile_damage",
+    "modifier": {
+      "operation": "multiply_total",
+      "value": -1
+    }
+  },
+  "no_velocity": {
+    "type": "origins:modify_velocity",
+    "modifier": {
+      "value": -1,
+      "operation": "multiply_total"
+    },
+    "axes": [
+      "x",
+      "y",
+      "z"
+    ]
+  }
+}

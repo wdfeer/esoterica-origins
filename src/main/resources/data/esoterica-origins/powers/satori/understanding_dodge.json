@@ -2,6 +2,9 @@
   "name": "Building Intrigue",
   "description": "Activate to consume 20% understanding and gain invincibility for 8 seconds. Understanding cannot be gained in this period.",
   "type": "origins:active_self",
+  "key": {
+    "key": "key.origins.secondary_active"
+  },
   "cooldown": 160,
   "condition": {
     "type": "origins:resource",
