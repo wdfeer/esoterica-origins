@@ -1,4 +1,4 @@
 {
   "name": "Deduction",
-  "description": "Activate to cycle between gaining Speed, Strength or Resistance whilst the understanding meter is increasing."
+  "description": "Whilst understanding is increasing, gain Speed. Otherwise, gain Haste."
 }

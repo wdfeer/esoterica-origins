@@ -695,10 +695,9 @@ Mind-reading detective that can solve any mystery.
 
 - Postcognition: You have a meter of understanding.
 - Solving the Incident: When the understanding meter is full, activate to capture the target under your cursor, disallowing movement and dealing damage for 10 seconds.
-- Overworld Mysteries: Whilst in the overworld, gain 0.2% understanding per second for each player with Creative Flight within 32 blocks.
-- Netherworld Mysteries: Whilst in the nether, gain 0.2% understanding per second for each player with Fire Resistance or immunity within 32 blocks, including yourself.
-- End Mysteries: Whilst in the end, gain 0.5% understanding per second for each player with Night Vision within 64 blocks, including yourself.
-- Deduction: Activate to cycle between gaining Speed, Strength or Resistance whilst the understanding meter is increasing.
+- Building Intrigue: Activate to consume 20% understanding and gain invincibility for 8 seconds. Understanding cannot be gained in this period.
+- Seeing the Mysteries: Gain 0.2% understanding per second for each player with Creative Flight, Fire Immunity or Night Vision within 32 blocks.
+- Deduction: Whilst understanding is increasing, gain Speed. Otherwise, gain Haste.
 - Third Eye: Immune to Blindness and Darkness.
 - Fragile: You have 3 less hearts of health than humans.
 
