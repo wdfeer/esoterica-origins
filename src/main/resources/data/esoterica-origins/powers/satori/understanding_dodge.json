@@ -1,4 +1,45 @@
 {
   "name": "Building Intrigue",
-  "description": "Activate to consume 20% understanding and gain invincibility for 8 seconds. Understanding cannot be gained in this period."
+  "description": "Activate to consume 20% understanding and gain invincibility for 8 seconds. Understanding cannot be gained in this period.",
+  "type": "origins:active_self",
+  "cooldown": 160,
+  "condition": {
+    "type": "origins:resource",
+    "resource": "esoterica-origins:satori/understanding",
+    "comparison": ">=",
+    "compare_to": 200
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:resistance",
+          "duration": 160,
+          "amplifier": 4
+        }
+      },
+      {
+        "type": "origins:change_resource",
+        "resource": "esoterica-origins:satori/understanding",
+        "change": -200
+      },
+      {
+        "type": "origins:spawn_particles",
+        "particle": {
+          "type": "minecraft:dust",
+          "params": "0.67 0.1 0.67 2"
+        },
+        "count": 8,
+        "speed": 0.2,
+        "force": false,
+        "spread": {
+          "x": 1.0,
+          "y": 1.5,
+          "z": 1.0
+        }
+      }
+    ]
+  }
 }
