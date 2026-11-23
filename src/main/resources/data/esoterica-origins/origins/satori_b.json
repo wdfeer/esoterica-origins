@@ -1,5 +1,11 @@
 {
   "powers": [
+    "esoterica-origins:satori/understanding",
+    "esoterica-origins:satori/target_capture",
+    "esoterica-origins:satori/overworld_understanding",
+    "esoterica-origins:satori/nether_understanding",
+    "esoterica-origins:satori/end_understanding",
+    "esoterica-origins:satori/speed_if_increasing_understanding",
     "esoterica-origins:satori/blind_dark_immune",
     "origins:fragile"
   ],
