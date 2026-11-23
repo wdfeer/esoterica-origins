@@ -9,20 +9,30 @@
     "compare_to": 1000
   },
   "entity_action": {
-    "type": "origins:raycast",
-    "distance": 80,
-    "block": true,
-    "entity": true,
-    "fluid_handling": "none",
-    "bientity_action": {
-      "type": "origins:target_action",
-      "action": {
-        "type": "origins:grant_power",
-        "power": "esoterica-origins:satori/target_capture_debuff",
-        "source": "esoterica-origins:satori/target_capture"
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:raycast",
+        "distance": 80,
+        "block": true,
+        "entity": true,
+        "fluid_handling": "none",
+        "bientity_action": {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:grant_power",
+            "power": "esoterica-origins:satori/target_capture_debuff",
+            "source": "esoterica-origins:satori/target_capture"
+          }
+        },
+        "command_along_ray": "particle minecraft:enchant",
+        "command_step": 1
+      },
+      {
+        "type": "origins:change_resource",
+        "resource": "esoterica-origins:satori/understanding",
+        "change": -1000
       }
-    },
-    "command_along_ray": "particle minecraft:enchant",
-    "command_step": 1
+    ]
   }
 }
