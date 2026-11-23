@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "esoterica-origins:satori/blind_dark_immune",
+    "origins:fragile"
+  ],
+  "icon": "minecraft:book_and_quill",
+  "impact": 3,
+  "name": "Foul Detective",
+  "description": "Mind-reading detective that can solve any mystery."
+}
