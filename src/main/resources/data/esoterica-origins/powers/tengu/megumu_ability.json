@@ -8,12 +8,6 @@
     "max": 300,
     "hud_render": {
       "should_render": true,
-      "condition": {
-        "type": "origins:resource",
-        "resource": "esoterica-origins:megumu_ability_timer",
-        "comparison": "<",
-        "compare_to": 300
-      },
       "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
       "bar_index": 6
     }
