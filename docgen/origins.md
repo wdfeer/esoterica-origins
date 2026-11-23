@@ -695,7 +695,7 @@ Mind-reading detective that can solve any mystery.
 
 - Postcognition: You have a meter of understanding.
 - Solving the Incident: When the understanding meter is full, activate to capture the target under your cursor, disallowing movement and dealing damage for 10 seconds.
-- Building Intrigue: Activate to consume 20% understanding and gain invincibility for 8 seconds. Understanding cannot be gained in this period.
+- Building Intrigue: Activate to consume 20% understanding and gain invincibility for 8 seconds.
 - Seeing the Mysteries: Gain 0.2% understanding per second for each player with Creative Flight, Fire Immunity or Night Vision within 32 blocks.
 - Deduction: Whilst understanding is increasing, gain Speed. Otherwise, gain Haste.
 - Third Eye: Immune to Blindness and Darkness.
