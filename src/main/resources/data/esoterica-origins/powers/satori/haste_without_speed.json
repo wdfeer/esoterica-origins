@@ -1,0 +1,19 @@
+{
+  "name": "Deduction",
+  "description": "Whilst understanding is increasing, gain Speed. Otherwise, gain Haste.",
+  "type": "origins:stacking_status_effect",
+  "min_stacks": -1,
+  "max_stacks": 1,
+  "duration_per_stack": 20,
+  "effect": {
+    "effect": "minecraft:haste",
+    "is_ambient": true,
+    "show_particles": false,
+    "show_icon": true
+  },
+  "condition": {
+    "inverted": true,
+    "type": "origins:status_effect",
+    "effect": "minecraft:speed"
+  }
+}
