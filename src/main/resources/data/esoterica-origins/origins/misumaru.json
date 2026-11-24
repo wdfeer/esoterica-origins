@@ -2,7 +2,7 @@
   "powers": [
     "esoterica-origins:misumaru/open_crafting_table",
     "esoterica-origins:misumaru/strength_from_projectile",
-    "esoterica-origins:misumaru/armor_if_effect",
+    "esoterica-origins:misumaru/damage_reduction_if_effect",
     "esoterica-origins:misumaru/strength_reliance"
   ],
   "icon": "minecraft:crafting_table",

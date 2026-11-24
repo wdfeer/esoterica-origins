@@ -462,7 +462,7 @@ God known for crafting magatama and yin-yang orbs.
 
 - Divine Crafter: Activate to open a crafting table.
 - Hakurei Blessing: Apply Strength for 60 seconds to yourself and players within 8 blocks after dealing projectile damage.
-- Ancient Barrier: Gain 2 armor for having each of these status effects: Strength, Resistance, Absorption.
+- Ancient Barrier: Damage taken is reduced by 0.5 for having each of these status effects: Strength, Resistance, Absorption.
 - Orb Reliance: Melee damage dealt is halved and can only be dealt when you have Strength.
 
 ## Phoenix
