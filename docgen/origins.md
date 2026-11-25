@@ -455,7 +455,7 @@ God of Harvest capable of enriching farmland and harvesting efficiently.
 
 - Daily Harvest: Non-meat food is 25% more effective for yourself and players within 16 blocks.
 - Goddess' Blessing: Crops and saplings next to you grow instantly.
-- Need for Mobility: You can not wear any heavy armor (armor with protection values higher than chainmail).
+- Farmer Attire: You can only wear leather armor, but you gain +50% armor points.
 
 ## Magatama Crafter
 God known for crafting magatama and yin-yang orbs.

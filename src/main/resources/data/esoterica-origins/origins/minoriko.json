@@ -2,7 +2,7 @@
   "powers": [
     "esoterica-origins:minoriko/food_aura",
     "esoterica-origins:minoriko/crop_growth",
-    "origins:light_armor"
+    "esoterica-origins:minoriko/only_leather_buffed"
   ],
   "icon": "minecraft:farmland",
   "impact": 3,
