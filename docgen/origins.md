@@ -657,7 +657,7 @@ A servant borrowing her vampire's powers.
 A mysterious time-manipulating vampire hunter from the Outside World.
 
 - Ultra Instinct: Activate every 10 seconds to gain Speed XX and invincibility for half a second.
-- Counter: Whenever you take damage, deal 12 magic damage to the creature at your crosshair up to 64 blocks away.
+- Counter: Whenever you take damage, deal 9 magic damage to the creature at your crosshair up to 64 blocks away.
 - Holy Armaments: Whilst wearing a full set of Mending-enchanted armor, heal 2 hearts whenever you take damage.
 - Silverwear: You can only wear chainmail armor.
 
@@ -764,7 +764,6 @@ Mischievous and mysterious God capable of creating Earthliness.
 - Frog Blessing: You receive double healing from all sources and have passive regeneration that consumes 1 Faith every second.
 - Suwa Clear Water: While at 5 or more faith, gain Conduit Power.
 - Earth Fang: Your attack speed is increased by 20% with iron weapons.
-- Aqua Affinity: You may break blocks underwater as others do on land.
 - Fins: Your underwater speed is increased.
 - Need for Mobility: You can not wear any heavy armor (armor with protection values higher than chainmail).
 - Fragile: You have 3 less hearts of health than humans.
