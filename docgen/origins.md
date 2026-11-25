@@ -14,7 +14,7 @@ Youkai magician capable of demonic light manipulation.
 - Demon Killing Ray: Every 90 seconds, activate to gain Flawless for 1 second and shoot a beam that heals 3 hearts. Undead are dealt 20 damage instead.
 - Flight: You can fly as if with an elytra.
 - Puppeteer Aura: Iron and snow golems within 16 blocks gain Regeneration for 30 seconds.
-- Armor Fatigue: You move 25% slower if wearing armor better than leather.
+- Armor Fatigue: You move 15% slower if wearing armor better than leather. Increased to 30% if total armor is higher than 15.
 - Weak: Melee damage dealt is halved.
 
 ## Komainu
