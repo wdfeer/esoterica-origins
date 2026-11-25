@@ -1,6 +1,6 @@
 {
   "name": "Counter",
-  "description": "Whenever you take damage, deal 12 magic damage to the creature at your crosshair up to 64 blocks away.",
+  "description": "Whenever you take damage, deal 9 magic damage to the creature at your crosshair up to 64 blocks away.",
   "type": "origins:action_when_damage_taken",
   "entity_action": {
     "type": "origins:raycast",
@@ -12,7 +12,7 @@
       "type": "origins:target_action",
       "action": {
         "type": "origins:damage",
-        "amount": 12,
+        "amount": 9,
         "damage_type": "minecraft:magic"
       }
     },
