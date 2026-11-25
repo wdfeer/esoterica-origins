@@ -1,9 +1,8 @@
 {
-  "type": "origins:attribute",
   "name": "Weak",
   "description": "Melee damage dealt is halved.",
+  "type": "origins:attribute",
   "modifier": {
-    "name": "Nullify melee damage dealt",
     "attribute": "minecraft:generic.attack_damage",
     "value": -0.5,
     "operation": "multiply_total"

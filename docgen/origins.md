@@ -743,8 +743,8 @@ Playful fairy of light that draws power from the stars, capable of detecting mov
 Young human with esper powers.
 
 - Large Caliber: Projectiles deal +25% damage to enemies with armor.
-- Secret Cloak: Whilst at full health, projectiles deal +3 damage. Otherwise, you take -3 damage from projectiles.
-- Weak: Melee damage dealt is halved.
+- Secret Cloak: Whilst at full health, projectiles deal +2 damage. Otherwise, you take -2 damage from projectiles.
+- Weak: Melee damage is reduced by 40%.
 
 ## Sun Fairy
 Playful fairy of light that draws power from the sun, capable of refracting light.

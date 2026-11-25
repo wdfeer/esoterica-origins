@@ -2,10 +2,10 @@
   "powers": [
     "esoterica-origins:sumireko/anti_armor_projectile",
     "esoterica-origins:sumireko/flat_projectile_damage",
-    "esoterica-origins:half_melee_damage"
+    "esoterica-origins:sumireko/reduced_melee_damage"
   ],
   "icon": "minecraft:crossbow",
-  "impact": 3,
+  "impact": 2,
   "name": "Secret Esper",
   "description": "Young human with esper powers."
 }

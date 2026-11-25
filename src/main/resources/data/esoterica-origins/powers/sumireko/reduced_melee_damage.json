@@ -1,0 +1,10 @@
+{
+  "name": "Weak",
+  "description": "Melee damage is reduced by 40%.",
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.attack_damage",
+    "value": -0.4,
+    "operation": "multiply_total"
+  }
+}

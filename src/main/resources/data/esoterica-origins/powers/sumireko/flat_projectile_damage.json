@@ -1,11 +1,11 @@
 {
   "name": "Secret Cloak",
-  "description": "Whilst at full health, projectiles deal +3 damage. Otherwise, you take -3 damage from projectiles.",
+  "description": "Whilst at full health, projectiles deal +2 damage. Otherwise, you take -2 damage from projectiles.",
   "type": "origins:multiple",
   "outgoing": {
     "type": "origins:modify_projectile_damage",
     "modifier": {
-      "value": 3,
+      "value": 2,
       "operation": "addition"
     },
     "condition": {
@@ -21,7 +21,7 @@
     },
     "modifier": {
       "operation": "addition",
-      "value": -3.0
+      "value": -2
     },
     "condition": {
       "type": "origins:relative_health",
