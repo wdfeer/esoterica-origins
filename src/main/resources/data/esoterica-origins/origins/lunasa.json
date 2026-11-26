@@ -1,6 +1,7 @@
 {
   "powers": [
     "esoterica-origins:lunasa/weakness_aura",
+    "esoterica-origins:lunasa/consume_strength",
     "esoterica-origins:lunasa/fragile_without_effect"
   ],
   "icon": "minecraft:calibrated_sculk_sensor",

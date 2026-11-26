@@ -1,0 +1,70 @@
+{
+  "name": "Maniac Consume",
+  "description": "Activate every 15 seconds to remove Strength from entities within 16 blocks, including yourself. You are healed by 1 heart for each affected entity.",
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:area_of_effect",
+    "radius": 16,
+    "include_target": true,
+    "bientity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:actor_action",
+          "action": {
+            "type": "origins:heal",
+            "amount": 2
+          }
+        },
+        {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:and",
+            "actions": [
+              {
+                "type": "origins:clear_effect",
+                "effect": "minecraft:strength"
+              },
+              {
+                "type": "origins:spawn_particles",
+                "particle": {
+                  "type": "minecraft:dust",
+                  "params": "0.5 0.1 0.5 3"
+                },
+                "count": 8,
+                "speed": 0.2,
+                "force": false,
+                "spread": {
+                  "x": 1.0,
+                  "y": 1.5,
+                  "z": 1.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "bientity_condition": {
+      "type": "origins:target_condition",
+      "condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:living"
+          },
+          {
+            "type": "origins:status_effect",
+            "effect": "minecraft:strength"
+          }
+        ]
+      }
+    }
+  },
+  "cooldown": 1400,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+    "bar_index": 1
+  }
+}

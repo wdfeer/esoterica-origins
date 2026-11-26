@@ -358,6 +358,13 @@ Fast and nimble rabbit from the Lunar Capital.
 - Need for Mobility: You can not wear any heavy armor (armor with protection values higher than chainmail).
 - Vegetarian: You can't digest any meat.
 
+## Violinist Poltergeist
+Youkai musician capable of melancholic mind manipulation.
+
+- Sad Violin: When toggled on, entities within 16 blocks including yourself are affected by Weakness.
+- Maniac Consume: Activate every 15 seconds to remove Strength from entities within 16 blocks, including yourself. You are healed by 1 heart for each affected entity.
+- Artistic Youkai: You have 2 fewer hearts if you aren't affected by Weakness or Strength.
+
 ## Bake-danuki
 Racoon dog youkai capable of disguising as anyone.
 
