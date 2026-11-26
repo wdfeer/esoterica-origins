@@ -1,0 +1,41 @@
+{
+  "name": "Sad Violin",
+  "description": "When toggled on, entities within 16 blocks including yourself are affected by Weakness.",
+  "type": "origins:multiple",
+  "toggle": {
+    "type": "origins:toggle"
+  },
+  "aura": {
+    "type": "origins:action_over_time",
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_toggle"
+    },
+    "entity_action": {
+      "type": "origins:area_of_effect",
+      "radius": 16,
+      "include_target": true,
+      "bientity_action": {
+        "type": "origins:target_action",
+        "action": {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:weakness",
+            "duration": 40,
+            "amplifier": 0,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+          }
+        }
+      },
+      "bientity_condition": {
+        "type": "origins:target_condition",
+        "condition": {
+          "type": "origins:living"
+        }
+      }
+    },
+    "interval": 20
+  }
+}
