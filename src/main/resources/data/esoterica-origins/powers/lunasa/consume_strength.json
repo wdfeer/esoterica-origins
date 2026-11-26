@@ -2,6 +2,15 @@
   "name": "Maniac Consume",
   "description": "Activate every 15 seconds to remove Strength from entities within 16 blocks, including yourself. You are healed by 1 heart for each affected entity.",
   "type": "origins:active_self",
+  "key": {
+    "key": "key.origins.secondary_active"
+  },
+  "cooldown": 300,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+    "bar_index": 1
+  },
   "entity_action": {
     "type": "origins:area_of_effect",
     "radius": 16,
@@ -60,11 +69,5 @@
         ]
       }
     }
-  },
-  "cooldown": 1400,
-  "hud_render": {
-    "should_render": true,
-    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
-    "bar_index": 1
   }
 }
