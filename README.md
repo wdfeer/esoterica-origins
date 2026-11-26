@@ -8,7 +8,7 @@ Goals:
 
 ## Origins
 
-As of version 0.23.X, the mod adds 90 different origins.
+As of version 0.24.X, the mod adds 94 different origins.
 See [the origin list](https://github.com/wdfeer/esoterica-origins/blob/master/docgen/origins.md) for names and descriptions of their powers as seen in-game.
 
 ## Status Effects
