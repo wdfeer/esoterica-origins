@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "esoterica-origins:lunasa/weakness_aura",
+    "esoterica-origins:lunasa/fragile_without_weakness"
+  ],
+  "icon": "minecraft:calibrated_sculk_sensor",
+  "impact": 3,
+  "name": "Violinist Poltergeist",
+  "description": "Youkai musician capable of melancholic mind manipulation."
+}
