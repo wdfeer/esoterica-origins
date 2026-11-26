@@ -1,0 +1,24 @@
+{
+  "name": "Artistic Youkai",
+  "description": "You have 2 fewer hearts if you aren't affected by Weakness or Strength.",
+  "type": "origins:conditioned_attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.max_health",
+    "operation": "multiply_total",
+    "value": -0.2
+  },
+  "condition": {
+    "inverted": true,
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:status_effect",
+        "effect": "minecraft:weakness"
+      },
+      {
+        "type": "origins:status_effect",
+        "effect": "minecraft:strength"
+      }
+    ]
+  }
+}
