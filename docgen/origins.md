@@ -1,4 +1,7 @@
 # Origins
+
+This origin list is for version 0.24.1 of esoterica-origins. It has been automatically generated from the origin/power names and descriptions.
+
 ## Child of Miare
 Preserver of knowledge, fragile in body yet blessed with memory and utility.
 

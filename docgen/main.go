@@ -21,7 +21,8 @@ func main() {
 		origins[i] = parseOrigin(originDir + filename.Name())
 	}
 
-	markdown := buildMarkdown(origins)
+	// TODO: automatically detect version from gradle.properties
+	markdown := buildMarkdown("0.24.1", origins)
 	os.WriteFile(outputFile, []byte(markdown), 0644)
 }
 
@@ -117,10 +118,14 @@ func readJson(path string) map[string]any {
 	return object
 }
 
-func buildMarkdown(origins []Origin) string {
+func buildMarkdown(version string, origins []Origin) string {
 	var str strings.Builder
-	str.WriteString("# Origins\n")
+	str.WriteString("# Origins\n\n")
+	str.WriteString("This origin list is for version ")
+	str.WriteString(version)
+	str.WriteString(" of esoterica-origins. It has been automatically generated from the origin/power names and descriptions.\n\n")
 	for _, origin := range origins {
+		// TODO: inefficient calls (does it really matter?)
 		str.WriteString("## " + origin.name + "\n")
 		str.WriteString(origin.description + "\n\n")
 		for _, power := range origin.powers {
