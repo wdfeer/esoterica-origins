@@ -1,0 +1,73 @@
+{
+  "name": "Nun Attire",
+  "description": "You can only wear leather armor.",
+  "type": "origins:restrict_armor",
+  "head": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:armor_value",
+        "comparison": ">",
+        "compare_to": 0
+      },
+      {
+        "inverted": "true",
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:leather_helmet"
+        }
+      }
+    ]
+  },
+  "chest": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:armor_value",
+        "comparison": ">",
+        "compare_to": 0
+      },
+      {
+        "inverted": "true",
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:leather_chestplate"
+        }
+      }
+    ]
+  },
+  "legs": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:armor_value",
+        "comparison": ">",
+        "compare_to": 0
+      },
+      {
+        "inverted": "true",
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:leather_leggings"
+        }
+      }
+    ]
+  },
+  "feet": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:armor_value",
+        "comparison": ">",
+        "compare_to": 0
+      },
+      {
+        "inverted": "true",
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:leather_boots"
+        }
+      }
+    ]
+  }
+}

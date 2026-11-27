@@ -183,7 +183,7 @@ Buddhist monk capable of summoning an enlightened spirit.
 - Spirit Workforce: You break blocks 20% faster.
 - Genso-Tarou Cloud: You can carry another 9 items with you that don't drop on death.
 - Vajrapani Sprint: You move 20% faster unless you are in possession of diamond or netherite items.
-- No Armor: You cannot wear any armor.
+- Nun Attire: You can only wear leather armor.
 
 ## Oarfish Youkai
 Laid-back youkai who is a messenger of the Dragon Palace.
