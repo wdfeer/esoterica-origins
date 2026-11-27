@@ -29,7 +29,7 @@
               "effect": "minecraft:strength",
               "duration": 1200,
               "amplifier": 0,
-              "is_ambient": true
+              "show_particles": false
             }
           },
           {
