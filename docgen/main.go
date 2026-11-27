@@ -7,10 +7,11 @@ import (
 )
 
 const (
-	originDir       = "../src/main/resources/data/esoterica-origins/origins/"
-	powerDir        = "../src/main/resources/data/esoterica-origins/powers/"
-	originsLangFile = "./en_us.json"
-	outputFile      = "./origins.md"
+	gradleProperties = "../gradle.properties"
+	originDir        = "../src/main/resources/data/esoterica-origins/origins/"
+	powerDir         = "../src/main/resources/data/esoterica-origins/powers/"
+	originsLangFile  = "./en_us.json"
+	outputFile       = "./origins.md"
 )
 
 func main() {
@@ -22,7 +23,7 @@ func main() {
 	}
 
 	// TODO: automatically detect version from gradle.properties
-	markdown := buildMarkdown("0.24.1", origins)
+	markdown := buildMarkdown(parseVersion(), origins)
 	os.WriteFile(outputFile, []byte(markdown), 0644)
 }
 
@@ -116,6 +117,21 @@ func readJson(path string) map[string]any {
 		panic("Failed to unmarshal json at \"" + path + "\":" + err.Error())
 	}
 	return object
+}
+
+func parseVersion() string {
+	bytes, err := os.ReadFile(gradleProperties)
+	if err != nil {
+		panic("Failed to read gradle.properties!")
+	}
+	str := string(bytes[:])
+	lines := strings.Split(str, "\n")
+	for _, l := range lines {
+		if equalSplit := strings.Split(l, "="); equalSplit[0] == "mod_version" {
+			return equalSplit[1]
+		}
+	}
+	panic("mod_version not found in gradle.properties!")
 }
 
 func buildMarkdown(version string, origins []Origin) string {
