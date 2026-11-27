@@ -1,6 +1,6 @@
 # Origins
 
-This origin list is for version 0.24.1 of esoterica-origins. It has been automatically generated from the origin/power names and descriptions.
+This origin list is for version 0.24.2 of esoterica-origins. It has been automatically generated from the origin/power names and descriptions.
 
 ## Child of Miare
 Preserver of knowledge, fragile in body yet blessed with memory and utility.
@@ -56,7 +56,7 @@ Buddhist priest skilled in youkai arts and body-enhancing magic.
 
 - Channeling Strength: Activate to gain Strength for 30 seconds every minute.
 - Defensive Barrier: Activate to gain Resistance for 30 seconds every minute.
-- Superhuman: Deal 8 extra area damage with your bare fist at 1 attack speed.
+- Superhuman: Deal 8 extra area damage with your bare fist at 1.5 attack speed.
 - Vajrapani Sprint: You move 20% faster unless you are in possession of diamond or netherite items.
 - Iron Skin: Gain 10 armor if you have Resistance or Absorption.
 - No Armor: You cannot wear any armor.
