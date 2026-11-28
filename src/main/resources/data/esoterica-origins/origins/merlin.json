@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "esoterica-origins:merlin/active_strength_aoe",
+    "esoterica-origins:merlin/consume_weakness",
+    "esoterica-origins:lunasa/fragile_without_effect"
+  ],
+  "icon": "minecraft:calibrated_sculk_sensor",
+  "impact": 2,
+  "name": "Trumpeter Poltergeist",
+  "description": "Youkai musician capable of maniac mind manipulation."
+}
